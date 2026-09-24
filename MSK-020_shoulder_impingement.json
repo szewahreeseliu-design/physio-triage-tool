@@ -1,0 +1,341 @@
+{
+  "condition_id": "MSK-020",
+  "condition_name_en": "Shoulder Impingement (Subacromial Pain Syndrome)",
+  "condition_name_zh": "肩關節夾擠綜合症（肩峰下疼痛綜合症）",
+  "body_area": [
+    "shoulder",
+    "upper arm"
+  ],
+  "category": "musculoskeletal",
+  "patient_language_aliases": [
+    "shoulder pain when lifting arm",
+    "pain reaching overhead",
+    "shoulder hurts at night",
+    "sore shoulder from swimming",
+    "pinching feeling in my shoulder",
+    "can't raise my arm without pain",
+    "shoulder aches when lying on it",
+    "pain in the front of my shoulder",
+    "shoulder pain when putting on a coat",
+    "shoulder impingement",
+    "rotator cuff pain",
+    "painful arc in my shoulder",
+    "舉手時膊頭痛",
+    "瞓覺時膊頭痛",
+    "膊頭痛舉唔到手",
+    "肩膀夾住痛",
+    "肩關節夾擠"
+  ],
+  "symptoms": [
+    {
+      "description_en": "Pain on the front or outer side of the shoulder, particularly when lifting the arm between approximately 70 and 120 degrees — the 'painful arc'",
+      "description_zh": "肩膀前方或外側疼痛，尤其在抬臂約70至120度之間時——即「疼痛弧」"
+    },
+    {
+      "description_en": "Pain when reaching overhead, lifting objects above shoulder height, or performing repetitive arm movements",
+      "description_zh": "手臂向上伸展、將物件舉高過肩膀或進行重複性手臂動作時感到疼痛"
+    },
+    {
+      "description_en": "Night pain, especially when lying on the affected shoulder, often disturbing sleep",
+      "description_zh": "夜間痛楚，尤其側臥在患側肩膀時，常常影響睡眠"
+    },
+    {
+      "description_en": "Pain with daily activities such as putting on a coat, reaching behind the back, brushing hair, or fastening a bra",
+      "description_zh": "日常活動時感到痛楚，例如穿外套、手伸到背後、梳頭或扣胸圍"
+    },
+    {
+      "description_en": "Weakness or a feeling of heaviness in the arm, particularly with overhead or sustained arm use",
+      "description_zh": "手臂無力或沉重感，特別在高舉或持續使用手臂時"
+    },
+    {
+      "description_en": "A catching, clicking, or pinching sensation in the shoulder during arm movement",
+      "description_zh": "手臂活動時肩膀出現卡住、咔嗒聲或夾痛的感覺"
+    },
+    {
+      "description_en": "Gradual onset of symptoms without a specific injury — pain often develops over weeks or months",
+      "description_zh": "症狀逐漸出現，沒有特定受傷事件——痛楚通常在數星期或數月內發展"
+    },
+    {
+      "description_en": "Stiffness in the shoulder, particularly in the morning or after periods of inactivity",
+      "description_zh": "肩膀僵硬，尤其在早晨或不活動一段時間後"
+    }
+  ],
+  "guided_questions": [
+    {
+      "question_en": "Where exactly do you feel the shoulder pain — is it on the front, outer side, top, or back of the shoulder?",
+      "question_zh": "你確切感到痛楚的位置在哪裏——是在肩膀前方、外側、頂部還是後方？",
+      "purpose": "Localise pain to differentiate subacromial pain (anterolateral) from AC joint pain (top), posterior impingement (back), or referred cervical pain"
+    },
+    {
+      "question_en": "Does the pain come on when you lift your arm out to the side or overhead — and is there a specific point in the movement where it hurts most?",
+      "question_zh": "手臂向外側抬高或向上舉時會否出現痛楚——在活動過程中有沒有某個特定角度最痛？",
+      "purpose": "Identify the 'painful arc' (70-120 degrees) which is characteristic of subacromial pain syndrome and helps differentiate from adhesive capsulitis (global restriction) or AC joint pathology (pain at end range)"
+    },
+    {
+      "question_en": "How did the pain start — was it gradual without a specific injury, or did it begin after a fall, trauma, or sudden forceful movement?",
+      "question_zh": "痛楚是怎樣開始的——是在沒有特定受傷的情況下逐漸出現的，還是在跌倒、外傷或突然用力後開始的？",
+      "purpose": "SAPS typically has a gradual onset without trauma; acute onset after trauma raises suspicion for rotator cuff tear, fracture, or dislocation requiring different management"
+    },
+    {
+      "question_en": "Does the pain wake you up at night or prevent you from sleeping on the affected side?",
+      "question_zh": "痛楚會否在夜間將你弄醒或令你無法側臥在患側？",
+      "purpose": "Night pain is common in SAPS (Neer Type II and beyond) and is an indicator of moderate-to-severe severity; persistent unrelenting night pain may also be a red flag for other pathology"
+    },
+    {
+      "question_en": "What activities make the pain worse — for example, reaching overhead, lifting, swimming, throwing, or repetitive arm movements at work?",
+      "question_zh": "哪些活動會令痛楚加劇——例如高舉手臂、提舉、游泳、投擲或工作中的重複性手臂動作？",
+      "purpose": "Identify aggravating overhead and repetitive activities to guide activity modification advice and distinguish from other shoulder conditions"
+    },
+    {
+      "question_en": "Have you noticed any weakness in your arm — for example, difficulty holding objects up, lowering your arm slowly from a raised position, or a feeling that the shoulder might 'give way'?",
+      "question_zh": "你有沒有留意到手臂無力——例如難以將物件舉起、無法緩慢放低已抬高的手臂，或感覺肩膀可能「鬆脫」？",
+      "purpose": "Assess for rotator cuff weakness or tear (drop arm sign) and glenohumeral instability, which may require different management or urgent referral"
+    },
+    {
+      "question_en": "Have you experienced any of the following: shoulder pain after a significant fall or trauma, a sudden 'pop' or 'tear' sensation, complete inability to raise your arm, visible deformity or swelling, fever or redness around the shoulder, tingling or numbness down the arm, or unexplained weight loss with persistent shoulder pain?",
+      "question_zh": "你有沒有出現以下任何情況：嚴重跌倒或外傷後出現肩膀痛、突然感覺到「啪」一聲或撕裂感、完全無法抬高手臂、肩膀明顯變形或腫脹、肩膀周圍發燒或發紅、手臂麻痺或刺痛，或不明原因體重下降伴隨持續的肩膀痛？",
+      "purpose": "Red-flag screening to rule out fracture, acute rotator cuff rupture, dislocation, infection, Pancoast tumour, thoracic outlet syndrome, or cervical pathology requiring urgent medical assessment"
+    }
+  ],
+  "severity_classification": {
+    "mild": {
+      "indicators": [
+        "Pain only with specific overhead or reaching movements, not during rest or daily activities at lower levels",
+        "Pain intensity is mild (1–3 out of 10) and settles quickly when the provoking movement stops",
+        "Full or near-full shoulder range of motion, with pain only in the 'arc' between 70–120 degrees",
+        "No significant night pain — able to sleep comfortably with minor positional adjustments",
+        "No noticeable weakness — able to lift and carry objects normally"
+      ],
+      "self_care_appropriate": true,
+      "description_en": "Your symptoms suggest an early-stage shoulder problem — the structures underneath the bony arch of your shoulder blade are being irritated when you raise your arm. This is the most common cause of shoulder pain and, importantly, responds very well to the right exercises. At this stage, simple self-care can make a significant difference: avoid repetitive overhead activities that trigger your pain, pay attention to your posture (avoid slouching, which narrows the space in your shoulder), and start gentle exercises that strengthen the rotator cuff and the muscles that control your shoulder blade. Ice for 10–15 minutes after aggravating activities can also help. Most people with mild symptoms see meaningful improvement within 4–6 weeks of consistent exercise.",
+      "description_zh": "你的症狀顯示早期的肩膀問題——當你抬高手臂時，肩胛骨骨弓下方的結構受到刺激。這是最常見的肩膀痛原因，重要的是，透過正確的運動能取得非常好的效果。在這個階段，簡單的自我護理便能帶來明顯改善：避免引發痛楚的重複性高舉動作，注意姿勢（避免駝背，因為這會收窄肩膀的空間），並開始輕柔的運動來強化旋轉肌袖和控制肩胛骨的肌肉。在引起痛楚的活動後冰敷10至15分鐘也有幫助。大多數輕微症狀的人在持續進行運動4至6星期後便會看到明顯的改善。"
+    },
+    "moderate": {
+      "indicators": [
+        "Pain is present during many daily activities — reaching, dressing, driving, or carrying objects",
+        "Night pain regularly disturbs sleep, especially when lying on the affected shoulder",
+        "Pain intensity is moderate (4–6 out of 10) and lingers after activity",
+        "Noticeable reduction in shoulder range of motion or avoidance of certain movements",
+        "Symptoms have persisted for more than 4–6 weeks despite basic activity modification"
+      ],
+      "recommend_professional": true,
+      "description_en": "Your symptoms suggest that the shoulder problem has progressed beyond the early stage and would benefit from professional guidance. At this level, there are likely multiple contributing factors — such as rotator cuff weakness, altered shoulder blade movement, stiff thoracic spine, tight posterior capsule, or postural issues — that need to be identified and addressed with a tailored programme. A physiotherapist can assess your shoulder biomechanics, design a specific strengthening programme, use manual therapy to improve mobility, and guide you on activity modification. Evidence strongly supports supervised rehabilitation — a minimum 12-week exercise programme is recommended. With the right programme, many patients avoid the need for any injection or surgery.",
+      "description_zh": "你的症狀顯示肩膀問題已超越早期階段，需要專業指導。在這個程度，可能存在多個成因——例如旋轉肌袖無力、肩胛骨動作異常、胸椎僵硬、後關節囊繃緊或姿勢問題——需要識別並透過度身訂做的計劃來處理。物理治療師可以評估你的肩膀生物力學，設計針對性的強化計劃，運用手法治療改善活動能力，並指導你進行活動調整。證據強烈支持監督式康復——建議至少進行12星期的運動計劃。透過正確的計劃，許多患者可以避免任何注射或手術的需要。"
+    },
+    "severe": {
+      "indicators": [
+        "Constant or near-constant shoulder pain, including at rest",
+        "Significant night pain — unable to find a comfortable sleeping position",
+        "Marked weakness — difficulty raising the arm, holding objects, or lowering the arm slowly from a raised position (possible drop arm)",
+        "Substantial loss of shoulder range of motion affecting daily activities and work",
+        "Symptoms have persisted for more than 3 months despite treatment, or there was a sudden onset after trauma"
+      ],
+      "seek_immediate_help": true,
+      "description_en": "Your symptoms suggest a more advanced or complicated shoulder problem that needs prompt professional assessment. Persistent severe pain, significant weakness (especially difficulty controlling the arm when lowering it from a raised position), or substantial loss of movement may indicate a rotator cuff tear, frozen shoulder, or another condition that requires specific investigation. If your symptoms started suddenly after a fall or trauma, urgent assessment is particularly important. Please see a doctor or physiotherapist as soon as possible. They may recommend imaging (ultrasound or MRI) to assess the structures in your shoulder, and discuss whether advanced treatments are appropriate. Current evidence shows that conservative treatment should still be the first approach, with surgery reserved only for cases that do not respond to exhaustive rehabilitation.",
+      "description_zh": "你的症狀顯示肩膀問題可能已達較嚴重或複雜的階段，需要盡快接受專業評估。持續的嚴重痛楚、明顯的無力感（特別是從高舉位置放下手臂時難以控制），或活動幅度大幅減少，可能表示旋轉肌袖撕裂、肩周炎或其他需要特定檢查和治療的狀況。如果你的症狀在跌倒或外傷後突然出現，緊急評估尤為重要。請盡快就醫或諮詢物理治療師。他們可能會建議進行影像檢查以評估肩膀結構，並討論是否需要進階治療。目前的證據顯示，保守治療仍應是首選方法，手術僅保留給對充分康復無反應的個案。"
+    }
+  },
+  "red_flags": [
+    "Sudden inability to raise or control the arm after a fall or trauma — possible acute rotator cuff rupture or fracture (seek A&E / urgent medical attention)",
+    "Visible deformity or abnormal positioning of the shoulder — possible dislocation or fracture (call 999 / go to A&E)",
+    "Severe shoulder pain with fever, redness, warmth, and swelling — possible septic arthritis or infection requiring urgent assessment",
+    "Progressive, unrelenting shoulder pain at rest and at night that does not respond to any position change — may suggest tumour (e.g. Pancoast tumour), avascular necrosis, or other serious pathology",
+    "Unexplained weight loss combined with persistent shoulder pain — possible malignancy requiring urgent medical investigation",
+    "Numbness, tingling, or weakness radiating down the arm into the hand — possible cervical radiculopathy, thoracic outlet syndrome, or brachial plexus injury requiring further assessment",
+    "History of significant trauma with immediate severe pain and inability to move the shoulder — possible fracture or dislocation requiring urgent X-ray"
+  ],
+  "possible_causes": [
+    {
+      "cause_en": "Rotator cuff tendinopathy — degenerative changes or overload of the supraspinatus and/or other rotator cuff tendons, the most common underlying pathology in SAPS",
+      "cause_zh": "旋轉肌袖肌腱病變——岡上肌和/或其他旋轉肌袖肌腱的退化性改變或過度負荷，是SAPS最常見的根本病變",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Muscle imbalance and poor scapular control — weakness of rotator cuff (especially external rotators), lower trapezius, and serratus anterior leading to altered shoulder biomechanics",
+      "cause_zh": "肌肉失衡及肩胛骨控制不足——旋轉肌袖（尤其外旋肌群）、下斜方肌及前鋸肌無力，導致肩膀生物力學改變",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Repetitive overhead activities — occupations or sports involving sustained or repeated arm elevation (e.g. painting, construction, swimming, throwing, racquet sports)",
+      "cause_zh": "重複性高舉活動——涉及持續或重複抬臂的職業或運動（如油漆、建築、游泳、投擲、球拍運動）",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Poor posture — forward head posture, rounded shoulders, and increased thoracic kyphosis reducing the subacromial space",
+      "cause_zh": "不良姿勢——頭部前傾、圓肩及胸椎後凸增加，減少肩峰下空間",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Age-related tendon degeneration — natural decline in tendon quality and vascularity, particularly in those over 40 years",
+      "cause_zh": "與年齡相關的肌腱退化——肌腱質量和血液供應自然下降，尤其在40歲以上人群",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Subacromial bursitis — inflammation of the bursa within the subacromial space, often secondary to tendon irritation or overuse",
+      "cause_zh": "肩峰下滑囊炎——肩峰下空間內滑囊發炎，常繼發於肌腱刺激或過度使用",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Acromial morphology — a hooked (Type III) or curved (Type II) acromion shape that structurally narrows the subacromial space",
+      "cause_zh": "肩峰形態——鉤狀（第三型）或弧形（第二型）肩峰，在結構上收窄肩峰下空間",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Posterior capsule tightness (GIRD) — reduced internal rotation limiting normal humeral head mechanics during elevation",
+      "cause_zh": "後關節囊繃緊（盂肱內旋不足）——內旋減少影響抬臂時肱骨頭的正常力學",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Thoracic spine stiffness — reduced thoracic extension and rotation limiting scapular movement and narrowing the subacromial space",
+      "cause_zh": "胸椎僵硬——胸椎伸展和旋轉減少，限制肩胛骨活動並收窄肩峰下空間",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Glenohumeral instability — laxity or micro-instability of the shoulder joint causing abnormal humeral head translation during movement",
+      "cause_zh": "盂肱關節不穩定——肩關節鬆弛或微不穩定，導致活動時肱骨頭異常移位",
+      "likelihood": "less_common"
+    }
+  ],
+  "self_care_exercises": [
+    {
+      "exercise_name_en": "Resisted Shoulder External Rotation with Theraband",
+      "exercise_name_zh": "彈力帶抗阻肩關節外旋訓練",
+      "instructions_en": "1. Stand with your affected arm by your side, elbow bent to 90 degrees, forearm pointing forward.\n2. Hold a theraband in both hands. Anchor the other end at the same height to a door handle or let the unaffected hand hold the band at waist level.\n3. Keeping your elbow firmly tucked against your side (place a small rolled towel between your elbow and body), slowly rotate your forearm outward, away from your body.\n4. Move only about 45 degrees outward — do not force the range.\n5. Hold the end position for 2–3 seconds.\n6. Slowly return to the starting position with control.\n7. Perform 3 sets of 10–15 repetitions.\n8. Rest for 30–60 seconds between sets.\n9. Use a light resistance band to start.\n10. This exercise targets the infraspinatus and teres minor — the key external rotators of the rotator cuff.",
+      "instructions_zh": "1. 站立，患側手臂放在身旁，手肘彎曲成90度，前臂向前指。\n2. 雙手握住彈力帶。將另一端固定在同一高度的門把上，或用非患側手在腰部高度握住彈力帶。\n3. 保持手肘緊貼身體側面（在手肘和身體之間放一條小毛巾卷），緩慢將前臂向外旋轉，遠離身體。\n4. 只向外旋轉約45度——不要強迫活動幅度。\n5. 在終端位置維持2至3秒。\n6. 緩慢且有控制地回到起始位置。\n7. 做3組，每組10至15次。\n8. 每組之間休息30至60秒。\n9. 從輕阻力帶開始。\n10. 這個練習針對棘下肌和小圓肌——旋轉肌袖的關鍵外旋肌。",
+      "frequency": "Daily or every other day",
+      "duration": "3 sets × 10–15 repetitions",
+      "difficulty_level": "beginner",
+      "contraindications": "Stop if the exercise reproduces sharp shoulder pain above 3/10. Do not perform if you have a suspected acute rotator cuff rupture or shoulder dislocation. Avoid performing with the elbow away from the body.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Prone Y-Raise (Lower Trapezius Strengthening)",
+      "exercise_name_zh": "俯臥Y字抬舉（下斜方肌強化）",
+      "instructions_en": "1. Lie face down on a bed or mat with your arms hanging off the side, thumbs pointing upward.\n2. Slowly raise both arms upward and outward in a 'Y' shape — approximately 120–135 degrees from your body.\n3. Lift only to shoulder height or slightly above.\n4. Hold the raised position for 3–5 seconds, squeezing your shoulder blades gently downward and inward.\n5. Slowly lower your arms back down.\n6. Repeat 10–12 times for 3 sets.\n7. Rest for 30 seconds between sets.\n8. Start with no weight. Progress by holding a light weight (0.5–1 kg).\n9. This exercise targets the lower trapezius — critical for scapular upward rotation and posterior tilting during arm elevation.",
+      "instructions_zh": "1. 面朝下俯臥在床上或運動墊上，手臂垂在邊緣，拇指朝上。\n2. 緩慢將雙臂向上和外側抬起，呈「Y」字形——約距離身體120至135度。\n3. 只抬至肩膀高度或稍高。\n4. 在抬起的位置維持3至5秒，輕輕將肩胛骨向下和向內擠壓。\n5. 緩慢且有控制地將手臂放回。\n6. 重複10至12次，做3組。\n7. 每組之間休息30秒。\n8. 從無重量開始。可在每隻手中握輕重啞鈴（0.5至1公斤）遞進。\n9. 這個練習專門針對下斜方肌——在抬臂時的肩胛骨上旋和後傾中起著關鍵作用。",
+      "frequency": "Every other day (3–4 times per week)",
+      "duration": "Hold 3–5 seconds × 10–12 repetitions × 3 sets",
+      "difficulty_level": "intermediate",
+      "contraindications": "Do not perform if lying face down is uncomfortable or causes dizziness. Avoid if shoulder pain prevents any arm elevation above 90 degrees. Stop if the exercise causes sharp pain.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Pendulum Exercise (Codman's Exercise)",
+      "exercise_name_zh": "鐘擺運動（Codman運動）",
+      "instructions_en": "1. Stand beside a table and lean forward, supporting yourself with your unaffected arm.\n2. Let the affected arm hang down freely, fully relaxed.\n3. Gently shift your body weight to create a swinging motion in the hanging arm — the arm should move passively.\n4. Make small clockwise circles for 30 seconds, then reverse for 30 seconds.\n5. Then swing forward/backward for 30 seconds, and side to side for 30 seconds.\n6. Gradually increase the size of circles as comfort allows.\n7. Repeat the sequence 2–3 times.\n8. Keep the arm completely relaxed throughout — do NOT actively swing with shoulder muscles.",
+      "instructions_zh": "1. 站在桌子旁邊，身體前傾，用非患側手臂撐在桌上。\n2. 讓患側手臂自然下垂，完全放鬆。\n3. 輕輕移動身體重心以產生懸垂手臂的搖擺動作——手臂應被動移動。\n4. 順時針做小圓圈30秒，然後逆時針30秒。\n5. 然後前後擺動30秒，再左右擺動30秒。\n6. 隨著舒適度增加，逐漸加大圓圈幅度。\n7. 重複整個序列2至3次。\n8. 整個過程保持手臂完全放鬆——不要用肩膀肌肉主動擺動。",
+      "frequency": "3–4 times per day, especially for pain relief",
+      "duration": "2–3 minutes total per session",
+      "difficulty_level": "beginner",
+      "contraindications": "Avoid leaning forward if you have significant lower back pain or dizziness. Stop if the exercise increases shoulder pain. Not suitable if you have a suspected shoulder dislocation or fracture.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Wall Slide with Scapular Control",
+      "exercise_name_zh": "牆壁滑動（配合肩胛骨控制）",
+      "instructions_en": "1. Stand facing a wall with your forearms and hands flat against the wall at shoulder height, elbows bent.\n2. Gently press your forearms into the wall.\n3. Slowly slide your arms up the wall by straightening the elbows — keep forearms in contact with the wall.\n4. Focus on keeping shoulder blades drawn gently downward and back (not shrugging).\n5. Slide up only as far as pain-free.\n6. Hold the top position for 2–3 seconds.\n7. Slowly slide back down.\n8. Repeat 10–12 times for 3 sets.\n9. This exercise trains coordinated shoulder elevation with proper scapular control.\n10. Progress by performing on a foam roller against the wall.",
+      "instructions_zh": "1. 面向牆壁站立，前臂和手掌平放在牆上，約與肩同高，手肘彎曲。\n2. 輕輕將前臂壓向牆壁。\n3. 通過伸直手肘，緩慢沿牆壁向上滑動手臂——前臂全程保持接觸牆壁。\n4. 專注於保持肩胛骨輕輕向下和向後收（不要聳肩）。\n5. 只滑到無痛的範圍。\n6. 在最高位置維持2至3秒。\n7. 緩慢滑回起始位置。\n8. 重複10至12次，做3組。\n9. 這個練習訓練配合正確肩胛骨控制的協調肩關節抬高。\n10. 當練習變得舒適後，可在牆壁上使用泡棉滾筒來進行。",
+      "frequency": "Once daily",
+      "duration": "10–12 repetitions × 3 sets",
+      "difficulty_level": "intermediate",
+      "contraindications": "Do not slide into the painful arc. Stop if the exercise causes sharp shoulder pain. Not suitable if you have a frozen shoulder with severe range of motion restriction. Avoid shrugging the upper trapezius.",
+      "video_reference_url": "[TO BE ADDED]"
+    }
+  ],
+  "recovery_timeline": {
+    "mild_estimate": "4–8 weeks with consistent rotator cuff and scapular strengthening exercises and activity modification",
+    "moderate_estimate": "12–16 weeks (minimum 12-week exercise programme recommended) with physiotherapy-guided rehabilitation including manual therapy",
+    "severe_estimate": "4–12 months for chronic cases with significant weakness or rotator cuff involvement; may require imaging, injection therapy, or specialist referral; surgery is reserved for cases failing exhaustive conservative treatment",
+    "note": "Subacromial pain syndrome is the most common cause of shoulder pain, accounting for 44–65% of all shoulder pain presentations. There is strong evidence that supervised non-operative rehabilitation decreases pain and increases function. A minimum 12-week exercise programme is recommended. There is currently no convincing evidence that surgical treatment is more effective than conservative treatment. Conservative treatment should be attempted for up to about one year before considering surgery. Cortisone injections may provide short-term pain relief but should not be used as a standalone treatment or injected directly into tendons."
+  },
+  "when_to_see_professional": [
+    "Shoulder pain persists for more than 4–6 weeks despite activity modification and self-care exercises",
+    "Night pain regularly disturbs your sleep",
+    "You are unable to raise your arm above shoulder height",
+    "You notice significant weakness in the affected arm",
+    "Shoulder pain started suddenly after a fall, trauma, or forceful movement",
+    "You heard or felt a 'pop' or 'tear' in the shoulder during an activity",
+    "Your shoulder symptoms are getting worse rather than improving",
+    "You want a proper assessment of your shoulder biomechanics and a tailored exercise programme"
+  ],
+  "faqs": [
+    {
+      "question_en": "Is 'shoulder impingement' actually a diagnosis?",
+      "question_zh": "「肩關節夾擠」真的是一種診斷嗎？",
+      "answer_en": "Strictly speaking, 'impingement' is not a diagnosis — it describes a mechanism. It refers to the compression of structures in the space underneath the bony arch of the shoulder blade when you raise your arm. The condition is now more accurately called Subacromial Pain Syndrome (SAPS). Understanding this is important because the most effective treatment focuses on WHY the space is being narrowed — usually weakness of the rotator cuff and scapular muscles, poor posture, or stiffness in the thoracic spine.",
+      "answer_zh": "嚴格來說，「夾擠」並不是一種診斷——它描述的是一種機制。它指的是當你抬高手臂時，肩胛骨骨弓下方空間內的結構受到壓迫。這種狀況現在更準確地稱為肩峰下疼痛綜合症（SAPS）。理解這一點很重要，因為最有效的治療著重於找出空間被收窄的原因——通常是旋轉肌袖和肩胛骨肌肉無力、姿勢不良或胸椎僵硬。"
+    },
+    {
+      "question_en": "Do I need surgery for shoulder impingement?",
+      "question_zh": "肩關節夾擠需要做手術嗎？",
+      "answer_en": "In the vast majority of cases, no. Current evidence shows no convincing advantage of surgical treatment over well-conducted conservative rehabilitation. The Dutch Orthopaedic Association Guidelines recommend that conservative treatment should be the first line of management for up to about one year before surgery is even considered. The key is that rehabilitation must be comprehensive — a minimum 12-week programme focusing on rotator cuff strengthening, scapular stabiliser training, thoracic spine mobility, and posture correction.",
+      "answer_zh": "在絕大多數情況下，不需要。目前的證據顯示，手術治療相比良好的保守康復並無令人信服的優勢。荷蘭骨科協會指引建議，保守治療應為一線處理方法，在考慮手術之前應嘗試長達約一年。關鍵是康復必須全面——至少12星期的計劃，重點放在旋轉肌袖強化、肩胛骨穩定肌群訓練、胸椎活動度和姿勢矯正。"
+    },
+    {
+      "question_en": "When can I return to exercise or sports?",
+      "question_zh": "我什麼時候可以恢復運動？",
+      "answer_en": "Return to sport depends on your severity and the demands of your activity. During the acute phase (first 2–4 weeks), avoid overhead activities. You can continue lower-body exercise, core training, cycling, and walking. As symptoms improve, gradually reintroduce shoulder-level movements. For overhead sports, a phased return is essential: restore pain-free range of motion, build rotator cuff and scapular strength to at least 80% of the unaffected side, then begin sport-specific drills at reduced intensity. This typically takes 8–16 weeks for moderate cases. Continue your strengthening exercises as ongoing injury prevention.",
+      "answer_zh": "重返運動取決於你的嚴重程度和活動需求。在急性階段（首2至4星期），避免高舉運動。通常可以繼續下肢運動、核心訓練、踩單車和步行。隨著症狀改善，逐步重新引入肩膀水平動作。對於高舉運動，分階段回歸至關重要：首先恢復無痛的活動幅度，然後將旋轉肌袖和肩胛骨力量恢復至非患側的至少80%，再以降低強度開始專項運動訓練。中度個案通常需要8至16星期。繼續進行強化運動作為持續的傷害預防。"
+    },
+    {
+      "question_en": "Why is my posture important for shoulder pain?",
+      "question_zh": "為什麼姿勢對肩膀痛很重要？",
+      "answer_en": "Your posture directly affects the space available underneath the bony arch of your shoulder blade. When you sit or stand with rounded shoulders and forward head posture, your shoulder blades tilt forward and your thoracic spine becomes more curved. This narrows the subacromial space and makes it much more likely that the tendons and bursa will be compressed when you raise your arm. Research shows that simply correcting your posture can immediately improve shoulder range of motion and reduce pain during arm elevation.",
+      "answer_zh": "你的姿勢直接影響肩胛骨骨弓下方的可用空間。當你以圓肩和頭部前傾的姿勢坐或站時，肩胛骨會向前傾斜，胸椎後凸會增加。這會收窄肩峰下空間，大大增加抬臂時肌腱和滑囊被壓迫的可能性。研究顯示，僅僅糾正姿勢就能立即改善肩膀活動幅度並減少抬臂時的痛楚。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Subacromial Pain Syndrome — Physiopedia",
+      "url": "https://www.physio-pedia.com/Subacromial_Pain_Syndrome",
+      "type": "professional_guideline"
+    },
+    {
+      "title": "Diercks R et al. Guideline for Diagnosis and Treatment of Subacromial Pain Syndrome. Acta Orthopaedica. 2014;85(3):314-22.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24847788/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Lewis J. Subacromial Impingement Syndrome: A Musculoskeletal Condition or a Clinical Illusion? Physical Therapy Reviews. 2011;16:388-298.",
+      "url": "https://www.tandfonline.com/doi/abs/10.1179/1743288X11Y.0000000027",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Kuhn JE. Exercise in the treatment of rotator cuff impingement: A systematic review. J Shoulder Elbow Surg. 2009;18:138-160.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18835532/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Holmgren T et al. Effect of specific exercise strategy on need for surgery in patients with subacromial impingement syndrome. BMJ. 2012;344.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22349588/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Creech JA, Silver S. Shoulder Impingement Syndrome. StatPearls. 2021.",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK554518/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Cools AM, Michener LA. Shoulder Pain: Can One Label Satisfy Everyone and Everything? Br J Sports Med. 2017;51(5):416-7.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28122913/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Clinical Guideline for First-contact Physiotherapists on Assessment and Cross-disciplinary Management Approach for Common Musculoskeletal Problems in Primary Care Setting. Primary Healthcare Commission, Hong Kong. Dec 2025.",
+      "url": "",
+      "type": "government_guideline"
+    }
+  ],
+  "review_status": {
+    "reviewed_by": "[PENDING — Physiotherapist Name]",
+    "reviewer_credentials": "[PENDING]",
+    "review_date": null,
+    "next_review_date": null,
+    "approved": false
+  },
+  "metadata": {
+    "created_date": "2026-04-29",
+    "last_updated": "2026-05-26",
+    "version": "0.1-draft"
+  }
+}

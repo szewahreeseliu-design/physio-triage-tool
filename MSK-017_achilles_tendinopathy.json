@@ -1,0 +1,342 @@
+{
+  "condition_id": "MSK-017",
+  "condition_name_en": "Achilles Tendinopathy",
+  "condition_name_zh": "跟腱病變",
+  "body_area": [
+    "ankle",
+    "heel",
+    "calf"
+  ],
+  "category": "musculoskeletal",
+  "patient_language_aliases": [
+    "Achilles tendon pain",
+    "sore heel at the back",
+    "pain above my heel",
+    "tight Achilles",
+    "back of ankle pain",
+    "calf pain near the heel",
+    "heel cord pain",
+    "Achilles hurts when I run",
+    "stiff ankle in the morning",
+    "swollen tendon at the back of my ankle",
+    "pain when pushing off or going upstairs",
+    "tender bump on my Achilles",
+    "腳筋痛",
+    "跟腱痛",
+    "後腳踭痛",
+    "跑步時腳筋繃緊痛",
+    "朝早起身腳筋硬"
+  ],
+  "symptoms": [
+    {
+      "description_en": "Pain and stiffness in the Achilles tendon area, particularly in the morning when first getting up",
+      "description_zh": "跟腱部位疼痛及僵硬，尤其在早上起床時最為明顯"
+    },
+    {
+      "description_en": "Pain at the back of the heel or 2–6 cm above the heel bone, which may worsen with activity",
+      "description_zh": "腳跟後方或腳跟骨上方2至6厘米處疼痛，活動時可能加劇"
+    },
+    {
+      "description_en": "Pain that 'warms up' — eases after a few minutes of gentle movement, but returns after prolonged or intense activity",
+      "description_zh": "痛楚在輕柔活動幾分鐘後緩解（「暖身」效應），但長時間或劇烈活動後會復發"
+    },
+    {
+      "description_en": "Thickening or swelling of the Achilles tendon, sometimes with a noticeable lump or nodule",
+      "description_zh": "跟腱變粗或腫脹，有時可以摸到明顯的結節或腫塊"
+    },
+    {
+      "description_en": "Tenderness when squeezing the tendon between the fingers",
+      "description_zh": "用手指擠壓跟腱時感到壓痛"
+    },
+    {
+      "description_en": "Reduced ankle flexibility — difficulty pulling the foot upward (dorsiflexion)",
+      "description_zh": "踝關節靈活度下降——難以將腳板向上拉（背屈受限）"
+    },
+    {
+      "description_en": "Weakness when pushing off the foot — difficulty with heel raises, jumping, or climbing stairs",
+      "description_zh": "蹬腳無力——提踵、跳躍或上樓梯時感到困難"
+    },
+    {
+      "description_en": "In chronic cases, calf muscle wasting (atrophy) on the affected side",
+      "description_zh": "在慢性個案中，患側小腿肌肉可能出現萎縮"
+    }
+  ],
+  "guided_questions": [
+    {
+      "question_en": "Where exactly do you feel the pain — is it at the back of your heel where the tendon attaches to the bone, or higher up in the tendon itself (a few centimetres above the heel)?",
+      "question_zh": "你確切感到痛楚的位置在哪裏——是在跟腱連接腳跟骨的位置，還是在肌腱本身較高的位置（腳跟上方幾厘米）？",
+      "purpose": "Distinguish between insertional Achilles tendinopathy (<2cm from insertion) and midportion tendinopathy (2–6cm above), as management differs"
+    },
+    {
+      "question_en": "Is the pain and stiffness worst first thing in the morning when you get up, and does it ease after walking around for a few minutes?",
+      "question_zh": "痛楚和僵硬是否在早上起床時最為嚴重，走動幾分鐘後有沒有緩解？",
+      "purpose": "Morning stiffness that eases with gentle activity is the hallmark symptom of Achilles tendinopathy and helps confirm the clinical pattern"
+    },
+    {
+      "question_en": "How long have you had these symptoms, and was there a recent change in your training, activity level, or footwear — for example, increasing running distance, starting hill training, or switching shoes?",
+      "question_zh": "這些症狀出現了多長時間？最近你的訓練、活動量或鞋子有沒有改變——例如增加跑步距離、開始跑斜坡，或換了新鞋？",
+      "purpose": "Identify rapid load changes, the most common trigger for reactive tendinopathy, and determine chronicity for staging on the tendon continuum"
+    },
+    {
+      "question_en": "Does the pain get better once you warm up during exercise, but come back afterward — or is it now painful throughout activity?",
+      "question_zh": "痛楚在運動熱身後有沒有好轉，但之後又復發——還是現在整個活動過程都感到疼痛？",
+      "purpose": "Pain pattern during activity helps determine severity and stage — pain only after activity suggests earlier-stage tendinopathy, while pain during activity suggests progression"
+    },
+    {
+      "question_en": "Have you noticed any weakness in your calf — for example, difficulty doing a single-leg heel raise or pushing off when walking or running?",
+      "question_zh": "你有沒有留意到小腿肌肉無力——例如做單腳提踵有困難，或行走和跑步時蹬腳無力？",
+      "purpose": "Assess functional strength deficits which are key for rehabilitation planning and indicate the need for a structured loading programme"
+    },
+    {
+      "question_en": "Do you have any of the following health conditions: diabetes, high blood pressure, obesity, or have you used steroid medications (oral or injected) recently?",
+      "question_zh": "你有沒有以下健康狀況：糖尿病、高血壓、肥胖，或最近有沒有使用過類固醇藥物（口服或注射）？",
+      "purpose": "Screen for metabolic and pharmacological risk factors that are associated with Achilles tendinopathy and may affect treatment approach and prognosis"
+    },
+    {
+      "question_en": "Have you experienced any of the following: a sudden 'pop' or 'snap' at the back of your ankle with immediate difficulty walking, significant swelling and bruising in the calf or ankle, pain and swelling in the calf that is warm to touch (especially after prolonged sitting or travel), or severe pain that does not ease at all with rest?",
+      "question_zh": "你有沒有出現以下任何情況：腳踝後方突然感覺到「啪」一聲並立即難以行走、小腿或腳踝明顯腫脹和瘀傷、小腿疼痛腫脹且觸摸時感覺發熱（尤其在久坐或長途旅行後），或嚴重痛楚完全無法透過休息緩解？",
+      "purpose": "Red-flag screening to rule out Achilles tendon rupture (sudden pop + loss of plantarflexion power), deep vein thrombosis (calf warmth/swelling after immobility), or other serious pathology requiring urgent medical assessment"
+    }
+  ],
+  "severity_classification": {
+    "mild": {
+      "indicators": [
+        "Pain and stiffness mainly in the morning or at the start of activity, settling within 5–10 minutes of movement",
+        "Pain intensity is mild (1–3 out of 10) and does not affect performance during exercise",
+        "Able to complete normal training and daily activities with minimal discomfort",
+        "No visible swelling or thickening of the tendon",
+        "Symptoms have been present for less than 4 weeks"
+      ],
+      "self_care_appropriate": true,
+      "description_en": "Your symptoms suggest an early-stage (reactive) Achilles tendinopathy — the tendon is responding to a recent increase in load or activity. This is the most responsive stage for recovery. The key is to temporarily reduce the activities that provoke your symptoms (such as running, jumping, or hill work) while continuing to stay active within your comfort zone. Gentle isometric calf exercises, ice after activity, and avoiding walking barefoot or in flat shoes can help significantly. Most importantly, do not stop moving entirely — complete rest can actually make things worse. With appropriate load management, many people at this stage improve within 4–6 weeks.",
+      "description_zh": "你的症狀顯示這是早期（反應性）跟腱病變——肌腱正在對最近增加的負荷或活動作出反應。這是最容易恢復的階段。關鍵是暫時減少引發症狀的活動（如跑步、跳躍或斜坡訓練），同時在舒適範圍內保持活動。輕柔的等長小腿練習、活動後冰敷，以及避免赤腳或穿平底鞋行走，都能帶來明顯幫助。最重要的是，不要完全停止活動——完全休息反而可能令情況惡化。透過適當的負荷管理，許多處於這個階段的人在4至6星期內便會改善。"
+    },
+    "moderate": {
+      "indicators": [
+        "Morning stiffness lasts longer (more than 10–15 minutes) before easing",
+        "Pain is present during exercise, not just at the start, and may limit performance",
+        "Pain intensity is moderate (4–6 out of 10) and lingers after activity",
+        "Noticeable tendon thickening or a tender nodule can be felt",
+        "Difficulty performing single-leg heel raises without significant pain"
+      ],
+      "recommend_professional": true,
+      "description_en": "Your symptoms suggest that your Achilles tendinopathy has moved beyond the initial reactive stage — the tendon may be in a phase of structural change (disrepair). While self-care principles remain important, we strongly recommend seeing a physiotherapist who can provide a structured, progressive loading programme — typically starting with isometric exercises, progressing to heavy slow resistance training, and eventually to energy-storage exercises (hopping and jumping). Research shows that this type of graduated loading is the most effective treatment for Achilles tendinopathy and is recommended as first-line care in the latest clinical practice guidelines. A physiotherapist can also assess your biomechanics, consider whether heel lifts or orthotics may help, and guide you on how to safely maintain fitness during recovery.",
+      "description_zh": "你的症狀顯示跟腱病變已超越初期反應性階段——肌腱可能處於結構改變（失修）的階段。雖然自我護理原則仍然重要，但我們強烈建議諮詢物理治療師，他們可提供結構化、漸進的負荷訓練計劃——通常從等長練習開始，進階至重負荷慢速阻力訓練，最終到儲能運動（跳躍及單腳跳）。研究顯示，這種漸進式負荷訓練是跟腱病變最有效的治療方法，也是最新臨床實踐指引推薦的一線治療。物理治療師還可以評估你的生物力學，考慮腳跟墊或矯形鞋墊是否有幫助，並指導你在康復期間如何安全地維持體能。"
+    },
+    "severe": {
+      "indicators": [
+        "Constant or near-constant tendon pain, including at rest and at night",
+        "Significant morning stiffness lasting more than 30 minutes",
+        "Unable to perform daily activities such as walking comfortably, climbing stairs, or standing on tiptoe",
+        "Visible tendon thickening with marked tenderness; possible calf muscle wasting",
+        "Symptoms have persisted for more than 3–6 months despite treatment attempts"
+      ],
+      "seek_immediate_help": true,
+      "description_en": "Your symptoms suggest advanced (degenerative) Achilles tendinopathy or a possible complication that needs prompt professional assessment. Persistent severe pain, especially at rest, combined with functional limitations and noticeable tendon changes may indicate significant structural deterioration. Additionally, sudden onset of severe symptoms could suggest a partial or complete tendon rupture — a condition requiring urgent medical attention. Please see a doctor or physiotherapist as soon as possible. They may recommend imaging (ultrasound or MRI) to assess the tendon structure, discuss whether advanced treatments such as shockwave therapy are appropriate, and rule out other conditions. Even at this stage, a well-designed rehabilitation programme can lead to significant improvement, but professional guidance is essential.",
+      "description_zh": "你的症狀顯示跟腱病變可能已達晚期（退化性）階段，或可能出現需要盡快專業評估的併發症。持續的嚴重痛楚（特別是在休息時），加上功能限制和明顯的肌腱改變，可能表示結構已有顯著退化。此外，症狀突然急性發作可能提示肌腱部分或完全斷裂——這需要緊急醫療處理。請盡快就醫或諮詢物理治療師。他們可能會建議進行影像檢查（超聲波或磁力共振）以評估肌腱結構，討論衝擊波治療等進階方案是否合適，並排除其他疾病。即使在這個階段，設計周全的康復計劃仍能帶來顯著改善，但專業指導是不可或缺的。"
+    }
+  },
+  "red_flags": [
+    "Sudden 'pop' or 'snap' at the back of the ankle during activity, with immediate severe pain and inability to push off or stand on tiptoe — possible Achilles tendon rupture (seek A&E immediately)",
+    "A palpable gap or 'dent' in the Achilles tendon with sudden calf weakness — likely tendon rupture requiring urgent orthopaedic assessment",
+    "Calf swelling, warmth, redness, and pain — especially after prolonged sitting, bed rest, or travel — possible deep vein thrombosis (DVT); seek immediate medical attention / call 999",
+    "Fever with increasing redness, warmth, and swelling around the tendon — possible infection requiring urgent assessment",
+    "Severe pain at rest that is unrelenting and does not respond to any position changes — may indicate stress fracture, systemic condition, or other serious pathology",
+    "History of fluoroquinolone antibiotic use (e.g. ciprofloxacin) with sudden onset of Achilles pain — increased risk of tendon rupture; stop the activity and see a doctor immediately"
+  ],
+  "possible_causes": [
+    {
+      "cause_en": "Rapid increase in training load — sudden increase in running distance, intensity, hill training, or change in training surface",
+      "cause_zh": "訓練負荷急速增加——突然增加跑步距離、強度、斜坡訓練或改變訓練地面",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Repetitive overuse — chronic cumulative strain from running, jumping, or prolonged standing/walking without adequate recovery",
+      "cause_zh": "反覆過度使用——跑步、跳躍或長時間站立/步行引起的慢性累積性勞損，缺乏足夠恢復",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Tight or weak calf muscles (gastrocnemius and soleus) — creating increased strain on the Achilles tendon",
+      "cause_zh": "小腿肌肉（腓腸肌及比目魚肌）繃緊或無力——對跟腱造成更大的張力",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Foot biomechanics — excessive pronation (foot rolling inward), flat feet, or high-arched feet altering tendon loading",
+      "cause_zh": "足部生物力學因素——過度內旋（腳部向內翻轉）、扁平足或高弓足改變肌腱負載",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Inappropriate footwear — worn-out running shoes, lack of heel support, or sudden change in shoe type (e.g. switching to minimalist shoes)",
+      "cause_zh": "不合適的鞋子——跑鞋磨損、缺乏腳跟承托，或突然更換鞋款（如改穿極簡鞋）",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Obesity and elevated BMI — increased mechanical load on the tendon; higher android fat distribution in men is associated with increased risk",
+      "cause_zh": "肥胖及體重指數偏高——增加肌腱的機械負荷；男性軀幹型脂肪分佈與風險增加相關",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Metabolic conditions — type 2 diabetes, high blood pressure, and high cholesterol affecting tendon health and healing",
+      "cause_zh": "代謝性疾病——二型糖尿病、高血壓及高膽固醇影響肌腱健康及癒合能力",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Medication effects — prolonged corticosteroid use or fluoroquinolone antibiotics (e.g. ciprofloxacin) weakening tendon structure",
+      "cause_zh": "藥物影響——長期使用皮質類固醇或氟喹諾酮類抗生素（如環丙沙星）削弱肌腱結構",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Age-related tendon degeneration — reduced blood supply and collagen quality, particularly in the watershed zone 4–6cm above the heel",
+      "cause_zh": "與年齡相關的肌腱退化——血液供應及膠原蛋白質量下降，尤其在腳跟上方4至6厘米的血管分水嶺區域",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Genetic predisposition — COL5A1 gene variant associated with increased susceptibility to Achilles tendon pathology",
+      "cause_zh": "遺傳易感性——COL5A1基因變異與跟腱病變的易感性增加有關",
+      "likelihood": "rare"
+    }
+  ],
+  "self_care_exercises": [
+    {
+      "exercise_name_en": "Isometric Calf Hold (Double-Leg or Single-Leg)",
+      "exercise_name_zh": "等長小腿維持（雙腳或單腳）",
+      "instructions_en": "1. Stand on the edge of a step or stair with the balls of both feet on the edge and heels hanging off. Hold onto a railing or wall for balance.\n2. Rise up onto your toes using both feet.\n3. Hold this raised position for 20–45 seconds. You should feel the calf muscles and Achilles tendon working.\n4. If this is comfortable, try shifting more weight to the affected side, or performing the hold on the affected leg only.\n5. Lower back down slowly using both legs.\n6. Rest for 30–60 seconds between holds. Repeat 4–5 times.\n7. Start with a mid-range hold (halfway up on toes) if a full-range hold is too uncomfortable.\n8. This exercise has been shown to have a pain-relieving effect on tendons and is an excellent starting point before progressing to dynamic exercises.\n9. Mild discomfort (up to 3/10) during the hold is acceptable — sharp or increasing pain is not.",
+      "instructions_zh": "1. 站在台階或樓梯邊緣，前腳掌放在邊緣，腳跟懸空。握住扶手或牆壁以保持平衡。\n2. 用雙腳踮起腳尖。\n3. 在踮起的位置維持20至45秒。你應該感覺到小腿肌肉和跟腱在用力。\n4. 如果感覺舒適，可嘗試將更多重心轉移到患側，或只用患側腿進行維持。\n5. 用雙腿緩慢放下。\n6. 每次維持之間休息30至60秒。重複4至5次。\n7. 如果全程維持太不舒服，可從中程維持（踮起一半高度）開始。\n8. 這個練習已被證實對肌腱具有止痛效果，是進階至動態練習前極佳的起步練習。\n9. 維持期間輕微不適（最多3/10）是可以接受的——劇痛或逐漸加重的痛楚則不可接受。",
+      "frequency": "2–3 times per day",
+      "duration": "Hold 20–45 seconds × 4–5 repetitions per session",
+      "difficulty_level": "beginner",
+      "contraindications": "Do not perform if you suspect an Achilles tendon rupture (sudden pop with inability to stand on tiptoe). Stop if the exercise causes sharp pain above 4/10 or if pain worsens significantly the next morning. For highly irritable (reactive) tendons, start with shorter holds (10–15 seconds) on double legs.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Seated Calf Raise (Soleus Strengthening — Isotonic Loading)",
+      "exercise_name_zh": "坐姿提踵（比目魚肌強化——等張負荷訓練）",
+      "instructions_en": "1. Sit on a sturdy chair with your feet flat on the floor, knees bent at approximately 90 degrees.\n2. Place a weight across your knees — start with a light load (e.g. 5–10 kg, using a backpack with books or a dumbbell resting on a towel across your knees).\n3. Slowly raise your heels off the ground by pushing up through the balls of your feet, taking 3 seconds to rise.\n4. Hold the top position for 1–2 seconds.\n5. Slowly lower your heels back to the floor over 3 seconds.\n6. Perform 3 sets of 10–15 repetitions.\n7. Rest for 1–2 minutes between sets.\n8. This exercise specifically targets the soleus muscle — a critical muscle for Achilles tendon function, especially during walking and endurance activities.\n9. Gradually increase the weight over weeks as the exercise becomes easier and pain allows.\n10. Perform the exercise in the mid-range of motion — avoid forcing the heel drop below the level of the floor.",
+      "instructions_zh": "1. 坐在一張穩固的椅子上，雙腳平放地面，膝蓋彎曲約90度。\n2. 在膝蓋上放置重物——從輕負荷開始（例如5至10公斤，可用裝有書本的背囊或用毛巾墊著放在膝蓋上的啞鈴）。\n3. 用前腳掌向上推，緩慢將腳跟抬離地面，用3秒時間升起。\n4. 在最高位置維持1至2秒。\n5. 用3秒時間緩慢將腳跟降回地面。\n6. 做3組，每組10至15次。\n7. 每組之間休息1至2分鐘。\n8. 這個練習專門針對比目魚肌——一塊對跟腱功能至關重要的肌肉，尤其在步行和耐力活動中。\n9. 隨著練習變得容易且痛楚允許，在數星期內逐漸增加重量。\n10. 在動作的中程範圍內進行——避免強迫腳跟降至低於地面水平。",
+      "frequency": "Every other day (3–4 times per week)",
+      "duration": "3 sets × 10–15 repetitions (approximately 15–20 minutes including rest)",
+      "difficulty_level": "intermediate",
+      "contraindications": "Do not begin until isometric exercises can be performed with less than 5/10 pain and morning stiffness has significantly reduced. Avoid if there is a suspected Achilles tendon rupture, active acute inflammation, or DVT symptoms. Perform in mid-range — avoid end-range dorsiflexion under load, which can compress an irritable tendon against the calcaneus. Reduce weight if pain during exercise exceeds 4/10 or if the next-morning stiffness is significantly worse than baseline.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Standing Eccentric Heel Drop (Alfredson Protocol — Straight Knee)",
+      "exercise_name_zh": "站立離心跟腱下降訓練（Alfredson方案——直膝）",
+      "instructions_en": "1. Stand on the edge of a step or stair with the balls of both feet on the edge and heels hanging off. Hold onto a railing for balance.\n2. Rise up onto your toes using both feet (concentric phase).\n3. Shift all your weight onto the affected leg and slowly lower your heel below the level of the step over 3–5 seconds (eccentric phase). The knee should remain straight throughout.\n4. Use both legs to rise back up — do not use the affected leg alone to push back up.\n5. Perform 3 sets of 15 repetitions.\n6. Rest for 1 minute between sets.\n7. Once this becomes easy and pain-free, progressively add load (e.g. wearing a weighted backpack, increasing by 2–5 kg increments).\n8. Expect mild discomfort (up to 4–5/10) during the exercise — this is acceptable for tendon loading. However, sharp pain or a significant worsening of symptoms the next day is not acceptable.\n9. This is one of the most evidence-supported exercises for midportion Achilles tendinopathy.\n\nNote: For insertional Achilles tendinopathy, avoid letting the heel drop below the level of the step — this end-range position compresses the tendon against the calcaneus. Instead, perform the exercise on a flat surface.",
+      "instructions_zh": "1. 站在台階或樓梯邊緣，前腳掌放在邊緣，腳跟懸空。握住扶手以保持平衡。\n2. 用雙腳踮起腳尖（向心階段）。\n3. 將全部重心轉移到患側腿，用3至5秒時間緩慢將腳跟降至低於台階水平（離心階段）。整個過程保持膝蓋伸直。\n4. 用雙腿再次踮起——不要只用患側腿推起。\n5. 做3組，每組15次。\n6. 每組之間休息1分鐘。\n7. 一旦練習變得容易且無痛，可逐步增加負荷（例如穿戴加重背囊，每次增加2至5公斤）。\n8. 預期運動期間會有輕微不適（最多4至5/10）——這對於肌腱負荷是可以接受的。但劇痛或第二天症狀明顯惡化則不可接受。\n9. 這是跟腱中段病變證據最充分的練習之一。\n\n注意：對於跟腱止點病變，應避免讓腳跟降至台階水平以下——這個終端範圍的位置會壓迫肌腱與跟骨。改為在平坦地面上進行。",
+      "frequency": "Once daily (can be performed twice daily as tolerated, as per the original Alfredson protocol)",
+      "duration": "3 sets × 15 repetitions (approximately 15 minutes)",
+      "difficulty_level": "intermediate",
+      "contraindications": "Do not perform if you suspect a partial or complete Achilles tendon rupture. Not suitable during the acute reactive phase when pain is above 5/10 at rest — start with isometric exercises first. For insertional tendinopathy, perform on a flat surface only (no heel drop below step level). Stop if pain during or after the exercise is significantly worsening. Ensure good balance support to prevent falls.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Gastrocnemius and Soleus Wall Stretch",
+      "exercise_name_zh": "腓腸肌及比目魚肌牆壁伸展",
+      "instructions_en": "Gastrocnemius stretch:\n1. Stand facing a wall with both hands on the wall at shoulder height.\n2. Step the affected leg back about 60–90 cm, keeping the toes pointed forward.\n3. Bend the front knee while keeping the back knee straight and the back heel firmly on the ground.\n4. Lean into the wall until you feel a comfortable stretch in the upper calf.\n5. Hold for 30 seconds. Repeat 3 times.\n\nSoleus stretch:\n6. From the same position, slightly bend the back knee while keeping the heel on the ground.\n7. You should feel the stretch move lower, closer to the Achilles tendon.\n8. Hold for 30 seconds. Repeat 3 times.\n\nThis stretch helps maintain calf and tendon flexibility. Reduced ankle dorsiflexion is a common finding in Achilles tendinopathy and contributes to increased tendon strain. Stretching should be gentle — do not force through pain.",
+      "instructions_zh": "腓腸肌伸展：\n1. 面向牆壁站立，雙手放在牆上與肩同高。\n2. 將患側腿向後退約60至90厘米，腳趾朝前。\n3. 前膝彎曲，同時保持後膝伸直，後腳跟穩固踏在地面。\n4. 向牆壁傾靠，直至感到上方小腿有舒適的伸展感。\n5. 維持30秒。重複3次。\n\n比目魚肌伸展：\n6. 保持同一姿勢，將後膝微微彎曲，腳跟仍踏在地面。\n7. 伸展感應下移至接近跟腱的位置。\n8. 維持30秒。重複3次。\n\n這個伸展有助維持小腿及肌腱的靈活度。踝關節背屈不足是跟腱病變的常見發現，會增加肌腱的張力。伸展應輕柔進行——不要強行通過痛楚。",
+      "frequency": "2–3 times per day",
+      "duration": "Hold 30 seconds × 3 repetitions per stretch (gastrocnemius + soleus)",
+      "difficulty_level": "beginner",
+      "contraindications": "Do not perform if you suspect an Achilles tendon rupture or acute calf muscle tear. Avoid aggressive end-range stretching with insertional Achilles tendinopathy, as compression at the tendon-bone junction can provoke pain. Stop if stretching causes sharp pain. People with balance difficulties should perform near a wall or stable support.",
+      "video_reference_url": "[TO BE ADDED]"
+    }
+  ],
+  "recovery_timeline": {
+    "mild_estimate": "4–8 weeks with appropriate load management, isometric exercises, and activity modification",
+    "moderate_estimate": "3–6 months with a structured physiotherapy-guided loading programme (isometric → isotonic → energy storage exercises)",
+    "severe_estimate": "6–12 months or longer for chronic degenerative tendinopathy; may require adjunct therapies (shockwave therapy, injection) or rarely surgical intervention",
+    "note": "Achilles tendinopathy recovery requires patience. The tendon adapts slowly to loading because of its relatively poor blood supply — especially in the watershed zone 4–6cm above the heel. The 2024 Clinical Practice Guidelines recommend tendon loading exercises at least 3 times per week at the highest tolerable load as first-line treatment. Complete rest is NOT recommended — it leads to tendon deconditioning and muscle atrophy. Rather, activity should be modified to stay within acceptable pain levels (pain ≤ 5/10 during exercise, with no significant worsening the next morning). Progressive loading must follow the sequence: isometric → isotonic (heavy slow resistance) → energy storage (hopping/jumping) before returning to sport. Skipping stages or returning to full activity too early is the most common cause of setbacks."
+  },
+  "when_to_see_professional": [
+    "Symptoms persist for more than 2–4 weeks despite activity modification and self-care",
+    "Morning stiffness and pain are not improving or are getting worse",
+    "Pain during daily activities such as walking, stair climbing, or standing",
+    "You felt or heard a 'pop' or 'snap' in the tendon — possible rupture requiring urgent assessment",
+    "The tendon is visibly thickened, swollen, or has a palpable nodule",
+    "Weakness in the calf — inability to perform a single-leg heel raise",
+    "Symptoms have not responded to eccentric exercises after 6–8 weeks of consistent training",
+    "You want to return to sport and need a structured rehabilitation plan with functional testing",
+    "You have metabolic risk factors (diabetes, hypertension, obesity) and new tendon symptoms"
+  ],
+  "faqs": [
+    {
+      "question_en": "Should I rest completely if I have Achilles tendinopathy?",
+      "question_zh": "跟腱病變應該完全休息嗎？",
+      "answer_en": "No — complete rest is not recommended for Achilles tendinopathy. While it may seem logical to stop all activity, research and clinical guidelines consistently show that complete rest leads to tendon deconditioning and muscle weakness, which can actually prolong recovery. Instead, you should modify your activities — reduce those that provoke significant pain (such as high-intensity running or jumping) while continuing with lower-impact activities that do not aggravate your symptoms (such as cycling, swimming, or walking). The cornerstone of treatment is a structured, progressive loading programme that gradually builds the tendon's capacity to handle stress. Think of it as 'active recovery' — you keep the tendon working and adapting, just at a reduced and controlled level.",
+      "answer_zh": "不應該——跟腱病變不建議完全休息。雖然停止所有活動看似合理，但研究和臨床指引一致顯示，完全休息會導致肌腱去適應化和肌肉萎縮，反而可能延長康復時間。你應該調整活動方式——減少引起明顯痛楚的活動（如高強度跑步或跳躍），同時繼續不會加重症狀的低衝擊活動（如踩單車、游泳或步行）。治療的基石是結構化、漸進的負荷訓練計劃，逐步提升肌腱承受壓力的能力。可以把它看作「積極恢復」——讓肌腱持續工作和適應，只是在減低和受控的水平下進行。"
+    },
+    {
+      "question_en": "What is the difference between insertional and midportion Achilles tendinopathy?",
+      "question_zh": "止點型和中段型跟腱病變有什麼分別？",
+      "answer_en": "The difference is in the location of the pain. Midportion Achilles tendinopathy affects the body of the tendon, typically 2–6 cm above where it attaches to the heel bone. This is the most common type and responds well to eccentric heel-drop exercises off a step. Insertional Achilles tendinopathy affects the area where the tendon attaches directly to the heel bone (within 2 cm of the insertion). It often involves bone-related changes such as calcification or bone spurs, and can be aggravated by compression at the tendon-bone junction. An important practical difference is that insertional tendinopathy should NOT be treated with heel drops off the edge of a step — the end-range stretch compresses the tendon against the bone and worsens symptoms. Instead, exercises for insertional tendinopathy should be performed from a flat surface. A physiotherapist can help determine which type you have and adjust your exercise programme accordingly.",
+      "answer_zh": "分別在於痛楚的位置。中段型跟腱病變影響肌腱本體，通常在肌腱連接跟骨處上方2至6厘米。這是最常見的類型，對在台階邊緣進行的離心跟腱下降訓練反應良好。止點型跟腱病變影響肌腱直接連接跟骨的區域（距離止點2厘米以內）。它常涉及骨骼相關的變化，如鈣化或骨刺，且肌腱與骨骼交界處的壓迫可能加重症狀。一個重要的實際分別是：止點型病變不應在台階邊緣進行跟腱下降訓練——終端範圍的伸展會壓迫肌腱與骨骼，令症狀惡化。止點型病變的練習應在平坦地面上進行。物理治療師可以幫助確定你屬於哪種類型，並相應地調整你的運動計劃。"
+    },
+    {
+      "question_en": "When can I return to exercise or sports?",
+      "question_zh": "我什麼時候可以恢復運動？",
+      "answer_en": "Return to sport follows a gradual, criteria-based progression — not a fixed timeline. As a general guide: (1) For mild cases, you may continue modified training within pain limits from the outset, with full return typically possible within 6–8 weeks. (2) For moderate cases, expect 3–6 months of structured rehabilitation before full sport return. (3) For chronic/severe cases, 6–12 months or longer may be needed. Before returning to full sport, you should be able to: perform pain-free single-leg heel raises (at least 20–25 repetitions matching your uninjured side), have minimal or no morning stiffness, tolerate running at increasing speeds and distances without flare-ups, and successfully complete energy storage exercises (hopping, jumping, change of direction). The rehabilitation follows a clear sequence: isometric loading → isotonic loading (heavy slow resistance) → energy storage exercises (hopping/bounding) → sport-specific drills → full return. Skipping stages is the most common reason for setbacks. Your physiotherapist can guide this progression using functional tests and the VISA-A questionnaire to track your readiness.",
+      "answer_zh": "重返運動應遵循漸進的、基於標準的進階方式——而非固定的時間表。一般指引：（1）輕度個案可從一開始就在痛楚限度內繼續經調整的訓練，通常在6至8星期內可完全恢復。（2）中度個案預計需要3至6個月的結構化康復才能完全重返運動。（3）慢性/嚴重個案可能需要6至12個月或更長時間。在完全恢復運動前，你應能：無痛地完成單腳提踵（至少20至25次，達到非患側水平）、早晨僵硬感極輕微或消失、能夠承受逐漸加速和加距離的跑步而不復發，以及成功完成儲能練習（跳躍、單腳跳、轉向）。康復遵循清晰的順序：等長負荷→等張負荷（重負荷慢速阻力）→儲能練習（跳躍/彈跳）→專項運動訓練→完全重返。跳過階段是導致復發的最常見原因。你的物理治療師可以透過功能測試和VISA-A問卷來指導這個進階過程並追蹤你的準備程度。"
+    },
+    {
+      "question_en": "Will my Achilles tendinopathy get better on its own?",
+      "question_zh": "跟腱病變會自行好轉嗎？",
+      "answer_en": "Achilles tendinopathy is unlikely to fully resolve on its own without active management, especially if you continue the activities that caused it. Unlike a simple muscle strain, tendinopathy involves changes to the tendon's internal structure (collagen disorganisation and degeneration), and these changes require specific mechanical loading to stimulate repair and remodelling. The good news is that the tendon continuum model shows that early-stage (reactive) tendinopathy can be reversed with appropriate load management — the tendon can return to normal if the overload is removed and a progressive exercise programme is followed. However, if left untreated, reactive tendinopathy can progress to the disrepair and then degenerative stages, where changes become more difficult (though not impossible) to reverse. The earlier you address it with a structured loading programme, the faster and more complete your recovery will be.",
+      "answer_zh": "跟腱病變如果不進行積極管理，尤其是繼續引致問題的活動，不太可能完全自行好轉。與簡單的肌肉拉傷不同，肌腱病變涉及肌腱內部結構的改變（膠原蛋白紊亂和退化），這些改變需要特定的機械負荷來刺激修復和重塑。好消息是，根據肌腱連續體模型，早期（反應性）肌腱病變在適當的負荷管理下是可以逆轉的——如果消除過度負荷並遵循漸進式運動計劃，肌腱可以恢復正常。然而，如果不加治療，反應性肌腱病變可能進展至失修階段，進而到退化階段，此時改變會變得更加困難（但並非不可能）逆轉。越早以結構化的負荷訓練計劃來處理，你的康復速度就越快、效果也越完整。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Achilles Tendinopathy — Physiopedia",
+      "url": "https://www.physio-pedia.com/Achilles_Tendinopathy",
+      "type": "professional_guideline"
+    },
+    {
+      "title": "Martin RL et al. Achilles Pain, Stiffness, and Muscle Power Deficits: Midportion Achilles Tendinopathy Revision 2018. Clinical Practice Guideline. J Orthop Sports Phys Ther. 2018;48(5):A1-38.",
+      "url": "https://www.jospt.org/doi/10.2519/jospt.2018.0302",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Chimenti RL et al. Achilles Pain, Stiffness, and Muscle Power Deficits: Midportion Achilles Tendinopathy Revision 2024. Clinical Practice Guideline. J Orthop Sports Phys Ther. 2024;54(12):CPG1-32.",
+      "url": "https://www.jospt.org/doi/10.2519/jospt.2024.0304",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Cook JL, Purdam CR. Is tendon pathology a continuum? A pathology model to explain the clinical presentation of load-induced tendinopathy. Br J Sports Med. 2009;43(6):409-16.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18812414/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "BC Physical Therapy Tendinopathy Task Force. Achilles Tendinopathy Toolkit. UBC Department of Physical Therapy. 2012.",
+      "url": "https://physio.ubc.ca/achilles-tendinopathy-toolkit/",
+      "type": "professional_guideline"
+    },
+    {
+      "title": "Alfredson H, Cook J. A treatment algorithm for managing Achilles tendinopathy: new treatment options. Br J Sports Med. 2007;41(4):211-6.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17311806/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Silbernagel KG et al. Current Clinical Concepts: Conservative Management of Achilles Tendinopathy. J Athl Train. 2020;55(5):438-47.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32267723/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Clinical Guideline for First-contact Physiotherapists on Assessment and Cross-disciplinary Management Approach for Common Musculoskeletal Problems in Primary Care Setting. Primary Healthcare Commission, Hong Kong. Dec 2025.",
+      "url": "",
+      "type": "government_guideline"
+    }
+  ],
+  "review_status": {
+    "reviewed_by": "[PENDING — Physiotherapist Name]",
+    "reviewer_credentials": "[PENDING]",
+    "review_date": null,
+    "next_review_date": null,
+    "approved": false
+  },
+  "metadata": {
+    "created_date": "2026-04-29",
+    "last_updated": "2026-05-02",
+    "version": "0.1-draft"
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "condition_id": "MSK-010",
+  "condition_name_en": "ACL Sprain / Injury",
+  "condition_name_zh": "前十字韌帶損傷",
+  "body_area": [
+    "knee",
+    "anterior cruciate ligament"
+  ],
+  "category": "musculoskeletal",
+  "patient_language_aliases": [
+    "ACL injury",
+    "ACL tear",
+    "torn ACL",
+    "knee gave way",
+    "heard a pop in my knee",
+    "knee buckled",
+    "knee swelled up immediately",
+    "unstable knee",
+    "trick knee",
+    "knee twisted during sport",
+    "anterior cruciate ligament injury",
+    "前十字韌帶撕裂",
+    "膝蓋韌帶斷裂",
+    "膝頭哥甩咗",
+    "打波扭傷膝蓋",
+    "ACL受傷"
+  ],
+  "symptoms": [
+    {
+      "description_en": "An audible 'pop' or crack at the time of injury — reported by many patients and highly suggestive of ACL rupture",
+      "description_zh": "受傷時聽到「啪」一聲或咔嗒聲——許多患者報告此情況，高度提示前十字韌帶斷裂"
+    },
+    {
+      "description_en": "Rapid, significant knee swelling — usually within 1–2 hours of injury (haemarthrosis). Research shows an immediate effusion has a 72% correlation with ACL injury",
+      "description_zh": "膝蓋迅速且明顯腫脹——通常在受傷後1至2小時內出現（血性關節積液）。研究顯示即時積液與前十字韌帶損傷有72%的相關性"
+    },
+    {
+      "description_en": "A feeling of instability or the knee 'giving way' — especially during pivoting, twisting, or cutting movements. The source describes this as a 'trick knee with predictable instability'",
+      "description_zh": "膝蓋不穩或「打軟腿」的感覺——尤其是在轉向、扭轉或切入動作時。資料來源將此描述為「可預測的不穩定膝蓋」"
+    },
+    {
+      "description_en": "Severe pain immediately after the injury — though pain may paradoxically be less than expected with a complete tear compared to the severity of the injury",
+      "description_zh": "受傷後立即出現劇烈疼痛——不過完全撕裂的疼痛可能出乎意料地比傷害的嚴重程度輕"
+    },
+    {
+      "description_en": "Restricted movement — particularly inability to fully extend (straighten) the knee, possibly due to associated bucket-handle meniscus tear or loose fragment",
+      "description_zh": "活動受限——尤其是無法完全伸直膝蓋，可能因伴隨的桶柄形半月板撕裂或游離體"
+    },
+    {
+      "description_en": "Tenderness at the medial (inner) side of the joint — may indicate associated cartilage or meniscal injury. Over 50% of ACL ruptures have associated meniscal injuries",
+      "description_zh": "膝關節內側壓痛——可能表示伴隨的軟骨或半月板損傷。超過50%的前十字韌帶斷裂伴有半月板損傷"
+    },
+    {
+      "description_en": "Difficulty bearing weight and walking normally after the injury",
+      "description_zh": "受傷後難以負重和正常行走"
+    }
+  ],
+  "guided_questions": [
+    {
+      "question_en": "How did the injury happen? Were you cutting, pivoting, landing from a jump, or did someone contact your knee directly?",
+      "question_zh": "傷是怎樣發生的？你當時是在切入、轉向、跳躍著地，還是有人直接撞到你的膝蓋？",
+      "purpose": "Identify the mechanism of injury. The source states 70% of ACL injuries are non-contact (cutting, pivoting, landing, decelerating), while 30% involve direct contact. Non-contact injuries typically occur with the knee in slight flexion (10–30°) with valgus and internal rotation — this classic mechanism strongly suggests ACL involvement."
+    },
+    {
+      "question_en": "Did you hear or feel a 'pop' in your knee at the time of injury?",
+      "question_zh": "受傷時你有沒有聽到或感覺到膝蓋「啪」的一聲？",
+      "purpose": "An audible pop is a hallmark sign of ACL rupture. While not present in all cases, a reported pop combined with the typical mechanism significantly increases the likelihood of ACL tear and warrants urgent professional assessment."
+    },
+    {
+      "question_en": "How quickly did the knee swell? Did it swell within the first 1–2 hours, or was the swelling delayed?",
+      "question_zh": "膝蓋腫脹的速度有多快？是在最初1至2小時內腫脹，還是延遲才腫？",
+      "purpose": "Rapid swelling within 1–2 hours indicates haemarthrosis (bleeding into the joint). The source cites Noyes et al.: in the absence of bony trauma, an immediate effusion has a 72% correlation with ACL injury. Delayed or minimal swelling may paradoxically indicate a more severe capsular tear allowing blood to escape."
+    },
+    {
+      "question_en": "Since the injury, has your knee felt unstable or 'given way' during walking, turning, or sport? Can you trust your knee?",
+      "question_zh": "受傷以來，你的膝蓋在行走、轉彎或運動時有沒有感到不穩或「打軟腿」？你能信任你的膝蓋嗎？",
+      "purpose": "Functional instability and giving way episodes are the hallmark of ACL deficiency. The source describes this as 'predictable instability' especially with pivoting or twisting. This helps determine functional impact and guide treatment decisions (conservative vs surgical)."
+    },
+    {
+      "question_en": "What sport or activity were you doing? How active are you normally, and what are your goals for returning to activity?",
+      "question_zh": "你當時在做什麼運動或活動？你平時的活動量如何？你對恢復活動有什麼目標？",
+      "purpose": "Assess sport demands and patient expectations. The source identifies pivoting sports (football, basketball, netball, handball, skiing) as highest risk. Activity level and return-to-sport goals are critical factors in deciding between conservative and surgical management."
+    },
+    {
+      "question_en": "Are you male or female? How old are you?",
+      "question_zh": "你是男性還是女性？你的年齡是多少？",
+      "purpose": "Assess demographic risk factors. The source states females have 2.4–9.7 times higher ACL injury incidence than males in similar sports. Age affects both injury pattern (avulsion more common in children) and treatment decisions. The mean age of ACL injury is 32 years."
+    },
+    {
+      "question_en": "Can you straighten your knee fully? Is there any deformity, severe bruising, numbness below the knee, or inability to move your foot?",
+      "question_zh": "你能完全伸直膝蓋嗎？有沒有畸形、嚴重瘀傷、膝蓋以下麻痺或無法活動腳部？",
+      "purpose": "CRITICAL red-flag screening. Inability to fully extend may indicate a bucket-handle meniscus tear. Severe deformity suggests fracture or knee dislocation. Numbness or inability to move the foot may indicate vascular or nerve injury — particularly with knee dislocations, which are surgical emergencies."
+    }
+  ],
+  "severity_classification": {
+    "mild": {
+      "indicators": [
+        "Ligament fibres stretched but no tear (Grade I sprain)",
+        "Little tenderness and swelling",
+        "Knee does not feel unstable or give out during activity",
+        "No increased laxity on clinical testing; firm end feel present",
+        "Able to bear weight and walk with mild discomfort"
+      ],
+      "self_care_appropriate": true,
+      "description_en": "Your symptoms suggest a mild ACL sprain (Grade I) — the ligament fibres are stretched but not torn. Your knee should still feel stable. However, even mild ACL sprains should be professionally assessed to confirm the diagnosis and rule out other injuries. In the meantime, follow RICE principles (Rest, Ice, Compression, Elevation), avoid pivoting or twisting activities, and begin the gentle exercises below. Most Grade I sprains recover well with conservative management, but proper diagnosis is important because what feels mild sometimes turns out to be more significant.",
+      "description_zh": "你的症狀顯示為輕度前十字韌帶扭傷（第I級）——韌帶纖維被拉伸但沒有撕裂。你的膝蓋應該仍然感覺穩定。不過，即使是輕度的前十字韌帶扭傷也應該接受專業評估，以確認診斷並排除其他損傷。在此期間，遵循RICE原則（休息、冰敷、加壓、抬高），避免轉向或扭轉活動，並開始以下的溫和運動。大多數第I級扭傷透過保守治療恢復良好，但正確的診斷很重要，因為感覺輕微的有時結果會比較嚴重。"
+    },
+    "moderate": {
+      "indicators": [
+        "Partial tear of the ligament (Grade II sprain)",
+        "Moderate swelling and tenderness with some loss of function",
+        "Joint may feel unstable or give out during activity",
+        "Increased anterior translation on testing but still a firm end point",
+        "Painful with Lachman's and anterior drawer stress tests"
+      ],
+      "recommend_professional": true,
+      "description_en": "Your symptoms suggest a moderate ACL injury (Grade II — partial tear). You need professional assessment as soon as possible. A physiotherapist or sports medicine doctor can perform specific clinical tests (Lachman test, anterior drawer) and may refer you for an MRI to determine the extent of the tear and check for associated injuries — over 50% of ACL injuries have associated meniscal tears. Treatment may be conservative (structured rehabilitation) or surgical depending on your tear extent, activity level, and goals. Begin RICE immediately: ice for 15–20 minutes every 2–3 hours, compress with a bandage, and elevate the leg. Avoid putting full weight on the knee if painful.",
+      "description_zh": "你的症狀顯示為中度前十字韌帶損傷（第II級——部分撕裂）。你需要盡快接受專業評估。物理治療師或運動醫學醫生可以進行特定的臨床測試（拉赫曼測試、前抽屜測試），並可能轉介你做磁力共振以確定撕裂程度和檢查伴隨損傷——超過50%的前十字韌帶損傷伴有半月板撕裂。治療可以是保守的（結構化康復）或手術，取決於你的撕裂程度、活動量和目標。立即開始RICE：每2至3小時冰敷15至20分鐘、用繃帶加壓、抬高腿部。如果疼痛，避免完全負重。"
+    },
+    "severe": {
+      "indicators": [
+        "Complete rupture of the ligament (Grade III sprain)",
+        "Haemarthrosis (significant joint swelling) within 1–2 hours",
+        "Knee feels grossly unstable; positive pivot shift test indicating rotational instability",
+        "No firm end point on clinical testing",
+        "May have limited pain relative to severity; variable swelling levels"
+      ],
+      "seek_immediate_help": true,
+      "description_en": "Your symptoms strongly suggest a complete ACL rupture (Grade III). Please seek medical assessment urgently — go to A&E or see a sports medicine specialist as soon as possible. It is generally accepted that a completely torn ACL will not heal on its own. You need imaging (MRI) to confirm the diagnosis and assess for associated injuries (meniscal tears occur in over 50% of cases, bone bruises in over 80%). Treatment decisions — conservative rehabilitation versus ACL reconstruction surgery — should be made with specialist guidance based on your age, activity level, sport demands, associated injuries, and personal goals. In the meantime: do NOT try to walk on it if significantly unstable, apply ice, compress, and elevate. Use crutches if available.",
+      "description_zh": "你的症狀強烈提示前十字韌帶完全斷裂（第III級）。請緊急接受醫學評估——儘快前往急症室或看運動醫學專家。普遍認為完全斷裂的前十字韌帶不會自行癒合。你需要影像檢查（磁力共振）以確認診斷並評估伴隨損傷（超過50%的個案伴有半月板撕裂，超過80%有骨挫傷）。治療決定——保守康復與前十字韌帶重建手術——應在專家指導下根據你的年齡、活動量、運動需求、伴隨損傷和個人目標來做出。在此期間：如果明顯不穩定，不要嘗試行走，冰敷、加壓和抬高。如果有拐杖，請使用。"
+    }
+  },
+  "red_flags": [
+    "Severe knee deformity or gross malalignment — possible knee dislocation or fracture (EMERGENCY: potential vascular injury requiring immediate assessment)",
+    "Inability to bear any weight at all combined with severe swelling — possible fracture or multiple ligament injury",
+    "Numbness, tingling, or loss of sensation below the knee — possible nerve injury",
+    "Pale, cool foot or absent pulse — possible vascular injury associated with knee dislocation (EMERGENCY: call 999)",
+    "Locked knee — inability to fully extend, may indicate bucket-handle meniscus tear requiring urgent assessment",
+    "Severe progressive swelling with tense, shiny skin — possible compartment syndrome (EMERGENCY)",
+    "Open wound near the knee joint following trauma — possible open fracture or joint penetration",
+    "Inability to move the foot or ankle after knee injury — possible peroneal nerve injury"
+  ],
+  "possible_causes": [
+    {
+      "cause_en": "Non-contact injury during cutting, pivoting, or sudden change of direction with foot planted — accounts for 70% of ACL injuries",
+      "cause_zh": "腳著地時切入、轉向或突然變向的非接觸性損傷——佔前十字韌帶損傷的70%",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Landing from a jump with the knee near full extension and in a valgus (knock-knee) position",
+      "cause_zh": "從跳躍著地時膝蓋接近完全伸直且處於外翻（X型腿）位置",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Rapid deceleration — sudden stopping while running at speed",
+      "cause_zh": "快速減速——在高速跑動時突然停下",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Direct contact — blow to the outside of the knee forcing it inward (valgus force), accounts for 30% of cases",
+      "cause_zh": "直接接觸——膝蓋外側受到撞擊迫使其向內（外翻力），佔30%的個案",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Female sex — 2.4 to 9.7 times higher incidence in female athletes due to biomechanical, hormonal, and anatomical factors (narrower intercondylar notch, wider pelvis, greater ligament laxity, neuromuscular patterns)",
+      "cause_zh": "女性——女性運動員的發生率高2.4至9.7倍，因生物力學、荷爾蒙和解剖因素（較窄的髁間切跡、較寬的骨盆、較大的韌帶鬆弛度、神經肌肉模式）",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "High shoe-surface friction (e.g., aggressive cleats on dry artificial turf) — approximately 2.5 times higher injury risk with higher rotational traction",
+      "cause_zh": "高鞋面摩擦力（例如在乾燥人造草皮上使用防滑鞋釘）——較高的旋轉摩擦力使損傷風險增加約2.5倍",
+      "likelihood": "less_common"
+    }
+  ],
+  "self_care_exercises": [
+    {
+      "exercise_name_en": "Quadriceps Set (Isometric Quad Activation)",
+      "exercise_name_zh": "股四頭肌等長收縮",
+      "instructions_en": "Lie on your back with the injured leg straight. Place a small rolled towel under the knee for comfort. Tighten the quadriceps muscle on the front of your thigh by pressing the back of your knee down into the towel. You should see your kneecap move slightly upward. Hold for 5–10 seconds, then relax. This exercise activates the quadriceps without moving the knee joint, which is safe even in the early stages after ACL injury. Quadriceps activation is critical because the muscle becomes inhibited rapidly after knee injury and swelling.",
+      "instructions_zh": "仰臥，受傷的腿伸直。在膝蓋下方放一個小毛巾卷以提供舒適。收緊大腿前方的股四頭肌，將膝蓋背面向下壓入毛巾。你應該看到膝蓋骨稍微向上移動。保持5至10秒，然後放鬆。這個運動在不移動膝關節的情況下啟動股四頭肌，即使在前十字韌帶損傷後的早期階段也是安全的。股四頭肌啟動至關重要，因為膝蓋受傷和腫脹後肌肉被迅速抑制。",
+      "frequency": "10 repetitions × 3 sets",
+      "duration": "Every 2–3 hours in the first week",
+      "difficulty_level": "beginner",
+      "contraindications": "Should be pain-free. This is an initial management exercise only — it does NOT replace professional assessment for a suspected ACL injury. Stop if it causes significant knee pain.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Straight Leg Raise",
+      "exercise_name_zh": "直腿抬高",
+      "instructions_en": "Lie on your back with the uninjured knee bent and foot flat. Keep the injured leg straight with the quadriceps tightened (as in the quad set above). Slowly lift the straight leg to the height of the opposite bent knee (about 30–45 degrees). Hold for 3–5 seconds, then slowly lower. This exercise strengthens the quadriceps without stressing the ACL, as the knee remains in full extension throughout. It is a standard early-phase exercise for ACL injuries.",
+      "instructions_zh": "仰臥，未受傷的膝蓋彎曲，腳平放。保持受傷的腿伸直並收緊股四頭肌（如上述的股四頭肌收縮）。慢慢將伸直的腿抬高到對側彎曲膝蓋的高度（約30至45度）。保持3至5秒，然後慢慢放下。這個運動在不對前十字韌帶造成壓力的情況下強化股四頭肌，因為膝蓋全程保持完全伸直。這是前十字韌帶損傷的標準早期運動。",
+      "frequency": "10 repetitions × 3 sets",
+      "duration": "Daily",
+      "difficulty_level": "beginner",
+      "contraindications": "Must be pain-free. If you cannot maintain a straight knee during the lift (quad lag), continue with quad sets until strength improves. This is for initial management only — seek professional assessment for your ACL injury.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Heel Slides (Knee Range of Motion)",
+      "exercise_name_zh": "腳跟滑動（膝蓋活動幅度）",
+      "instructions_en": "Lie on your back with both legs straight. Slowly slide the heel of the injured leg along the surface toward your buttock, bending the knee as far as comfortable. Then slowly slide it back out to straight. The movement should be slow and controlled. This exercise gently restores knee flexion range of motion, which is commonly restricted after ACL injury due to pain and swelling. Aim to gradually increase the range over days — do not force through significant pain.",
+      "instructions_zh": "仰臥，雙腿伸直。慢慢將受傷腿的腳跟沿表面向臀部方向滑動，盡可能舒適地彎曲膝蓋。然後慢慢滑回伸直。動作應該緩慢且受控。這個運動輕柔地恢復膝蓋屈曲活動幅度，前十字韌帶損傷後因疼痛和腫脹通常會受限。目標是在數天內逐漸增加範圍——不要強行越過明顯的疼痛。",
+      "frequency": "10 repetitions × 3 sets",
+      "duration": "Daily — 2–3 times per day",
+      "difficulty_level": "beginner",
+      "contraindications": "Move within a pain-free range. If the knee is significantly swollen and painful, reduce the range. Do not force flexion. If the knee locks and cannot extend fully, stop and seek urgent assessment — this may indicate a meniscal tear.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Prone Hamstring Curl (Gentle)",
+      "exercise_name_zh": "俯臥膕繩肌彎舉（輕柔）",
+      "instructions_en": "Lie face down on a firm surface. Slowly bend the injured knee, bringing your heel toward your buttock as far as comfortable. Hold for 2–3 seconds, then slowly lower back down. Start with gravity only (no resistance). The hamstrings are critical for ACL-deficient knees because they act as a secondary restraint to anterior tibial translation — essentially doing the job that the ACL normally does. Strengthening the hamstrings is a cornerstone of both conservative management and pre-surgical 'prehabilitation' for ACL injuries.",
+      "instructions_zh": "面朝下趴在硬實的表面上。慢慢彎曲受傷的膝蓋，將腳跟盡可能舒適地拉向臀部。保持2至3秒，然後慢慢放下。開始時只用重力（不加阻力）。膕繩肌對前十字韌帶功能不全的膝蓋至關重要，因為它們充當脛骨前移的次級約束——基本上在做前十字韌帶通常做的工作。強化膕繩肌是前十字韌帶損傷保守治療和手術前「預康復」的基石。",
+      "frequency": "10 repetitions × 3 sets",
+      "duration": "Daily — begin when tolerated (usually after initial swelling reduces)",
+      "difficulty_level": "beginner",
+      "contraindications": "Must be pain-free. Do not add resistance until cleared by a physiotherapist. Avoid if you have associated injury to the posterior structures of the knee. This is initial management only — ALL suspected ACL injuries require professional assessment.",
+      "video_reference_url": "[TO BE ADDED]"
+    }
+  ],
+  "recovery_timeline": {
+    "mild_estimate": "Grade I (sprain, no tear): 2–4 weeks with RICE and progressive rehabilitation",
+    "moderate_estimate": "Grade II (partial tear): 4–8 weeks of structured rehabilitation. Return to activity guided by functional milestones, not time alone",
+    "severe_estimate": "Grade III (complete rupture): Conservative management 3–6+ months of dedicated rehabilitation. ACL reconstruction surgery: 6–12 months before return to pivoting sport, with structured rehabilitation throughout",
+    "note": "Recovery timelines depend heavily on injury grade, associated injuries, treatment approach, and individual factors. The source notes that recent evidence-based reviews found similar results in both conservative and surgical groups for pain, symptoms, function, return to sport, quality of life, meniscal tear/surgery rates, and radiographic knee OA prevalence. This means conservative management is a viable option for many patients. However, it is generally accepted that a completely torn ACL will not heal. Injury prevention programmes (FIFA 11+, PEP, Sportsmetric) can reduce ACL injury risk by half and non-contact ACL injuries in female athletes by two-thirds."
+  },
+  "when_to_see_professional": [
+    "ANY suspected ACL injury should be professionally assessed — even mild sprains warrant clinical evaluation to rule out associated injuries",
+    "Hearing or feeling a 'pop' in the knee during sport or activity",
+    "Rapid knee swelling within 1–2 hours of injury",
+    "Knee feeling unstable, giving way, or unable to bear weight",
+    "Inability to fully straighten (extend) the knee — may indicate meniscal tear",
+    "Recurrent episodes of the knee giving way during daily activities or sport",
+    "Any deformity, severe bruising, numbness, or coldness below the knee — go to A&E immediately"
+  ],
+  "faqs": [
+    {
+      "question_en": "Do I need surgery for my ACL tear?",
+      "question_zh": "前十字韌帶撕裂需要做手術嗎？",
+      "answer_en": "Not necessarily. Recent systematic reviews and meta-analyses have found similar results in both conservative (non-surgical) and surgical groups for pain, symptoms, function, return to sport, quality of life, and even rates of meniscal surgery and knee osteoarthritis. Conservative management with structured rehabilitation is a viable option, particularly for older patients, those with lower activity demands, and those not involved in pivoting sports. However, ACL reconstruction is more strongly considered for young, active athletes who want to return to pivoting or cutting sports (football, basketball, netball, handball, skiing), patients with recurrent instability despite rehabilitation, and those with significant associated injuries (meniscal tears, other ligament injuries). The decision should be made in partnership with your surgeon and physiotherapist based on your specific situation, goals, and willingness to commit to either rehabilitation pathway.",
+      "answer_zh": "不一定。最近的系統綜述和薈萃分析發現，保守（非手術）和手術組在疼痛、症狀、功能、回歸運動、生活質量，甚至半月板手術率和膝關節骨關節炎方面的結果相似。結構化康復的保守治療是一個可行的選擇，特別是對於年齡較大的患者、活動需求較低的人，以及不從事轉向運動的人。然而，前十字韌帶重建手術更常考慮用於希望回歸轉向或切入運動（足球、籃球、投球、手球、滑雪）的年輕活躍運動員、儘管康復後仍反覆出現不穩定的患者，以及有明顯伴隨損傷（半月板撕裂、其他韌帶損傷）的患者。決定應與外科醫生和物理治療師合作，根據你的具體情況、目標和對任何一種康復途徑的投入意願來做出。"
+    },
+    {
+      "question_en": "Can a torn ACL heal on its own?",
+      "question_zh": "撕裂的前十字韌帶能自己癒合嗎？",
+      "answer_en": "For a complete ACL tear (Grade III), the source states it is 'generally accepted that a torn ACL will not heal.' The ACL has a poor blood supply, which limits its natural healing capacity. However, some people can function well without an intact ACL through dedicated rehabilitation that focuses on strengthening the surrounding muscles (especially hamstrings), proprioceptive training, and neuromuscular control — these patients are called 'copers.' Others continue to have instability and are called 'non-copers,' who may benefit more from surgical reconstruction. For partial tears (Grade II), there is some capacity for healing, but the ligament may remain weaker than normal. A structured rehabilitation programme is essential regardless of whether the tear is partial or complete.",
+      "answer_zh": "對於完全的前十字韌帶撕裂（第III級），資料來源指出「普遍認為撕裂的前十字韌帶不會癒合」。前十字韌帶的血液供應較差，限制了其自然癒合能力。然而，一些人可以在沒有完整前十字韌帶的情況下透過專注的康復——強化周圍肌肉（尤其是膕繩肌）、本體感覺訓練和神經肌肉控制——而功能良好，這些患者被稱為「適應者」。其他人則持續出現不穩定，被稱為「不適應者」，可能更適合手術重建。對於部分撕裂（第II級），有一定的癒合能力，但韌帶可能保持比正常弱。無論撕裂是部分還是完全的，結構化康復計劃都是必不可少的。"
+    },
+    {
+      "question_en": "When can I return to sport after an ACL injury?",
+      "question_zh": "前十字韌帶損傷後多快可以恢復運動？",
+      "answer_en": "This depends entirely on the injury grade and treatment approach. For Grade I sprains: return to sport in 2–4 weeks once symptoms resolve and strength/stability testing is satisfactory. For Grade II partial tears: 6–12 weeks with milestone-based progression. For Grade III complete tears managed conservatively: 3–6+ months of dedicated rehabilitation, with return guided by functional criteria (strength, stability, agility testing) rather than time alone. For ACL reconstruction surgery: typically 9–12 months for return to full pivoting sport, with recent evidence suggesting that each month of delay in return to sport (up to 9 months) reduces re-injury risk by 51%. Crucially, ACL injury prevention programmes (FIFA 11+, PEP, Sportsmetric, Harmoknee) should be incorporated into your return-to-sport training — the source shows these programmes can reduce ACL injury risk by half and non-contact ACL injuries in female athletes by two-thirds.",
+      "answer_zh": "這完全取決於損傷等級和治療方式。第I級扭傷：在症狀消退且力量/穩定性測試滿意後2至4星期恢復運動。第II級部分撕裂：6至12星期，基於里程碑的進階。第III級完全撕裂保守治療：3至6個月以上的專注康復，以功能標準（力量、穩定性、敏捷度測試）而非單純時間來指導恢復。前十字韌帶重建手術：通常9至12個月才能恢復全面的轉向運動，近期證據顯示恢復運動每延遲一個月（最多9個月），再傷風險降低51%。至關重要的是，前十字韌帶損傷預防計劃（FIFA 11+、PEP、Sportsmetric、Harmoknee）應納入你的恢復運動訓練——資料來源顯示這些計劃可以將前十字韌帶損傷風險降低一半，女性運動員的非接觸性前十字韌帶損傷降低三分之二。"
+    },
+    {
+      "question_en": "How can I prevent ACL injuries?",
+      "question_zh": "如何預防前十字韌帶損傷？",
+      "answer_en": "There is robust evidence that exercise-based injury prevention programmes significantly reduce ACL injury risk. The source cites a 2018 Clinical Practice Guideline which found that these programmes reduce all knee injuries by 27% and ACL injuries specifically by 50–62%, with non-contact ACL injuries in female athletes reduced by two-thirds. Key programmes include FIFA 11+, PEP (Prevent injury and Enhance Performance), Sportsmetric, and Harmoknee. Effective programmes should include: flexibility training, running/agility drills, strengthening (squats, lunges, Nordic hamstring exercise), plyometrics (jump-landing training with emphasis on soft landings and avoiding knee valgus), core stability, and balance work. Programmes should be performed as a warm-up before training and games, last at least 20 minutes per session with weekly volume exceeding 30 minutes, and start at pre-season continuing throughout the season. The message for all young athletes — particularly females aged 12–25 in high-risk sports — is clear: these warm-ups are not optional, they are the foundation for safe sport participation.",
+      "answer_zh": "有強有力的證據表明，以運動為基礎的損傷預防計劃可以顯著降低前十字韌帶損傷風險。資料來源引用2018年臨床實踐指南，發現這些計劃將所有膝蓋損傷降低27%，前十字韌帶損傷特別降低50至62%，女性運動員的非接觸性前十字韌帶損傷降低三分之二。主要計劃包括FIFA 11+、PEP（預防損傷和增強表現）、Sportsmetric和Harmoknee。有效的計劃應包括：柔軟度訓練、跑步/敏捷度訓練、力量訓練（深蹲、弓步、北歐膕繩肌運動）、增強式訓練（跳躍著地訓練，強調輕柔著地和避免膝蓋外翻）、核心穩定性和平衡訓練。計劃應在訓練和比賽前作為熱身進行，每次至少20分鐘，每周訓練量超過30分鐘，從季前開始並持續整個賽季。對所有年輕運動員——特別是12至25歲從事高風險運動的女性——的信息是明確的：這些熱身不是可選的，它們是安全參與運動的基礎。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Physiopedia — Anterior Cruciate Ligament (ACL) Injury",
+      "url": "https://www.physio-pedia.com/Anterior_Cruciate_Ligament_(ACL)_Injury",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Arundale AJ et al. — Exercise-based knee and ACL injury prevention: APTA Clinical Practice Guidelines (JOSPT 2018)",
+      "url": "https://doi.org/10.2519/jospt.2018.0303",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Hewett TE et al. — Mechanisms, prediction, and prevention of ACL injuries (J Orthop Res 2016)",
+      "url": "https://doi.org/10.1002/jor.23414",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Domnick C et al. — Biomechanics of the ACL: physiology, rupture and reconstruction techniques (World J Orthop 2016)",
+      "url": "https://doi.org/10.5312/wjo.v7.i2.82",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Monk AP et al. — Surgical versus conservative interventions for treating ACL injuries (Cochrane Review 2016)",
+      "url": "https://doi.org/10.1002/14651858.CD011166.pub2",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "HK Health Bureau — Clinical Guideline for First-contact Physiotherapists on Common MSK Problems in Primary Care",
+      "url": "https://www.healthbureau.gov.hk/phcc/rfs/assets/pdf/home/discipline-based_guidelines/clinical_guideline_on_first_contact_assessment_and_cross-disciplinary_management_approach_for_common_msk_problems.pdf",
+      "type": "government_guideline"
+    }
+  ],
+  "review_status": {
+    "reviewed_by": "[PENDING — Physiotherapist Name]",
+    "reviewer_credentials": "[PENDING — e.g., BSc Physiotherapy, HKPA Member]",
+    "review_date": null,
+    "next_review_date": null,
+    "approved": false
+  },
+  "metadata": {
+    "created_date": "2026-05-01",
+    "last_updated": "2026-05-01",
+    "version": "0.1-draft"
+  }
+}

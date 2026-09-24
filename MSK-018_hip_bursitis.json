@@ -1,0 +1,341 @@
+{
+  "condition_id": "MSK-018",
+  "condition_name_en": "Hip Bursitis (Trochanteric Bursitis)",
+  "condition_name_zh": "髖關節滑囊炎（大轉子滑囊炎）",
+  "body_area": [
+    "hip",
+    "thigh"
+  ],
+  "category": "musculoskeletal",
+  "patient_language_aliases": [
+    "pain on the outside of my hip",
+    "hip hurts when I lie on my side",
+    "outer hip pain",
+    "hip pain at night in bed",
+    "sore hip when walking",
+    "pain on the bony part of my hip",
+    "hip bursitis",
+    "hip aches when I sit too long",
+    "hip pain going down my thigh",
+    "pain when crossing my legs",
+    "hip pain from running",
+    "tender spot on the side of my hip",
+    "髖關節外側痛",
+    "瞓覺側身髖骨痛",
+    "行路時髖關節痛",
+    "大腿外側痛",
+    "髖關節滑囊炎"
+  ],
+  "symptoms": [
+    {
+      "description_en": "Pain on the outer (lateral) side of the hip, over or around the bony prominence (greater trochanter)",
+      "description_zh": "髖關節外側疼痛，位於骨突（大轉子）上方或周圍"
+    },
+    {
+      "description_en": "Pain when lying on the affected side at night, often disturbing sleep",
+      "description_zh": "夜間側臥在患側時感到疼痛，常常影響睡眠"
+    },
+    {
+      "description_en": "Pain radiating down the outside of the thigh, sometimes reaching the knee",
+      "description_zh": "疼痛沿大腿外側向下放射，有時延伸至膝蓋"
+    },
+    {
+      "description_en": "Tenderness when pressing on the bony point on the outside of the hip",
+      "description_zh": "按壓髖關節外側骨突時感到壓痛"
+    },
+    {
+      "description_en": "Pain with weight-bearing activities such as walking, climbing stairs, or standing for prolonged periods",
+      "description_zh": "負重活動時疼痛，例如步行、上樓梯或長時間站立"
+    },
+    {
+      "description_en": "Pain when sitting with legs crossed or sitting for prolonged periods",
+      "description_zh": "翹腳坐或久坐時感到疼痛"
+    },
+    {
+      "description_en": "Pain may also occur when lying on the unaffected side, due to the affected hip dropping into an adducted (inward) position",
+      "description_zh": "側臥在非患側時也可能感到疼痛，因為患側髖關節會下垂至內收位置"
+    },
+    {
+      "description_en": "Stiffness or aching around the hip after sitting or resting, which eases with gentle movement",
+      "description_zh": "久坐或休息後髖關節周圍僵硬或隱痛，輕柔活動後緩解"
+    }
+  ],
+  "guided_questions": [
+    {
+      "question_en": "Where exactly do you feel the pain — is it on the outer (side) part of your hip, over the bony prominence, or is it more in the groin, buttock, or lower back?",
+      "question_zh": "你確切感到痛楚的位置在哪裏——是在髖關節外側、骨突上方，還是更偏向腹股溝、臀部或下背？",
+      "purpose": "Localise the pain to differentiate lateral hip pain (GTPS/trochanteric bursitis) from groin pain (hip OA, FAI, labral tear) or posterior pain (lumbar referred pain, piriformis syndrome)"
+    },
+    {
+      "question_en": "Does the pain bother you when lying on the affected side in bed — does it wake you up at night?",
+      "question_zh": "側臥在患側時痛楚會否困擾你？晚上會否因此而醒來？",
+      "purpose": "Night pain with side-lying on the affected side is a hallmark feature of GTPS and helps confirm the clinical pattern; also assesses impact on sleep quality"
+    },
+    {
+      "question_en": "How long have you had this hip pain, and did it start gradually or after a specific event such as a fall, increased exercise, or a long walk?",
+      "question_zh": "這個髖關節痛持續了多久？是逐漸開始的，還是在某次特定事件後出現，例如跌倒、增加運動量或長途步行？",
+      "purpose": "Determine onset pattern and identify overuse vs traumatic trigger; gradual onset suggests tendinopathy/GTPS while acute onset after trauma may suggest fracture or acute bursitis"
+    },
+    {
+      "question_en": "Does the pain travel down the outside of your thigh — does it reach your knee or below?",
+      "question_zh": "痛楚有沒有沿大腿外側向下放射？有沒有到達膝蓋或膝蓋以下？",
+      "purpose": "Lateral thigh referral to the knee is common in GTPS; pain below the knee or into the foot may suggest lumbar radiculopathy requiring different management"
+    },
+    {
+      "question_en": "What activities make the pain worse — for example, walking, climbing stairs, crossing your legs, or getting up from a chair?",
+      "question_zh": "哪些活動會令痛楚加劇——例如步行、上樓梯、翹腳或從椅子上站起來？",
+      "purpose": "Identify specific aggravating factors associated with GTPS (weight-bearing, tendon compression with hip adduction/crossing legs) to confirm diagnosis and guide activity modification advice"
+    },
+    {
+      "question_en": "Have you been diagnosed with any hip problems before, or do you have any other health conditions such as arthritis, lower back problems, or osteoporosis?",
+      "question_zh": "你以前有沒有被診斷過任何髖關節問題？你有沒有其他健康狀況，例如關節炎、腰部問題或骨質疏鬆？",
+      "purpose": "Screen for co-existing conditions that may mimic or contribute to lateral hip pain, including hip OA, lumbar spine pathology, and metabolic bone disease"
+    },
+    {
+      "question_en": "Have you noticed any of the following: redness, warmth, or swelling around the hip, fever or feeling unwell, unexplained weight loss, severe pain that is constant even at rest, pain after a significant fall or trauma (especially if you have osteoporosis), or inability to bear weight on the affected leg?",
+      "question_zh": "你有沒有出現以下任何情況：髖關節周圍發紅、發熱或腫脹，發燒或感覺不適，不明原因體重下降，即使在休息時也持續的嚴重疼痛，嚴重跌倒或撞擊後出現疼痛（尤其如果你有骨質疏鬆），或患側腿無法承受體重？",
+      "purpose": "Red-flag screening to rule out septic bursitis (redness/warmth/fever), femoral neck fracture (post-fall, inability to weight-bear), bony metastasis (night pain, weight loss), femoral stress fracture, or avascular necrosis requiring urgent medical assessment"
+    }
+  ],
+  "severity_classification": {
+    "mild": {
+      "indicators": [
+        "Pain mainly when lying on the affected side or during specific activities (e.g. crossing legs, prolonged walking)",
+        "Pain intensity is mild (1–3 out of 10) and settles quickly after the provoking activity stops",
+        "Able to walk, climb stairs, and perform daily activities with minimal limitation",
+        "Sleep is occasionally disturbed but manageable with positional adjustments (e.g. pillow between knees)",
+        "No visible swelling, redness, or warmth around the hip"
+      ],
+      "self_care_appropriate": true,
+      "description_en": "Your symptoms suggest an early-stage lateral hip problem — most likely related to irritation of the gluteal tendons and the bursa on the outside of your hip (greater trochanteric pain syndrome). The good news is that most people with these symptoms improve significantly with simple self-care measures. Key steps include: avoiding lying on the affected side (use a pillow between your knees when sleeping), avoiding crossing your legs or sitting in low chairs, and starting gentle hip-strengthening exercises that target the muscles on the outside of your hip (gluteal muscles). These muscles play a critical role in supporting your hip during walking and standing. Applying ice for 10–15 minutes after activities that provoke pain can also help.",
+      "description_zh": "你的症狀顯示早期的髖關節外側問題——最可能與髖關節外側的臀肌肌腱和滑囊受到刺激有關（大轉子疼痛綜合症）。好消息是，大多數有這些症狀的人透過簡單的自我護理措施便能明顯改善。關鍵步驟包括：避免側臥在患側（睡覺時在兩膝之間放一個枕頭）、避免翹腳或坐低矮椅子，以及開始輕柔的髖關節強化運動，針對髖關節外側的肌肉（臀肌）。這些肌肉在步行和站立時對支撐髖關節起著至關重要的作用。在引起痛楚的活動後冰敷10至15分鐘也有幫助。"
+    },
+    "moderate": {
+      "indicators": [
+        "Pain regularly disturbs sleep and limits daily activities such as walking, stair climbing, or standing",
+        "Pain intensity is moderate (4–6 out of 10) and lingers after activity",
+        "Difficulty walking without a limp, especially when tired",
+        "Pain radiating down the outside of the thigh",
+        "Symptoms have persisted for more than 4–6 weeks despite self-care measures"
+      ],
+      "recommend_professional": true,
+      "description_en": "Your symptoms suggest that the lateral hip problem has progressed and may benefit from professional guidance. The underlying cause of your pain is most likely gluteal tendinopathy (a problem with the tendons of the hip stabilising muscles) rather than simple bursitis alone — research has shown that isolated bursitis is actually quite rare. A physiotherapist can provide a structured hip-strengthening programme, assess your walking pattern and pelvic control, and advise on activity modifications specific to your daily life. They may also discuss whether a corticosteroid injection could help manage your symptoms in the short term while you rehabilitate. Importantly, certain positions and stretches (such as crossing your legs, deep hip stretching, or lying on the affected side) can actually worsen the condition by compressing the tendons — a physiotherapist can help you identify and avoid these.",
+      "description_zh": "你的症狀顯示髖關節外側問題已有所進展，可能需要專業指導。你痛楚的根本原因最可能是臀肌肌腱病變（髖關節穩定肌肉的肌腱問題），而非單純的滑囊炎——研究顯示，孤立性滑囊炎實際上相當罕見。物理治療師可以提供結構化的髖關節強化計劃、評估你的步態模式和骨盆控制，以及針對你日常生活提供活動調整建議。他們也可能討論皮質類固醇注射能否在短期內幫助控制症狀，以便你進行康復訓練。重要的是，某些姿勢和伸展動作（如翹腳、過度髖關節伸展或側臥在患側）實際上會因壓迫肌腱而令病情惡化——物理治療師可以幫助你識別並避免這些動作。"
+    },
+    "severe": {
+      "indicators": [
+        "Constant or near-constant lateral hip pain, including at rest and at night",
+        "Significant sleep disruption — unable to find a comfortable sleeping position",
+        "Marked difficulty with walking, stair climbing, or standing up from a chair",
+        "Pain intensity is severe (7–10 out of 10) or symptoms have persisted for more than 3–6 months despite treatment",
+        "Any signs of redness, warmth, swelling around the hip, or fever (possible septic bursitis)"
+      ],
+      "seek_immediate_help": true,
+      "description_en": "Your symptoms suggest a more advanced or complicated case that needs prompt professional assessment. Persistent severe lateral hip pain may indicate a significant gluteal tendon tear, or another condition that can cause similar symptoms — such as a hip joint problem, a stress fracture, or referred pain from the lower back. If you also have redness, warmth, swelling, or fever around the hip, this could indicate an infection (septic bursitis) which requires urgent medical treatment. Please see a doctor as soon as possible. They may recommend imaging (ultrasound or MRI) to investigate the underlying cause, and discuss options including injection therapy, advanced physiotherapy, or specialist referral. Do not delay seeking help — early assessment at this stage can prevent further deterioration and inform the right treatment path.",
+      "description_zh": "你的症狀顯示可能是一個較嚴重或複雜的個案，需要盡快接受專業評估。持續的嚴重髖關節外側痛可能表示臀肌肌腱有明顯撕裂，或其他能引起類似症狀的疾病——如髖關節問題、應力性骨折或腰部轉介痛。如果你同時出現髖關節周圍發紅、發熱、腫脹或發燒，可能表示有感染（感染性滑囊炎），需要緊急醫療處理。請盡快就醫。醫生可能會建議進行影像檢查（超聲波或磁力共振）以調查根本原因，並討論治療方案，包括注射治療、進階物理治療或專科轉介。不要延遲求助——在這個階段及早評估可以防止進一步惡化，並找到正確的治療方向。"
+    }
+  },
+  "red_flags": [
+    "Redness, warmth, and swelling around the hip combined with fever or feeling systemically unwell — possible septic bursitis or septic arthritis (seek A&E / urgent medical attention immediately)",
+    "Severe hip pain after a fall or trauma, especially in elderly patients or those with osteoporosis — possible femoral neck fracture (call 999 / go to A&E if unable to weight-bear)",
+    "Inability to bear weight on the affected leg following injury — possible fracture requiring urgent assessment",
+    "Unrelenting hip pain at rest and at night that does not respond to any position change — may suggest stress fracture, avascular necrosis, bony metastasis, or other serious pathology",
+    "Unexplained weight loss combined with persistent hip pain — possible malignancy requiring urgent medical investigation",
+    "Rapidly progressive weakness of the hip or leg muscles — may suggest neurological involvement requiring further assessment",
+    "History of immunosuppression, recent injection, or skin break near the hip with new onset of pain and warmth — increased risk of septic bursitis"
+  ],
+  "possible_causes": [
+    {
+      "cause_en": "Gluteal tendinopathy (tendon degeneration of the gluteus medius and/or minimus) — the most common cause of lateral hip pain, now recognised as greater trochanteric pain syndrome (GTPS)",
+      "cause_zh": "臀肌肌腱病變（臀中肌和/或臀小肌肌腱退化）——髖關節外側痛最常見的原因，現稱為大轉子疼痛綜合症（GTPS）",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Mechanical overload and overuse — sudden increase in walking, running, or stair climbing, or prolonged standing",
+      "cause_zh": "機械性超負荷及過度使用——突然增加步行、跑步或上樓梯的量，或長時間站立",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Weak hip abductor muscles and poor pelvic control — causing increased strain on the gluteal tendons and bursa during weight-bearing activities",
+      "cause_zh": "髖關節外展肌無力及骨盆控制不足——導致負重活動時臀肌肌腱及滑囊承受更大張力",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Habitual compressive positions — crossing legs, standing with weight on one hip, lying on the affected side, or sitting in low chairs for prolonged periods",
+      "cause_zh": "習慣性壓迫姿勢——翹腳坐、單腳承重站立、側臥在患側或長時間坐矮椅子",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Iliotibial band (ITB) tightness — causing friction and compression over the greater trochanter (external coxa saltans / snapping hip)",
+      "cause_zh": "髂脛束（ITB）繃緊——在大轉子上方造成摩擦和壓迫（外側彈響髖）",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Obesity — increased mechanical load on the hip and gluteal tendons",
+      "cause_zh": "肥胖——增加髖關節及臀肌肌腱的機械負荷",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Direct trauma — a fall or blow to the outside of the hip causing acute bursitis",
+      "cause_zh": "直接外傷——跌倒或撞擊髖關節外側導致急性滑囊炎",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Gluteal tendon tears (degenerative or traumatic) — partial or complete tears of the gluteus medius or minimus tendons",
+      "cause_zh": "臀肌肌腱撕裂（退化性或創傷性）——臀中肌或臀小肌肌腱的部分或完全撕裂",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Autoimmune conditions — rheumatoid arthritis, gout, or crystal arthropathies causing inflammatory bursitis",
+      "cause_zh": "自身免疫性疾病——類風濕關節炎、痛風或結晶性關節病引致的炎症性滑囊炎",
+      "likelihood": "rare"
+    },
+    {
+      "cause_en": "Septic (infected) bursitis — bacterial infection of the bursa, most commonly Staphylococcus aureus",
+      "cause_zh": "感染性滑囊炎——滑囊的細菌感染，最常見為金黃色葡萄球菌",
+      "likelihood": "rare"
+    }
+  ],
+  "self_care_exercises": [
+    {
+      "exercise_name_en": "Isometric Hip Abduction (Wall Press)",
+      "exercise_name_zh": "等長髖關節外展（靠牆推壓）",
+      "instructions_en": "1. Stand sideways next to a wall with the affected hip closest to the wall.\n2. Bend the knee of the affected leg slightly and place the outside of that knee or thigh against the wall.\n3. Gently push your knee/thigh outward against the wall — the wall prevents any movement, creating an isometric contraction in the gluteal muscles.\n4. Hold for 10–15 seconds at about 50–70% effort. You should feel the muscles on the outside of your hip working, not pain.\n5. Relax for 5 seconds. Repeat 10 times.\n6. As this becomes comfortable over days, gradually increase the hold duration to 30 seconds and increase effort.\n7. This exercise activates the gluteus medius and minimus without compressing the tendon — making it an excellent starting point for early-stage GTPS.\n8. Do NOT push through sharp pain — mild muscle effort is the goal.",
+      "instructions_zh": "1. 側身站在牆壁旁邊，患側髖關節靠近牆壁。\n2. 患側腿的膝蓋微微彎曲，將該膝蓋或大腿外側貼在牆壁上。\n3. 輕輕將膝蓋/大腿向外推向牆壁——牆壁阻止了任何移動，在臀肌中產生等長收縮。\n4. 以大約50至70%的力度維持10至15秒。你應該感覺到髖關節外側的肌肉在用力，而非疼痛。\n5. 放鬆5秒。重複10次。\n6. 隨著數天後變得舒適，逐漸增加維持時間至30秒，並增加力度。\n7. 這個練習可以激活臀中肌和臀小肌，同時不壓迫肌腱——是早期大轉子疼痛綜合症的極佳起步練習。\n8. 不要強忍劇痛——輕度肌肉用力是目標。",
+      "frequency": "2–3 times per day",
+      "duration": "Hold 10–30 seconds × 10 repetitions per session",
+      "difficulty_level": "beginner",
+      "contraindications": "Stop if the exercise causes sharp pain at the greater trochanter or worsens symptoms. Do not perform if you suspect a hip fracture, have significant swelling with redness/warmth (possible infection), or have been advised by your doctor to avoid hip exercises. Reduce effort if pain exceeds 3/10.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Side-Lying Hip Abduction (Clam Shell — Modified)",
+      "exercise_name_zh": "側臥髖關節外展（蛤蜊式——改良版）",
+      "instructions_en": "1. Lie on your unaffected side with a pillow between your knees and ankles to keep the affected hip in a neutral position (avoiding adduction/compression).\n2. Keep your hips and knees bent at approximately 45 degrees, feet together.\n3. Keeping your feet touching, slowly rotate your top knee upward like a clam shell opening — do NOT lift more than 30–40 degrees.\n4. Hold the top position for 3–5 seconds.\n5. Slowly lower back down. Repeat 10–15 times for 3 sets.\n6. Rest for 30 seconds between sets.\n7. The movement should be slow and controlled. You should feel the muscles on the outside and back of your hip working.\n8. Ensure your pelvis stays stable — do not roll backward.\n9. Progress by adding a light resistance band around the thighs (just above the knees) once the exercise is comfortable.",
+      "instructions_zh": "1. 側臥在非患側，在兩膝蓋和腳踝之間放一個枕頭，保持患側髖關節在中立位置（避免內收/壓迫）。\n2. 髖關節和膝蓋彎曲約45度，雙腳併攏。\n3. 雙腳保持接觸，緩慢將上方膝蓋向上旋轉，如蛤蜊張開——不要抬高超過30至40度。\n4. 在最高位置維持3至5秒。\n5. 緩慢放下。重複10至15次，做3組。\n6. 每組之間休息30秒。\n7. 動作要慢且受控。你應該感覺到髖關節外側和後方的肌肉在工作。\n8. 確保骨盆保持穩定——不要向後翻轉。\n9. 當練習變得舒適後，可在大腿上方（膝蓋上方）套上輕阻力帶以增加強度。",
+      "frequency": "Once daily",
+      "duration": "10–15 repetitions × 3 sets per session",
+      "difficulty_level": "beginner",
+      "contraindications": "Do NOT lie on the affected side for this exercise — always lie on the unaffected side with a pillow between your knees. Stop if the exercise causes increased lateral hip pain. Avoid if there is suspected hip fracture, active infection, or acute inflammation with redness and warmth. During acute flare-ups, start with isometric exercises instead.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Standing Hip Abduction with Support",
+      "exercise_name_zh": "扶牆站立髖關節外展",
+      "instructions_en": "1. Stand behind a sturdy chair or next to a wall, holding on for balance.\n2. Stand tall with even weight on both feet.\n3. Slowly lift the affected leg out to the side, keeping the knee straight and toes pointing forward.\n4. Lift the leg only about 15–20 cm — the movement should come from the hip, not from leaning your body to the opposite side.\n5. Hold the lifted position for 2–3 seconds.\n6. Slowly lower the leg back down. Repeat 10–15 times for 3 sets.\n7. Rest for 30 seconds between sets.\n8. Keep your pelvis level throughout — do not hitch the hip upward or lean sideways.\n9. As the exercise becomes easier, progress by adding a light ankle weight (0.5–1 kg) or a resistance band around the ankles.\n10. This exercise strengthens the gluteus medius in a functional, weight-bearing position.",
+      "instructions_zh": "1. 站在穩固的椅子後方或牆壁旁邊，扶住以保持平衡。\n2. 挺直站立，雙腳均勻承重。\n3. 緩慢將患側腿向外側抬起，保持膝蓋伸直，腳趾朝前。\n4. 只抬起約15至20厘米——動作應來自髖關節，而非將身體向對側傾斜。\n5. 在抬起的位置維持2至3秒。\n6. 緩慢將腿放回。重複10至15次，做3組。\n7. 每組之間休息30秒。\n8. 整個過程保持骨盆水平——不要將髖關節向上聳起或身體側傾。\n9. 當練習變得容易後，可加輕重的腳踝沙袋（0.5至1公斤）或在腳踝套上阻力帶以遞進。\n10. 這個練習在功能性負重位置下強化臀中肌。",
+      "frequency": "Once daily",
+      "duration": "10–15 repetitions × 3 sets",
+      "difficulty_level": "intermediate",
+      "contraindications": "Do not perform if you have a suspected hip fracture, significant balance problems without support, or if the exercise causes sharp lateral hip pain. Reduce range of motion if discomfort occurs — smaller movements with good control are better than larger movements with poor form. Avoid leaning to the opposite side, as this compensates and reduces gluteal activation.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Bridging with Resistance Band",
+      "exercise_name_zh": "阻力帶橋式運動",
+      "instructions_en": "1. Lie on your back with both knees bent to approximately 90 degrees and feet flat on the floor, hip-width apart.\n2. Place a light resistance band around both thighs, just above the knees.\n3. Gently push your knees outward against the band to activate the gluteal muscles — maintain this outward pressure throughout the exercise.\n4. Squeeze your gluteal muscles and slowly lift your hips off the floor until your body forms a straight line from your shoulders to your knees.\n5. Hold the bridge position for 5–10 seconds.\n6. Slowly lower your hips back to the floor. Repeat 10–12 times for 3 sets.\n7. Rest for 30–60 seconds between sets.\n8. Ensure you drive the lift from your gluteal muscles, not your lower back.\n9. The resistance band adds a hip abduction component, activating the gluteus medius while also strengthening the gluteus maximus.\n10. Progress by increasing hold time, adding more resistance, or performing single-leg bridges (advanced).",
+      "instructions_zh": "1. 仰臥，雙膝彎曲約90度，雙腳平放地上，與髖同寬。\n2. 將輕阻力帶放在雙腿大腿上方，即膝蓋上方位置。\n3. 輕輕將雙膝向外推以對抗阻力帶，激活臀肌——在整個練習過程中保持這個向外的壓力。\n4. 收緊臀肌，緩慢將臀部抬離地面，直到身體從肩膀到膝蓋形成一條直線。\n5. 在橋式位置維持5至10秒。\n6. 緩慢將臀部降回地面。重複10至12次，做3組。\n7. 每組之間休息30至60秒。\n8. 確保動力來自臀肌，而非下背。\n9. 阻力帶增加了髖關節外展的元素，在強化臀大肌的同時激活臀中肌。\n10. 可透過增加維持時間、增加阻力帶強度或進行單腳橋式（進階）來遞進。",
+      "frequency": "Every other day (3–4 times per week)",
+      "duration": "Hold 5–10 seconds × 10–12 repetitions × 3 sets",
+      "difficulty_level": "intermediate",
+      "contraindications": "Do not perform if you have significant lower back pain that is worsened by bridging, suspected hip fracture, or acute infection around the hip. Ensure the resistance band is not too tight, which could cause discomfort at the outer hip. Stop if the exercise reproduces your lateral hip pain significantly (above 3/10). Avoid over-arching the lower back at the top of the bridge.",
+      "video_reference_url": "[TO BE ADDED]"
+    }
+  ],
+  "recovery_timeline": {
+    "mild_estimate": "4–8 weeks with activity modification, postural changes, and gluteal strengthening exercises",
+    "moderate_estimate": "8–16 weeks with physiotherapy-guided progressive hip abductor strengthening, load management, and possible corticosteroid injection for short-term symptom relief",
+    "severe_estimate": "4–6 months or longer for chronic GTPS with gluteal tendon tears; may require imaging, injection therapy, extended rehabilitation, or surgical consultation in refractory cases",
+    "note": "Recovery from hip bursitis / GTPS requires addressing the underlying gluteal tendinopathy — not just the bursitis. Research shows that isolated trochanteric bursitis is rare (approximately 2% of cases); the majority of lateral hip pain is caused by gluteal tendon pathology. Therefore, treatment must focus on progressive hip abductor strengthening (gluteus medius and minimus), avoiding compressive positions (crossing legs, side-lying on affected side, prolonged hip adduction), and load management. Corticosteroid injections provide only short-term relief and do not address the root cause. NSAIDs may help acutely but are not advised for chronic cases as they may impair tendon healing. Patience is important — GTPS responds well to consistent exercise-based rehabilitation but can take several months."
+  },
+  "when_to_see_professional": [
+    "Lateral hip pain persists for more than 4–6 weeks despite activity modification and self-care exercises",
+    "Pain is significantly affecting your sleep — unable to find a comfortable position",
+    "Pain limits your ability to walk, climb stairs, or perform daily activities",
+    "You notice redness, warmth, or swelling around the hip — possible infection requiring urgent assessment",
+    "Pain is associated with fever or feeling unwell — seek medical attention immediately",
+    "The hip pain started after a fall or significant trauma — fracture must be ruled out",
+    "Pain is worsening despite treatment attempts",
+    "You want a confirmed diagnosis and a structured rehabilitation programme"
+  ],
+  "faqs": [
+    {
+      "question_en": "Is my problem really 'bursitis' — or something else?",
+      "question_zh": "我的問題真的是「滑囊炎」嗎——還是其他原因？",
+      "answer_en": "Despite being commonly called 'hip bursitis' or 'trochanteric bursitis', research has shown that isolated inflammation of the bursa is actually quite rare — found in only about 2% of patients with lateral hip pain. In the vast majority of cases, the primary problem is gluteal tendinopathy — degeneration or strain of the tendons of the gluteus medius and/or gluteus minimus muscles that attach near the bursa. These muscles are your key hip stabilisers. The bursa may become secondarily irritated, but it is rarely the main issue. This is why the condition is now more accurately called Greater Trochanteric Pain Syndrome (GTPS). Understanding this distinction is important because the most effective treatment focuses on strengthening the gluteal muscles through progressive exercises — not simply reducing 'inflammation'. Anti-inflammatory treatments alone (like ice, NSAIDs, or injections) may provide temporary relief, but without addressing the underlying tendon problem, symptoms tend to return.",
+      "answer_zh": "雖然通常被稱為「髖關節滑囊炎」或「大轉子滑囊炎」，但研究表明，孤立的滑囊炎症實際上相當罕見——僅見於約2%的髖關節外側痛患者。在絕大多數個案中，主要問題是臀肌肌腱病變——附著在滑囊附近的臀中肌和/或臀小肌肌腱退化或勞損。這些肌肉是你髖關節的關鍵穩定肌。滑囊可能會繼發性受到刺激，但它很少是主要問題。因此，這種狀況現在更準確地稱為大轉子疼痛綜合症（GTPS）。理解這個區別很重要，因為最有效的治療是通過漸進式運動來強化臀肌——而不是單純減少「發炎」。僅靠抗炎治療（如冰敷、消炎藥或注射）可能暫時緩解，但如果不解決根本的肌腱問題，症狀往往會復發。"
+    },
+    {
+      "question_en": "Why does my hip hurt more when I lie on my side in bed?",
+      "question_zh": "為什麼我側臥時髖關節痛楚會加劇？",
+      "answer_en": "This is one of the most common complaints with GTPS. When you lie on the affected side, the weight of your body directly compresses the irritated tendons and bursa against the bony prominence (greater trochanter) of your hip. This sustained pressure provokes pain. Even lying on the unaffected side can cause discomfort, because the top (affected) leg drops downward into an adducted (inward-angled) position, stretching and compressing the gluteal tendons over the trochanter. The solution is to sleep on your back (place a pillow under the knees for comfort) or, if you must sleep on your side, lie on the unaffected side with a thick pillow or folded blanket between your knees and ankles to keep the affected hip in a neutral position. Investing in a body pillow or placing a firm cushion lengthwise between your legs can make a significant difference to your sleep quality.",
+      "answer_zh": "這是大轉子疼痛綜合症最常見的投訴之一。當你側臥在患側時，身體的重量直接壓迫受刺激的肌腱和滑囊，使其壓在髖關節的骨突（大轉子）上。這種持續的壓力會引起痛楚。即使側臥在非患側也可能不舒服，因為上方（患側）的腿會向下垂至內收（向內傾斜）位置，拉伸並壓迫臀肌肌腱在大轉子上方。解決方法是仰臥睡覺（在膝蓋下放一個枕頭以增加舒適）；如果必須側臥，則臥在非患側，在兩膝蓋和腳踝之間放一個厚枕頭或摺疊毯子，以保持患側髖關節在中立位置。使用全身枕頭或在雙腿之間縱向放置一個穩固的靠墊，可以明顯改善你的睡眠質素。"
+    },
+    {
+      "question_en": "When can I return to exercise or sports?",
+      "question_zh": "我什麼時候可以恢復運動？",
+      "answer_en": "Return to exercise should be gradual and guided by your symptoms. As a general approach: (1) During the acute phase (first 2–4 weeks), reduce or modify activities that provoke your lateral hip pain. Avoid running, prolonged walking on hills or uneven surfaces, and single-leg loading exercises that are painful. Switch to low-impact activities like swimming (avoiding breaststroke which involves hip abduction), cycling with a properly adjusted seat height, or walking on flat surfaces for shorter distances. (2) Once your symptoms have settled to a mild level (pain ≤ 2/10 during activities), gradually reintroduce walking distance and low-impact exercise. Continue your gluteal strengthening programme throughout. (3) Progress to higher-impact activities (jogging, court sports) only when you can walk 30+ minutes pain-free, climb stairs without pain, and perform 15+ pain-free single-leg bridges or standing hip abduction exercises. (4) Increase intensity by no more than 10% per week. Avoid sudden spikes in training load. Throughout your return to sport, continue avoiding compressive positions (crossing legs, standing with weight shifted to one hip) and maintain your hip-strengthening exercises as ongoing injury prevention.",
+      "answer_zh": "恢復運動應循序漸進，以你的症狀為指引。一般方法：（1）在急性階段（首2至4星期），減少或調整引起髖關節外側痛的活動。避免跑步、在斜坡或不平路面長時間步行，以及會引起痛楚的單腿負重練習。改為低衝擊活動，如游泳（避免蛙泳，因涉及髖關節外展）、調校好座高的踩單車，或在平坦路面短距離步行。（2）當症狀降至輕微水平（活動時痛楚≤2/10），逐步增加步行距離和低衝擊運動。整個過程繼續進行臀肌強化計劃。（3）只有當你能無痛步行30分鐘以上、上樓梯無痛，且能完成15次以上無痛的單腿橋式或站立髖關節外展練習時，才可恢復較高衝擊的活動（慢跑、球場運動）。（4）每星期強度增加不超過10%。避免訓練量突然飆升。在重返運動的過程中，繼續避免壓迫性姿勢（翹腳、單側承重站立），並維持髖關節強化運動作為持續的傷害預防。"
+    },
+    {
+      "question_en": "Should I stretch my hip to help with the pain?",
+      "question_zh": "我應該伸展髖關節來減輕痛楚嗎？",
+      "answer_en": "This is a very important question, and the answer may surprise you — many common hip stretches can actually make GTPS worse. Stretches that bring the hip into adduction (crossing the leg over the midline) or deep external rotation compress the gluteal tendons against the greater trochanter, increasing irritation. This includes the classic ITB stretch (crossing the affected leg behind the other), pigeon pose in yoga, figure-4 stretch, and deep hip flexor stretches. Instead of stretching the outer hip, focus on strengthening the gluteal muscles through the exercises described above. If your hip feels stiff, gentle range-of-motion movements within a comfortable range are fine, but avoid sustained stretches that reproduce your lateral hip pain. If you have tightness in other areas (such as the calf, hamstring, or quadriceps), those can be stretched safely. A physiotherapist can advise you on which stretches are safe and which to avoid for your specific situation.",
+      "answer_zh": "這是一個非常重要的問題，答案可能會讓你驚訝——許多常見的髖關節伸展動作實際上會令大轉子疼痛綜合症惡化。將髖關節帶入內收位（腿部越過身體中線）或深外旋的伸展動作會壓迫臀肌肌腱在大轉子上，增加刺激。這包括經典的髂脛束伸展（將患側腿交叉到另一條腿後方）、瑜伽的鴿子式、4字形伸展及深髖屈肌伸展。與其伸展髖關節外側，應專注於通過上述練習強化臀肌。如果髖關節感覺僵硬，在舒適範圍內的輕柔活動是可以的，但要避免持續的伸展動作引起髖關節外側痛。如果其他部位感到繃緊（如小腿、膕繩肌或四頭肌），這些可以安全地伸展。物理治療師可以根據你的具體情況建議哪些伸展是安全的，哪些應該避免。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Trochanteric Bursitis — Physiopedia",
+      "url": "https://www.physio-pedia.com/Trochanteric_Bursitis",
+      "type": "professional_guideline"
+    },
+    {
+      "title": "Grimaldi A et al. Gluteal Tendinopathy: Integrating Pathomechanics and Clinical Features in Its Management. J Orthop Sports Phys Ther. 2015;45(11):910-22.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26304644/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Grimaldi A et al. Gluteal Tendinopathy: A Review of Mechanisms, Assessment and Management. Sports Med. 2015;45(8):1107-19.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25969366/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Board TN et al. Trochanteric Bursitis: The Last Great Misnomer. Hip Int. 2014;24(6):610-5.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25198296/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Lange J et al. Low Prevalence of Trochanteric Bursitis in Patients with Refractory Lateral Hip Pain. Dan Med J. 2022;69(7):A09210714.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35786092/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Speers CJ, Bhogal GS. Greater Trochanteric Pain Syndrome: A Review of Diagnosis and Management in General Practice. Br J Gen Pract. 2017;67(663):479-80.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28947621/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Lin CY, Fredericson M. Greater Trochanteric Pain Syndrome: An Update on Diagnosis and Management. Curr Phys Med Rehabil Rep. 2015;3(1):60-6.",
+      "url": "https://link.springer.com/article/10.1007/s40141-015-0077-8",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Clinical Guideline for First-contact Physiotherapists on Assessment and Cross-disciplinary Management Approach for Common Musculoskeletal Problems in Primary Care Setting. Primary Healthcare Commission, Hong Kong. Dec 2025.",
+      "url": "",
+      "type": "government_guideline"
+    }
+  ],
+  "review_status": {
+    "reviewed_by": "[PENDING — Physiotherapist Name]",
+    "reviewer_credentials": "[PENDING]",
+    "review_date": null,
+    "next_review_date": null,
+    "approved": false
+  },
+  "metadata": {
+    "created_date": "2026-04-29",
+    "last_updated": "2026-05-02",
+    "version": "0.1-draft"
+  }
+}

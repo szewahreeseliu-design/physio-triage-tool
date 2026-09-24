@@ -1,0 +1,327 @@
+{
+  "condition_id": "MSK-004",
+  "condition_name_en": "Neck Pain",
+  "condition_name_zh": "頸痛",
+  "body_area": [
+    "neck",
+    "cervical spine"
+  ],
+  "category": "musculoskeletal",
+  "patient_language_aliases": [
+    "neck pain",
+    "stiff neck",
+    "sore neck",
+    "my neck hurts",
+    "crick in my neck",
+    "neck is locked up",
+    "can't turn my head",
+    "pain in the back of my neck",
+    "neck and shoulder pain",
+    "woke up with a stiff neck",
+    "wry neck",
+    "頸痛",
+    "落枕",
+    "瞓厲頸",
+    "頸梗",
+    "頸膊痛"
+  ],
+  "symptoms": [
+    {
+      "description_en": "Localised pain or aching in the neck, which may be sharp or dull and can vary in intensity",
+      "description_zh": "頸部局部疼痛或酸痛，可能是尖銳或鈍痛，嚴重程度不一"
+    },
+    {
+      "description_en": "Referred pain including headache, shoulder pain, upper or lower back pain, or radiating pain with upper extremity numbness",
+      "description_zh": "轉移性疼痛，包括頭痛、肩膀痛、上背或下背痛，或伴有上肢麻痺的放射性疼痛"
+    },
+    {
+      "description_en": "Reduced range of motion — difficulty turning the head, looking up, or tilting to the side",
+      "description_zh": "活動幅度減少——轉頭、仰頭或側傾困難"
+    },
+    {
+      "description_en": "Muscle tightness, spasm, or tenderness, especially in the upper trapezius and surrounding neck muscles",
+      "description_zh": "肌肉繃緊、痙攣或壓痛，尤其是上斜方肌及周圍頸部肌肉"
+    },
+    {
+      "description_en": "Coordination impairment — difficulty with fine motor tasks or a sense of clumsiness in head and neck movements",
+      "description_zh": "動作協調障礙——精細動作困難或頭頸部活動時感覺不靈活"
+    },
+    {
+      "description_en": "Dizziness, nausea, or a sense of unsteadiness (associated with cervical vertigo)",
+      "description_zh": "頭暈、噁心或不穩感（與頸椎性眩暈相關）"
+    }
+  ],
+  "guided_questions": [
+    {
+      "question_en": "Where exactly do you feel the pain? Does it stay in your neck, or does it spread to your head, shoulders, or arms?",
+      "question_zh": "你具體在哪個位置感到疼痛？疼痛是停留在頸部，還是擴散到頭部、肩膀或手臂？",
+      "purpose": "Localise the pain and identify referral patterns. The source notes neck pain commonly presents with referred pain (headache, shoulder pain, arm numbness), which helps classify per the APTA guidelines into mobility deficit, coordination impairment, headache, or radiating pain categories."
+    },
+    {
+      "question_en": "How and when did the pain start? Was there a specific incident — such as a car accident, fall, sports injury, or sudden movement?",
+      "question_zh": "疼痛是怎樣開始的？什麼時候開始？有沒有特定事件——例如車禍、跌倒、運動受傷或突然的動作？",
+      "purpose": "Identify mechanism of injury. The source emphasises RTA, concussion, and whiplash as key causes of acute neck pain. Traumatic onset may require the Canadian C-spine Rule to determine if imaging is needed to rule out fracture."
+    },
+    {
+      "question_en": "On a scale of 1 to 10, how would you rate the pain? Is the pain constant or does it come and go?",
+      "question_zh": "以1到10分計算，你的疼痛程度是多少？疼痛是持續的還是間歇性的？",
+      "purpose": "Quantify pain severity and pattern for triage classification. The source case study uses a 4/10 intermittent pain as a reference for moderate presentation."
+    },
+    {
+      "question_en": "What is your occupation or daily routine? Do you spend long hours at a desk, looking at screens, or doing physical work?",
+      "question_zh": "你的職業或日常生活是怎樣的？你是否長時間坐在辦公桌前、看螢幕或從事體力工作？",
+      "purpose": "Identify occupational and ergonomic risk factors. The source identifies sitting hunched over as the most common cause of cervical muscle sprain, and notes that occupational history helps determine if the job impacts pain."
+    },
+    {
+      "question_en": "Are you experiencing any stress, anxiety, or low mood that might be affecting your pain or sleep?",
+      "question_zh": "你是否正在經歷壓力、焦慮或情緒低落，可能影響到你的疼痛或睡眠？",
+      "purpose": "Screen for psychosocial yellow flags. The source explicitly states that psychological factors are risk factors for neck pain and that psychological well-being can significantly influence pain. Addressing these is crucial for preventing chronicity."
+    },
+    {
+      "question_en": "Do you have any numbness, tingling, or weakness in your arms or hands? Any changes in grip strength?",
+      "question_zh": "你的手臂或手部有沒有麻痺、刺痛或無力感？握力有沒有改變？",
+      "purpose": "Screen for cervical radiculopathy or myelopathy. Numbness with upper extremity involvement suggests nerve root compression. The APTA classification includes 'neck pain with radiating pain' as a distinct category requiring different management."
+    },
+    {
+      "question_en": "Do you have any of the following: dizziness, double vision, difficulty swallowing or speaking, unsteady walking, fever, or loss of bladder or bowel control?",
+      "question_zh": "你有沒有以下症狀：頭暈、複視、吞嚥或說話困難、步態不穩、發燒，或大小便失禁？",
+      "purpose": "CRITICAL red-flag screening. The source details the '5 D's and 3 N's' (dizziness, diplopia, dysarthria, dysphagia, drop attacks; nystagmus, nausea, numbness) indicating vertebrobasilar insufficiency. Bladder/bowel issues suggest spinal cord compression. Fever may indicate infection extending into the brain. These require immediate medical attention."
+    }
+  ],
+  "severity_classification": {
+    "mild": {
+      "indicators": [
+        "Pain rated 1–3 out of 10",
+        "Mainly stiffness with some reduced range of motion",
+        "No radiating pain to arms or hands",
+        "Can still perform daily activities with mild discomfort",
+        "No neurological symptoms (numbness, tingling, weakness)"
+      ],
+      "self_care_appropriate": true,
+      "description_en": "Your symptoms suggest mild neck pain, which is very common — research shows that 40 to 70% of people will experience neck pain at some point. This often results from muscle strain, poor posture, or sleeping in an awkward position. The good news is that most mild neck pain improves significantly within a few weeks with gentle range-of-motion exercises, good posture habits, and staying active. A firm pillow can also help support your head during sleep.",
+      "description_zh": "你的症狀顯示為輕度頸痛，這是非常常見的——研究顯示40至70%的人都會在某個時候經歷頸痛。這通常是由肌肉拉傷、姿勢不良或睡覺姿勢不當引起的。好消息是，大部分輕度頸痛透過輕柔的活動幅度運動、良好的姿勢習慣和保持活動，在幾星期內會明顯改善。使用較硬的枕頭也有助於在睡眠時支撐頭部。"
+    },
+    "moderate": {
+      "indicators": [
+        "Pain rated 4–6 out of 10",
+        "Significantly limited range of motion in multiple directions",
+        "Pain referring to the head (headache) or shoulders",
+        "Muscle tightness and tenderness in the upper trapezius",
+        "Symptoms affecting work, daily activities, or sleep"
+      ],
+      "recommend_professional": true,
+      "description_en": "Your symptoms suggest moderate neck pain that is affecting your daily life. A physiotherapist can provide manual therapy, targeted exercises, and advice tailored to your specific situation. Treatment typically begins with gentle range-of-motion exercises and progresses to strengthening exercises as your pain improves. In the meantime, try to maintain activity within your comfort level and use the exercises below to manage your symptoms.",
+      "description_zh": "你的症狀顯示為中度頸痛，已經影響到你的日常生活。物理治療師可以提供手法治療、針對性運動和根據你具體情況的建議。治療通常從輕柔的活動幅度運動開始，隨著疼痛改善逐步進展到強化運動。在此期間，請盡量在舒適的範圍內保持活動，並使用以下運動來控制症狀。"
+    },
+    "severe": {
+      "indicators": [
+        "Pain rated 7–10 out of 10",
+        "Radiating pain with numbness, tingling, or weakness in the arms or hands",
+        "Neck pain following significant trauma (car accident, fall, head injury)",
+        "Dizziness, double vision, difficulty swallowing, or unsteady gait",
+        "Fever, severely limiting range of motion, or worsening symptoms"
+      ],
+      "seek_immediate_help": true,
+      "description_en": "Your symptoms suggest a more serious condition that requires prompt professional assessment. If your neck pain started after a car accident, fall, or head injury, you should be evaluated as soon as possible to rule out fracture or serious injury. If you are experiencing dizziness, double vision, difficulty swallowing or speaking, unsteady walking, loss of bladder or bowel control, or fever — please go to A&E or call 999 immediately. These may indicate a vertebrobasilar problem, spinal cord compression, or infection.",
+      "description_zh": "你的症狀顯示可能較為嚴重，需要盡快接受專業評估。如果你的頸痛是在車禍、跌倒或頭部受傷後開始的，你應儘快接受檢查以排除骨折或嚴重損傷。如果你正在經歷頭暈、複視、吞嚥或說話困難、步態不穩、大小便失禁或發燒——請立即前往急症室或致電999。這些可能是椎動脈問題、脊髓受壓或感染的徵兆。"
+    }
+  },
+  "red_flags": [
+    "Dizziness, diplopia (double vision), dysarthria (slurred speech), dysphagia (difficulty swallowing), or drop attacks — the '5 D's' indicating possible vertebrobasilar insufficiency",
+    "Nystagmus (involuntary eye movements), nausea, or numbness — the '3 N's' indicating possible vertebrobasilar insufficiency",
+    "Loss of bladder or bowel control — possible spinal cord compression (EMERGENCY)",
+    "Sensory changes or progressive weakness in arms, hands, or legs — possible cervical myelopathy",
+    "Unsteady gait or balance problems — possible spinal cord involvement",
+    "Neck pain following significant trauma (car accident, fall, head injury) — possible cervical fracture or dislocation",
+    "Fever combined with neck pain — possible infection extending into the brain or spinal infection",
+    "Worsening symptoms despite rest and treatment",
+    "Age over 50 with first episode of neck pain and no mechanical cause — screen for serious pathology",
+    "Previous history of cancer with new onset of neck pain — possible metastatic disease",
+    "Unexplained weight loss combined with persistent neck pain",
+    "Severely limiting range of motion or pain — possible fracture or serious pathology",
+    "Blood pressure above 160/95 or resting pulse above 100 bpm in the context of neck pain assessment"
+  ],
+  "possible_causes": [
+    {
+      "cause_en": "Cervical muscle sprain or strain from overuse or poor posture (the most common cause of acute neck pain)",
+      "cause_zh": "頸部肌肉扭傷或拉傷，由過度使用或姿勢不良引起（急性頸痛最常見的原因）",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Poor ergonomics — prolonged sitting hunched over at a desk, computer, or phone",
+      "cause_zh": "人體工學不良——長時間彎腰駝背坐在辦公桌前、電腦前或看手機",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Sleeping in an awkward position or using an unsupportive pillow",
+      "cause_zh": "睡覺姿勢不當或使用不合適的枕頭",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Muscle weakness or asymmetric muscle training (e.g., overactive upper trapezius with weak lower trapezius)",
+      "cause_zh": "肌肉無力或不對稱的肌肉訓練（例如上斜方肌過度活躍而下斜方肌較弱）",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Whiplash injury from road traffic accident or other trauma",
+      "cause_zh": "車禍或其他創傷引起的鞭甩傷",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Concussion or post-concussion syndrome",
+      "cause_zh": "腦震盪或腦震盪後症候群",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Cervical disc herniation or degenerative disc disease",
+      "cause_zh": "頸椎椎間盤突出或椎間盤退化",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Cervical radiculopathy (nerve root compression causing arm symptoms)",
+      "cause_zh": "頸椎神經根病變（神經根受壓引致手臂症狀）",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Arthritis or degenerative changes in the cervical spine (more common with advancing age)",
+      "cause_zh": "頸椎關節炎或退行性改變（隨年齡增長更常見）",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Spinal infection, tumour, or fracture",
+      "cause_zh": "脊椎感染、腫瘤或骨折",
+      "likelihood": "rare"
+    }
+  ],
+  "self_care_exercises": [
+    {
+      "exercise_name_en": "Gentle Neck Range of Motion Exercises",
+      "exercise_name_zh": "輕柔頸部活動幅度運動",
+      "instructions_en": "Sit upright in a comfortable chair with your shoulders relaxed. Slowly and gently perform each of the following movements, holding each end position for 2–3 seconds: (1) Flexion — lower your chin toward your chest. (2) Extension — gently look up toward the ceiling. (3) Rotation — turn your head to look over your right shoulder, then your left. (4) Side flexion — tilt your right ear toward your right shoulder, then your left ear toward your left shoulder. Move only within a comfortable, pain-free range. Do not force any movement. These exercises are recommended by NICE guidelines as initial early treatment for acute neck pain.",
+      "instructions_zh": "坐直在舒適的椅子上，肩膀放鬆。慢慢輕柔地進行以下每個動作，在末端位置保持2至3秒：(1) 前屈——下巴向胸口方向低下。(2) 後伸——輕輕向上望向天花板。(3) 旋轉——轉頭望向右肩，然後左肩。(4) 側屈——右耳向右肩傾斜，然後左耳向左肩傾斜。只在舒適無痛的範圍內活動，不要強迫任何動作。這些運動是NICE指引建議作為急性頸痛的初期治療。",
+      "frequency": "5 repetitions in each direction × 3 sets",
+      "duration": "Daily — every 2–3 hours during waking hours",
+      "difficulty_level": "beginner",
+      "contraindications": "Stop if any movement causes sharp pain, dizziness, nausea, or radiating symptoms into the arms. Do not perform if you have had recent significant trauma to the neck without being cleared by a medical professional. Avoid extension if it significantly worsens symptoms.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Chin Tucks (Deep Neck Flexor Activation)",
+      "exercise_name_zh": "收下巴運動（深層頸屈肌啟動）",
+      "instructions_en": "Sit or stand with your back straight and shoulders relaxed. Without tilting your head up or down, gently draw your chin straight back — as if trying to create a double chin. You should feel a gentle stretch at the base of your skull and a mild engagement of the muscles at the front of your neck. Hold for 5 seconds, then relax. This exercise strengthens the deep cervical flexor muscles, which are often weak in people with neck pain, and helps correct the forward head posture that is a major contributor to neck pain.",
+      "instructions_zh": "坐直或站直，肩膀放鬆。不要將頭上仰或下垂，輕輕將下巴向後收——像要做出雙下巴一樣。你應該感到後腦勺底部有輕柔的拉伸感，頸部前方肌肉有輕微的收緊感。保持5秒，然後放鬆。這個運動強化深層頸屈肌——頸痛患者這些肌肉通常較弱——並有助糾正前傾頭部姿勢，這是導致頸痛的主要因素。",
+      "frequency": "10 repetitions × 3 sets",
+      "duration": "Daily — can be done at your desk",
+      "difficulty_level": "beginner",
+      "contraindications": "Perform gently and do not use excessive force. Stop if the exercise causes dizziness. Avoid if you have acute cervical vertigo symptoms.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Isometric Neck Strengthening",
+      "exercise_name_zh": "等長頸部強化運動",
+      "instructions_en": "Sit upright. Place your right hand against the right side of your head. Gently push your head into your hand, while your hand resists the movement so that your head stays still. Hold for 5 seconds. Repeat on the left side, then with your hand on your forehead (resisting flexion), and finally with both hands behind your head (resisting extension). The key is that NO movement occurs — you're simply contracting the neck muscles against resistance. Start with very light pressure and gradually increase as tolerated. These isometric holds build neck muscle strength safely without requiring neck movement.",
+      "instructions_zh": "坐直。將右手放在頭部右側。輕輕將頭部向手掌方向推，同時手掌抵抗動作使頭部保持不動。保持5秒。換左側重複，然後手放在額頭前方（抵抗前屈），最後雙手放在後腦勺（抵抗後伸）。關鍵是不產生任何實際動作——你只是在對抗阻力收縮頸部肌肉。從很輕的力度開始，逐漸增加。這些等長收縮能安全地增強頸部肌肉力量，而不需要頸部活動。",
+      "frequency": "5 repetitions in each direction, holding 5 seconds each",
+      "duration": "Daily",
+      "difficulty_level": "intermediate",
+      "contraindications": "Use only gentle pressure initially. Do not perform if you have signs of cervical instability or have had recent cervical fracture. Stop if the exercise causes dizziness, radiating pain, or increased numbness.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Upper Trapezius Stretch",
+      "exercise_name_zh": "上斜方肌伸展",
+      "instructions_en": "Sit upright on a chair. Reach your right hand down and hold the underside of the chair seat to anchor your right shoulder. Gently tilt your left ear toward your left shoulder until you feel a comfortable stretch along the right side of your neck and upper trapezius muscle. You can use your left hand to apply very gentle overpressure on the right side of your head, but do NOT pull — just let the weight of your hand add to the stretch. Hold for 20–30 seconds, breathing deeply. Release slowly and repeat on the other side.",
+      "instructions_zh": "坐直在椅子上。用右手向下握住椅座底部以固定右肩。輕輕將左耳向左肩傾斜，直到感覺頸部右側和上斜方肌有舒適的拉伸感。你可以用左手在頭部右側施加非常輕柔的壓力，但不要拉扯——只讓手的重量增加拉伸感。保持20至30秒，深呼吸。慢慢鬆開，換另一側重複。",
+      "frequency": "3 repetitions per side, holding 20–30 seconds each",
+      "duration": "Daily — especially after prolonged desk work",
+      "difficulty_level": "beginner",
+      "contraindications": "Do not force the stretch. Stop if it produces radiating pain, tingling, or numbness in the arm. Avoid if you have acute cervical disc herniation with arm symptoms.",
+      "video_reference_url": "[TO BE ADDED]"
+    }
+  ],
+  "recovery_timeline": {
+    "mild_estimate": "1–3 weeks with gentle range-of-motion exercises and postural correction",
+    "moderate_estimate": "4–8 weeks with physiotherapy including manual therapy and progressive strengthening",
+    "severe_estimate": "8–12+ weeks; may require imaging, specialist referral, or multidisciplinary management",
+    "note": "Acute neck pain is characterised by lasting less than three months. Most cases of non-traumatic neck pain improve significantly within a few weeks with conservative treatment. However, psychological factors (stress, anxiety, depression), occupational demands, and fear of movement (kinesiophobia) can prolong recovery and increase the risk of the condition becoming chronic. The source case study demonstrates a progressive rehabilitation approach: starting with ROM exercises with gravity assistance, progressing to ROM against gravity, isometric holds, strengthening, and finally sport-specific exercises."
+  },
+  "when_to_see_professional": [
+    "Neck pain persists beyond 2–3 weeks despite self-care and exercises",
+    "Pain is worsening or spreading to arms, hands, or head",
+    "Any numbness, tingling, or weakness in the arms or hands",
+    "Neck pain started after a car accident, fall, head injury, or significant trauma",
+    "Dizziness, double vision, difficulty swallowing, or unsteady walking",
+    "Fever combined with severe neck pain and stiffness",
+    "Pain is significantly affecting your ability to work, sleep, or perform daily activities"
+  ],
+  "faqs": [
+    {
+      "question_en": "Is my pillow or sleeping position causing my neck pain?",
+      "question_zh": "我的枕頭或睡覺姿勢是否導致了頸痛？",
+      "answer_en": "It's very possible. Sleeping in an awkward position is one of the most common triggers for acute neck pain — many people wake up with a 'crick' in their neck after sleeping in an unusual position. NICE guidelines and physiotherapy advice recommend using a firm, supportive pillow that keeps your neck aligned with your spine. Avoid sleeping on your stomach, as this forces your neck into an extreme rotation. If you sleep on your side, ensure the pillow fills the gap between your shoulder and head so your neck stays neutral.",
+      "answer_zh": "很有可能。睡覺姿勢不當是引起急性頸痛最常見的原因之一——很多人在不正確的睡姿後醒來時會感到頸部僵硬。NICE指引和物理治療建議使用較硬的支撐性枕頭，讓頸部與脊椎保持一致。避免趴著睡，因為這會迫使頸部極度旋轉。如果你側睡，確保枕頭填滿肩膀和頭部之間的空隙，使頸部保持中立位。"
+    },
+    {
+      "question_en": "Can stress and anxiety cause neck pain?",
+      "question_zh": "壓力和焦慮會引起頸痛嗎？",
+      "answer_en": "Yes, absolutely. Research identifies psychological factors including stress, anxiety, and depression as significant risk factors for neck pain. Stress causes involuntary muscle tension, particularly in the neck and upper trapezius muscles, which over time leads to pain and stiffness. The source emphasises that psychological well-being can have a significant influence on pain, and clinicians are advised to consider 'yellow flags' — psychosocial factors that may prevent recovery — when managing neck pain. Addressing stress through relaxation techniques, regular exercise, adequate sleep, and, if needed, professional psychological support can all help reduce neck pain.",
+      "answer_zh": "是的，絕對會。研究顯示壓力、焦慮和抑鬱等心理因素是頸痛的重要風險因素。壓力會導致不自主的肌肉緊張，尤其是頸部和上斜方肌，長期下來會引起疼痛和僵硬。資料來源強調心理健康對疼痛有顯著影響，臨床醫師在處理頸痛時被建議考慮「黃旗」——可能阻礙康復的心理社會因素。透過放鬆技巧、定期運動、充足睡眠，以及在需要時尋求專業心理支援，都有助於減少頸痛。"
+    },
+    {
+      "question_en": "When can I return to exercise or sports?",
+      "question_zh": "我多快可以恢復運動？",
+      "answer_en": "For mild neck pain, you can usually continue low-impact exercise immediately — staying active is part of the treatment. For moderate cases, follow a progressive approach as demonstrated in the physiotherapy literature: start with gentle range-of-motion exercises, progress to isometric strengthening, then resistance exercises, and finally sport-specific activities. For the source's case study patient (a golfer with WAD Grade II), the progression went from ROM exercises to isometric holds to eventually practising golf swings. Avoid contact sports or high-impact activities until you have regained full range of motion and strength. Always consult a physiotherapist before returning to sports if your neck pain was caused by trauma.",
+      "answer_zh": "對於輕度頸痛，你通常可以立即繼續低衝擊運動——保持活動是治療的一部分。中度個案應按照漸進式方法：從輕柔的活動幅度運動開始，進展到等長強化運動，然後是阻力運動，最後是針對運動專項的練習。資料來源的案例研究患者（一位患有鞭甩傷二級的高爾夫球手），康復過程從活動幅度運動進展到等長收縮，最終到練習揮桿動作。在恢復全部活動幅度和力量之前，避免接觸性運動或高衝擊活動。如果你的頸痛是由創傷引起的，恢復運動前請務必諮詢物理治療師。"
+    },
+    {
+      "question_en": "Do I need an X-ray or scan for my neck pain?",
+      "question_zh": "我的頸痛需要照X光或做掃描嗎？",
+      "answer_en": "Not usually. Most cases of neck pain are caused by muscle strain or poor posture and do not require imaging. However, if your neck pain started after a specific trauma (car accident, fall, head injury), clinicians may use the Canadian C-Spine Rule to determine whether an X-ray is needed to rule out a fracture. Imaging may also be considered if you have progressive neurological symptoms (weakness, numbness), signs of infection (fever), or if your symptoms have not improved after a reasonable course of conservative treatment. Your physiotherapist or doctor can advise if imaging is appropriate for your situation.",
+      "answer_zh": "通常不需要。大多數頸痛是由肌肉拉傷或姿勢不良引起的，不需要影像檢查。不過，如果你的頸痛是在特定創傷後開始的（車禍、跌倒、頭部受傷），臨床醫師可能會使用加拿大頸椎規則來決定是否需要照X光以排除骨折。如果你有漸進性神經症狀（無力、麻痺）、感染跡象（發燒），或症狀在合理的保守治療後仍未改善，也可能會考慮影像檢查。你的物理治療師或醫生可以建議影像檢查是否適合你的情況。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Physiopedia — Acute Neck Pain",
+      "url": "https://www.physio-pedia.com/Acute_Neck_Pain",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "NICE Clinical Knowledge Summaries — Neck Pain (Acute Torticollis)",
+      "url": "https://cks.nice.org.uk/topics/neck-pain-acute-torticollis/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Blanpied PR et al. — Neck Pain: Revision 2017 (APTA Clinical Practice Guidelines, JOSPT 2017)",
+      "url": "https://doi.org/10.2519/jospt.2017.0302",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Safiri S et al. — Global, regional, and national burden of neck pain, 1990–2017 (BMJ 2020)",
+      "url": "https://doi.org/10.1136/bmj.m791",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Kazeminasab S et al. — Neck pain: global epidemiology, trends and risk factors (BMC Musculoskelet Disord 2022)",
+      "url": "https://doi.org/10.1186/s12891-021-04957-4",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "HK Health Bureau — Clinical Guideline for First-contact Physiotherapists on Common MSK Problems in Primary Care",
+      "url": "https://www.healthbureau.gov.hk/phcc/rfs/assets/pdf/home/discipline-based_guidelines/clinical_guideline_on_first_contact_assessment_and_cross-disciplinary_management_approach_for_common_msk_problems.pdf",
+      "type": "government_guideline"
+    }
+  ],
+  "review_status": {
+    "reviewed_by": "[PENDING — Physiotherapist Name]",
+    "reviewer_credentials": "[PENDING — e.g., BSc Physiotherapy, HKPA Member]",
+    "review_date": null,
+    "next_review_date": null,
+    "approved": false
+  },
+  "metadata": {
+    "created_date": "2026-05-01",
+    "last_updated": "2026-05-01",
+    "version": "0.1-draft"
+  }
+}

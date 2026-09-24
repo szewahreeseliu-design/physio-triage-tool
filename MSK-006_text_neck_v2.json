@@ -1,0 +1,306 @@
+{
+  "condition_id": "MSK-006",
+  "condition_name_en": "Text Neck",
+  "condition_name_zh": "低頭族頸痛（短訊頸）",
+  "body_area": [
+    "neck",
+    "upper back"
+  ],
+  "category": "musculoskeletal",
+  "patient_language_aliases": [
+    "text neck",
+    "phone neck",
+    "neck pain from looking at my phone",
+    "my neck hurts from my phone",
+    "neck pain from texting",
+    "smartphone neck",
+    "neck sore from scrolling",
+    "tech neck",
+    "screen neck",
+    "forward head posture pain",
+    "neck pain from screens",
+    "低頭族頸痛",
+    "玩手機頸痛",
+    "短訊頸",
+    "低頭痛",
+    "睇電話頸梗"
+  ],
+  "symptoms": [
+    {
+      "description_en": "Neck pain, stiffness, and soreness — typically described as a dull ache in the lower part of the neck, which may become sharp or stabbing in more severe cases, usually present after prolonged device use",
+      "description_zh": "頸部疼痛、僵硬和酸痛——通常表現為頸部下方的鈍痛，嚴重時可能變為尖銳或刺痛感，通常在長時間使用電子裝置後出現"
+    },
+    {
+      "description_en": "Difficulty moving the neck after prolonged use of a device — stiffness when trying to turn, look up, or tilt the head",
+      "description_zh": "長時間使用裝置後頸部活動困難——嘗試轉頭、仰頭或傾斜頭部時感到僵硬"
+    },
+    {
+      "description_en": "Radiating pain into the shoulders and arms, which may accompany the neck pain",
+      "description_zh": "疼痛延伸至肩膀和手臂，可能伴隨頸痛出現"
+    },
+    {
+      "description_en": "Tension-type headaches — caused by sub-occipital muscle tightness from sustained forward head posture",
+      "description_zh": "緊張型頭痛——因持續前傾頭部姿勢導致枕下肌肉繃緊而引起"
+    },
+    {
+      "description_en": "Muscular weakness — particularly in the trapezius, rhomboids, and shoulder external rotators, creating an imbalance with tight anterior muscles",
+      "description_zh": "肌肉無力——尤其是斜方肌、菱形肌和肩部外旋肌，與前方緊繃的肌肉形成不平衡"
+    },
+    {
+      "description_en": "Reduced cervical and upper thoracic range of motion, and in some cases cervicogenic dizziness or temporomandibular joint (jaw) pain",
+      "description_zh": "頸椎和上胸椎活動幅度減少，部分情況可能出現頸椎源性眩暈或顳下頜關節（下顎）疼痛"
+    }
+  ],
+  "guided_questions": [
+    {
+      "question_en": "How many hours per day do you spend looking at your phone, tablet, or other handheld devices? How about a computer screen?",
+      "question_zh": "你每天花多少小時看手機、平板電腦或其他手持裝置？使用電腦螢幕呢？",
+      "purpose": "Quantify device usage duration, which is the primary proposed mechanism for text neck. The source emphasises assessing duration of electronic device usage as part of the assessment."
+    },
+    {
+      "question_en": "When you use your phone, what position is it usually in? Do you look down at it in your lap, or do you hold it up closer to eye level?",
+      "question_zh": "你使用手機時通常是什麼姿勢？你是低頭看放在膝蓋上的手機，還是把手機舉高到接近眼睛的水平？",
+      "purpose": "Assess posture during device use. The source defines text neck primarily as a postural phenomenon — forward head posture when using handheld devices."
+    },
+    {
+      "question_en": "When did the pain start, and does it get worse during or after using your phone or computer? Does it improve when you take breaks?",
+      "question_zh": "疼痛是什麼時候開始的？在使用手機或電腦期間或之後疼痛會加重嗎？休息時會改善嗎？",
+      "purpose": "Establish temporal relationship between device use and symptoms. If pain is constant regardless of device use, other causes should be considered."
+    },
+    {
+      "question_en": "On a scale of 1 to 10, how would you rate the pain? Is the pain just in your neck, or does it spread to your head, shoulders, or arms?",
+      "question_zh": "以1到10分計算，你的疼痛程度是多少？疼痛只在頸部，還是擴散到頭部、肩膀或手臂？",
+      "purpose": "Quantify severity and identify referral patterns. Radiating pain to arms with numbness may indicate cervical radiculopathy rather than simple postural strain."
+    },
+    {
+      "question_en": "What is your work setup like? Is your computer monitor at eye level? Do you take regular breaks from screen time?",
+      "question_zh": "你的工作環境設置如何？電腦螢幕是否在眼睛水平？你有沒有定時從螢幕前休息？",
+      "purpose": "Assess broader ergonomic factors. The source's systematic review recommends: avoiding prolonged static postures, positioning devices to reduce stress, and taking frequent breaks."
+    },
+    {
+      "question_en": "Have you noticed any weakness in your hands or arms, difficulty gripping objects, or changes in coordination?",
+      "question_zh": "你有沒有注意到手部或手臂無力、握物困難或動作協調改變？",
+      "purpose": "Screen for neurological involvement. This screens for cervical myelopathy or radiculopathy, which are more serious conditions that may be mistakenly attributed to 'text neck.'"
+    },
+    {
+      "question_en": "Do you have any numbness or tingling in your arms, difficulty walking, dizziness, or changes in bladder or bowel control?",
+      "question_zh": "你有沒有手臂麻痺或刺痛、行走困難、頭暈，或大小便控制改變？",
+      "purpose": "CRITICAL red-flag screening. These symptoms may indicate cervical myelopathy, spinal cord compression, or other serious pathology. It is important not to dismiss these as 'just text neck.'"
+    }
+  ],
+  "severity_classification": {
+    "mild": {
+      "indicators": [
+        "Intermittent neck stiffness or soreness that appears after prolonged device use",
+        "Pain rated 1–3 out of 10",
+        "Symptoms resolve with breaks, stretching, or position change",
+        "No radiating pain, headaches, or neurological symptoms",
+        "Full range of neck motion maintained"
+      ],
+      "self_care_appropriate": true,
+      "description_en": "Your symptoms suggest mild neck discomfort that appears to be related to prolonged device use or posture. This is a very common complaint, especially in Hong Kong where screen time is among the highest globally. The good news is that these symptoms typically respond very well to simple changes: taking regular breaks, adjusting your device position, and doing the exercises below. It's worth noting that while 'text neck' is a widely used term, the scientific evidence directly linking smartphone use to neck pain is actually limited — so try not to worry too much. Focus on general neck health: stay active, vary your postures, and avoid staying in any one position for too long.",
+      "description_zh": "你的症狀顯示為輕度頸部不適，似乎與長時間使用裝置或姿勢有關。這是非常常見的情況，尤其是在螢幕使用時間名列世界前茅的香港。好消息是，這些症狀通常透過簡單的改變就能有效改善：定時休息、調整裝置位置以及做以下的運動。值得一提的是，雖然「低頭族頸痛」是一個廣泛使用的術語，但直接將手機使用與頸痛聯繫的科學證據實際上是有限的——所以不必過於擔心。重點是保持整體頸部健康：保持活動、經常變換姿勢，避免長時間維持同一個姿勢。"
+    },
+    "moderate": {
+      "indicators": [
+        "Persistent neck pain rated 4–6 out of 10 that does not fully resolve with breaks",
+        "Frequent tension headaches",
+        "Noticeable muscle weakness in the shoulders or upper back",
+        "Difficulty performing work tasks or daily activities due to neck pain",
+        "Symptoms recurring regularly despite self-care"
+      ],
+      "recommend_professional": true,
+      "description_en": "Your symptoms suggest moderate neck pain that may be related to sustained postures and would benefit from professional assessment. A physiotherapist can provide a structured 2–4 week rehabilitation programme including soft tissue mobilisation, joint mobilisation, targeted stretching, muscle strengthening, and posture retraining. They can also assess whether there are other contributing factors beyond device use — such as muscle imbalances, joint stiffness, or psychosocial factors — that may need to be addressed.",
+      "description_zh": "你的症狀顯示為中度頸痛，可能與持續性姿勢有關，建議接受專業評估。物理治療師可以提供為期2至4星期的結構化康復計劃，包括軟組織鬆動、關節鬆動術、針對性伸展、肌肉強化和姿勢再訓練。他們也可以評估除裝置使用外是否有其他因素——例如肌肉不平衡、關節僵硬或心理社會因素——需要處理。"
+    },
+    "severe": {
+      "indicators": [
+        "Constant neck pain rated 7–10 out of 10 regardless of device use",
+        "Radiating pain into arms with numbness, tingling, or weakness",
+        "Significant loss of cervical range of motion",
+        "Dizziness, coordination problems, or TMJ pain",
+        "Symptoms persisting for months despite lifestyle changes and self-care"
+      ],
+      "seek_immediate_help": true,
+      "description_en": "Your symptoms go beyond what would typically be attributed to device-related posture and suggest a more significant underlying condition that requires professional assessment. Constant pain with radiating symptoms, numbness, or weakness may indicate cervical disc herniation, nerve compression, or other pathology. Please do not simply attribute these symptoms to 'text neck' — it is important to get a proper clinical diagnosis. Seek assessment from a physiotherapist or doctor as soon as possible.",
+      "description_zh": "你的症狀超出了通常歸因於裝置相關姿勢的範圍，顯示可能有更嚴重的潛在疾病，需要專業評估。持續性疼痛伴有放射性症狀、麻痺或無力，可能表示頸椎椎間盤突出、神經受壓或其他病理。請不要簡單地將這些症狀歸因於「低頭族頸痛」——接受正確的臨床診斷很重要。請儘快尋求物理治療師或醫生的評估。"
+    }
+  },
+  "red_flags": [
+    "Numbness, tingling, or progressive weakness in both arms or legs — possible cervical myelopathy or spinal cord compression",
+    "Loss of bladder or bowel control — possible spinal cord compression (EMERGENCY)",
+    "Unsteady gait or loss of coordination — possible cervical myelopathy",
+    "Severe headache that is sudden in onset, worst-ever, or accompanied by fever and neck stiffness — possible meningitis or vascular event",
+    "Dizziness with double vision, slurred speech, or difficulty swallowing — possible vertebrobasilar insufficiency",
+    "Pain that is constant, worsening, and unrelated to posture or device use — may indicate pathology beyond postural strain",
+    "Unexplained weight loss or fever combined with neck pain — possible infection or malignancy",
+    "History of cancer with new onset of neck pain — possible metastatic disease"
+  ],
+  "possible_causes": [
+    {
+      "cause_en": "Sustained forward head posture during smartphone, tablet, or handheld device use",
+      "cause_zh": "使用智能手機、平板電腦或手持裝置時持續前傾頭部姿勢",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Prolonged static postures without breaks — sitting in the same position for extended periods",
+      "cause_zh": "長時間維持靜態姿勢不休息——在同一個位置坐著很長時間",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Poor workstation ergonomics — computer screen too low, chair height incorrect, or device held in lap",
+      "cause_zh": "工作站人體工學不良——電腦螢幕太低、椅子高度不正確或裝置放在膝蓋上",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Muscle imbalance — weak lower trapezius, rhomboids, and deep cervical flexors with tight upper trapezius, levator scapulae, and suboccipital muscles",
+      "cause_zh": "肌肉不平衡——下斜方肌、菱形肌和深層頸屈肌較弱，上斜方肌、提肩胛肌和枕下肌肉繃緊",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Excessive repetitive movements — prolonged typing or swiping on devices",
+      "cause_zh": "過度重複性動作——長時間在裝置上打字或滑動",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Holding a large or heavy device in one hand for prolonged periods",
+      "cause_zh": "長時間單手握住大型或沉重的裝置",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Underlying cervical disc degeneration, facet joint dysfunction, or cervical radiculopathy mistakenly attributed to 'text neck'",
+      "cause_zh": "潛在的頸椎椎間盤退化、小面關節功能障礙或頸椎神經根病變，被錯誤歸因於「低頭族頸痛」",
+      "likelihood": "less_common"
+    }
+  ],
+  "self_care_exercises": [
+    {
+      "exercise_name_en": "Chin Tucks (Deep Neck Flexor Activation)",
+      "exercise_name_zh": "收下巴運動（深層頸屈肌啟動）",
+      "instructions_en": "Sit or stand with your back straight and shoulders relaxed. Without tilting your head up or down, gently draw your chin straight back — as if making a double chin. You should feel a gentle stretch at the base of your skull and a mild engagement of the muscles at the front of your neck. Hold for 5 seconds, then relax. This exercise directly counteracts the forward head posture associated with device use by strengthening the deep cervical flexors. The source specifically lists chin tuck exercises as a key treatment for text neck.",
+      "instructions_zh": "坐直或站直，肩膀放鬆。不要將頭上仰或下垂，輕輕將下巴向後收——像做雙下巴一樣。你應該感到後腦勺底部有輕柔的拉伸感，頸部前方肌肉有輕微的收緊感。保持5秒，然後放鬆。這個運動直接對抗使用裝置時的前傾頭部姿勢，強化深層頸屈肌。資料來源特別將收下巴運動列為低頭族頸痛的關鍵治療方法。",
+      "frequency": "10 repetitions × 3 sets",
+      "duration": "Daily — every hour during screen time",
+      "difficulty_level": "beginner",
+      "contraindications": "Perform gently. Stop if the exercise causes dizziness or increased pain. Not suitable if you have a known cervical fracture or instability.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Scapular Retraction and Rhomboid Strengthening",
+      "exercise_name_zh": "肩胛骨後收及菱形肌強化運動",
+      "instructions_en": "Sit or stand with your arms by your sides. Squeeze your shoulder blades together and down — imagine trying to hold a pencil between your shoulder blades. Hold for 5 seconds, then relax. Progress by adding a resistance band: hold a theraband in front of you with both hands at shoulder height, arms straight. Pull the band apart by squeezing your shoulder blades together. The source identifies weakness in the trapezius, rhomboids, and shoulder external rotators as a key feature of text neck, and emphasises restoring function to these muscles.",
+      "instructions_zh": "坐著或站著，雙臂放在身體兩側。將肩胛骨向後及向下夾緊——想像用肩胛骨之間夾住一支鉛筆。保持5秒，然後放鬆。進階方法：使用彈力帶——雙手在肩膀高度前方握住彈力帶，手臂伸直。通過收緊肩胛骨將彈力帶拉開。資料來源指出斜方肌、菱形肌和肩部外旋肌的無力是低頭族頸痛的主要特徵，並強調恢復這些肌肉的功能。",
+      "frequency": "10 repetitions × 3 sets (without band); 10 × 2 sets (with band)",
+      "duration": "Daily",
+      "difficulty_level": "beginner",
+      "contraindications": "Avoid if it causes sharp shoulder pain. Reduce resistance if using a band causes neck pain. Ensure shoulders stay relaxed and do not shrug up toward the ears.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Upper Trapezius and Levator Scapulae Stretch",
+      "exercise_name_zh": "上斜方肌及提肩胛肌伸展",
+      "instructions_en": "Sit upright on a chair. Reach your right hand down and hold the underside of the chair seat to anchor your shoulder. Gently tilt your left ear toward your left shoulder. For a deeper stretch of the levator scapulae, turn your head slightly to look down toward your left armpit. Hold for 20–30 seconds, breathing deeply. You should feel a stretch along the right side of your neck and the top of your shoulder. Release slowly and repeat on the other side. These muscles commonly become tight from sustained forward head posture during device use.",
+      "instructions_zh": "坐直在椅子上。用右手向下握住椅座底部以固定肩膀。輕輕將左耳向左肩傾斜。要更深入地伸展提肩胛肌，將頭稍微轉向看左腋窩方向。保持20至30秒，深呼吸。你應該感到頸部右側和肩膀頂部有拉伸感。慢慢鬆開，換另一側重複。這些肌肉在長時間使用裝置保持前傾頭部姿勢時通常會變得繃緊。",
+      "frequency": "3 repetitions per side, holding 20–30 seconds each",
+      "duration": "Daily — especially after prolonged screen time",
+      "difficulty_level": "beginner",
+      "contraindications": "Do not force the stretch. Stop if it produces radiating pain, tingling, or numbness in the arm. Avoid if you have acute cervical disc herniation with arm symptoms.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Thoracic Extension Stretch (Doorway or Chair)",
+      "exercise_name_zh": "胸椎伸展（門框或椅子）",
+      "instructions_en": "Option A (Chair): Sit in a chair and clasp your hands behind your head. Gently lean backward over the top of the chair back, allowing your upper back to extend. Hold for 5 seconds and return to upright. Option B (Doorway chest opener): Stand in a doorway with your forearms on each side of the frame at shoulder height. Gently step one foot forward through the doorway, allowing your chest to open and your upper back to extend. Hold for 20–30 seconds. This exercise opens the thoracic spine and chest, counteracting the rounded posture that develops from looking down at devices. The source notes that flattening of thoracic kyphosis and decreased upper thoracic range of motion are part of the text neck presentation.",
+      "instructions_zh": "選項A（椅子）：坐在椅子上，雙手交扣放在頭後方。輕輕向後靠在椅背上方，讓上背部伸展。保持5秒，回到直立位。選項B（門框胸部打開）：站在門框中，前臂放在門框兩側，與肩同高。輕輕將一隻腳向前邁入門框，讓胸部打開、上背部伸展。保持20至30秒。這個運動打開胸椎和胸部，對抗低頭看裝置時形成的圓肩姿勢。資料來源指出胸椎後凸變平和上胸椎活動幅度減少是低頭族頸痛表現的一部分。",
+      "frequency": "5 repetitions (chair); 3 repetitions holding 20–30 seconds (doorway)",
+      "duration": "Daily",
+      "difficulty_level": "beginner",
+      "contraindications": "Avoid the chair version if you have known osteoporosis or vertebral fractures. Stop if either version causes dizziness, sharp pain, or radiating symptoms.",
+      "video_reference_url": "[TO BE ADDED]"
+    }
+  ],
+  "recovery_timeline": {
+    "mild_estimate": "1–2 weeks with ergonomic adjustments, regular breaks, and self-care exercises",
+    "moderate_estimate": "2–4 weeks with a structured physiotherapy rehabilitation programme (as recommended in the source)",
+    "severe_estimate": "4–8+ weeks; may require investigation for underlying cervical pathology beyond postural factors",
+    "note": "Recovery is highly dependent on behaviour change. If device usage habits and posture do not change, symptoms are very likely to recur regardless of treatment. The source recommends a 2–4 week rehabilitation programme starting with soft tissue mobilisation and joint mobilisation, progressing to muscle strengthening, posture retraining, and home exercise. Importantly, the scientific evidence directly linking smartphone use to neck pain remains limited — recovery should therefore focus on general neck health principles (staying active, varying postures, strengthening) rather than overly focusing on device avoidance."
+  },
+  "when_to_see_professional": [
+    "Neck pain persists beyond 2–3 weeks despite ergonomic changes and self-care exercises",
+    "Frequent or worsening headaches that are not responding to simple measures",
+    "Pain radiating into the arms with numbness, tingling, or weakness",
+    "Neck stiffness that is progressively worsening rather than improving",
+    "Dizziness, coordination problems, or jaw pain developing alongside neck symptoms",
+    "Symptoms are significantly affecting your ability to work or study"
+  ],
+  "faqs": [
+    {
+      "question_en": "Is 'text neck' a real medical condition?",
+      "question_zh": "「低頭族頸痛」是一個真正的醫學病症嗎？",
+      "answer_en": "Honestly, the evidence is mixed. The term 'text neck' is widely used in popular media, but a scoping review published in the European Spine Journal found that the term 'lacks clarity' and has 'little clinical value at present.' Multiple studies have found NO direct correlation between forward neck posture from smartphone use and neck pain. That said, prolonged static postures in general — regardless of whether you're looking at a phone — can cause neck discomfort. So the practical advice remains the same: take regular breaks, vary your posture, stay active, and strengthen your neck muscles. Just don't panic about your phone causing permanent damage — the science doesn't support that claim.",
+      "answer_zh": "坦白說，證據是複雜的。「低頭族頸痛」在大眾媒體中被廣泛使用，但發表在《歐洲脊柱雜誌》的一篇範圍綜述發現，這個術語「缺乏明確定義」，且「目前臨床價值有限」。多項研究未發現使用智能手機時的前傾頸部姿勢與頸痛之間有直接關聯。話雖如此，長時間維持靜態姿勢——無論你是否在看手機——一般都可能引起頸部不適。所以實際建議不變：定時休息、變換姿勢、保持活動、強化頸部肌肉。但不必恐慌你的手機會造成永久損害——科學並不支持這種說法。"
+    },
+    {
+      "question_en": "Can text neck cause permanent damage?",
+      "question_zh": "低頭族頸痛會造成永久損害嗎？",
+      "answer_en": "One paper proposed that long-term untreated text neck could lead to early-onset arthritis, spinal degeneration, disc compression, and even plastic changes in the nervous system. However, it is very important to note that these claims were NOT given supporting evidence in the original article, and the broader scientific literature has not confirmed these long-term risks. While it's always wise to maintain good posture habits and stay physically active, there is no solid evidence that looking at your phone will cause irreversible spinal damage. Focus on general neck health rather than fear-based avoidance of technology.",
+      "answer_zh": "一篇論文提出，長期未處理的低頭族頸痛可能導致早發性關節炎、脊椎退化、椎間盤壓迫，甚至神經系統的塑性變化。然而，非常重要的是，這些說法在原始文章中並沒有提供支持證據，更廣泛的科學文獻也未確認這些長期風險。雖然保持良好的姿勢習慣和積極運動始終是明智的，但沒有確鑿的證據表明看手機會造成不可逆的脊椎損害。請專注於整體頸部健康，而非因恐懼而避免使用科技。"
+    },
+    {
+      "question_en": "When can I return to exercise or sports?",
+      "question_zh": "我多快可以恢復運動？",
+      "answer_en": "For most cases of neck discomfort associated with device use, you don't need to stop exercising at all — in fact, regular exercise is part of the solution. Staying active, particularly with exercises that strengthen your upper back, shoulders, and deep neck muscles, directly addresses the muscle imbalances associated with prolonged forward head posture. Walking, swimming, yoga, and Pilates are all excellent options. If your pain is more severe, start with the gentle exercises recommended above and gradually return to your normal activities over 1–2 weeks. Avoid heavy overhead lifting or contact sports only if they aggravate your symptoms. The key message: more movement, not less.",
+      "answer_zh": "對於大多數與裝置使用相關的頸部不適，你根本不需要停止運動——事實上，定期運動是解決方案的一部分。保持活動，特別是強化上背部、肩膀和深層頸部肌肉的運動，能直接解決長時間前傾頭部姿勢造成的肌肉不平衡。步行、游泳、瑜伽和普拉提都是極好的選擇。如果你的疼痛較為嚴重，從上述建議的輕柔運動開始，在1至2星期內逐漸恢復正常活動。只有在會加劇症狀的情況下才避免沉重的過頭舉重或接觸性運動。關鍵信息：需要更多運動，而非更少。"
+    },
+    {
+      "question_en": "How much screen time is too much?",
+      "question_zh": "多少螢幕時間算是過多？",
+      "answer_en": "There are no specific evidence-based guidelines on a 'safe' amount of screen time for neck health. The source's systematic review recommends avoiding excessive usage, taking frequent breaks, avoiding prolonged static postures, and positioning devices to reduce stress on the head, neck, and upper extremities. A practical approach used by many physiotherapists is the '20-20-20 rule': every 20 minutes, take a 20-second break and look at something 20 feet away. Additionally, try to change your posture every 30 minutes — stand up, walk around, stretch. The issue is less about total screen time and more about HOW you use your devices: holding them at eye level, taking breaks, and maintaining a variety of postures throughout the day.",
+      "answer_zh": "關於頸部健康的「安全」螢幕使用時間，目前沒有特定的循證指引。資料來源的系統綜述建議：避免過度使用、頻繁休息、避免長時間靜態姿勢，以及調整裝置位置以減少對頭部、頸部和上肢的壓力。許多物理治療師使用的實用方法是「20-20-20法則」：每20分鐘休息20秒，看20英尺遠的東西。此外，嘗試每30分鐘改變一次姿勢——站起來、走動、伸展。問題不在於總螢幕時間的多少，而在於你如何使用裝置：將它們舉到眼睛水平、定時休息，以及全天保持多種姿勢。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Physiopedia — Text Neck",
+      "url": "https://www.physio-pedia.com/Text_Neck",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Grasser T et al. — Defining text neck: a scoping review (Eur Spine J 2023)",
+      "url": "https://doi.org/10.1007/s00586-023-07882-5",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Correia IMT et al. — Association Between Text Neck and Neck Pain in Adults (Spine 2021)",
+      "url": "https://doi.org/10.1097/BRS.0000000000003854",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Fiebert I et al. — Text neck: An adverse postural phenomenon (Work 2021)",
+      "url": "https://doi.org/10.3233/WOR-205129",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Toh SH et al. — Associations of mobile touch screen device use with musculoskeletal symptoms: a systematic review (PLoS One 2017)",
+      "url": "https://doi.org/10.1371/journal.pone.0181220",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "HK Health Bureau — Clinical Guideline for First-contact Physiotherapists on Common MSK Problems in Primary Care",
+      "url": "https://www.healthbureau.gov.hk/phcc/rfs/assets/pdf/home/discipline-based_guidelines/clinical_guideline_on_first_contact_assessment_and_cross-disciplinary_management_approach_for_common_msk_problems.pdf",
+      "type": "government_guideline"
+    }
+  ],
+  "review_status": {
+    "reviewed_by": "[PENDING — Physiotherapist Name]",
+    "reviewer_credentials": "[PENDING — e.g., BSc Physiotherapy, HKPA Member]",
+    "review_date": null,
+    "next_review_date": null,
+    "approved": false
+  },
+  "metadata": {
+    "created_date": "2026-05-01",
+    "last_updated": "2026-05-01",
+    "version": "0.1-draft"
+  }
+}

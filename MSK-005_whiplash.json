@@ -1,0 +1,310 @@
+{
+  "condition_id": "MSK-005",
+  "condition_name_en": "Whiplash Associated Disorder",
+  "condition_name_zh": "鞭甩傷相關疾患",
+  "body_area": [
+    "neck",
+    "cervical spine",
+    "head"
+  ],
+  "category": "musculoskeletal",
+  "patient_language_aliases": [
+    "whiplash",
+    "whiplash injury",
+    "neck injury from car accident",
+    "my neck hurts after a crash",
+    "car accident neck pain",
+    "neck pain after being rear-ended",
+    "neck snapped back",
+    "neck sprain from accident",
+    "stiff neck after crash",
+    "head jerked forward",
+    "pain after road traffic accident",
+    "撞車後頸痛",
+    "鞭甩傷",
+    "車禍頸傷",
+    "頸扭傷",
+    "交通意外頸痛"
+  ],
+  "symptoms": [
+    {
+      "description_en": "Neck pain, stiffness, and tenderness — the most common symptoms, which may appear immediately or be delayed by hours to days after the injury",
+      "description_zh": "頸部疼痛、僵硬和壓痛——最常見的症狀，可能在受傷後立即出現，也可能在數小時至數天後才出現"
+    },
+    {
+      "description_en": "Sub-occipital headache (pain at the base of the skull) — the most common associated symptom, typically appearing or worsening within seven days of the injury",
+      "description_zh": "枕下頭痛（顱底部疼痛）——最常見的伴隨症狀，通常在受傷後七天內出現或加重"
+    },
+    {
+      "description_en": "Restricted range of motion of the cervical spine — difficulty turning the head, looking up, or tilting to the side",
+      "description_zh": "頸椎活動幅度受限——轉頭、仰頭或側傾困難"
+    },
+    {
+      "description_en": "Dizziness, loss of balance, or a sense of unsteadiness — sensorimotor features that are greater in patients who also report dizziness due to neck pain",
+      "description_zh": "頭暈、失去平衡或不穩感——感覺運動特徵，在伴有頸痛引致眩暈的患者中更為顯著"
+    },
+    {
+      "description_en": "Referred pain to the shoulders, upper back, arms, or temporomandibular joint (jaw), and radiating pain with possible numbness in the upper extremities",
+      "description_zh": "轉移性疼痛至肩膀、上背部、手臂或顳下頜關節（下顎），以及放射性疼痛並可能伴有上肢麻痺"
+    },
+    {
+      "description_en": "Psychological symptoms including anxiety, post-traumatic stress, depression, sleep disturbances, and concentration or memory problems",
+      "description_zh": "心理症狀，包括焦慮、創傷後壓力症狀、抑鬱、睡眠障礙，以及注意力或記憶力問題"
+    },
+    {
+      "description_en": "Altered patterns of muscle recruitment in the cervical spine and shoulder girdle, including muscle spasms and trigger points",
+      "description_zh": "頸椎和肩胛帶肌肉徵召模式改變，包括肌肉痙攣和激痛點"
+    },
+    {
+      "description_en": "Tinnitus (ringing in the ears), nausea, malaise, and disturbed eye movement control",
+      "description_zh": "耳鳴、噁心、全身不適感，以及眼球運動控制障礙"
+    }
+  ],
+  "guided_questions": [
+    {
+      "question_en": "Can you describe what happened? Were you involved in a car accident, sports collision, or fall? What direction was the impact (rear-end, side, front)?",
+      "question_zh": "你能描述一下發生了什麼嗎？你是否涉及車禍、運動碰撞或跌倒？撞擊方向是什麼（追尾、側面、正面）？",
+      "purpose": "Establish the mechanism of injury. The source notes MVAs are the most common cause of WAD, and the severity of impact affects risk. Understanding the injury mechanism is essential for classification and determines whether the Canadian C-Spine Rule should be applied."
+    },
+    {
+      "question_en": "How long ago did the injury happen? When did your symptoms first appear — immediately, or hours/days later?",
+      "question_zh": "受傷是多久前的事？你的症狀是什麼時候首次出現的——是立即出現，還是數小時/數天後？",
+      "purpose": "Establish timeline. Source notes acute WAD lasts 2-3 months, and if symptoms persist beyond 3 months, they are likely to remain for 2+ years. Delayed onset of symptoms is common in WAD."
+    },
+    {
+      "question_en": "On a scale of 1 to 10, how would you rate your neck pain right now? Can you turn your head in all directions?",
+      "question_zh": "以1到10分計算，你現在的頸痛程度是多少？你能向所有方向轉頭嗎？",
+      "purpose": "Quantify pain intensity and assess ROM. The Quebec Task Force classification distinguishes Grade 1 (pain/stiffness only) from Grade 2 (decreased ROM and point tenderness), which guides management. Baseline NDI ≥40 predicts chronic moderate/severe disability per the CPR."
+    },
+    {
+      "question_en": "Were you wearing a seatbelt at the time? Did you have any neck problems before the accident?",
+      "question_zh": "事發時你有沒有繫安全帶？在事故之前你有沒有頸部問題？",
+      "purpose": "Identify key prognostic factors. The source identifies no seatbelt use and previous neck pain as risk factors for worse outcomes. Pre-existing neck pain is a risk factor for developing acute neck pain after collision."
+    },
+    {
+      "question_en": "Since the injury, have you been feeling anxious, stressed, or having trouble sleeping? Are you having difficulty concentrating or experiencing flashbacks of the accident?",
+      "question_zh": "受傷以來，你有沒有感到焦慮、壓力大或難以入睡？你有沒有注意力集中困難或出現事故的閃回畫面？",
+      "purpose": "Screen for psychological yellow flags. The source extensively documents that post-traumatic stress, anxiety, depression, catastrophising, poor coping strategies, and poor expectation of recovery are strongly associated with developing chronic WAD. Women show higher rates of PTSD (19.7%) and anxiety (11.7%) compared to men."
+    },
+    {
+      "question_en": "Do you have any numbness, tingling, or weakness in your arms or hands? Any changes in grip strength?",
+      "question_zh": "你的手臂或手部有沒有麻痺、刺痛或無力感？握力有沒有改變？",
+      "purpose": "Screen for Grade 3 WAD (neurological signs). The Quebec Task Force classifies Grade 3 as presenting with sensory deficits, decreased deep tendon reflexes, and muscle weakness. This distinguishes moderate from severe presentations and may alter management."
+    },
+    {
+      "question_en": "Do you have any of the following: severe neck pain with inability to move, tenderness pressing on the midline of your spine, double vision, difficulty swallowing, loss of bladder or bowel control, or weakness in your legs?",
+      "question_zh": "你有沒有以下症狀：嚴重頸痛無法活動、按壓脊椎中線時壓痛、複視、吞嚥困難、大小便失禁或腿部無力？",
+      "purpose": "CRITICAL red-flag screening. The source details the Canadian C-Spine Rule and NEXUS criteria for determining need for imaging: posterior midline tenderness, focal deficits, altered mental status, paresthesia, dangerous mechanism. Differential diagnosis includes cervical fracture, carotid artery dissection, spinal cord injury, and cervical subluxation — all medical emergencies."
+    }
+  ],
+  "severity_classification": {
+    "mild": {
+      "indicators": [
+        "Neck pain and stiffness but no positive findings on physical exam (Quebec Task Force Grade 1)",
+        "Pain rated 1–3 out of 10",
+        "Able to perform daily activities with some discomfort",
+        "No radiating pain or neurological symptoms",
+        "Neck Disability Index (NDI) below 32%"
+      ],
+      "self_care_appropriate": true,
+      "description_en": "Your symptoms appear consistent with a mild whiplash injury (Grade 1). This means you have neck pain and stiffness, but no significant loss of movement or neurological signs. The good news is that research shows about 50% of people with whiplash make a full recovery, and many mild cases improve within 2–3 months. The most important things you can do are: stay active, do gentle neck exercises regularly, and avoid using a neck collar. Early movement is consistently shown to be the most effective approach.",
+      "description_zh": "你的症狀與輕度鞭甩傷（第1級）相符。這代表你有頸部疼痛和僵硬，但沒有明顯的活動幅度喪失或神經症狀。好消息是，研究顯示約50%的鞭甩傷患者能完全康復，許多輕度個案在2至3個月內改善。你能做的最重要的事情是：保持活動、定期做輕柔的頸部運動，以及避免使用頸圈。早期活動一直被證實是最有效的方法。"
+    },
+    "moderate": {
+      "indicators": [
+        "Decreased range of motion with point tenderness on examination (Quebec Task Force Grade 2)",
+        "Pain rated 4–6 out of 10",
+        "Musculoskeletal signs including muscle spasm and trigger points",
+        "Headache, dizziness, or referred pain to shoulders",
+        "Symptoms affecting ability to work, drive, or perform daily activities"
+      ],
+      "recommend_professional": true,
+      "description_en": "Your symptoms suggest a moderate whiplash injury (Grade 2), with measurable loss of neck movement and tenderness. Research shows that a multimodal treatment approach — combining exercises, manual therapy, and education — gives the best results for this grade. In one study, 65% of Grade 1–2 patients reported full return to work at 6 months after a multimodal programme. A physiotherapist can provide targeted treatment and help address any psychological factors that may be affecting your recovery. Don't use a neck collar — research consistently shows that early exercise is superior to collar therapy.",
+      "description_zh": "你的症狀顯示為中度鞭甩傷（第2級），有可測量的頸部活動幅度減少和壓痛。研究顯示，結合運動、手法治療和教育的多模式治療方案效果最佳。一項研究顯示，65%的第1至2級患者在接受多模式治療後6個月完全恢復工作。物理治療師可以提供針對性治療，並幫助處理可能影響你康復的心理因素。不要使用頸圈——研究一致顯示早期運動優於頸圈治療。"
+    },
+    "severe": {
+      "indicators": [
+        "Neurological signs including sensory deficits, decreased reflexes, or muscle weakness (Quebec Task Force Grade 3)",
+        "Severe pain rated 7–10 out of 10 with severely limited range of motion",
+        "Signs of cervical instability or myelopathy",
+        "Evidence of fracture on imaging (Grade 4)",
+        "Significant psychological distress: PTSD symptoms, severe sleep disruption, inability to function"
+      ],
+      "seek_immediate_help": true,
+      "description_en": "Your symptoms suggest a severe whiplash injury (Grade 3 or 4) with neurological involvement or possible structural damage. Please seek medical assessment urgently. If you have not already been to A&E, you should go now — especially if you have posterior midline neck tenderness, numbness or weakness in your arms or legs, difficulty walking, double vision, difficulty swallowing, or loss of bladder or bowel control. Imaging (X-ray, CT, or MRI) may be needed to rule out fracture, spinal cord injury, or cervical instability. Do not delay seeking help.",
+      "description_zh": "你的症狀顯示為嚴重鞭甩傷（第3級或第4級），伴有神經受累或可能的結構性損傷。請緊急接受醫學評估。如果你尚未前往急症室，你現在應該去——尤其是如果你有脊椎中線壓痛、手臂或腿部麻痺或無力、行走困難、複視、吞嚥困難或大小便失禁。可能需要影像檢查（X光、電腦斷層或磁力共振）以排除骨折、脊髓損傷或頸椎不穩。請不要延遲求醫。"
+    }
+  },
+  "red_flags": [
+    "Posterior midline cervical spine tenderness — possible fracture (Canadian C-Spine Rule / NEXUS criteria)",
+    "Focal neurological deficits — possible spinal cord injury or cervical subluxation",
+    "Altered mental status or loss of consciousness — possible brain injury",
+    "Progressive weakness or numbness in arms or legs — possible cervical myelopathy or spinal cord compression",
+    "Loss of bladder or bowel control — possible spinal cord injury (EMERGENCY)",
+    "Age over 65 with neck injury — higher risk of cervical fracture (Canadian C-Spine Rule)",
+    "Dangerous mechanism of injury (high-speed collision, rollover, ejection, bicycle/pedestrian struck by vehicle)",
+    "Paresthesia in the extremities with immediate onset",
+    "Inability to rotate the neck 45 degrees in either direction",
+    "Signs of carotid artery dissection: severe unilateral headache, Horner's syndrome, or stroke-like symptoms",
+    "Double vision, difficulty swallowing, or slurred speech — possible vertebrobasilar injury or brainstem involvement",
+    "Intoxication or distracting injuries that may mask cervical spine injury (NEXUS criteria)"
+  ],
+  "possible_causes": [
+    {
+      "cause_en": "Motor vehicle accident (MVA), particularly rear-end collision — the most common cause of WAD",
+      "cause_zh": "交通意外（MVA），尤其是追尾碰撞——鞭甩傷最常見的原因",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Sporting injuries involving sudden acceleration-deceleration of the head and neck (e.g., contact sports, diving)",
+      "cause_zh": "運動損傷，涉及頭頸部突然加速-減速（例如接觸性運動、跳水）",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Falls causing sudden jerking of the head and neck",
+      "cause_zh": "跌倒導致頭頸部突然猛烈搖擺",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Physical assault or trauma causing acceleration-deceleration of the cervical spine",
+      "cause_zh": "人身攻擊或創傷導致頸椎加速-減速",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Amusement park rides or other activities involving sudden jolts to the neck",
+      "cause_zh": "遊樂場機動遊戲或其他涉及頸部突然震動的活動",
+      "likelihood": "rare"
+    }
+  ],
+  "self_care_exercises": [
+    {
+      "exercise_name_en": "Gentle Active Neck ROM Exercises",
+      "exercise_name_zh": "輕柔主動頸部活動幅度運動",
+      "instructions_en": "Sit upright with your shoulders relaxed. Gently and slowly perform each of the following movements, moving through a small, comfortable range of motion: (1) Flexion — slowly lower your chin toward your chest. (2) Extension — gently look upward. (3) Right rotation — slowly turn your head to look over your right shoulder. (4) Left rotation — repeat to the left. (5) Right side flexion — tilt your right ear toward your right shoulder. (6) Left side flexion — repeat to the left. Move gently over a small range and repeat 10 times in each direction. Research shows that active mobilisation applied gently over a small ROM is consistently the most effective early treatment for WAD. Do NOT use a neck collar — studies show exercises are superior to collar therapy.",
+      "instructions_zh": "坐直，肩膀放鬆。輕柔緩慢地進行以下每個動作，在舒適的小範圍內活動：(1) 前屈——慢慢將下巴向胸口低下。(2) 後伸——輕輕向上望。(3) 右旋轉——慢慢轉頭望向右肩。(4) 左旋轉——換左側重複。(5) 右側屈——右耳向右肩傾斜。(6) 左側屈——換左側重複。在小範圍內輕柔活動，每個方向重複10次。研究顯示，在小範圍內輕柔進行主動鬆動術是鞭甩傷最有效的早期治療。不要使用頸圈——研究證明運動優於頸圈治療。",
+      "frequency": "10 repetitions in each direction × 3 sets",
+      "duration": "Daily — as homework, ideally every 2–3 hours",
+      "difficulty_level": "beginner",
+      "contraindications": "Do NOT perform if you have not been cleared of cervical fracture or instability. Stop immediately if you experience dizziness, double vision, nausea, sudden numbness, or increased radiating pain to the arms. Keep movements within a pain-free or mildly uncomfortable range — do not push through severe pain.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Chin Tucks (Deep Neck Flexor Activation)",
+      "exercise_name_zh": "收下巴運動（深層頸屈肌啟動）",
+      "instructions_en": "Sit or stand with your back straight and shoulders relaxed. Without tilting your head up or down, gently draw your chin straight back — as if trying to make a double chin. You should feel a gentle stretch at the base of your skull and a mild engagement of the muscles at the front of your neck. Hold for 5 seconds, then relax. This exercise targets the deep cervical flexors, which are often weakened in WAD due to altered muscle recruitment patterns and fatty infiltration of the deep neck muscles noted in the research.",
+      "instructions_zh": "坐直或站直，肩膀放鬆。不要將頭上仰或下垂，輕輕將下巴向後收——像做雙下巴一樣。你應該感到後腦勺底部有輕柔的拉伸感，頸部前方肌肉有輕微的收緊感。保持5秒，然後放鬆。這個運動針對深層頸屈肌，研究顯示鞭甩傷患者由於肌肉徵召模式改變和深層頸部肌肉的脂肪浸潤，這些肌肉通常較弱。",
+      "frequency": "10 repetitions × 3 sets",
+      "duration": "Daily",
+      "difficulty_level": "beginner",
+      "contraindications": "Perform gently. Do not use excessive force. Stop if the exercise causes dizziness or increased pain. Not appropriate until cervical fracture has been ruled out.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Isometric Neck Holds",
+      "exercise_name_zh": "等長頸部收縮運動",
+      "instructions_en": "Sit upright. Place your right hand gently against the right side of your head. Push your head gently into your hand while your hand provides equal resistance, so that NO movement occurs. Hold for 5 seconds. Repeat on the left side, then with your hand on your forehead (resisting flexion), and finally with both hands behind your head (resisting extension). Start with very light pressure — about 20% of your maximum effort. Gradually increase over days and weeks. These isometric holds safely strengthen the neck muscles without requiring painful movement, and are recommended as a progression from ROM exercises in WAD rehabilitation.",
+      "instructions_zh": "坐直。將右手輕放在頭部右側。輕輕將頭部向手掌方向推，手掌提供相等的阻力使頭部不產生任何實際動作。保持5秒。換左側重複，然後手放在額頭前方（抵抗前屈），最後雙手放在後腦勺（抵抗後伸）。從非常輕的力度開始——大約最大力量的20%。在數天至數星期內逐漸增加。這些等長收縮可以安全地強化頸部肌肉，而不需要產生疼痛的動作，是鞭甩傷康復中從活動幅度運動進階的建議步驟。",
+      "frequency": "5 repetitions in each direction, holding 5 seconds each",
+      "duration": "Daily — introduce after ROM exercises are tolerated well",
+      "difficulty_level": "intermediate",
+      "contraindications": "Use only very gentle pressure initially. Not appropriate until acute pain has settled enough to tolerate gentle resistance. Stop if it causes significant pain increase, dizziness, or radiating symptoms. Avoid until cervical fracture and instability have been ruled out.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Shoulder Rolls and Upper Trapezius Relaxation",
+      "exercise_name_zh": "肩膀繞圈及上斜方肌放鬆運動",
+      "instructions_en": "Sit or stand comfortably. Slowly roll both shoulders in a circular motion: upward, backward, downward, and forward. Perform 10 circles backward, then 10 circles forward. Then, consciously let your shoulders drop away from your ears and relax. Take 3 deep breaths, focusing on releasing tension in the neck and shoulder area with each exhale. WAD commonly causes muscle spasms and altered recruitment patterns in the shoulder girdle, and this exercise helps break the cycle of tension. It can be performed frequently throughout the day, especially during work.",
+      "instructions_zh": "舒適地坐著或站著。慢慢將雙肩做圓圈運動：向上、向後、向下、向前。向後繞10圈，然後向前繞10圈。之後，有意識地讓肩膀遠離耳朵並放鬆。做3次深呼吸，每次呼氣時集中釋放頸部和肩部的緊張感。鞭甩傷常見引起肩胛帶的肌肉痙攣和徵召模式改變，這個運動有助打破緊張循環。可以在全天中頻繁進行，特別是在工作期間。",
+      "frequency": "10 circles each direction × multiple times per day",
+      "duration": "Daily — as often as needed for tension relief",
+      "difficulty_level": "beginner",
+      "contraindications": "Avoid if shoulder movement causes significant neck pain or dizziness. Reduce range of the circles if uncomfortable.",
+      "video_reference_url": "[TO BE ADDED]"
+    }
+  ],
+  "recovery_timeline": {
+    "mild_estimate": "2–3 months — most acute WAD cases show spontaneous recovery within this period",
+    "moderate_estimate": "3–6 months — Grade 1 and 2 patients in multimodal programmes: 65% reported full return to work and 92% partial or full return to work at 6 months",
+    "severe_estimate": "6–12+ months — 50% of Grade 1 and 2 patients may still have chronic neck pain at 6 months. If symptoms persist at 3 months, likely to remain symptomatic for 2+ years",
+    "note": "Recovery from WAD is highly variable and unpredictable. Research shows: 50% of people achieve full recovery, 25% have mild levels of disability, and the remaining 25% present with moderate to severe pain and disability. Key prognostic factors include: age (≤35 years better prognosis), initial NDI score (≤32 better, ≥40 worse), presence of hyperarousal symptoms, psychological factors (PTSD, catastrophising, poor coping), pre-existing neck pain, and WAD grade. Women tend to demonstrate slower or incomplete recovery. Compensation-seeking and litigation may also affect outcomes."
+  },
+  "when_to_see_professional": [
+    "ANY neck pain following a motor vehicle accident, fall, or significant trauma — even if symptoms seem mild, get assessed to rule out fracture",
+    "Numbness, tingling, or weakness in the arms or hands developing after the injury",
+    "Dizziness, double vision, difficulty swallowing, or loss of balance",
+    "Symptoms not improving or worsening after 2–3 weeks of self-care",
+    "Headaches that are severe, increasing in frequency, or accompanied by nausea or vision changes",
+    "Significant psychological distress: anxiety, flashbacks, sleep disturbances, or inability to return to work",
+    "Symptoms persisting beyond 6 weeks — early physiotherapy intervention can prevent chronicity"
+  ],
+  "faqs": [
+    {
+      "question_en": "Should I wear a neck collar?",
+      "question_zh": "我應該戴頸圈嗎？",
+      "answer_en": "No — research consistently shows that neck collars are NOT recommended for whiplash. Multiple studies demonstrate that early exercise therapy is superior to collar therapy in reducing both pain intensity and disability. One study found that collar use in emergency departments was actually associated with persistence of symptoms. Current clinical guidelines advocate for advice encouraging return to usual activity and exercise as the mainstay of management. The key message is: gentle, early movement is the best medicine for whiplash, not immobilisation.",
+      "answer_zh": "不建議——研究一致顯示頸圈不建議用於鞭甩傷。多項研究證明，早期運動治療在減少疼痛強度和失能方面均優於頸圈治療。一項研究發現，在急診室使用頸圈實際上與症狀持續有關。目前的臨床指引主張以鼓勵恢復日常活動和運動作為主要治療方針。關鍵信息是：輕柔的早期活動是鞭甩傷的最佳良藥，而非固定不動。"
+    },
+    {
+      "question_en": "Will I recover fully from whiplash?",
+      "question_zh": "鞭甩傷能完全康復嗎？",
+      "answer_en": "Research shows that about 50% of people with whiplash make a full recovery, 25% have mild residual disability, and 25% may develop moderate to severe chronic pain and disability. Your chances of full recovery are better if you are aged 35 or younger, have a low initial disability score (NDI ≤32), do not have significant psychological distress, and actively engage in exercises and normal activities early on. If you still have symptoms at 3 months, they may persist for 2 or more years — which is why early intervention and staying active are so important. A positive attitude toward recovery is itself a prognostic factor.",
+      "answer_zh": "研究顯示約50%的鞭甩傷患者能完全康復，25%有輕度殘餘失能，25%可能發展為中度至重度慢性疼痛和失能。如果你年齡在35歲或以下、初始失能評分較低（NDI ≤32）、沒有明顯的心理困擾，並且儘早積極進行運動和正常活動，你完全康復的機會會更高。如果3個月後仍有症狀，它們可能會持續2年或更長時間——這就是為什麼早期介入和保持活動如此重要。對康復持積極態度本身就是一個預後因素。"
+    },
+    {
+      "question_en": "When can I return to exercise or sports?",
+      "question_zh": "我多快可以恢復運動？",
+      "answer_en": "Early return to normal activities is one of the most important aspects of whiplash recovery. For mild WAD (Grade 1), you can usually start gentle exercise within days of the injury — walking, light swimming, and the prescribed ROM exercises. For moderate WAD (Grade 2), follow a progressive approach: start with gentle ROM exercises, progress to isometric strengthening over 1–2 weeks, add resistance exercises at 3–4 weeks, and finally introduce sport-specific activities. Avoid contact sports or heavy training until you have regained full neck ROM and strength. Research shows that simple advice to stay active can be equally as effective as a comprehensive physiotherapy programme for recovery.",
+      "answer_zh": "儘早恢復正常活動是鞭甩傷康復最重要的方面之一。對於輕度鞭甩傷（第1級），你通常可以在受傷後數天內開始輕柔運動——步行、輕量游泳和建議的活動幅度運動。中度鞭甩傷（第2級）應按照漸進式方法：從輕柔的活動幅度運動開始，1至2星期後進展到等長強化運動，3至4星期時加入阻力運動，最後引入運動專項活動。在恢復完整的頸部活動幅度和力量之前，避免接觸性運動或重量訓練。研究顯示，簡單的保持活動建議在康復效果上可以與全面的物理治療計劃同樣有效。"
+    },
+    {
+      "question_en": "Can stress and anxiety affect my whiplash recovery?",
+      "question_zh": "壓力和焦慮會影響鞭甩傷的康復嗎？",
+      "answer_en": "Yes — this is one of the most important findings in whiplash research. Psychological factors are strongly associated with developing chronic WAD. Post-traumatic stress, anxiety, depression, catastrophising (believing the worst will happen), poor coping strategies, and poor expectation of recovery all predict worse outcomes. Women show higher rates of PTSD (19.7%) and anxiety (11.7%). Research shows that cognitive behavioural therapy is effective in reducing pain and psychological distress, especially when started within 6 months of the injury. If you are struggling with any of these issues, please discuss them with your physiotherapist or doctor — addressing the psychological aspect of your injury is just as important as the physical rehabilitation.",
+      "answer_zh": "是的——這是鞭甩傷研究中最重要的發現之一。心理因素與發展為慢性鞭甩傷密切相關。創傷後壓力、焦慮、抑鬱、災難化思維（相信最壞的結果會發生）、不良應對策略和對康復的消極期望，都預示著較差的結果。女性的創傷後壓力症（19.7%）和焦慮（11.7%）比率較高。研究顯示認知行為治療在減少疼痛和心理困擾方面有效，尤其是在受傷後6個月內開始。如果你正在經歷以上任何問題，請與你的物理治療師或醫生討論——處理傷患的心理層面與身體康復同樣重要。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Physiopedia — Whiplash Associated Disorders",
+      "url": "https://www.physio-pedia.com/Whiplash_Associated_Disorders",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Spitzer WO — Scientific Monograph of the Quebec Task Force on Whiplash-Associated Disorders (Spine 1995)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8747239/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Sterling M — Physiotherapy management of whiplash-associated disorders (WAD) (J Physiother 2014)",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1836955314000058",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Ritchie C, Sterling M — Recovery pathways and prognosis after whiplash injury (JOSPT 2016)",
+      "url": "https://doi.org/10.2519/jospt.2016.6918",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Bragg KJ, Varacallo M — Cervical (Whiplash) Sprain (StatPearls 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK541016/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "HK Health Bureau — Clinical Guideline for First-contact Physiotherapists on Common MSK Problems in Primary Care",
+      "url": "https://www.healthbureau.gov.hk/phcc/rfs/assets/pdf/home/discipline-based_guidelines/clinical_guideline_on_first_contact_assessment_and_cross-disciplinary_management_approach_for_common_msk_problems.pdf",
+      "type": "government_guideline"
+    }
+  ],
+  "review_status": {
+    "reviewed_by": "[PENDING — Physiotherapist Name]",
+    "reviewer_credentials": "[PENDING — e.g., BSc Physiotherapy, HKPA Member]",
+    "review_date": null,
+    "next_review_date": null,
+    "approved": false
+  },
+  "metadata": {
+    "created_date": "2026-05-01",
+    "last_updated": "2026-05-01",
+    "version": "0.1-draft"
+  }
+}

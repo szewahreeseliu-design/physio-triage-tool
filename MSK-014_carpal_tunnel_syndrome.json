@@ -1,0 +1,333 @@
+{
+  "condition_id": "MSK-014",
+  "condition_name_en": "Carpal Tunnel Syndrome",
+  "condition_name_zh": "腕管綜合症",
+  "body_area": [
+    "wrist",
+    "hand",
+    "fingers",
+    "forearm"
+  ],
+  "category": "musculoskeletal",
+  "patient_language_aliases": [
+    "numb fingers",
+    "tingling in my hand",
+    "wrist pain from typing",
+    "pins and needles in my hand",
+    "hand goes numb at night",
+    "wrist ache when using computer",
+    "dropping things from my hand",
+    "weak grip",
+    "burning feeling in my hand",
+    "hand pain from repetitive work",
+    "thumb side of hand feels numb",
+    "wrist pain and tingling",
+    "手指痺",
+    "手腕痛",
+    "手指麻痺冇力",
+    "瞓覺手痺醒",
+    "腕管綜合症"
+  ],
+  "symptoms": [
+    {
+      "description_en": "Numbness and tingling (pins and needles) in the thumb, index, middle, and half of the ring finger",
+      "description_zh": "拇指、食指、中指及無名指一半出現麻痺及刺痛感（針刺感）"
+    },
+    {
+      "description_en": "Pain in the wrist and hand, sometimes radiating up the forearm toward the elbow",
+      "description_zh": "手腕及手部疼痛，有時沿前臂向手肘方向放射"
+    },
+    {
+      "description_en": "Symptoms worsen at night or in the early morning, often disturbing sleep",
+      "description_zh": "症狀在夜間或清晨加劇，常常影響睡眠"
+    },
+    {
+      "description_en": "Weakness in the hand, especially when gripping or pinching objects",
+      "description_zh": "手部無力，尤其在握物或捏物時更為明顯"
+    },
+    {
+      "description_en": "Clumsiness and tendency to drop objects due to reduced fine motor coordination",
+      "description_zh": "手部靈活度下降，容易跌落物件"
+    },
+    {
+      "description_en": "Burning sensation in the affected hand and fingers",
+      "description_zh": "患側手部及手指出現灼熱感"
+    },
+    {
+      "description_en": "Wasting (visible thinning) of the muscle at the base of the thumb (thenar eminence) in advanced cases",
+      "description_zh": "嚴重個案中，拇指底部肌肉（大魚際肌）出現萎縮（明顯變薄）"
+    }
+  ],
+  "guided_questions": [
+    {
+      "question_en": "Which fingers feel numb or tingly — is it mainly the thumb, index finger, middle finger, or ring finger?",
+      "question_zh": "哪些手指感到麻痺或刺痛？主要是拇指、食指、中指還是無名指？",
+      "purpose": "Identify median nerve distribution pattern to differentiate CTS from ulnar neuropathy or cervical radiculopathy"
+    },
+    {
+      "question_en": "When did the symptoms start, and have they been getting worse over time?",
+      "question_zh": "症狀是什麼時候開始的？有沒有隨時間逐漸惡化？",
+      "purpose": "Determine onset, chronicity, and progression to assess severity and urgency"
+    },
+    {
+      "question_en": "Do the symptoms wake you up at night, or are they worse in the morning when you first get up?",
+      "question_zh": "症狀是否會在夜間將你弄醒？還是早上起床時特別嚴重？",
+      "purpose": "Night and early-morning symptoms are characteristic of CTS and indicate significance of nerve compression"
+    },
+    {
+      "question_en": "Does your work or daily routine involve repetitive wrist movements — such as typing, using a mouse, operating tools, or carrying heavy items?",
+      "question_zh": "你的工作或日常生活是否涉及重複的手腕動作，例如打字、使用滑鼠、操作工具或搬運重物？",
+      "purpose": "Identify occupational or lifestyle risk factors contributing to CTS"
+    },
+    {
+      "question_en": "Have you noticed any weakness in your hand — for example, difficulty opening jars, turning keys, buttoning clothes, or dropping things?",
+      "question_zh": "你有沒有發現手部變得無力——例如難以開瓶蓋、轉鎖匙、扣鈕扣或經常跌落物件？",
+      "purpose": "Assess motor involvement and functional impact, which indicates moderate-to-severe progression"
+    },
+    {
+      "question_en": "Do you have any other health conditions such as diabetes, thyroid problems, rheumatoid arthritis, or are you currently pregnant?",
+      "question_zh": "你有沒有其他健康問題，例如糖尿病、甲狀腺疾病、類風濕關節炎，或者你目前是否懷孕？",
+      "purpose": "Screen for common underlying conditions that contribute to CTS and may affect management approach"
+    },
+    {
+      "question_en": "Have you experienced any of the following: sudden severe swelling of the hand or wrist, numbness spreading to both arms, neck pain with arm weakness, recent wrist injury or trauma, or visible shrinking of the muscle at the base of your thumb?",
+      "question_zh": "你有沒有出現以下任何情況：手部或手腕突然嚴重腫脹、雙臂同時出現麻痺感、頸痛伴隨手臂無力、最近手腕受傷或外傷、或拇指底部肌肉明顯萎縮？",
+      "purpose": "Red-flag screening to identify fracture, acute compartment syndrome, cervical myelopathy, advanced nerve damage, or other conditions requiring urgent medical assessment"
+    }
+  ],
+  "severity_classification": {
+    "mild": {
+      "indicators": [
+        "Intermittent numbness or tingling that comes and goes, mainly during repetitive activities",
+        "Symptoms mostly occur at night and improve after shaking or moving the hand",
+        "No noticeable weakness in grip or pinch strength",
+        "Symptoms do not significantly affect daily tasks or work",
+        "No visible muscle wasting at the base of the thumb"
+      ],
+      "self_care_appropriate": true,
+      "description_en": "Your symptoms suggest early-stage irritation of the median nerve in your wrist. The good news is that at this stage, simple changes can make a big difference. Wearing a wrist splint at night, adjusting your hand posture during work, taking regular breaks from repetitive tasks, and gentle nerve gliding exercises can often bring noticeable relief within a few weeks. Many people with mild symptoms find that they improve without needing further treatment.",
+      "description_zh": "你的症狀顯示手腕中的正中神經處於早期受刺激的階段。好消息是，在這個階段，簡單的改變就能帶來很大改善。晚間佩戴手腕托板、調整工作時的手部姿勢、在重複性工作中定時休息，以及進行輕柔的神經滑動練習，通常在數星期內即可感到明顯紓緩。許多輕微症狀的人在無需進一步治療的情況下都能好轉。"
+    },
+    "moderate": {
+      "indicators": [
+        "Numbness or tingling is more frequent and takes longer to resolve",
+        "Symptoms regularly disturb sleep",
+        "Noticeable weakness — difficulty gripping, pinching, or manipulating small objects",
+        "Symptoms affect work performance or daily tasks like cooking, writing, or driving",
+        "Occasional burning pain in the hand or fingers"
+      ],
+      "recommend_professional": true,
+      "description_en": "Your symptoms suggest the nerve compression in your wrist has progressed beyond the early stage. While self-care measures like splinting and activity modification are still important, we recommend seeking professional assessment from a physiotherapist or doctor. They can confirm the diagnosis, potentially with nerve conduction studies, and provide targeted treatment such as manual therapy, a structured exercise programme, or discuss whether a corticosteroid injection or other interventions may help. Early professional input at this stage can prevent further nerve damage and avoid the need for surgery.",
+      "description_zh": "你的症狀顯示手腕的神經壓迫已超越早期階段。雖然自我護理措施（如佩戴托板和調整活動）仍然重要，但我們建議你尋求物理治療師或醫生的專業評估。他們可以確認診斷（可能需要進行神經傳導測試），並提供針對性治療，例如手法治療、結構化運動計劃，或討論皮質類固醇注射或其他介入治療是否適合你。在這個階段及早接受專業介入，可防止神經進一步受損，並避免需要手術。"
+    },
+    "severe": {
+      "indicators": [
+        "Constant numbness — fingers feel permanently numb or 'dead'",
+        "Significant hand weakness — frequently dropping things, unable to grip firmly",
+        "Visible muscle wasting (thinning) at the base of the thumb",
+        "Symptoms severely affect daily life, work, and sleep",
+        "Burning pain is persistent and does not improve with rest or splinting"
+      ],
+      "seek_immediate_help": true,
+      "description_en": "Your symptoms suggest significant and potentially advanced compression of the median nerve. When numbness becomes constant and muscle wasting is visible, it means the nerve has been under pressure for a prolonged period, and there is a risk of permanent damage if not treated promptly. Please see a doctor as soon as possible — you will likely need nerve conduction studies and a surgical consultation. Carpal tunnel release surgery is a well-established, effective procedure that can relieve the pressure and prevent further irreversible nerve damage. The sooner you seek help at this stage, the better the outcome.",
+      "description_zh": "你的症狀顯示正中神經受到嚴重且可能已達晚期的壓迫。當麻痺變為持續性且肌肉明顯萎縮時，表示神經已受壓較長時間，若不及時治療，有永久性損傷的風險。請盡快就醫——你很可能需要進行神經傳導測試及外科手術會診。腕管鬆解手術是一項成熟且有效的手術，可以減輕壓力並防止進一步不可逆轉的神經損傷。在這個階段越早求醫，效果越好。"
+    }
+  },
+  "red_flags": [
+    "Sudden severe swelling, pain, and tightness in the hand or forearm after trauma (possible acute compartment syndrome — call 999 / go to A&E immediately)",
+    "Rapidly progressive weakness or complete loss of sensation in the hand (possible acute nerve injury)",
+    "Visible and worsening muscle wasting at the base of the thumb (suggests advanced nerve damage — urgent specialist referral needed)",
+    "Numbness, tingling, or weakness in both arms combined with neck pain, balance problems, or bladder dysfunction (possible cervical myelopathy — seek immediate medical attention)",
+    "Signs of infection in the wrist area: increasing redness, warmth, swelling with fever (possible septic arthritis or deep infection)",
+    "Symptoms following a recent wrist fracture or significant trauma (possible acute median nerve compression requiring urgent surgical assessment)"
+  ],
+  "possible_causes": [
+    {
+      "cause_en": "Repetitive wrist movements — typing, mouse use, assembly line work, operating vibrating tools",
+      "cause_zh": "重複性手腕動作——打字、使用滑鼠、裝配線工作、操作振動工具",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Genetic predisposition — smaller carpal tunnel anatomy, especially in women",
+      "cause_zh": "遺傳因素——腕管解剖結構較小，女性尤為常見",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Pregnancy — fluid retention causing increased pressure in the carpal tunnel",
+      "cause_zh": "懷孕——體液滯留導致腕管內壓力增加",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Obesity — increased tissue volume contributing to nerve compression",
+      "cause_zh": "肥胖——組織體積增加導致神經受壓",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Diabetes mellitus — metabolic changes increasing nerve vulnerability",
+      "cause_zh": "糖尿病——代謝變化增加神經的脆弱性",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Rheumatoid arthritis — synovial hypertrophy causing swelling within the tunnel",
+      "cause_zh": "類風濕關節炎——滑膜增生導致腕管內腫脹",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Hypothyroidism — tissue swelling associated with underactive thyroid",
+      "cause_zh": "甲狀腺功能減退——甲狀腺功能不足引起組織腫脹",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Wrist fracture or trauma — bony deformity or swelling narrowing the tunnel",
+      "cause_zh": "手腕骨折或外傷——骨骼變形或腫脹使腕管收窄",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Space-occupying lesions — ganglion cysts or tumours within the carpal tunnel",
+      "cause_zh": "佔位性病變——腕管內的腱鞘囊腫或腫瘤",
+      "likelihood": "rare"
+    },
+    {
+      "cause_en": "Acromegaly — excessive growth hormone causing bone and tissue enlargement",
+      "cause_zh": "肢端肥大症——過多生長激素導致骨骼及組織增大",
+      "likelihood": "rare"
+    }
+  ],
+  "self_care_exercises": [
+    {
+      "exercise_name_en": "Median Nerve Gliding Exercise",
+      "exercise_name_zh": "正中神經滑動練習",
+      "instructions_en": "1. Start with your affected arm at your side, elbow bent at 90 degrees, wrist in neutral, fingers curled into a fist.\n2. Step 1 — Straighten your fingers so they point upward, keeping your wrist neutral.\n3. Step 2 — Extend (bend back) your wrist so your fingers and palm face away from you.\n4. Step 3 — Extend your thumb outward, away from your palm.\n5. Step 4 — Gently turn your forearm so your palm faces the ceiling (supination).\n6. Step 5 — Using your other hand, very gently pull the thumb further into stretch.\n7. Move through each position slowly, holding each for 3–5 seconds.\n8. Return to the starting fist position and repeat 5 times.\n9. The movements should feel like a gentle stretch — stop if you feel sharp pain or increased tingling.",
+      "instructions_zh": "1. 將患側手臂放在身旁，手肘彎曲成90度，手腕保持中立位，手指握拳。\n2. 第一步——伸直手指向上，手腕保持中立。\n3. 第二步——將手腕向後伸展，手指及掌心朝外。\n4. 第三步——將拇指向外展開，遠離手掌。\n5. 第四步——輕輕旋轉前臂，使掌心朝向天花板（旋後）。\n6. 第五步——用另一隻手非常輕柔地將拇指進一步拉伸。\n7. 緩慢通過每個位置，每個位置維持3至5秒。\n8. 回到起始握拳位置，重複5次。\n9. 動作應如輕柔伸展——若感到劇痛或麻痺加劇，請立即停止。",
+      "frequency": "3 times per day",
+      "duration": "5 repetitions through all positions per session",
+      "difficulty_level": "beginner",
+      "contraindications": "Stop if the exercise causes sharp pain, increased numbness, or worsening tingling. Do not perform if you have a recent wrist fracture, acute wrist inflammation, or post-operative restrictions without clearance from your doctor or physiotherapist.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Tendon Gliding Exercise",
+      "exercise_name_zh": "肌腱滑動練習",
+      "instructions_en": "1. Start with your hand open, fingers straight and together, pointing upward (straight position).\n2. Bend your fingers at the middle and end joints to form a hook shape, keeping the large knuckles (MCP joints) straight (hook fist).\n3. Return to the straight position.\n4. Now bend all your fingers to make a full fist, with your thumb wrapped over the fingers (full fist).\n5. Return to the straight position.\n6. Bend your fingers at the large knuckles while keeping the middle and end joints straight, so your hand looks like a tabletop (tabletop position).\n7. Return to the straight position.\n8. Finally, curl all fingers so the tips touch the base of the palm (straight fist).\n9. Cycle through: straight → hook → straight → full fist → straight → tabletop → straight → straight fist.\n10. Repeat the full cycle 5–10 times, moving slowly and smoothly.",
+      "instructions_zh": "1. 手掌張開，手指伸直並攏，指尖朝上（伸直位）。\n2. 將手指在中間及末端關節彎曲成鈎狀，掌指關節保持伸直（鈎拳）。\n3. 回到伸直位。\n4. 將所有手指彎曲成完全握拳狀，拇指包裹在手指外（完全握拳）。\n5. 回到伸直位。\n6. 在掌指關節處彎曲手指，同時中間及末端關節保持伸直，手部呈桌面狀（桌面位）。\n7. 回到伸直位。\n8. 最後，捲曲所有手指，使指尖觸碰掌心底部（直拳）。\n9. 依次循環：伸直→鈎拳→伸直→完全握拳→伸直→桌面位→伸直→直拳。\n10. 重複整個循環5至10次，動作要緩慢流暢。",
+      "frequency": "3–5 times per day",
+      "duration": "5–10 full cycles per session",
+      "difficulty_level": "beginner",
+      "contraindications": "Avoid if there is acute inflammation, recent hand or wrist surgery (unless cleared by your surgeon), or if the exercise significantly increases pain. Reduce range of motion if any position causes discomfort.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Wrist Flexor and Extensor Stretch",
+      "exercise_name_zh": "手腕屈肌及伸肌伸展運動",
+      "instructions_en": "Flexor stretch:\n1. Extend your affected arm in front of you, palm facing up.\n2. Use your other hand to gently press the fingers downward toward the floor until you feel a comfortable stretch on the inner wrist and forearm.\n3. Keep the elbow straight. Hold for 15–30 seconds.\n\nExtensor stretch:\n4. Now turn your affected arm so the palm faces down.\n5. Use your other hand to gently press the back of the hand downward until you feel a stretch on the outer wrist and forearm.\n6. Keep the elbow straight. Hold for 15–30 seconds.\n\nRepeat each stretch 3 times. The stretches should feel like a gentle pull — never force through pain.",
+      "instructions_zh": "屈肌伸展：\n1. 將患側手臂向前伸直，掌心向上。\n2. 用另一隻手輕輕將手指向下（朝地面方向）按壓，直至感到手腕內側及前臂有舒適的伸展感。\n3. 保持手肘伸直。維持15至30秒。\n\n伸肌伸展：\n4. 將患側手臂翻轉，掌心向下。\n5. 用另一隻手輕輕將手背向下按壓，直至感到手腕外側及前臂有伸展感。\n6. 保持手肘伸直。維持15至30秒。\n\n每個伸展重複3次。伸展應感覺如同輕柔拉伸——切勿強行通過疼痛。",
+      "frequency": "2–3 times per day",
+      "duration": "Hold 15–30 seconds × 3 repetitions per stretch",
+      "difficulty_level": "beginner",
+      "contraindications": "Do not perform if you have a suspected wrist fracture, recent surgery, or if the stretch causes sharp pain, numbness, or increased tingling. People with significant wrist instability should seek professional guidance before performing these stretches.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Grip Strengthening with Soft Ball",
+      "exercise_name_zh": "軟球握力訓練",
+      "instructions_en": "1. Hold a soft stress ball or foam ball in the affected hand.\n2. Gently squeeze the ball with your full hand, applying moderate pressure — not maximum force.\n3. Hold the squeeze for 5 seconds.\n4. Release slowly and rest for 5 seconds.\n5. Repeat 10–15 times.\n6. Then perform pinch grip: hold the ball between your thumb and each fingertip in turn, squeezing gently for 5 seconds each.\n7. Repeat the pinch grip 5 times per finger.\n8. The exercise should feel like moderate effort — stop if it causes pain or increased symptoms.",
+      "instructions_zh": "1. 用患側手握住一個軟壓力球或泡棉球。\n2. 用整隻手輕輕擠壓球，施加中等壓力——不要用最大力度。\n3. 維持擠壓5秒。\n4. 緩慢放開，休息5秒。\n5. 重複10至15次。\n6. 然後進行捏握訓練：將球放在拇指與每隻手指指尖之間，輕輕擠壓5秒。\n7. 每隻手指重複捏握5次。\n8. 訓練應感覺為中等程度的用力——若引起疼痛或症狀加劇，請立即停止。",
+      "frequency": "Once daily",
+      "duration": "10–15 full grip squeezes + 5 pinch grips per finger",
+      "difficulty_level": "intermediate",
+      "contraindications": "Do not begin grip strengthening until acute symptoms (pain, numbness at rest) have settled. Avoid if there is active inflammation, recent surgery, or worsening nerve symptoms. This exercise is intended for the recovery phase — not the acute phase. Use a very soft ball and reduce repetitions if symptoms increase.",
+      "video_reference_url": "[TO BE ADDED]"
+    }
+  ],
+  "recovery_timeline": {
+    "mild_estimate": "2–6 weeks with splinting, activity modification, and self-care exercises",
+    "moderate_estimate": "6–12 weeks with physiotherapy, splinting, and possible corticosteroid injection",
+    "severe_estimate": "3–6 months including surgical intervention (carpal tunnel release) and post-operative rehabilitation; some cases may take longer if there has been prolonged nerve compression",
+    "note": "Recovery varies significantly between individuals. Pregnancy-related CTS often resolves after delivery. CTS caused by underlying conditions (e.g. diabetes, rheumatoid arthritis) requires management of the underlying disease alongside local treatment. Prolonged constant numbness and muscle wasting may indicate irreversible nerve changes — early intervention leads to better outcomes. Symptoms may recur if ergonomic and activity modifications are not maintained."
+  },
+  "when_to_see_professional": [
+    "Symptoms persist for more than 2–4 weeks despite splinting and self-care measures",
+    "Numbness or tingling becomes constant rather than intermittent",
+    "Noticeable weakness in the hand — difficulty gripping, pinching, or buttoning clothes",
+    "Symptoms regularly disturb your sleep",
+    "Visible muscle wasting at the base of the thumb",
+    "Symptoms affect your ability to work or perform daily tasks",
+    "You have an underlying condition (diabetes, thyroid disease, rheumatoid arthritis) and develop hand symptoms",
+    "Symptoms developed after a wrist injury or trauma"
+  ],
+  "faqs": [
+    {
+      "question_en": "Is carpal tunnel syndrome caused by typing and computer work?",
+      "question_zh": "腕管綜合症是由打字和使用電腦引起的嗎？",
+      "answer_en": "Repetitive wrist movements from typing and computer work are a recognised risk factor, but they are not the only cause. CTS results from a combination of factors including genetics (some people naturally have a smaller carpal tunnel), health conditions (diabetes, thyroid disease, pregnancy, rheumatoid arthritis), obesity, and repetitive hand use. Many people who develop CTS do not do computer work. However, if you do type frequently, good ergonomics — keeping your wrists in a neutral position, using a wrist rest, and taking regular breaks — can help reduce your risk.",
+      "answer_zh": "打字和使用電腦引致的重複性手腕動作是公認的風險因素，但並非唯一原因。腕管綜合症是由多種因素共同導致的，包括遺傳（部分人天生腕管較小）、健康狀況（糖尿病、甲狀腺疾病、懷孕、類風濕關節炎）、肥胖及重複性手部使用。許多患上腕管綜合症的人並非從事電腦工作。然而，如果你經常打字，良好的人體工學——保持手腕在中立位置、使用護腕墊及定時休息——可以幫助降低風險。"
+    },
+    {
+      "question_en": "Will I need surgery for carpal tunnel syndrome?",
+      "question_zh": "腕管綜合症需要做手術嗎？",
+      "answer_en": "Not necessarily. Many people with mild to moderate CTS improve with conservative treatment — including wrist splinting (especially at night), activity modification, exercises, and sometimes a corticosteroid injection. However, if your symptoms are severe, constant, or getting worse despite conservative treatment, surgery (carpal tunnel release) may be recommended. This is a well-established, safe procedure with high success rates. The key is not to wait too long — if the nerve is compressed for too long, the damage may become irreversible. Your doctor can help you decide the right time based on your symptoms and nerve conduction study results.",
+      "answer_zh": "不一定。許多輕度至中度腕管綜合症患者在保守治療下都能改善——包括佩戴手腕托板（特別在夜間）、調整活動方式、運動練習，有時配合皮質類固醇注射。然而，如果症狀嚴重、持續不退或在保守治療後仍在惡化，醫生可能會建議手術（腕管鬆解術）。這是一項成熟、安全且成功率高的手術。關鍵是不要等待太久——如果神經長期受壓，損傷可能變得不可逆轉。醫生會根據你的症狀及神經傳導測試結果，幫助你決定合適的手術時機。"
+    },
+    {
+      "question_en": "When can I return to exercise or sports?",
+      "question_zh": "我什麼時候可以恢復運動？",
+      "answer_en": "It depends on the severity and type of treatment. For mild CTS managed conservatively, you can usually continue low-impact exercise that doesn't aggravate symptoms, while avoiding activities that involve prolonged or forceful gripping, heavy lifting, or repetitive wrist flexion. Wearing a wrist splint during exercise can help. For moderate CTS, work with your physiotherapist to determine when it's safe to increase activity levels. After carpal tunnel release surgery, gentle hand and wrist exercises typically start within 1–2 weeks; light daily activities resume in 2–4 weeks; and return to full sport or physically demanding work usually takes 6–12 weeks. Avoid heavy gripping or weight-bearing through the wrist until cleared by your surgeon.",
+      "answer_zh": "這取決於嚴重程度和治療方式。對於以保守方法處理的輕度腕管綜合症，你通常可以繼續不會加重症狀的低衝擊運動，同時避免涉及長時間或用力抓握、負重或重複屈腕的活動。運動時佩戴手腕托板可能有幫助。對於中度個案，請與你的物理治療師一起確定何時可以安全地增加活動量。腕管鬆解手術後，通常在1至2星期內開始輕柔的手部及手腕練習；2至4星期後可恢復日常輕度活動；回復完全運動或體力勞動的工作通常需要6至12星期。在外科醫生許可前，請避免用力抓握或手腕承重。"
+    },
+    {
+      "question_en": "Can wearing a wrist splint really help?",
+      "question_zh": "佩戴手腕托板真的有幫助嗎？",
+      "answer_en": "Yes — a wrist splint is one of the most effective first-line treatments for mild to moderate CTS. Wearing a splint at night is particularly helpful because many people unconsciously flex their wrists while sleeping, which increases pressure on the median nerve. A splint keeps the wrist in a neutral position, reducing nerve compression and allowing the tissues to rest. Research supports using a neutral wrist splint nightly for at least 4–6 weeks. Some people also find it helpful to wear the splint during daytime activities that provoke symptoms. Choose a splint that holds your wrist straight (not bent backward) and is comfortable enough to wear throughout the night.",
+      "answer_zh": "有幫助——手腕托板是輕度至中度腕管綜合症最有效的一線治療方法之一。夜間佩戴托板特別有效，因為許多人在睡覺時會不自覺地彎曲手腕，增加對正中神經的壓力。托板可保持手腕在中立位置，減少神經受壓，讓組織得到休息。研究支持每晚佩戴中立位手腕托板至少4至6星期。部分人在日間進行引起症狀的活動時佩戴托板也感到有幫助。選擇一款能保持手腕伸直（而非向後彎曲）且足夠舒適可整夜佩戴的托板。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Carpal Tunnel Syndrome — Physiopedia",
+      "url": "https://www.physio-pedia.com/Carpal_Tunnel_Syndrome",
+      "type": "professional_guideline"
+    },
+    {
+      "title": "Sevy JO, Sina RE, Varacallo MA. Carpal Tunnel Syndrome. StatPearls. 2023.",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK448179/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Joshi A et al. Carpal Tunnel Syndrome: Pathophysiology and Comprehensive Guidelines for Clinical Evaluation and Treatment. Cureus. 2022;14(7):e27053.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36000134/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "O'Connor D et al. Non-surgical treatment (other than steroid injection) for carpal tunnel syndrome. Cochrane Database Syst Rev. 2012;7:1-106.",
+      "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD003219.pub4/full",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Page MJ et al. Exercise and mobilisation interventions for carpal tunnel syndrome. Cochrane Database Syst Rev. 2012;6:CD009899.",
+      "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD009899/full",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Huisstede BM et al. Carpal Tunnel Syndrome Part I: Effectiveness of Nonsurgical Treatments — A Systematic Review. Arch Phys Med Rehabil. 2010;91(7):981-1004.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20599038/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Clinical Guideline for First-contact Physiotherapists on Assessment and Cross-disciplinary Management Approach for Common Musculoskeletal Problems in Primary Care Setting. Primary Healthcare Commission, Hong Kong. Dec 2025.",
+      "url": "",
+      "type": "government_guideline"
+    }
+  ],
+  "review_status": {
+    "reviewed_by": "[PENDING — Physiotherapist Name]",
+    "reviewer_credentials": "[PENDING]",
+    "review_date": null,
+    "next_review_date": null,
+    "approved": false
+  },
+  "metadata": {
+    "created_date": "2026-04-29",
+    "last_updated": "2026-05-02",
+    "version": "0.1-draft"
+  }
+}

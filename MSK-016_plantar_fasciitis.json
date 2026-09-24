@@ -1,0 +1,336 @@
+{
+  "condition_id": "MSK-016",
+  "condition_name_en": "Plantar Fasciitis",
+  "condition_name_zh": "足底筋膜炎",
+  "body_area": [
+    "foot",
+    "heel"
+  ],
+  "category": "musculoskeletal",
+  "patient_language_aliases": [
+    "heel pain",
+    "sore heel in the morning",
+    "pain in the bottom of my foot",
+    "sharp pain in my heel when I stand up",
+    "foot hurts when I get out of bed",
+    "heel pain after sitting for a long time",
+    "stabbing pain in my heel",
+    "arch pain",
+    "foot pain from standing all day",
+    "heel pain from running",
+    "pain worse walking barefoot",
+    "heel feels bruised",
+    "腳踭痛",
+    "朝早落床腳板底痛",
+    "足底筋膜炎",
+    "腳板底痛",
+    "企得耐腳踭痛"
+  ],
+  "symptoms": [
+    {
+      "description_en": "Sharp or stabbing pain at the bottom of the heel, particularly at the inner (medial) side",
+      "description_zh": "腳踭底部出現尖銳或刺痛感，尤其在內側（內緣）位置"
+    },
+    {
+      "description_en": "Pain with the first steps in the morning after getting out of bed — often described as the worst pain of the day",
+      "description_zh": "早上起床後行第一步時感到痛楚——通常被形容為一天中最痛的時刻"
+    },
+    {
+      "description_en": "Pain that flares up after long periods of sitting, standing, or rest, then eases somewhat with continued walking",
+      "description_zh": "久坐、久站或休息後痛楚加劇，持續步行一段時間後稍有緩解"
+    },
+    {
+      "description_en": "Pain worsens after (not usually during) exercise or prolonged weight-bearing activities",
+      "description_zh": "痛楚在運動或長時間負重活動後（通常不是期間）加劇"
+    },
+    {
+      "description_en": "Tenderness when pressing on the inner part of the heel bone (calcaneus)",
+      "description_zh": "按壓腳跟骨（跟骨）內側時感到壓痛"
+    },
+    {
+      "description_en": "Pain increases when walking barefoot on hard surfaces or climbing stairs",
+      "description_zh": "赤腳在硬地面行走或上樓梯時痛楚加劇"
+    },
+    {
+      "description_en": "A tight feeling in the Achilles tendon or calf, often accompanying the heel pain",
+      "description_zh": "跟腱或小腿肌肉有繃緊感，常伴隨腳踭痛楚出現"
+    },
+    {
+      "description_en": "In chronic cases, a dull persistent ache that replaces the initial sharp pain",
+      "description_zh": "在慢性個案中，最初的尖銳痛轉變為持續性的隱痛"
+    }
+  ],
+  "guided_questions": [
+    {
+      "question_en": "Where exactly do you feel the pain — is it at the bottom of your heel, the arch of your foot, or somewhere else?",
+      "question_zh": "你確切感到痛楚的位置在哪裏——是在腳踭底部、足弓，還是其他位置？",
+      "purpose": "Localise pain to distinguish plantar fasciitis (medial calcaneal tubercle / plantar heel) from other foot conditions such as Achilles tendinopathy, metatarsalgia, or tarsal tunnel syndrome"
+    },
+    {
+      "question_en": "Is the pain worst with your first steps in the morning or after sitting for a long time — and does it ease a little after walking around?",
+      "question_zh": "痛楚是否在早上起床後行第一步或久坐後最為嚴重——走動一會兒後有沒有稍為緩解？",
+      "purpose": "First-step pain that improves with gentle activity is the hallmark symptom of plantar fasciitis and helps confirm the clinical pattern"
+    },
+    {
+      "question_en": "How long have you been experiencing this heel pain — days, weeks, or months?",
+      "question_zh": "你的腳踭痛已持續多長時間——幾天、幾星期還是幾個月？",
+      "purpose": "Determine chronicity to guide management — plantar fasciitis often persists for months; very acute onset may suggest alternative diagnoses such as calcaneal stress fracture or plantar fascia rupture"
+    },
+    {
+      "question_en": "Has there been a recent change in your activity level, footwear, or body weight — for example, starting a new exercise programme, wearing flat or unsupportive shoes, or a period of prolonged standing at work?",
+      "question_zh": "你最近的活動量、穿鞋習慣或體重有沒有變化——例如開始了新的運動計劃、穿著平底或缺乏承托的鞋子，或工作中需要長時間站立？",
+      "purpose": "Identify modifiable risk factors and common triggers for plantar fasciitis onset"
+    },
+    {
+      "question_en": "Does the pain occur in one foot or both feet, and have you ever been diagnosed with flat feet, high arches, or diabetes?",
+      "question_zh": "痛楚是單腳還是雙腳出現？你有沒有被診斷過扁平足、高弓足或糖尿病？",
+      "purpose": "Bilateral presentation occurs in about one-third of cases; foot type and metabolic conditions are important risk factors that influence treatment approach"
+    },
+    {
+      "question_en": "How is the pain affecting your daily life — can you still walk, work, and exercise normally?",
+      "question_zh": "痛楚對你的日常生活有多大影響——你是否仍能正常行走、工作和運動？",
+      "purpose": "Assess functional impact and severity level to guide triage recommendations"
+    },
+    {
+      "question_en": "Have you experienced any of the following: a sudden 'pop' or 'tear' sensation in the sole of your foot, heel pain after a fall or direct blow, fever with redness and warmth in the foot, unexplained weight loss, pain that is constant even at rest and at night, or numbness and tingling in your foot?",
+      "question_zh": "你有沒有出現以下任何情況：腳板底突然感覺到「啪」一聲或撕裂感、跌倒或直接撞擊後出現腳踭痛、腳部發燒伴隨發紅發熱、不明原因體重下降、即使在休息和夜間也持續疼痛，或腳部麻痺刺痛？",
+      "purpose": "Red-flag screening to rule out plantar fascia rupture, calcaneal stress fracture, infection, tumour, inflammatory arthropathy, or nerve entrapment requiring urgent medical assessment"
+    }
+  ],
+  "severity_classification": {
+    "mild": {
+      "indicators": [
+        "Heel pain mainly with the first few steps in the morning, which settles within minutes of walking",
+        "Pain intensity is mild (1–3 out of 10) and does not last throughout the day",
+        "Able to walk, stand, and perform daily activities with minimal limitation",
+        "No limping or change in the way you walk",
+        "Symptoms have been present for less than 4 weeks"
+      ],
+      "self_care_appropriate": true,
+      "description_en": "Your symptoms suggest an early stage of plantar fasciitis — irritation and strain at the tissue on the bottom of your heel. The good news is that this condition responds very well to simple self-care measures when caught early. Stretching your calf and the bottom of your foot regularly, wearing shoes with good arch support and cushioned heels, rolling a frozen water bottle under your foot for pain relief, and avoiding going barefoot on hard surfaces can make a significant difference. About 90% of people with plantar fasciitis recover with conservative care alone — so consistency with these measures is key.",
+      "description_zh": "你的症狀顯示足底筋膜炎處於早期階段——腳踭底部的組織受到刺激和拉伸。好消息是，當及早發現時，這個狀況對簡單的自我護理措施反應非常好。定期伸展小腿肌肉和腳板底、穿著有良好足弓承托和軟墊腳踭的鞋子、用冰凍水樽在腳底來回滾動以紓緩痛楚，以及避免赤腳在硬地面行走，都能帶來明顯改善。約90%的足底筋膜炎患者僅靠保守治療便能康復——因此持之以恆是關鍵。"
+    },
+    "moderate": {
+      "indicators": [
+        "Heel pain is present most mornings and after periods of rest, taking longer to 'warm up'",
+        "Pain intensity is moderate (4–6 out of 10) and lingers during daily activities",
+        "Walking pattern has changed — limping or preferring to walk on the toes to avoid heel strike",
+        "Pain limits ability to stand for prolonged periods or participate in exercise",
+        "Symptoms have persisted for more than 4–6 weeks despite basic self-care"
+      ],
+      "recommend_professional": true,
+      "description_en": "Your symptoms suggest that your plantar fasciitis has progressed beyond the early stages and may benefit from professional guidance. While continuing self-care measures is important, we recommend seeing a physiotherapist who can provide targeted treatment — such as manual therapy, specific stretching and strengthening exercises (including high-load calf raises which research shows can accelerate recovery), taping techniques, and advice on appropriate footwear or orthotics. A night splint may also be recommended to maintain a gentle stretch on the fascia while you sleep. Early professional intervention can significantly shorten recovery time and prevent the condition from becoming chronic.",
+      "description_zh": "你的症狀顯示足底筋膜炎已超越早期階段，可能需要專業指導。雖然繼續自我護理措施仍然重要，但我們建議諮詢物理治療師，他們可提供針對性治療——例如手法治療、特定的伸展和強化運動（包括研究顯示可加速康復的負重提踵運動）、貼布技術，以及適當鞋具或矯形鞋墊的建議。醫生也可能建議使用夜間托板，在你睡覺時維持足底筋膜的輕柔伸展。及早接受專業介入可顯著縮短康復時間，並防止病情變為慢性。"
+    },
+    "severe": {
+      "indicators": [
+        "Constant or near-constant heel pain, even at rest and during non-weight-bearing",
+        "Severe pain (7–10 out of 10) that significantly limits walking and daily activities",
+        "Noticeable limp that cannot be avoided; may need to use a walking aid",
+        "Symptoms have persisted for more than 6 months despite treatment attempts",
+        "Pain disturbs sleep or is present very first thing in the morning before any weight-bearing"
+      ],
+      "seek_immediate_help": true,
+      "description_en": "Your symptoms suggest a more advanced or complicated case of plantar heel pain that needs prompt professional assessment. Persistent severe pain, especially pain at rest or at night, may indicate that the condition has progressed significantly, or that another diagnosis (such as a calcaneal stress fracture, nerve entrapment, or plantar fascia tear) needs to be considered. Please see a doctor or physiotherapist as soon as possible. They may recommend imaging (ultrasound or MRI), discuss advanced treatments such as shockwave therapy or corticosteroid injection, and ensure nothing more serious has been missed. Prolonged untreated plantar fasciitis can lead to compensatory problems in the knee, hip, and back — so seeking help now is important.",
+      "description_zh": "你的症狀顯示足底腳踭痛可能已達較嚴重或複雜的階段，需要盡快接受專業評估。持續的嚴重痛楚，特別是在休息或夜間的痛楚，可能表示病情已有顯著進展，或需要考慮其他診斷（如跟骨應力性骨折、神經卡壓或足底筋膜撕裂）。請盡快就醫或諮詢物理治療師。他們可能會建議進行影像檢查（超聲波或磁力共振）、討論進階治療方案（如衝擊波治療或皮質類固醇注射），並確保沒有遺漏更嚴重的問題。長期未經治療的足底筋膜炎可能導致膝蓋、髖關節和腰背的代償性問題——因此現在求助是很重要的。"
+    }
+  },
+  "red_flags": [
+    "Sudden 'pop' or 'tear' sensation in the arch or heel during activity — possible plantar fascia rupture requiring medical assessment",
+    "Heel pain following a direct blow, fall, or significant trauma — possible calcaneal fracture (go to A&E if unable to bear weight)",
+    "Severe heel pain with significant swelling, redness, and warmth accompanied by fever — possible infection or inflammatory arthropathy requiring urgent medical attention",
+    "Heel pain at rest and at night that does not improve with any position change — may suggest stress fracture, tumour, or systemic inflammatory condition",
+    "Unexplained weight loss combined with persistent heel or foot pain — possible systemic disease requiring medical investigation",
+    "Numbness, tingling, or burning sensation in the sole of the foot — possible nerve entrapment (tarsal tunnel syndrome or medial calcaneal nerve) requiring further assessment",
+    "Bilateral heel pain in a young person with morning stiffness lasting more than 30 minutes — possible seronegative spondyloarthropathy requiring rheumatological assessment"
+  ],
+  "possible_causes": [
+    {
+      "cause_en": "Repetitive overuse — excessive walking, running, standing, or sudden increase in weight-bearing activity causing micro-tears and degeneration of the plantar fascia",
+      "cause_zh": "反覆過度使用——過量步行、跑步、站立或突然增加負重活動，導致足底筋膜微撕裂及退化",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Tight calf muscles (gastrocnemius-soleus complex) and Achilles tendon — reducing ankle dorsiflexion and increasing strain on the plantar fascia",
+      "cause_zh": "小腿肌肉（腓腸肌-比目魚肌複合體）及跟腱繃緊——減少踝關節背屈幅度，增加足底筋膜的張力",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Elevated body mass index (BMI) — increased mechanical load on the plantar fascia, particularly in non-athletic populations",
+      "cause_zh": "體重指數（BMI）偏高——增加足底筋膜的機械負荷，尤其在非運動員群體中",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Occupations requiring prolonged standing or walking on hard surfaces (e.g. teachers, healthcare workers, factory workers, retail staff)",
+      "cause_zh": "需要長時間站立或在硬地面步行的職業（如教師、醫護人員、工廠工人、零售業員工）",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Foot biomechanics — flat feet (pes planus) causing increased strain at the fascia origin, or high arches (pes cavus) causing poor shock absorption",
+      "cause_zh": "足部生物力學——扁平足導致筋膜起點張力增加，或高弓足導致減震能力不足",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Inappropriate footwear — shoes with poor arch support, inadequate heel cushioning, worn-out soles, or going barefoot frequently",
+      "cause_zh": "不合適的鞋子——缺乏足弓承托、腳踭軟墊不足、鞋底磨損，或經常赤腳行走",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Age-related heel fat pad atrophy — reduced natural cushioning in adults aged 40–60",
+      "cause_zh": "與年齡相關的腳踭脂肪墊萎縮——40至60歲成人天然軟墊減少",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Diabetes mellitus and other metabolic conditions — affecting tissue quality and healing capacity",
+      "cause_zh": "糖尿病及其他代謝疾病——影響組織質素及癒合能力",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Seronegative spondyloarthropathies (e.g. ankylosing spondylitis, reactive arthritis) — systemic inflammatory conditions that can present with enthesitis at the heel",
+      "cause_zh": "血清陰性脊柱關節病變（如強直性脊柱炎、反應性關節炎）——可在腳踭引起骨腱連接處炎症的全身性炎症疾病",
+      "likelihood": "rare"
+    }
+  ],
+  "self_care_exercises": [
+    {
+      "exercise_name_en": "Plantar Fascia-Specific Stretch",
+      "exercise_name_zh": "足底筋膜專項伸展",
+      "instructions_en": "1. Sit in a chair and cross the affected foot over the opposite knee.\n2. With the hand on the affected side, grasp the base of your toes (not the tips).\n3. Gently pull the toes back toward your shin until you feel a comfortable stretch along the arch and bottom of your foot.\n4. You can use your other thumb to press along the arch to feel the fascia become taut like a guitar string — this confirms a good stretch position.\n5. Hold the stretch for 15–30 seconds.\n6. Release slowly. Repeat 10 times.\n7. This stretch is most effective when performed first thing in the morning before getting out of bed, and before standing up after any prolonged sitting.\n8. Research shows that this plantar fascia-specific stretch is more effective than general calf stretching for short-term pain relief.",
+      "instructions_zh": "1. 坐在椅子上，將患側腳放在對側膝蓋上方。\n2. 用患側的手握住腳趾底部（不是趾尖）。\n3. 輕輕將腳趾向脛骨方向拉回，直至感到腳弓和腳板底有舒適的伸展感。\n4. 你可以用另一隻手的拇指沿足弓按壓，感覺筋膜像結他弦般繃緊——這表示伸展位置正確。\n5. 維持伸展15至30秒。\n6. 緩慢放開。重複10次。\n7. 這個伸展在早上起床前和任何久坐後站起來之前做最為有效。\n8. 研究顯示，這種足底筋膜專項伸展在短期止痛方面比一般小腿伸展更有效。",
+      "frequency": "3 times per day (essential: morning before first steps, before standing after prolonged sitting, and evening)",
+      "duration": "Hold 15–30 seconds × 10 repetitions per session",
+      "difficulty_level": "beginner",
+      "contraindications": "Stop if the stretch causes sharp or increasing pain. Do not perform if you suspect a plantar fascia rupture (sudden 'pop' with acute arch pain and bruising). Avoid pulling the toes too aggressively — the stretch should feel firm but not painful.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Standing Calf Stretch (Gastrocnemius and Soleus)",
+      "exercise_name_zh": "站立小腿伸展（腓腸肌及比目魚肌）",
+      "instructions_en": "Gastrocnemius stretch:\n1. Stand facing a wall with both hands on the wall at shoulder height.\n2. Step the affected leg back about 60–90 cm, keeping the toes pointed forward.\n3. Bend the front knee while keeping the back knee straight and the back heel firmly on the ground.\n4. Lean gently into the wall until you feel a stretch in the upper calf of the back leg.\n5. Hold for 30 seconds.\n\nSoleus stretch:\n6. From the same position, slightly bend the back knee while keeping the heel on the ground.\n7. You should now feel the stretch lower down, closer to the Achilles tendon.\n8. Hold for 30 seconds.\n\nRepeat each stretch 3 times.\n\nA tight calf is one of the most common risk factors for plantar fasciitis — regular calf stretching is essential for recovery and prevention.",
+      "instructions_zh": "腓腸肌伸展：\n1. 面向牆壁站立，雙手放在牆上與肩同高。\n2. 將患側腿向後退約60至90厘米，腳趾朝前。\n3. 前膝彎曲，同時保持後膝伸直，後腳跟穩固踏在地面。\n4. 輕輕向牆壁傾靠，直至感到後腿上方小腿有伸展感。\n5. 維持30秒。\n\n比目魚肌伸展：\n6. 保持同一姿勢，將後膝微微彎曲，腳跟仍踏在地面。\n7. 此時伸展感應下移至接近跟腱的位置。\n8. 維持30秒。\n\n每個伸展重複3次。\n\n小腿繃緊是足底筋膜炎最常見的風險因素之一——定期伸展小腿對康復和預防至關重要。",
+      "frequency": "2–3 times per day",
+      "duration": "Hold 30 seconds × 3 repetitions per stretch (gastrocnemius + soleus)",
+      "difficulty_level": "beginner",
+      "contraindications": "Do not perform if you have a suspected Achilles tendon rupture or acute calf tear. Stop if you feel sharp pain in the calf or heel. People with significant balance issues should perform this near a wall or sturdy support.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Frozen Bottle Roll (Plantar Fascia Massage with Ice)",
+      "exercise_name_zh": "冰凍水樽滾動按摩（足底筋膜冰敷按摩）",
+      "instructions_en": "1. Fill a standard water bottle about three-quarters full and freeze it overnight.\n2. Sit in a chair with the frozen bottle on the floor.\n3. Place the arch of your affected foot on the bottle.\n4. Gently roll the bottle back and forth along the length of your arch — from the ball of the foot to just in front of the heel.\n5. Apply moderate downward pressure — enough to feel a firm massage, but not so hard that it causes sharp pain.\n6. Roll for 5–10 minutes.\n7. This combines the benefits of deep massage (releasing tension in the fascia) with cryotherapy (reducing pain and any local irritation).\n8. Use a towel under the bottle if the cold is too intense on your skin.\n9. A tennis ball or golf ball can be used as an alternative (without the icing benefit) for massage when you are away from home.",
+      "instructions_zh": "1. 將一個標準水樽注入約四分之三的水，放入冰箱冷凍一晚。\n2. 坐在椅子上，將冰凍水樽放在地上。\n3. 將患側腳的足弓放在水樽上。\n4. 輕輕地沿足弓長度前後滾動水樽——從前腳掌到腳跟前方。\n5. 施加中等向下壓力——足以感到有力的按摩效果，但不至於引起劇痛。\n6. 滾動5至10分鐘。\n7. 這結合了深層按摩（釋放筋膜張力）和冷療（減少痛楚和局部刺激）的好處。\n8. 如果冰凍感對皮膚太強烈，可在水樽下墊一條毛巾。\n9. 在外出時，可用網球或高爾夫球作為替代（沒有冰敷效果）進行按摩。",
+      "frequency": "2–3 times per day, especially after activity or at the end of the day",
+      "duration": "5–10 minutes per session",
+      "difficulty_level": "beginner",
+      "contraindications": "Do not use ice massage if you have cold sensitivity, Raynaud's phenomenon, or peripheral neuropathy with reduced sensation in the feet (common in diabetes). Avoid direct ice contact on open wounds or broken skin. Stop if the area becomes excessively numb.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "High-Load Calf Raise with Towel (Heel Raise Strengthening)",
+      "exercise_name_zh": "負重提踵運動（毛巾輔助跟骨強化訓練）",
+      "instructions_en": "1. Roll up a small towel and place it on the floor.\n2. Stand on a step or the edge of a stair with the balls of both feet on the edge and heels hanging off. Place the rolled towel under the toes of the affected foot so that the toes are in a dorsiflexed (bent-back) position.\n3. Hold onto a railing or wall for balance.\n4. Slowly rise up onto your toes (both feet) over 3 seconds.\n5. Then shift all your weight onto the affected leg and slowly lower your heel below the level of the step over 3 seconds.\n6. Use both legs to rise up again — only the lowering phase is single-leg.\n7. Perform 3 sets of 12 repetitions.\n8. Rest for 2 minutes between sets.\n9. This exercise should feel challenging but manageable. Mild discomfort (up to 5/10 pain) during the exercise is acceptable — this is a high-load protocol designed to stimulate tendon and fascia remodeling.\n10. As the exercise becomes easier over weeks, you can progress by adding weight (wearing a backpack with books) rather than increasing repetitions.\n\nResearch shows that this high-load strengthening protocol can produce faster recovery compared to stretching alone.",
+      "instructions_zh": "1. 將一條小毛巾捲起放在地上。\n2. 站在台階或樓梯邊緣，前腳掌放在邊緣，腳跟懸空。將捲好的毛巾放在患側腳趾下方，使腳趾呈背屈（向上彎曲）位置。\n3. 握住扶手或牆壁以保持平衡。\n4. 用3秒時間緩慢踮起雙腳的腳尖。\n5. 然後將全部重心轉移到患側腿上，用3秒時間緩慢將腳跟降至低於台階水平。\n6. 用雙腿再次踮起——只有下降階段是單腿進行。\n7. 做3組，每組12次。\n8. 每組之間休息2分鐘。\n9. 這個練習應該感覺有挑戰性但可以應付。運動期間的輕微不適（最多5/10痛楚）是可以接受的——這是一個高負重方案，旨在刺激肌腱和筋膜的重塑。\n10. 隨著數星期後練習變得容易，你可以通過增加重量（穿戴裝有書本的背囊）而非增加次數來遞進。\n\n研究顯示，這種高負重強化方案比單純伸展能產生更快的康復效果。",
+      "frequency": "Every other day (allow a rest day between sessions)",
+      "duration": "3 sets × 12 repetitions (approximately 15 minutes including rest)",
+      "difficulty_level": "intermediate",
+      "contraindications": "Do not begin this exercise during the acute phase when pain is severe (above 7/10). Not suitable if you have a suspected calcaneal stress fracture, plantar fascia rupture, or acute Achilles tendon injury. Start with both-leg calf raises if the single-leg lowering phase is too painful. Reduce load or stop if pain during the exercise exceeds 5/10 or if pain the next morning is significantly worse than usual. Ensure you have good balance support to prevent falls.",
+      "video_reference_url": "[TO BE ADDED]"
+    }
+  ],
+  "recovery_timeline": {
+    "mild_estimate": "4–8 weeks with consistent stretching, appropriate footwear, and activity modification",
+    "moderate_estimate": "3–6 months with physiotherapy, orthotics, strengthening exercises, and possible adjunct treatments",
+    "severe_estimate": "6–12 months or longer for chronic cases; may require advanced interventions such as shockwave therapy, injection therapy, or rarely surgery",
+    "note": "Plantar fasciitis is typically a self-limiting condition — approximately 90% of cases resolve with conservative treatment. However, the average episode lasts longer than 6 months, so patience and consistency with your rehabilitation programme are essential. Symptoms often improve gradually rather than suddenly. Factors that speed recovery include: maintaining a healthy body weight, wearing supportive footwear consistently, performing daily stretching and strengthening exercises, and avoiding sudden increases in weight-bearing activity. If symptoms do not improve after 6 months of conservative treatment, discuss advanced options with your doctor."
+  },
+  "when_to_see_professional": [
+    "Heel pain persists for more than 2–4 weeks despite regular stretching and self-care",
+    "Pain is getting worse rather than better over time",
+    "Pain is present at rest or during the night (not just with weight-bearing)",
+    "You are limping or significantly altering your walking pattern because of the pain",
+    "You experienced a sudden 'pop' or 'tear' sensation in the arch or heel",
+    "Numbness, tingling, or burning in the sole of the foot",
+    "The condition has not responded to previous treatment attempts",
+    "You have diabetes or a circulatory condition and develop new foot pain"
+  ],
+  "faqs": [
+    {
+      "question_en": "Is plantar fasciitis caused by inflammation?",
+      "question_zh": "足底筋膜炎是由發炎引起的嗎？",
+      "answer_en": "Despite the name 'fasciitis' (which implies inflammation), research has shown that plantar fasciitis is primarily a degenerative condition, not an inflammatory one. Studies of affected tissue show collagen degeneration and micro-tearing rather than inflammatory cells. This is why the condition is increasingly referred to as 'plantar fasciopathy' or 'plantar heel pain'. This distinction matters for treatment — it explains why anti-inflammatory medications may provide short-term pain relief but do not address the underlying problem. Treatments that promote tissue remodelling, such as stretching, high-load strengthening exercises, and manual therapy, are more effective at addressing the root cause.",
+      "answer_zh": "儘管名稱「筋膜炎」（暗示有發炎），但研究表明足底筋膜炎主要是一種退化性疾病，而非炎症性疾病。對受影響組織的研究顯示膠原蛋白退化和微撕裂，而非炎症細胞。因此，這種狀況越來越多地被稱為「足底筋膜病變」或「足底腳踭痛」。這個區別對治療很重要——它解釋了為什麼消炎藥可能提供短期止痛但不能解決根本問題。促進組織重塑的治療方法，如伸展運動、高負重強化運動和手法治療，在解決根本原因方面更為有效。"
+    },
+    {
+      "question_en": "Does having a heel spur mean I have plantar fasciitis?",
+      "question_zh": "有骨刺是否代表我有足底筋膜炎？",
+      "answer_en": "Not necessarily. About 50% of people with plantar fasciitis have a heel spur (calcaneal spur) visible on X-ray, but heel spurs are also found in many people who have no heel pain at all. The spur itself is generally not the source of pain — it is the degenerative changes in the plantar fascia that cause the symptoms. Removing the spur surgically does not reliably resolve the pain. Therefore, the presence of a heel spur on X-ray should not cause alarm or change the treatment approach — the focus should remain on treating the fasciopathy with stretching, strengthening, and activity modification.",
+      "answer_zh": "不一定。約50%的足底筋膜炎患者在X光上可見到骨刺（跟骨骨刺），但許多完全沒有腳踭痛的人也有骨刺。骨刺本身通常不是痛楚的來源——引起症狀的是足底筋膜的退化性變化。手術切除骨刺並不能可靠地消除痛楚。因此，X光上發現骨刺不必過於擔心，也不應改變治療方針——重點仍應放在透過伸展、強化運動和活動調整來治療筋膜病變。"
+    },
+    {
+      "question_en": "When can I return to exercise or sports?",
+      "question_zh": "我什麼時候可以恢復運動？",
+      "answer_en": "Return to exercise should be gradual and guided by your symptoms. As a general approach: (1) During the acute phase (first 2–4 weeks), reduce or modify high-impact activities — switch from running to cycling, swimming, or other low-impact exercise that does not aggravate your heel. (2) Once morning pain has settled to a mild level (1–2/10), you can gradually reintroduce walking and light jogging, starting with short durations on soft surfaces. (3) Increase distance and intensity by no more than 10% per week. (4) Full return to running, jumping, and sport-specific training is usually possible once you can walk for 30+ minutes pain-free and perform single-leg calf raises without significant discomfort. This typically takes 6–12 weeks for mild-moderate cases. (5) Continue stretching before and after exercise, and consider wearing supportive footwear or orthotic insoles during sport. Avoid running barefoot or in minimalist shoes until fully recovered.",
+      "answer_zh": "恢復運動應循序漸進，以你的症狀為指引。一般方法：（1）在急性階段（首2至4星期），減少或調整高衝擊活動——從跑步改為踩單車、游泳或其他不會加重腳踭痛楚的低衝擊運動。（2）當早晨痛楚已降至輕微水平（1至2/10），你可以逐步重新開始步行和輕度慢跑，從短距離和軟地面開始。（3）每星期距離和強度的增加不超過10%。（4）通常在你能夠無痛步行30分鐘以上，且能進行單腿提踵而無明顯不適時，才可完全恢復跑步、跳躍和專項運動訓練。對於輕度至中度個案，這通常需要6至12星期。（5）運動前後繼續伸展，並考慮在運動時穿著有承托力的鞋子或矯形鞋墊。在完全康復之前，避免赤腳或穿極簡鞋跑步。"
+    },
+    {
+      "question_en": "Should I wear orthotics or special insoles?",
+      "question_zh": "我需要穿矯形鞋墊嗎？",
+      "answer_en": "Foot orthoses (insoles) can be helpful for many people with plantar fasciitis, particularly those with flat feet or those whose jobs require prolonged standing. Clinical practice guidelines support the use of both prefabricated (off-the-shelf) and custom-made orthoses as part of a comprehensive treatment plan. Prefabricated orthoses with arch support and heel cushioning are a good, affordable first option — research shows they are often as effective as custom-made ones for most people. If prefabricated insoles do not provide sufficient relief, custom orthoses made by a podiatrist or orthotist may be considered. Orthoses work best when combined with stretching and strengthening exercises — they are not a standalone fix. Your physiotherapist can advise on the most appropriate option for your foot type.",
+      "answer_zh": "矯形鞋墊對許多足底筋膜炎患者都有幫助，尤其是扁平足患者或需要長時間站立工作的人。臨床實踐指引支持將預製（現成）和訂製矯形鞋墊作為綜合治療計劃的一部分。具有足弓承托和腳踭軟墊的預製矯形鞋墊是一個良好且經濟實惠的首選——研究顯示，對大多數人來說，它們的效果與訂製鞋墊相當。如果預製鞋墊沒有提供足夠的紓緩，可以考慮由足病診療師或矯形師製作的訂製鞋墊。矯形鞋墊與伸展和強化運動結合使用效果最好——它們並非獨立的解決方案。你的物理治療師可以根據你的足部類型推薦最合適的選擇。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Plantar Fasciitis — Physiopedia",
+      "url": "https://www.physio-pedia.com/Plantar_Fasciitis",
+      "type": "professional_guideline"
+    },
+    {
+      "title": "Buchanan BK, Sina RE, Kushner D. Plantar Fasciitis. StatPearls. 2024.",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK431073/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Martin RL et al. Heel Pain — Plantar Fasciitis: Revision 2014. Clinical Practice Guideline. J Orthop Sports Phys Ther. 2014;44(11):A1-33.",
+      "url": "https://www.jospt.org/doi/10.2519/jospt.2014.0303",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Morrissey D et al. Management of plantar heel pain: a best practice guide informed by a systematic review, expert clinical reasoning and patient values. Br J Sports Med. 2021;55(19):1106-18.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33785535/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Rathleff MS et al. High-load strength training improves outcome in patients with plantar fasciitis. Scand J Med Sci Sports. 2015;25(3):e292-300.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25145882/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "DiGiovanni BF et al. Tissue-specific plantar fascia-stretching exercise enhances outcomes in patients with chronic heel pain. JBJS. 2003;85(7):1270-7.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12851352/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Rhim HC et al. A Systematic Review of Systematic Reviews on the Epidemiology, Evaluation, and Treatment of Plantar Fasciitis. Life. 2021;11(12):1287.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34947816/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Clinical Guideline for First-contact Physiotherapists on Assessment and Cross-disciplinary Management Approach for Common Musculoskeletal Problems in Primary Care Setting. Primary Healthcare Commission, Hong Kong. Dec 2025.",
+      "url": "",
+      "type": "government_guideline"
+    }
+  ],
+  "review_status": {
+    "reviewed_by": "[PENDING — Physiotherapist Name]",
+    "reviewer_credentials": "[PENDING]",
+    "review_date": null,
+    "next_review_date": null,
+    "approved": false
+  },
+  "metadata": {
+    "created_date": "2026-04-29",
+    "last_updated": "2026-05-02",
+    "version": "0.1-draft"
+  }
+}

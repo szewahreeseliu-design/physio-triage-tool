@@ -1,0 +1,41 @@
+vertex-key.json
+.env
+secrets.toml
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints
+
+# Old app versions
+app.py
+app_styled*.py
+app_v9.py
+
+# Development scripts
+patch*.py
+scraper_*.py
+parse_insurer_panels.py
+insurer_match_rerun.py
+upload_*.py
+fix_panel_clinics.py
+backfill_regions.py
+prepare_aia_cleanup.py
+regenerate_review_docs.py
+rag_test_ollama.py
+rag_v2.py
+assessment.py
+clinic_match.py
+recovery_coach.py
+
+# Large files & documents
+*.docx
+*.pdf
+edr_raw.json
+finddoc_raw.json
+hk_physiotherapists_register.json
+*.csv
+requirements_edr.txt
+requirements_finddoc.txt
+requirements_insurer.txt
+clinic_network_map.txt

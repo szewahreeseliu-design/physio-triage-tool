@@ -1,0 +1,320 @@
+{
+  "condition_id": "MSK-003",
+  "condition_name_en": "Sciatica",
+  "condition_name_zh": "坐骨神經痛",
+  "body_area": [
+    "lower back",
+    "buttock",
+    "leg"
+  ],
+  "category": "musculoskeletal",
+  "patient_language_aliases": [
+    "sciatica",
+    "shooting pain down my leg",
+    "pain from back to leg",
+    "leg pain from my back",
+    "nerve pain in my leg",
+    "pins and needles in my leg",
+    "burning pain down my leg",
+    "pain radiating to my foot",
+    "numb leg",
+    "electric shock feeling in my leg",
+    "trapped nerve in back",
+    "坐骨神經痛",
+    "腳痛",
+    "腰痛落腳",
+    "腳痺",
+    "屁股痛落腳"
+  ],
+  "symptoms": [
+    {
+      "description_en": "Radiating pain from the lower back or buttock down one leg, typically following a dermatomal pattern and extending below the knee into the foot",
+      "description_zh": "從下背部或臀部沿一側腿部向下放射的疼痛，通常沿皮節分佈延伸至膝蓋以下甚至腳部"
+    },
+    {
+      "description_en": "Sensory disturbances such as tingling, burning sensations, pins and needles, or numbness in the affected leg or foot",
+      "description_zh": "受影響的腿部或腳部出現感覺異常，例如刺痛、灼熱感、針刺感或麻痺"
+    },
+    {
+      "description_en": "Muscle weakness in the affected leg — may include difficulty lifting the foot (L5), standing on tiptoes (S1), or straightening the leg (L4)",
+      "description_zh": "受影響腿部肌肉無力——可能包括提腳困難（L5神經）、踮腳站立困難（S1神經）或伸直腿部困難（L4神經）"
+    },
+    {
+      "description_en": "Pain that worsens with flexion of the lumbar spine, twisting, bending, coughing, or sneezing",
+      "description_zh": "腰椎前屈、扭轉、彎腰、咳嗽或打噴嚏時疼痛加劇"
+    },
+    {
+      "description_en": "Diminished reflexes — reduced knee jerk reflex (L4) or ankle jerk reflex (S1)",
+      "description_zh": "反射減弱——膝腱反射減弱（L4神經）或跟腱反射減弱（S1神經）"
+    },
+    {
+      "description_en": "Gait dysfunction — difficulty walking normally due to pain or weakness, limping or favouring the unaffected leg",
+      "description_zh": "步態異常——因疼痛或無力而無法正常行走，跛行或偏向未受影響的腿"
+    }
+  ],
+  "guided_questions": [
+    {
+      "question_en": "Can you describe where the pain goes? Does it stay in your back and buttock, or does it travel down your leg? Does it go below the knee or into the foot?",
+      "question_zh": "你能描述一下疼痛的位置嗎？疼痛是停留在背部和臀部，還是延伸到腿部？有沒有到膝蓋以下或腳部？",
+      "purpose": "Determine the distribution of pain — sciatica typically radiates below the knee into the foot. Pain staying above the knee may suggest referred musculoskeletal pain rather than true radiculopathy."
+    },
+    {
+      "question_en": "How long have you been experiencing this pain? Did it start suddenly or gradually?",
+      "question_zh": "這個疼痛持續了多久？是突然開始還是逐漸出現的？",
+      "purpose": "Establish duration and onset pattern. The source notes imaging may be considered if pain persists beyond 12 weeks. Sudden onset after trauma warrants different evaluation."
+    },
+    {
+      "question_en": "On a scale of 1 to 10, how would you rate the leg pain? Is the leg pain worse than the back pain?",
+      "question_zh": "以1到10分計算，你的腿部疼痛程度是多少？腿部疼痛是否比背部疼痛更嚴重？",
+      "purpose": "In sciatica, leg pain is typically more severe than back pain. This helps confirm the diagnosis and quantify severity for triage."
+    },
+    {
+      "question_en": "What makes the pain worse? Does it increase when you bend forward, cough, sneeze, or sit for prolonged periods?",
+      "question_zh": "什麼情況會令疼痛加劇？向前彎腰、咳嗽、打噴嚏或長時間坐著時疼痛會加重嗎？",
+      "purpose": "The source specifically notes sciatica pain worsens with lumbar flexion, twisting, bending, and coughing — these are characteristic aggravating factors that help confirm the diagnosis."
+    },
+    {
+      "question_en": "Do you have any weakness in your leg or foot? For example, difficulty lifting your toes, standing on tiptoes, or tripping when walking?",
+      "question_zh": "你的腿部或腳部有沒有無力感？例如提起腳趾困難、踮腳站立困難，或行走時容易絆倒？",
+      "purpose": "Screen for motor deficit and foot drop. Progressive weakness is a red flag indicating significant nerve compression that may require urgent surgical evaluation."
+    },
+    {
+      "question_en": "What is your occupation? Do you drive for long periods, operate machinery, or do heavy physical work?",
+      "question_zh": "你的職業是什麼？你是否需要長時間駕駛、操作機器或從事重體力工作？",
+      "purpose": "The source identifies occupational predisposition in machine operators, truck drivers, and jobs involving awkward positions or spinal vibration. This guides ergonomic advice and return-to-work planning."
+    },
+    {
+      "question_en": "Do you have any difficulty controlling your bladder or bowels? Any numbness in the groin, inner thigh, or saddle area?",
+      "question_zh": "你有沒有大小便失禁的情況？鼠蹊部、大腿內側或會陰部有沒有麻痺感？",
+      "purpose": "CRITICAL red-flag screening for cauda equina syndrome. The source explicitly states patients with urinary retention or decreased anal sphincter tone should be URGENTLY referred. This is a surgical emergency."
+    }
+  ],
+  "severity_classification": {
+    "mild": {
+      "indicators": [
+        "Intermittent leg pain rated 1–3 out of 10",
+        "Pain mainly in the buttock or thigh, not extending below the knee",
+        "No muscle weakness or reflex changes",
+        "Can perform daily activities with some discomfort",
+        "Symptoms present for less than 6 weeks"
+      ],
+      "self_care_appropriate": true,
+      "description_en": "Your symptoms suggest mild sciatica. The good news is that most cases of sciatica improve with conservative treatment — staying active, gentle exercises, and avoiding positions that aggravate the pain. Research shows the majority of people recover within a few weeks. Bed rest is not recommended; keeping moving is one of the best things you can do.",
+      "description_zh": "你的症狀顯示為輕度坐骨神經痛。好消息是，大部分坐骨神經痛個案透過保守治療——保持活動、輕柔運動和避免加劇疼痛的姿勢——都能改善。研究顯示大多數人在幾星期內會康復。不建議臥床休息，保持活動是你能做的最好的事情之一。"
+    },
+    "moderate": {
+      "indicators": [
+        "Persistent leg pain rated 4–6 out of 10, extending below the knee",
+        "Some tingling, numbness, or burning sensations in the leg or foot",
+        "Mild weakness in the foot or toes",
+        "Pain significantly affecting daily activities, work, or sleep",
+        "Symptoms persisting for more than 4–6 weeks despite self-care"
+      ],
+      "recommend_professional": true,
+      "description_en": "Your symptoms suggest moderate sciatica with some nerve involvement. A physiotherapist can provide targeted manual therapy, nerve mobilisation techniques, and a structured exercise programme to help your recovery. Most people with these symptoms still improve with conservative treatment — surgery is typically only considered if symptoms persist beyond 6–8 weeks without improvement.",
+      "description_zh": "你的症狀顯示為中度坐骨神經痛，伴有一定程度的神經受壓。物理治療師可以提供針對性的手法治療、神經鬆動技術和結構化運動計劃來幫助你康復。有這些症狀的大多數人透過保守治療仍然能夠改善——手術通常只在症狀持續超過6至8星期且沒有改善時才會考慮。"
+    },
+    "severe": {
+      "indicators": [
+        "Severe leg pain rated 7–10 out of 10",
+        "Progressive muscle weakness in the leg or foot (e.g., foot drop)",
+        "Significant numbness or loss of sensation in the leg",
+        "Bladder or bowel dysfunction (difficulty urinating or loss of control)",
+        "Numbness in the saddle area (groin, inner thighs, buttocks)"
+      ],
+      "seek_immediate_help": true,
+      "description_en": "Your symptoms suggest severe sciatica with significant nerve compression. Please seek medical attention as soon as possible. If you are experiencing any loss of bladder or bowel control, numbness in the groin or saddle area, or rapidly worsening weakness in your leg — please go to A&E or call 999 immediately. These may indicate cauda equina syndrome, which is a medical emergency requiring urgent surgical assessment.",
+      "description_zh": "你的症狀顯示為嚴重的坐骨神經痛，伴有明顯的神經受壓。請盡快求醫。如果你出現大小便失禁、鼠蹊部或會陰部麻痺，或腿部無力急速惡化的情況——請立即前往急症室或致電999。這些可能是馬尾症候群的徵兆，屬於需要緊急手術評估的醫療急症。"
+    }
+  },
+  "red_flags": [
+    "Loss of bladder control or urinary retention — possible cauda equina syndrome (EMERGENCY: call 999 / go to A&E immediately)",
+    "Loss of bowel control or decreased anal sphincter tone — possible cauda equina syndrome",
+    "Numbness in the saddle area (groin, inner thighs, perineum)",
+    "Progressive muscle weakness in the leg or foot, especially foot drop (inability to lift the foot)",
+    "Bilateral sciatica (radiating pain in both legs simultaneously)",
+    "Severe or rapidly worsening neurological deficit",
+    "Sciatica following major trauma (car accident, fall from height) — possible fracture or epidural haematoma",
+    "Fever or chills with back and leg pain — possible spinal infection or epidural abscess",
+    "History of cancer with new onset of sciatica — possible spinal or paraspinal tumour",
+    "Unexplained weight loss combined with persistent back and leg pain"
+  ],
+  "possible_causes": [
+    {
+      "cause_en": "Herniated or bulging lumbar intervertebral disc (the most common cause of sciatica)",
+      "cause_zh": "腰椎椎間盤突出或膨出（坐骨神經痛最常見的原因）",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Lumbar spinal stenosis (narrowing of the spinal canal, more common in older patients)",
+      "cause_zh": "腰椎管狹窄（脊椎管收窄，較常見於年長患者）",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Spondylolisthesis (forward slippage of a vertebra)",
+      "cause_zh": "脊椎滑脫（椎體向前滑移）",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Piriformis syndrome (irritation of the sciatic nerve by the piriformis muscle in the buttock)",
+      "cause_zh": "梨狀肌症候群（臀部梨狀肌刺激坐骨神經）",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Degenerative disc disease and bone disorders",
+      "cause_zh": "椎間盤退化及骨骼退行性疾病",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Pregnancy (due to pressure on the sciatic nerve from the growing uterus)",
+      "cause_zh": "懷孕（因子宮增大對坐骨神經造成壓力）",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Spinal or paraspinal mass, tumour, epidural haematoma, or abscess",
+      "cause_zh": "脊椎或脊椎旁腫塊、腫瘤、硬膜外血腫或膿腫",
+      "likelihood": "rare"
+    },
+    {
+      "cause_en": "Pelvic tumour compressing the sciatic nerve",
+      "cause_zh": "盆腔腫瘤壓迫坐骨神經",
+      "likelihood": "rare"
+    },
+    {
+      "cause_en": "Direct sciatic nerve injury from trauma, surgery, or injection",
+      "cause_zh": "創傷、手術或注射導致坐骨神經直接損傷",
+      "likelihood": "rare"
+    }
+  ],
+  "self_care_exercises": [
+    {
+      "exercise_name_en": "Sciatic Nerve Glide (Nerve Flossing)",
+      "exercise_name_zh": "坐骨神經滑動運動（神經鬆動術）",
+      "instructions_en": "Sit upright on a chair with both feet flat on the floor. Slowly straighten the affected leg by extending the knee while simultaneously tilting your head back to look at the ceiling. Then bend the knee back down while tucking your chin to your chest. The movement should be smooth and gentle — like a pendulum. You are alternately tensioning and releasing the sciatic nerve. Do not push into pain; the movement should produce only a mild pulling sensation along the back of the leg.",
+      "instructions_zh": "坐直在椅子上，雙腳平放在地上。慢慢伸直受影響的腿（伸展膝蓋），同時將頭向後仰望天花板。然後彎曲膝蓋放下，同時將下巴收向胸口。動作應該平穩輕柔——像鐘擺一樣。你在交替拉緊和釋放坐骨神經。不要用力到疼痛的程度；動作應該只產生輕微的牽拉感沿腿後側分佈。",
+      "frequency": "10 repetitions × 3 sets",
+      "duration": "Daily — 2 to 3 times per day",
+      "difficulty_level": "beginner",
+      "contraindications": "Stop immediately if the exercise increases radiating pain, numbness, or tingling. Do not perform if you have signs of cauda equina syndrome. Reduce range of motion if uncomfortable.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Prone Press-Up (McKenzie Extension)",
+      "exercise_name_zh": "俯臥撐起（麥肯齊伸展法）",
+      "instructions_en": "Lie face down on a firm surface with your hands placed beside your shoulders (as if preparing for a push-up). Keeping your hips and pelvis on the floor, slowly press your upper body upward by straightening your arms. Only go as far as comfortable — you should feel a gentle stretch in your lower back but NO increase in leg pain. Hold for 2–3 seconds, then slowly lower back down. If your leg pain starts to decrease or 'centralise' (move from the leg toward the back), this is a positive sign.",
+      "instructions_zh": "面朝下趴在硬實的表面上，雙手放在肩膀兩側（像準備做俯臥撐一樣）。保持臀部和骨盆貼在地面上，慢慢伸直手臂將上半身撐起。只做到舒適的範圍——你應該感到下背部有輕柔的拉伸感，但腿部疼痛不應加劇。保持2至3秒，然後慢慢放下。如果你的腿部疼痛開始減少或「集中化」（從腿部移向背部），這是一個正面的信號。",
+      "frequency": "10 repetitions × 3 sets",
+      "duration": "Every 2–3 hours during the acute phase",
+      "difficulty_level": "beginner",
+      "contraindications": "STOP if leg pain increases or moves further down the leg (peripheralisation) — this means the exercise is not suitable for you. Avoid if you have spinal stenosis (extension typically worsens stenosis symptoms). Do not perform if you have a known spondylolisthesis without professional guidance.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Supine Piriformis Stretch",
+      "exercise_name_zh": "仰臥梨狀肌伸展",
+      "instructions_en": "Lie on your back with both knees bent and feet flat on the floor. Cross the ankle of the affected leg over the opposite knee (creating a figure-4 position). Reach both hands behind the uncrossed thigh and gently pull the thigh toward your chest until you feel a deep stretch in the buttock of the crossed leg. Hold for 20–30 seconds, breathing deeply. This stretch targets the piriformis muscle, which lies directly over the sciatic nerve.",
+      "instructions_zh": "仰臥，雙膝彎曲，雙腳平放在地上。將受影響一側的腳踝交叉放在另一側膝蓋上（形成數字4的姿勢）。雙手從未交叉的大腿後方穿過，輕輕將大腿拉向胸口，直到感覺交叉腿的臀部有深層拉伸感。保持20至30秒，深呼吸。這個伸展針對梨狀肌——它直接位於坐骨神經上方。",
+      "frequency": "3 repetitions per side, holding 20–30 seconds each",
+      "duration": "Daily",
+      "difficulty_level": "beginner",
+      "contraindications": "Avoid if the stretch significantly increases radiating leg pain or numbness. Reduce the pull intensity if the position is very uncomfortable. Avoid if you have a recent hip replacement or hip injury.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Knee-to-Chest Stretch",
+      "exercise_name_zh": "膝蓋靠胸伸展",
+      "instructions_en": "Lie on your back with both knees bent and feet flat on the floor. Bring the knee of the affected side toward your chest, holding it with both hands behind the thigh or over the shin. Gently pull until you feel a comfortable stretch in your lower back and buttock. Hold for 20–30 seconds. Keep the opposite foot flat on the floor. Then slowly lower the leg and repeat on the other side. This exercise gently opens the lumbar spine and can help relieve pressure on the nerve roots.",
+      "instructions_zh": "仰臥，雙膝彎曲，雙腳平放在地上。將受影響一側的膝蓋拉向胸口，用雙手抱住大腿後方或小腿。輕輕拉至感到下背部和臀部有舒適的拉伸感。保持20至30秒。另一隻腳保持平放在地上。然後慢慢放下，換另一側重複。這個運動輕柔地打開腰椎，有助減輕神經根的壓力。",
+      "frequency": "3 repetitions per side, holding 20–30 seconds each",
+      "duration": "Daily",
+      "difficulty_level": "beginner",
+      "contraindications": "Avoid if it causes sharp or shooting pain down the leg. If the flexion position worsens your symptoms, try the prone press-up exercise instead. Not suitable if you have a known large disc herniation without professional guidance.",
+      "video_reference_url": "[TO BE ADDED]"
+    }
+  ],
+  "recovery_timeline": {
+    "mild_estimate": "4–6 weeks with self-care, staying active, and gentle exercises",
+    "moderate_estimate": "6–12 weeks with physiotherapy including manual therapy and structured exercise",
+    "severe_estimate": "3–6 months; may require surgical evaluation if no improvement after 6–8 weeks of conservative treatment",
+    "note": "Research shows that the majority of sciatica cases improve with conservative treatment. One study found that although surgery may speed up initial recovery, the outcomes are similar to conservative care at one year. Surgery should only be considered when conservative methods have failed. Psychosocial factors including depression and kinesiophobia can slow recovery. Annual incidence is 1–5% with a lifetime incidence of 10–40%."
+  },
+  "when_to_see_professional": [
+    "Pain radiating below the knee that persists beyond 4 weeks despite self-care",
+    "Worsening or progressive muscle weakness in the leg or foot",
+    "Numbness or tingling that is spreading or getting worse",
+    "Pain severe enough to significantly limit daily activities, work, or sleep",
+    "Sciatica following significant trauma or injury",
+    "Bilateral leg symptoms (both legs affected)",
+    "Any bladder or bowel changes, even if minor — seek URGENT assessment"
+  ],
+  "faqs": [
+    {
+      "question_en": "Should I rest in bed or stay active?",
+      "question_zh": "我應該臥床休息還是保持活動？",
+      "answer_en": "Evidence strongly recommends staying active and limiting bed rest. Research shows that prolonged bed rest can actually worsen sciatica by decondditioning the supporting muscles. Continue with normal daily activities within your pain tolerance. Gentle walking is one of the best things you can do. Avoid prolonged sitting or standing in one position — regularly change positions throughout the day. Hot or cold packs can be used for comfort.",
+      "answer_zh": "醫學證據強烈建議保持活動，盡量減少臥床休息。研究顯示，長時間臥床反而會令支撐肌肉弱化，使坐骨神經痛惡化。請在可忍受的疼痛範圍內繼續日常活動。輕柔的步行是你能做的最好的事情之一。避免長時間維持同一坐姿或站姿——全天定時轉換姿勢。可以使用冷敷或熱敷來舒緩不適。"
+    },
+    {
+      "question_en": "Do I need surgery for sciatica?",
+      "question_zh": "坐骨神經痛需要做手術嗎？",
+      "answer_en": "The majority of sciatica cases are best managed conservatively — that means physiotherapy, exercise, and pain management. Surgery is typically only considered if your symptoms have not improved after 6–8 weeks of conservative treatment, or if you have progressive neurological deficits. Importantly, research shows that although surgery may speed up the initial recovery, the outcomes at one year are similar to conservative care. Surgery is reserved for cases with a clear structural cause such as disc herniation, epidural haematoma, abscess, or tumour.",
+      "answer_zh": "大多數坐骨神經痛個案透過保守治療——即物理治療、運動和疼痛管理——就能有效處理。手術通常只在保守治療6至8星期後症狀仍未改善，或出現漸進性神經功能缺損時才會考慮。重要的是，研究顯示雖然手術可能加速初期康復，但一年後的結果與保守治療相似。手術只適用於有明確結構性原因的個案，例如椎間盤突出、硬膜外血腫、膿腫或腫瘤。"
+    },
+    {
+      "question_en": "When can I return to exercise or sports?",
+      "question_zh": "我多快可以恢復運動？",
+      "answer_en": "For mild sciatica, you can usually continue low-impact exercise like walking and swimming from the start — in fact, regular light exercise is part of the treatment. For moderate cases, a gradual return to exercise over 6–12 weeks is typical. Avoid heavy lifting, high-impact activities, and sports involving twisting until your symptoms have significantly improved and you have regained your strength. Core strengthening exercises are essential before returning to sport. If you had surgery, follow your surgeon's specific return-to-activity guidelines. Always consult a physiotherapist before returning to competitive or contact sports.",
+      "answer_zh": "對於輕度坐骨神經痛，你通常可以從一開始就繼續低衝擊運動，如步行和游泳——事實上，定期輕量運動是治療的一部分。中度個案一般需要6至12星期逐步恢復運動。在症狀明顯改善及恢復力量之前，避免提重物、高衝擊活動和涉及扭轉的運動。恢復運動前，核心肌肉強化運動是必不可少的。如果你接受了手術，請遵從外科醫生的具體恢復活動指引。恢復競技性或接觸性運動前，請務必諮詢物理治療師。"
+    },
+    {
+      "question_en": "Will my sciatica come back?",
+      "question_zh": "坐骨神經痛會復發嗎？",
+      "answer_en": "Sciatica can recur, especially if the underlying cause (such as disc degeneration) remains. Research shows that physical activity actually decreases the incidence in those with no prior symptoms, but may increase it in those who have had sciatica before. To reduce your risk of recurrence: maintain regular core strengthening and stretching exercises, practise good posture and lifting techniques, maintain a healthy weight, stop smoking (which affects blood flow to spinal discs), manage occupational risk factors, and address psychological factors like stress and depression, which are associated with increased incidence.",
+      "answer_zh": "坐骨神經痛可能會復發，尤其是如果潛在原因（如椎間盤退化）仍然存在。研究顯示，身體活動對於從未有過坐骨神經痛的人可以減少發病率，但對於曾經患過的人可能會增加復發機會。要降低復發風險：保持定期的核心肌肉強化和伸展運動、注意正確的姿勢和提重物技巧、維持健康體重、戒煙（吸煙會影響脊椎椎間盤的血液供應）、管理職業風險因素，以及處理壓力和抑鬱等心理因素——這些都與坐骨神經痛的發病率增加有關。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Physiopedia — Sciatica",
+      "url": "https://www.physio-pedia.com/Sciatica",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "NICE Guideline NG59 — Low back pain and sciatica in over 16s: assessment and management",
+      "url": "https://www.nice.org.uk/guidance/ng59",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Jensen RK, Kongsted A, Kjaer P, Koes B — Diagnosis and treatment of sciatica (BMJ 2019)",
+      "url": "https://doi.org/10.1136/bmj.l6273",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Davis D, Taqi M, Vasudevan A — Sciatica (StatPearls 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK507908/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Parreira P et al. — Risk factors for low back pain and sciatica: an umbrella review (Spine J 2018)",
+      "url": "https://doi.org/10.1016/j.spinee.2018.05.018",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "HK Health Bureau — Clinical Guideline for First-contact Physiotherapists on Common MSK Problems in Primary Care",
+      "url": "https://www.healthbureau.gov.hk/phcc/rfs/assets/pdf/home/discipline-based_guidelines/clinical_guideline_on_first_contact_assessment_and_cross-disciplinary_management_approach_for_common_msk_problems.pdf",
+      "type": "government_guideline"
+    }
+  ],
+  "review_status": {
+    "reviewed_by": "[PENDING — Physiotherapist Name]",
+    "reviewer_credentials": "[PENDING — e.g., BSc Physiotherapy, HKPA Member]",
+    "review_date": null,
+    "next_review_date": null,
+    "approved": false
+  },
+  "metadata": {
+    "created_date": "2026-05-01",
+    "last_updated": "2026-05-01",
+    "version": "0.1-draft"
+  }
+}

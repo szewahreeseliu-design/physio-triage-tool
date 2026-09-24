@@ -1,0 +1,307 @@
+{
+  "condition_id": "MSK-013",
+  "condition_name_en": "Golfer's Elbow (Medial Epicondylitis)",
+  "condition_name_zh": "高爾夫球肘（肱骨內上髁炎）",
+  "body_area": [
+    "elbow",
+    "forearm",
+    "wrist"
+  ],
+  "category": "musculoskeletal",
+  "patient_language_aliases": [
+    "inner elbow pain",
+    "elbow pain when gripping",
+    "sore elbow from lifting",
+    "pain on the inside of my elbow",
+    "forearm ache near elbow",
+    "elbow hurts when I twist my wrist",
+    "pain when squeezing or gripping",
+    "golfer's elbow",
+    "elbow tendon pain",
+    "wrist flexor pain",
+    "pain when carrying heavy bags",
+    "elbow stiffness and soreness",
+    "手踭內側痛",
+    "手肘痛",
+    "擰毛巾時手踭痛",
+    "揸嘢時手踭痛",
+    "高爾夫球肘"
+  ],
+  "symptoms": [
+    {
+      "description_en": "Pain and tenderness on the inner side of the elbow, near the bony bump (medial epicondyle)",
+      "description_zh": "手肘內側（近骨突處）疼痛及壓痛"
+    },
+    {
+      "description_en": "Pain radiating down the forearm toward the wrist, sometimes reaching the fingers",
+      "description_zh": "疼痛沿前臂向手腕方向放射，有時延伸至手指"
+    },
+    {
+      "description_en": "Weakness in the hand and wrist, especially when gripping objects",
+      "description_zh": "手部及手腕無力，尤其在握物時更為明顯"
+    },
+    {
+      "description_en": "Stiffness of the elbow, with possible reduced range of motion",
+      "description_zh": "手肘僵硬，活動幅度可能減少"
+    },
+    {
+      "description_en": "Numbness or tingling in the ring and little fingers",
+      "description_zh": "無名指及尾指麻痺或刺痛感"
+    },
+    {
+      "description_en": "Pain worsens with wrist flexion, forearm pronation, or gripping activities",
+      "description_zh": "屈腕、前臂旋前或抓握活動時疼痛加劇"
+    },
+    {
+      "description_en": "Pain when shaking hands, pulling a door handle, or lifting objects",
+      "description_zh": "握手、拉門把手或提舉物件時感到疼痛"
+    }
+  ],
+  "guided_questions": [
+    {
+      "question_en": "Where exactly do you feel the pain — is it on the inner side (pinky side) of your elbow?",
+      "question_zh": "你的痛楚確切位置在哪裏？是否在手肘內側（尾指那一邊）？",
+      "purpose": "Locate pain to differentiate medial epicondylitis from lateral epicondylitis or other elbow conditions"
+    },
+    {
+      "question_en": "When did the pain start, and did it come on gradually or suddenly after a specific activity or injury?",
+      "question_zh": "痛楚是何時開始的？是逐漸出現還是在某次特定活動或受傷後突然發生？",
+      "purpose": "Determine onset pattern to distinguish overuse tendinopathy from acute injury"
+    },
+    {
+      "question_en": "What activities or movements make the pain worse — for example, gripping, twisting, lifting, or sports?",
+      "question_zh": "哪些活動或動作會令痛楚加劇？例如握物、扭轉、提舉或運動？",
+      "purpose": "Identify aggravating factors and confirm involvement of wrist flexor/pronator muscles"
+    },
+    {
+      "question_en": "Do you experience any numbness, tingling, or weakness in your hand or fingers?",
+      "question_zh": "你的手部或手指有沒有麻痺、刺痛或無力的感覺？",
+      "purpose": "Screen for ulnar nerve involvement or nerve compression which may require different management"
+    },
+    {
+      "question_en": "Does your work or sport involve repetitive wrist or forearm movements — such as typing, using tools, throwing, or racquet sports?",
+      "question_zh": "你的工作或運動是否涉及重複的手腕或前臂動作，例如打字、使用工具、投擲或球拍運動？",
+      "purpose": "Identify occupational or recreational contributing factors for treatment planning"
+    },
+    {
+      "question_en": "How is the pain affecting your daily life — can you still work, sleep comfortably, and do household tasks?",
+      "question_zh": "痛楚對你的日常生活有多大影響？你是否仍能正常工作、舒適入睡及進行家務？",
+      "purpose": "Assess functional impact and severity level to guide triage recommendations"
+    },
+    {
+      "question_en": "Have you noticed any significant swelling, redness, warmth, locking of the elbow, fever, or recent trauma to the area?",
+      "question_zh": "你有沒有發現手肘明顯腫脹、發紅、發熱、關節鎖死、發燒，或該部位最近有否受過外傷？",
+      "purpose": "Red-flag screening to rule out fracture, infection, inflammatory arthritis, or other serious conditions requiring urgent medical care"
+    }
+  ],
+  "severity_classification": {
+    "mild": {
+      "indicators": [
+        "Pain only occurs during or immediately after specific aggravating activities",
+        "Pain intensity is mild (1–3 out of 10) and does not linger",
+        "No noticeable weakness in grip strength",
+        "Full range of motion at the elbow and wrist",
+        "Pain does not interfere with sleep or daily activities"
+      ],
+      "self_care_appropriate": true,
+      "description_en": "Your symptoms suggest an early-stage irritation of the tendons on the inner side of your elbow. The good news is that at this stage, self-care measures — including rest from aggravating activities, gentle stretching, and icing — are usually very effective. With consistent care, most people see significant improvement within a few weeks.",
+      "description_zh": "你的症狀顯示手肘內側肌腱處於早期輕微受刺激的階段。好消息是，在這個階段，自我護理措施（包括避免加重活動、輕柔伸展及冰敷）通常非常有效。只要持之以恆，大多數人會在數星期內明顯改善。"
+    },
+    "moderate": {
+      "indicators": [
+        "Pain is present during activities and persists for a while afterward",
+        "Pain intensity is moderate (4–6 out of 10)",
+        "Noticeable weakness when gripping or lifting objects",
+        "Some stiffness or mild reduction in elbow range of motion",
+        "Pain begins to affect work tasks, household chores, or sleep"
+      ],
+      "recommend_professional": true,
+      "description_en": "Your symptoms suggest a more established tendon problem that may benefit from professional guidance. While you can continue gentle self-care, we recommend seeing a physiotherapist who can provide targeted treatment — such as manual therapy, a structured progressive exercise programme, and advice on activity modification — to help you recover more effectively and prevent the condition from worsening.",
+      "description_zh": "你的症狀顯示肌腱問題已有一定程度的發展，建議尋求專業指導。你可以繼續進行輕柔的自我護理，但我們建議諮詢物理治療師，他們可提供針對性治療，例如手法治療、結構化漸進運動計劃及活動調整建議，幫助你更有效地康復，並防止病情惡化。"
+    },
+    "severe": {
+      "indicators": [
+        "Constant or near-constant pain, even at rest (7–10 out of 10)",
+        "Significant weakness — difficulty gripping, holding, or carrying everyday items",
+        "Marked loss of elbow range of motion",
+        "Numbness or persistent tingling in the ring and little fingers",
+        "Pain significantly disrupts work, sleep, and daily activities"
+      ],
+      "seek_immediate_help": true,
+      "description_en": "Your symptoms suggest a significant tendon or possibly nerve problem that needs prompt professional assessment. Please arrange to see a doctor or physiotherapist as soon as possible. Severe or prolonged cases may require imaging, specialist referral, or additional interventions such as injection therapy. Do not push through the pain — early professional input at this stage can make a real difference to your recovery.",
+      "description_zh": "你的症狀顯示肌腱或可能涉及神經的問題已相當嚴重，需要盡快接受專業評估。請儘快預約醫生或物理治療師。嚴重或持續的個案可能需要影像檢查、專科轉介或額外治療措施（如注射治療）。請不要強忍痛楚繼續活動，在這個階段及早接受專業介入對你的康復非常重要。"
+    }
+  },
+  "red_flags": [
+    "Sudden inability to bend or straighten the elbow after a traumatic injury (possible fracture or dislocation)",
+    "Visible deformity, significant swelling, or bruising around the elbow following trauma",
+    "Signs of infection: increasing redness, warmth, swelling with fever or feeling unwell",
+    "Sudden onset of severe pain with a 'pop' or 'snap' sensation (possible tendon rupture)",
+    "Progressive or severe numbness and weakness in the hand or fingers (possible nerve compression requiring urgent assessment)",
+    "Pain accompanied by chest pain, jaw pain, or shortness of breath (possible cardiac event — call 999 immediately)"
+  ],
+  "possible_causes": [
+    {
+      "cause_en": "Repetitive occupational activities involving wrist flexion and forearm pronation (e.g. carpentry, plumbing, typing, meat cutting, carrying heavy items)",
+      "cause_zh": "涉及重複屈腕及前臂旋前動作的職業活動（如木工、水管工程、打字、切肉、搬運重物）",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Repetitive sports movements — especially golf, throwing sports (baseball, javelin), racquet sports, bowling, weightlifting, and archery",
+      "cause_zh": "重複性運動動作——尤其是高爾夫球、投擲運動（棒球、標槍）、球拍運動、保齡球、舉重及射箭",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Improper sports technique or poorly fitted equipment leading to excessive medial elbow stress",
+      "cause_zh": "運動技術不當或裝備不合適，導致手肘內側承受過度壓力",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Sudden traumatic overload — a single forceful event causing acute tendon damage",
+      "cause_zh": "突發性創傷超負荷——單次劇烈動作導致肌腱急性損傷",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Age-related tendon degeneration (most common between ages 40–60)",
+      "cause_zh": "與年齡相關的肌腱退化（最常見於40至60歲）",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Underlying conditions: smoking, type 2 diabetes (associated with increased risk of tendinopathy)",
+      "cause_zh": "基礎疾病：吸煙、二型糖尿病（與肌腱病變風險增加有關）",
+      "likelihood": "less_common"
+    }
+  ],
+  "self_care_exercises": [
+    {
+      "exercise_name_en": "Wrist Flexor Stretch",
+      "exercise_name_zh": "腕屈肌伸展運動",
+      "instructions_en": "1. Extend your affected arm straight out in front of you with the palm facing up.\n2. Use your other hand to gently pull the fingers of the affected hand downward (toward the floor) until you feel a comfortable stretch along the inner forearm.\n3. Keep your elbow straight throughout.\n4. Hold the stretch for 15–30 seconds.\n5. Release slowly. Repeat 3 times.\n6. Perform the stretch gently — you should feel a mild pull, not pain.",
+      "instructions_zh": "1. 將患側手臂向前伸直，掌心向上。\n2. 用另一隻手輕輕將患側手指向下（朝地面方向）拉，直至感到前臂內側有舒適的伸展感。\n3. 整個過程保持手肘伸直。\n4. 維持伸展15至30秒。\n5. 緩慢放開。重複3次。\n6. 動作要輕柔——應感到輕微拉伸感，而非疼痛。",
+      "frequency": "3 times per day",
+      "duration": "Hold 15–30 seconds × 3 repetitions per session",
+      "difficulty_level": "beginner",
+      "contraindications": "Stop immediately if you feel sharp pain, numbness, or tingling. Do not perform if you have a suspected fracture, acute inflammation with significant swelling, or recent elbow surgery without clearance from your doctor.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Isometric Wrist Flexion",
+      "exercise_name_zh": "等長腕屈肌訓練",
+      "instructions_en": "1. Sit at a table and rest your affected forearm on the table with your wrist at the edge, palm facing up.\n2. Place your other hand on top of the palm of the affected hand.\n3. Gently try to flex (curl) your wrist upward while resisting the movement with your other hand — so there is no actual movement.\n4. Hold the contraction for 5–10 seconds at about 50% effort. There should be minimal or no pain.\n5. Relax for 5 seconds. Repeat 10 times.\n6. Gradually increase effort over days as pain allows.",
+      "instructions_zh": "1. 坐在桌旁，將患側前臂放在桌面上，手腕置於桌緣，掌心向上。\n2. 用另一隻手按住患側手掌。\n3. 輕輕嘗試向上屈曲（捲起）手腕，同時用另一隻手抵抗該動作——令手腕不產生實際移動。\n4. 以大約50%力度維持收縮5至10秒，過程中應無明顯疼痛。\n5. 放鬆5秒。重複10次。\n6. 隨著痛楚減輕，在數天內逐漸增加力度。",
+      "frequency": "2–3 times per day",
+      "duration": "Hold 5–10 seconds × 10 repetitions per session",
+      "difficulty_level": "beginner",
+      "contraindications": "Do not perform if the exercise provokes more than mild discomfort (no more than 3/10 pain). Avoid if there is acute inflammation, suspected fracture, or recent surgery. Reduce effort if numbness or tingling occurs.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Eccentric Wrist Flexion with Light Weight",
+      "exercise_name_zh": "輕負重離心腕屈肌訓練",
+      "instructions_en": "1. Sit at a table. Rest your affected forearm on the table, palm facing up, with your wrist and hand hanging off the edge.\n2. Hold a light weight (0.5–1 kg or a small water bottle) in the affected hand.\n3. Use your unaffected hand to assist curling the wrist up (flexion).\n4. Then slowly lower the weight by extending your wrist downward over 3–5 seconds (this is the eccentric phase).\n5. Use your unaffected hand to assist back up again — do not use the affected side to lift.\n6. Repeat 10–15 times for 3 sets, with 1 minute rest between sets.\n7. Only progress to heavier weight when the exercise is pain-free.",
+      "instructions_zh": "1. 坐在桌旁，將患側前臂放在桌面上，掌心向上，手腕和手掌懸於桌緣外。\n2. 患側手握住輕磅啞鈴（0.5至1公斤）或小水樽。\n3. 用健側手輔助將患側手腕向上捲起（屈曲）。\n4. 然後用3至5秒時間緩慢將手腕向下伸展放低重物（此為離心階段）。\n5. 再用健側手輔助將手腕向上捲起——不要用患側自行提起。\n6. 重複10至15次，做3組，每組之間休息1分鐘。\n7. 只在整個動作無痛時才增加重量。",
+      "frequency": "Once daily",
+      "duration": "10–15 repetitions × 3 sets",
+      "difficulty_level": "intermediate",
+      "contraindications": "Do not begin this exercise until isometric exercises can be performed pain-free. Stop if sharp pain occurs. Not suitable during the acute inflammatory phase (first 48–72 hours), or if there is suspected fracture, tendon rupture, or unresolved nerve symptoms.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Forearm Pronation/Supination with Light Weight",
+      "exercise_name_zh": "輕負重前臂旋轉訓練",
+      "instructions_en": "1. Sit with your affected forearm resting on your thigh or a table, with elbow bent at 90 degrees.\n2. Hold a light hammer or a weight with the load on one end (e.g. a light dumbbell held at one end).\n3. Slowly rotate your forearm so your palm faces downward (pronation), then slowly rotate back so your palm faces upward (supination).\n4. Move through the full range in a slow, controlled manner — take about 3 seconds in each direction.\n5. Repeat 10–15 times for 2–3 sets.\n6. Keep the movement smooth and pain-free throughout.",
+      "instructions_zh": "1. 坐下，將患側前臂放在大腿或桌面上，手肘彎曲成90度。\n2. 手持輕錘或一端有負重的啞鈴。\n3. 緩慢旋轉前臂，令掌心向下（旋前），然後緩慢旋轉回掌心向上（旋後）。\n4. 以緩慢、受控的方式完成整個活動幅度——每個方向約用3秒。\n5. 重複10至15次，做2至3組。\n6. 整個過程保持動作流暢且無痛。",
+      "frequency": "Once daily",
+      "duration": "10–15 repetitions × 2–3 sets",
+      "difficulty_level": "intermediate",
+      "contraindications": "Avoid if you experience pain during the movement. Not suitable during the acute phase or if there is suspected fracture, joint instability, or recent surgery. Reduce range of motion if numbness or tingling occurs.",
+      "video_reference_url": "[TO BE ADDED]"
+    }
+  ],
+  "recovery_timeline": {
+    "mild_estimate": "2–6 weeks with appropriate rest and self-care",
+    "moderate_estimate": "6–12 weeks with physiotherapy and activity modification",
+    "severe_estimate": "3–6 months or longer; may require injection therapy, prolonged rehabilitation, or surgical intervention in refractory cases",
+    "note": "Recovery times vary significantly between individuals depending on age, overall health, adherence to rehabilitation, and whether aggravating activities are modified. Tendon healing is generally slower than muscle healing. Patience and consistency with your rehabilitation programme are essential. Do not rush return to sport or heavy activities."
+  },
+  "when_to_see_professional": [
+    "Pain persists for more than 2 weeks despite rest and self-care",
+    "Pain is worsening or spreading despite activity modification",
+    "Noticeable weakness in grip strength that affects daily tasks",
+    "Numbness or tingling in the fingers that does not resolve",
+    "Elbow range of motion is decreasing",
+    "Pain at rest or pain that disturbs sleep",
+    "You are unsure of the diagnosis or want to rule out other conditions",
+    "You need guidance on returning to sport or physically demanding work"
+  ],
+  "faqs": [
+    {
+      "question_en": "What is the difference between golfer's elbow and tennis elbow?",
+      "question_zh": "高爾夫球肘和網球肘有什麼分別？",
+      "answer_en": "Golfer's elbow (medial epicondylitis) affects the tendons on the inner side of the elbow — the muscles that flex the wrist and rotate the forearm inward. Tennis elbow (lateral epicondylitis) affects the tendons on the outer side of the elbow — the muscles that extend the wrist. Although both are overuse tendon conditions, the location and aggravating movements are different. Tennis elbow is more common overall, accounting for 80–91% of all elbow tendinopathy cases.",
+      "answer_zh": "高爾夫球肘（肱骨內上髁炎）影響手肘內側的肌腱——即負責屈曲手腕和前臂向內旋轉的肌肉。網球肘（肱骨外上髁炎）影響手肘外側的肌腱——即負責伸展手腕的肌肉。雖然兩者同屬過度使用引起的肌腱病變，但疼痛位置和加重動作有所不同。網球肘整體上更為常見，佔所有肘部肌腱病變個案的80至91%。"
+    },
+    {
+      "question_en": "Do I need to stop all activities and rest completely?",
+      "question_zh": "我是否需要完全停止所有活動和休息？",
+      "answer_en": "No — complete rest is generally not recommended as it can lead to muscle weakening and stiffness, which may delay recovery. The key is to stop or modify the specific activities that trigger your pain (relative rest), while continuing gentle movement and exercises that do not aggravate your symptoms. A physiotherapist can help you identify which activities to modify and guide you through a progressive rehabilitation programme.",
+      "answer_zh": "不需要——一般不建議完全休息，因為這可能導致肌肉萎縮和僵硬，反而延遲康復。關鍵是停止或調整引起痛楚的特定活動（相對休息），同時繼續進行不會加重症狀的輕柔動作和運動。物理治療師可以幫助你識別需要調整的活動，並指導你進行漸進式康復計劃。"
+    },
+    {
+      "question_en": "When can I return to exercise or sports?",
+      "question_zh": "我什麼時候可以恢復運動？",
+      "answer_en": "Return to sport depends on your severity and recovery progress. As a general guide: for mild cases, you may gradually return to modified activities within 2–4 weeks; for moderate cases, 6–12 weeks; and for severe cases, 3–6 months or more. Before returning to sport, you should be able to perform all daily activities pain-free, have regained normal grip strength, and have full range of motion. When you do return, start at reduced intensity and duration, and consider having your technique and equipment reviewed to prevent recurrence. A physiotherapist can help guide your safe return.",
+      "answer_zh": "恢復運動的時間取決於你的嚴重程度和康復進展。一般指引：輕微個案可於2至4星期內逐步恢復經調整的活動；中度個案約需6至12星期；嚴重個案可能需要3至6個月或更長。在恢復運動前，你應能無痛地完成所有日常活動、握力恢復正常，且手肘活動幅度完全恢復。恢復運動時，應從較低強度和時間開始，並考慮檢視你的運動技術和裝備以防止復發。物理治療師可以指導你安全重返運動。"
+    },
+    {
+      "question_en": "Should I use ice or heat on my elbow?",
+      "question_zh": "我應該用冰敷還是熱敷手肘？",
+      "answer_en": "In the early or acute stage (first 1–2 weeks, or whenever there is a flare-up of pain), ice is generally recommended. Apply an ice pack wrapped in a towel for 10–15 minutes several times a day to help reduce pain. In the later stages of recovery, gentle heat (e.g. a warm towel) applied before stretching exercises can help relax the muscles and improve blood flow to the area. Avoid applying ice or heat directly to the skin. If you are unsure, a healthcare professional can advise on the best approach for your stage of recovery.",
+      "answer_zh": "在早期或急性階段（首1至2星期，或每次痛楚加劇時），一般建議使用冰敷。將冰袋用毛巾包裹後敷於患處10至15分鐘，每天數次，有助減輕痛楚。在康復後期，在伸展運動前進行溫和熱敷（如暖毛巾）可幫助放鬆肌肉並促進患處血液循環。避免將冰或熱源直接接觸皮膚。如有疑問，醫療專業人員可根據你的康復階段提供最佳建議。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Medial Epicondylitis — Physiopedia",
+      "url": "https://www.physio-pedia.com/Medial_Epicondylitis",
+      "type": "professional_guideline"
+    },
+    {
+      "title": "Amin NH, Kumar NS, Schickendantz MS. Medial epicondylitis: evaluation and management. JAAOS. 2015;23(6):348-55.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26001427/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Kiel J, Kaiser K. Golfers Elbow. StatPearls. 2023.",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK519000/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Hoogvliet P et al. Does effectiveness of exercise therapy and mobilisation techniques offer guidance for the treatment of lateral and medial epicondylitis? A systematic review. Br J Sports Med. 2013;47(17):1112-9.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23709519/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Clinical Guideline for First-contact Physiotherapists on Assessment and Cross-disciplinary Management Approach for Common Musculoskeletal Problems in Primary Care Setting. Primary Healthcare Commission, Hong Kong. Dec 2025.",
+      "url": "",
+      "type": "government_guideline"
+    },
+    {
+      "title": "Mayo Clinic — Golfer's Elbow",
+      "url": "https://www.mayoclinic.org/diseases-conditions/golfers-elbow/symptoms-causes/syc-20372868",
+      "type": "professional_guideline"
+    }
+  ],
+  "review_status": {
+    "reviewed_by": "[PENDING — Physiotherapist Name]",
+    "reviewer_credentials": "[PENDING]",
+    "review_date": null,
+    "next_review_date": null,
+    "approved": false
+  },
+  "metadata": {
+    "created_date": "2026-04-29",
+    "last_updated": "2026-05-02",
+    "version": "0.1-draft"
+  }
+}

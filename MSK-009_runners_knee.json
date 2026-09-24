@@ -1,0 +1,307 @@
+{
+  "condition_id": "MSK-009",
+  "condition_name_en": "Runner's Knee (Patellofemoral Pain Syndrome)",
+  "condition_name_zh": "跑步膝（髕股疼痛綜合症）",
+  "body_area": [
+    "knee",
+    "patellofemoral joint"
+  ],
+  "category": "musculoskeletal",
+  "patient_language_aliases": [
+    "runner's knee",
+    "knee pain from running",
+    "front knee pain",
+    "pain around kneecap",
+    "knee hurts going downstairs",
+    "knee pain when squatting",
+    "kneecap pain",
+    "knee aches when sitting",
+    "cinema sign knee pain",
+    "knee hurts climbing stairs",
+    "pain behind kneecap",
+    "跑步膝",
+    "膝蓋痛",
+    "菠蘿蓋痛",
+    "上落樓梯膝蓋痛",
+    "蹲低膝頭痛"
+  ],
+  "symptoms": [
+    {
+      "description_en": "Gradual, non-traumatic onset of pain around or behind the kneecap (peri-patellar or retropatellar area) — this insidious onset is typical of PFPS. Pain can be unilateral or bilateral",
+      "description_zh": "膝蓋周圍或後方逐漸出現非創傷性疼痛（髕骨周圍或髕骨後方區域）——這種隱匿性發作是髕股疼痛綜合症的典型特徵。疼痛可以是單側或雙側"
+    },
+    {
+      "description_en": "Pain that worsens with joint-loading activities: climbing or descending stairs, running (especially uphill or downhill), squatting, kneeling, or returning from a squat",
+      "description_zh": "在關節負重活動時疼痛加劇：上落樓梯、跑步（尤其是上坡或下坡）、蹲下、跪下或從蹲位站起"
+    },
+    {
+      "description_en": "'Cinema sign' — pain when sitting for prolonged periods with the knee bent (e.g., in a cinema, on a plane, at a desk), caused by increased compression of the patellofemoral joint",
+      "description_zh": "「電影院徵兆」——長時間屈膝坐著時疼痛（例如在電影院、飛機上或辦公桌前），因髕股關節壓力增加引起"
+    },
+    {
+      "description_en": "Pain that is progressive — worsening over time if untreated. The source explicitly states that PFPS is NOT a self-limiting condition",
+      "description_zh": "疼痛呈進行性——如果不治療會隨時間惡化。資料來源明確指出髕股疼痛綜合症不是自限性疾病"
+    },
+    {
+      "description_en": "Possible crepitus (grinding or cracking sensation) under the kneecap during movement, though this alone does not confirm PFPS",
+      "description_zh": "活動時膝蓋下方可能出現摩擦感或咔嗒聲，但單獨出現並不能確認為髕股疼痛綜合症"
+    },
+    {
+      "description_en": "Absence of true instability or giving way — while patients report discomfort during weight-bearing, actual joint instability is usually NOT present in PFPS",
+      "description_zh": "沒有真正的不穩定或打軟腿——雖然患者在負重時感到不適，但髕股疼痛綜合症通常不會出現實際的關節不穩定"
+    }
+  ],
+  "guided_questions": [
+    {
+      "question_en": "How did your knee pain start? Did it come on gradually over time, or did it start after a specific injury or incident?",
+      "question_zh": "你的膝蓋疼痛是怎樣開始的？是隨時間逐漸出現的，還是在特定的受傷或事件後開始的？",
+      "purpose": "Distinguish PFPS from traumatic knee pathology. The source states insidious onset is 'typical of PFPS' while traumatic onset is 'unlikely to be PFPS.' Traumatic onset may suggest meniscal tear, ligament injury, or patellar dislocation requiring different management."
+    },
+    {
+      "question_en": "Which activities make the pain worse? Does it hurt going up stairs, down stairs, squatting, running, or sitting for a long time with your knee bent?",
+      "question_zh": "哪些活動會令疼痛加劇？上樓梯、下樓梯、蹲下、跑步或長時間屈膝坐著時會痛嗎？",
+      "purpose": "Identify the characteristic pain behaviour of PFPS. The source provides detailed clinical reasoning: pain descending stairs = PF joint surface problems/eccentric quad dysfunction; pain ascending stairs = impaired gluteal control; pain sitting with flexed knee = tight quadriceps compressing PF joint (cinema sign). This pattern strongly implicates PFPS."
+    },
+    {
+      "question_en": "Have you recently changed your exercise routine, increased your running distance or intensity, or started a new sport or activity?",
+      "question_zh": "你最近有沒有改變運動習慣、增加跑步距離或強度，或開始新的運動或活動？",
+      "purpose": "Screen for overload as a trigger. The source identifies 'overload event, e.g. excessive stair climbing, long-distance running' as typical of PFPS. Rapid changes in training load are a primary cause of symptoms."
+    },
+    {
+      "question_en": "What type of shoes do you usually wear? Do you have flat feet or high arches? Do you use any insoles or orthotics?",
+      "question_zh": "你通常穿什麼類型的鞋？你有扁平足還是高足弓？有沒有使用鞋墊或矯形器？",
+      "purpose": "Assess foot biomechanics. The source identifies pes planus (excessive pronation) and pes cavus (insufficient shock absorption) as contributing factors to PFPS. Foot orthoses may be beneficial — the source notes clinical predictors including wearing less supportive footwear and reduced ankle dorsiflexion."
+    },
+    {
+      "question_en": "Where exactly is the pain — around the kneecap, below the kneecap, on the inner or outer side, or behind the knee?",
+      "question_zh": "疼痛的確切位置在哪裡——膝蓋周圍、膝蓋下方、內側或外側，還是膝蓋後方？",
+      "purpose": "Localise the pain for differential diagnosis. PFPS presents with peri-patellar or retropatellar pain. Pain below the kneecap may suggest patellar tendinopathy. Medial pain may indicate medial meniscus tear or medial overload syndrome. Lateral pain may suggest IT band friction syndrome. Posterior pain may indicate Baker's cyst."
+    },
+    {
+      "question_en": "Does your knee ever lock, catch, give way, or swell up? Have you ever had a kneecap dislocation?",
+      "question_zh": "你的膝蓋有沒有出現過卡住、卡頓、打軟腿或腫脹？你有沒有曾經膝蓋骨脫位？",
+      "purpose": "Screen for other knee pathologies. The source states instability is 'usually absent' in PFPS. Locking suggests meniscal tear, giving way may suggest ACL deficiency, and swelling after injury suggests more significant pathology. History of patellar dislocation is flagged in the source as a referral criterion to orthopaedics."
+    },
+    {
+      "question_en": "Do you have any pain in your hip or lower back? Any numbness, tingling, or weakness in your leg? Any significant swelling, redness, or warmth in the knee?",
+      "question_zh": "你有沒有髖關節或下背部疼痛？腿部有沒有麻痺、刺痛或無力？膝蓋有沒有明顯腫脹、發紅或發熱？",
+      "purpose": "CRITICAL red-flag screening. The source's differential diagnosis includes referred pain from the hip (slipped epiphysis in adolescents, FAI in young adults, OA) and referred pain from the lumbar spine. Swelling with warmth may indicate infection or inflammatory arthritis. Numbness/weakness may suggest neurological pathology."
+    }
+  ],
+  "severity_classification": {
+    "mild": {
+      "indicators": [
+        "Pain only during specific aggravating activities (stairs, running, prolonged sitting)",
+        "Pain rated 1–3 out of 10 during activities, no pain at rest",
+        "No swelling, locking, or giving way",
+        "Able to continue most daily activities and exercise with minor modification",
+        "Symptoms present for less than 4 weeks"
+      ],
+      "self_care_appropriate": true,
+      "description_en": "Your symptoms suggest mild patellofemoral pain — commonly called 'runner's knee.' This is one of the most common knee conditions, and the good news is that exercise-based rehabilitation is very effective. International consensus recommends combining hip AND knee strengthening exercises, which works better than knee exercises alone. The exercises below target the key muscle groups involved. Importantly, all exercises should be PAIN-FREE — the source emphasises that painful exercises are counterproductive. Start with the exercises below and modify your activities to reduce knee loading temporarily (e.g., reduce running distance, avoid deep squats). However, please note that PFPS is NOT a self-limiting condition — it requires active management to improve.",
+      "description_zh": "你的症狀顯示為輕度髕股疼痛——俗稱「跑步膝」。這是最常見的膝蓋問題之一，好消息是以運動為基礎的康復非常有效。國際共識建議結合髖關節和膝蓋的強化運動，效果優於單獨的膝蓋運動。以下的運動針對相關的關鍵肌肉群。重要的是，所有運動都應該是無痛的——資料來源強調疼痛的運動適得其反。從以下運動開始，並暫時修改你的活動以減少膝蓋負荷（例如減少跑步距離、避免深蹲）。不過請注意，髕股疼痛綜合症不是自限性疾病——它需要主動管理才能改善。"
+    },
+    "moderate": {
+      "indicators": [
+        "Pain rated 4–6 out of 10 during and sometimes after activities",
+        "Pain affecting ability to use stairs, sit for prolonged periods, or exercise normally",
+        "Symptoms persisting beyond 4 weeks despite activity modification",
+        "Multiple contributing factors present (e.g., weak quads + tight ITB + foot pronation)",
+        "Pain during daily activities, not just sport"
+      ],
+      "recommend_professional": true,
+      "description_en": "Your symptoms suggest moderate patellofemoral pain that would benefit from professional physiotherapy assessment. Because PFPS has a multifactorial cause — involving muscle imbalances, biomechanics, foot position, hip control, and sometimes psychosocial factors — a physiotherapist can identify YOUR specific contributing factors and design a targeted programme. Research shows that the more contributing factors present, the higher the pain and functional impairment. A structured programme typically includes quadriceps strengthening (especially VMO work between 0–30 degrees), hip abductor and external rotator strengthening, flexibility work, and possibly patellar taping or foot orthoses as adjuncts. Joint mobilisation and electrophysical agents are NOT recommended for PFPS.",
+      "description_zh": "你的症狀顯示為中度髕股疼痛，建議接受專業物理治療評估。因為髕股疼痛綜合症有多因素的成因——涉及肌肉不平衡、生物力學、足部位置、髖關節控制，有時還有心理社會因素——物理治療師可以識別你的具體貢獻因素並設計針對性的計劃。研究顯示，存在的貢獻因素越多，疼痛和功能障礙越嚴重。結構化計劃通常包括股四頭肌強化（尤其是在0至30度範圍內的VMO訓練）、髖外展肌和外旋肌強化、柔軟度訓練，以及可能作為輔助的髕骨貼紮或足部矯形器。關節鬆動術和電物理療法不建議用於髕股疼痛綜合症。"
+    },
+    "severe": {
+      "indicators": [
+        "Constant knee pain rated 7–10 out of 10 affecting daily activities",
+        "Significant limitation — unable to use stairs, squat, or sit comfortably",
+        "Knee swelling, locking, or true giving way (suggests pathology beyond PFPS)",
+        "Symptoms not improving after 12+ weeks of structured rehabilitation",
+        "Signs of central sensitisation — pain with light touch, widespread pain, or disproportionate pain response"
+      ],
+      "seek_immediate_help": true,
+      "description_en": "Your symptoms suggest either severe patellofemoral pain or possibly another knee condition that needs to be ruled out. If your knee is locking, giving way, or significantly swollen, these may indicate meniscal tears, ligament injuries, patellar dislocation, or osteochondral damage — not typical PFPS. The source recommends referral to an orthopaedic consultant if you have a history of patellar dislocation, suspected fracture, or repeated subluxing patella not responding to physiotherapy. If you are experiencing pain with light touch or your pain seems disproportionate to your activities, a referral to a pain specialist may be appropriate, as the source notes emerging evidence of psychosocial pain processing features in PFPS.",
+      "description_zh": "你的症狀顯示為嚴重的髕股疼痛，或者可能是其他需要排除的膝蓋疾病。如果你的膝蓋出現卡住、打軟腿或明顯腫脹，這些可能表示半月板撕裂、韌帶損傷、膝蓋骨脫位或軟骨損傷——而非典型的髕股疼痛綜合症。資料來源建議如果你有膝蓋骨脫位病史、懷疑骨折或反覆髕骨半脫位且對物理治療無反應，應轉介骨科醫生。如果你出現輕觸疼痛或疼痛與活動不成比例，轉介疼痛專科可能合適，因為資料來源指出髕股疼痛綜合症中存在心理社會疼痛處理特徵的新證據。"
+    }
+  },
+  "red_flags": [
+    "History of patellar dislocation — requires orthopaedic referral (source's referral criteria)",
+    "Direct blow to the knee with suspected patellar fracture or osteochondritis dissecans — pain and/or swelling not settling (source's referral criteria)",
+    "Repeated subluxing patella not responding to physiotherapy — may suggest dysplastic PF joint (source's referral criteria)",
+    "Knee locking or catching — possible meniscal tear, loose body, or osteochondral lesion",
+    "Significant knee swelling after an acute incident — possible ACL tear, fracture, or haemarthrosis",
+    "True knee giving way during weight-bearing — possible ligament insufficiency",
+    "Hip or groin pain in adolescents with knee symptoms — possible slipped capital femoral epiphysis (referred pain per source)",
+    "Signs of central sensitisation — allodynia (pain with light clothing touching skin), widespread pain disproportionate to activities — consider referral to pain specialist (source recommendation)"
+  ],
+  "possible_causes": [
+    {
+      "cause_en": "Overuse and overload of the patellofemoral joint — excessive stair climbing, long-distance running, sudden increase in training volume or intensity",
+      "cause_zh": "髕股關節過度使用和超負荷——過多的上落樓梯、長距離跑步、突然增加訓練量或強度",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Quadriceps weakness — particularly the vastus medialis obliquus (VMO), allowing the patella to track laterally. The VMO is especially sensitive to pain and swelling (10ml of fluid inhibits VMO)",
+      "cause_zh": "股四頭肌無力——尤其是股內側斜肌（VMO），導致髕骨向外側偏移。VMO對疼痛和腫脹特別敏感（10毫升的液體就會抑制VMO）",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Hip abductor and external rotator weakness — causing increased hip adduction and internal rotation during running and stairs, altering patellofemoral mechanics",
+      "cause_zh": "髖關節外展肌和外旋肌無力——導致跑步和上落樓梯時髖關節內收和內旋增加，改變髕股力學",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Tightness in the iliotibial band, hamstrings, quadriceps, or calf muscles — placing excessive lateral or posterior forces on the patellofemoral joint",
+      "cause_zh": "髂脛束、膕繩肌、股四頭肌或小腿肌肉繃緊——對髕股關節施加過多的側向或後方力量",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Foot biomechanics — excessive pronation (pes planus) causing compensatory internal rotation of the tibia and femur, or excessive supination (pes cavus) reducing shock absorption",
+      "cause_zh": "足部生物力學——過度內旋（扁平足）導致脛骨和股骨代償性內旋，或過度外旋（高弓足）減少避震能力",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Patellar malalignment or maltracking — abnormal lateral tilt, lateral glide, or excessive lateral pressure due to retinacular tightness or structural variations",
+      "cause_zh": "髕骨對位不良或軌跡異常——因支持帶繃緊或結構變異導致異常外側傾斜、外側滑動或過度外側壓力",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Structural factors — increased Q-angle, genu valgum (knock knees) or varum (bow legs), knee hyperextension, external tibial torsion",
+      "cause_zh": "結構因素——Q角增大、膝外翻（X型腿）或膝內翻（O型腿）、膝關節過伸、脛骨外旋",
+      "likelihood": "less_common"
+    }
+  ],
+  "self_care_exercises": [
+    {
+      "exercise_name_en": "Straight Leg Raise (Quadriceps Strengthening)",
+      "exercise_name_zh": "直腿抬高（股四頭肌強化）",
+      "instructions_en": "Lie on your back with one knee bent at about 90 degrees (foot flat on the floor) and the other leg fully straight. Tighten the quadriceps muscle of the straight leg, then lift it to the height of the bent knee (approximately 30–45 degrees). Hold for 5–10 seconds, then slowly lower. Keep your lower back pressed into the floor throughout — do not arch. This exercise strengthens the quadriceps with ZERO patellofemoral joint compression (because the knee is fully extended), making it ideal for the early stages of PFPS rehabilitation. The source specifically lists this as an example exercise for PFPS.",
+      "instructions_zh": "仰臥，一側膝蓋彎曲約90度（腳平放在地上），另一側腿完全伸直。收緊伸直腿的股四頭肌，然後將其抬高到與彎曲膝蓋同高（約30至45度）。保持5至10秒，然後慢慢放下。全程保持下背部壓在地面——不要拱起。這個運動在零髕股關節壓力下強化股四頭肌（因為膝蓋完全伸直），非常適合髕股疼痛綜合症康復的早期階段。資料來源特別將此列為髕股疼痛綜合症的示範運動。",
+      "frequency": "10 repetitions × 3 sets per leg",
+      "duration": "Daily",
+      "difficulty_level": "beginner",
+      "contraindications": "Must be completely PAIN-FREE — the source emphasises that painful exercises are counterproductive for PFPS. If the straight leg raise causes pain, try just tightening the quadriceps without lifting (isometric quad set).",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Mini Wall Squat (0–40 Degrees)",
+      "exercise_name_zh": "迷你靠牆半蹲（0至40度）",
+      "instructions_en": "Stand with your back against a wall, feet shoulder-width apart and about 30 cm from the wall. Slowly slide down the wall by bending your knees to approximately 30–40 degrees — no deeper. Your knees should NOT go forward past your toes. Hold for 5–10 seconds, then slowly slide back up. Focus on keeping your weight through your heels, knees tracking over your second toe, and squeezing your gluteal muscles. This is a closed kinetic chain exercise within the safe range for PFPS — the source states CKC exercises from 0–40 degrees provoke lower patellofemoral stress than deeper ranges.",
+      "instructions_zh": "背靠牆壁站立，雙腳與肩同寬，距離牆壁約30厘米。慢慢沿牆壁滑下，膝蓋彎曲至約30至40度——不要更深。你的膝蓋不應超過腳趾前方。保持5至10秒，然後慢慢滑回。注意將重量放在腳跟、膝蓋保持對準第二腳趾方向，並收緊臀部肌肉。這是在髕股疼痛綜合症安全範圍內的閉鏈運動——資料來源指出0至40度的閉鏈運動比更深的範圍產生更低的髕股壓力。",
+      "frequency": "10 repetitions × 3 sets, holding 5–10 seconds each",
+      "duration": "Daily",
+      "difficulty_level": "beginner",
+      "contraindications": "Do NOT squat deeper than 40 degrees — the source warns that once the knee passes the toes, PF joint stress becomes too high. Stop if it causes kneecap pain. If wall squats are too painful, revert to straight leg raises until pain settles.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Side-Lying Hip Abduction (Gluteal Strengthening)",
+      "exercise_name_zh": "側臥髖外展（臀肌強化）",
+      "instructions_en": "Lie on your unaffected side with your body in a straight line. Keep your top leg straight and slowly lift it upward toward the ceiling, leading with your heel (not your toes). Lift to about 30–45 degrees, hold for 2 seconds, then slowly lower. Focus on feeling the contraction in the outer hip/gluteal area — not the front of the thigh. Keep your pelvis stable and do not roll backward. This exercise targets the hip abductors and external rotators. International consensus and the source both recommend that hip AND knee exercise combined is preferred over knee exercise alone for PFPS — hip weakness is a major contributing factor.",
+      "instructions_zh": "側臥在未受影響的一側，身體成一直線。保持上面的腿伸直，慢慢向天花板方向抬起，用腳跟（不是腳趾）帶動。抬高至約30至45度，保持2秒，然後慢慢放下。注意感覺外側臀部/臀肌的收縮——而非大腿前方。保持骨盆穩定，不要向後翻轉。這個運動針對髖外展肌和外旋肌。國際共識和資料來源均建議髖關節和膝蓋的運動結合起來優於單獨的膝蓋運動——髖關節無力是一個主要的貢獻因素。",
+      "frequency": "15 repetitions × 3 sets per side",
+      "duration": "Daily",
+      "difficulty_level": "beginner",
+      "contraindications": "Should be pain-free. Avoid if it causes lateral hip pain (possible bursitis). Progress by adding an ankle weight (0.5–1 kg) once 15 reps are easy.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "ITB and Quadriceps Foam Roll / Stretch",
+      "exercise_name_zh": "髂脛束及股四頭肌滾筒放鬆/伸展",
+      "instructions_en": "ITB Foam Roll: Lie on your side with a foam roller under your outer thigh, between your hip and knee. Support yourself with your arms and opposite leg. Slowly roll along the outer thigh from hip to just above the knee, pausing on tender spots for 20–30 seconds. Quad Stretch: Stand holding a chair or wall for balance. Bend the affected knee and grasp your ankle behind you. Gently pull your heel toward your buttock until you feel a comfortable stretch in the front of your thigh. Keep your knees together and stand tall — do not arch your back. Hold for 20–30 seconds. The source identifies tight ITB, hamstrings, and quadriceps as key contributing factors to PFPS through increased lateral pull and posterior force on the patella.",
+      "instructions_zh": "髂脛束滾筒放鬆：側臥，將泡沫滾筒放在大腿外側，介於髖關節和膝蓋之間。用手臂和對側腿支撐。沿大腿外側從髖部慢慢滾動到膝蓋上方，在觸痛點停留20至30秒。股四頭肌伸展：站立，扶住椅子或牆壁保持平衡。彎曲受影響的膝蓋，用手抓住腳踝。輕輕將腳跟拉向臀部，直到大腿前方感到舒適的拉伸感。保持雙膝並攏站直——不要拱腰。保持20至30秒。資料來源指出繃緊的髂脛束、膕繩肌和股四頭肌是導致髕股疼痛綜合症的關鍵因素，因為它們增加了對髕骨的側向拉力和後方壓力。",
+      "frequency": "ITB roll: 5 passes per side; Quad stretch: 3 repetitions holding 20–30 seconds",
+      "duration": "Daily — especially before and after exercise",
+      "difficulty_level": "beginner",
+      "contraindications": "Foam rolling should produce a 'comfortable discomfort' — not sharp pain. Avoid rolling directly over the kneecap or bony prominences. Quad stretch: avoid if it causes pain in the knee. Modify by using a towel around the ankle if you cannot reach your foot.",
+      "video_reference_url": "[TO BE ADDED]"
+    }
+  ],
+  "recovery_timeline": {
+    "mild_estimate": "4–6 weeks with consistent pain-free exercise, activity modification, and addressing contributing factors",
+    "moderate_estimate": "6–12 weeks with structured physiotherapy combining hip and knee strengthening, flexibility work, and biomechanical correction",
+    "severe_estimate": "3–6+ months; may require orthopaedic referral if not responding to rehabilitation, or pain specialist if central sensitisation features are present",
+    "note": "PFPS is explicitly stated in the source as NOT a self-limiting condition — it requires active management. The more contributing factors present (muscle weakness, tightness, foot biomechanics, psychosocial factors), the longer recovery may take. Research studies used exercise programmes of 4 weeks to demonstrate significant improvements in pain and function. International consensus recommends hip + knee exercise combined over knee exercise alone. All exercises must be PAIN-FREE — the source emphasises that painful exercises are counterproductive. Foot orthoses may benefit long-term prognosis and prevention of osteoarthritis development."
+  },
+  "when_to_see_professional": [
+    "Knee pain persisting beyond 4 weeks despite self-care exercises and activity modification",
+    "Pain worsening progressively despite treatment",
+    "Knee swelling, locking, catching, or true giving way",
+    "Inability to use stairs, squat, or sit comfortably due to pain",
+    "History of patellar dislocation or repeated subluxation",
+    "Hip or groin pain accompanying the knee symptoms (possible referred pain)",
+    "Pain that seems disproportionate to activity level, or pain with light touch (possible central sensitisation)"
+  ],
+  "faqs": [
+    {
+      "question_en": "Will runner's knee go away on its own?",
+      "question_zh": "跑步膝會自己好嗎？",
+      "answer_en": "No — the source explicitly states that PFPS is NOT a self-limiting condition. Without active management, symptoms typically worsen over time. However, the good news is that exercise-based rehabilitation is highly effective. International consensus recommends combining hip AND knee strengthening exercises, which is more effective than knee exercises alone. Most patients see significant improvement within 4–12 weeks with a structured programme. The key factors are: all exercises must be pain-free (painful exercises are counterproductive), address multiple contributing factors (not just the knee), and be consistent with your home exercise programme.",
+      "answer_zh": "不會——資料來源明確指出髕股疼痛綜合症不是自限性疾病。如果不積極管理，症狀通常會隨時間惡化。不過好消息是，以運動為基礎的康復非常有效。國際共識建議結合髖關節和膝蓋的強化運動，效果優於單獨的膝蓋運動。大多數患者在結構化計劃下4至12星期內會有顯著改善。關鍵因素是：所有運動必須無痛（疼痛的運動適得其反）、解決多個貢獻因素（不只是膝蓋），以及堅持家居運動計劃。"
+    },
+    {
+      "question_en": "Should I stop squatting?",
+      "question_zh": "我應該停止做深蹲嗎？",
+      "answer_en": "No — but you should modify the range. The source recommends closed kinetic chain exercises (like squats) within 0–40 degrees of knee flexion, where patellofemoral joint stress is lower. Your knees should not go forward past your toes. If even shallow squats are painful, switch to open kinetic chain exercises (like leg extensions) between 40–90 degrees, or isometric quad exercises with the knee fully extended. The source found no significant difference between open and closed chain exercises for functional outcomes — what matters most is that exercises are PAIN-FREE. Avoid deep squats, lunges past 40 degrees, and kneeling until symptoms improve.",
+      "answer_zh": "不應該——但你需要修改範圍。資料來源建議在膝蓋屈曲0至40度範圍內進行閉鏈運動（如深蹲），此範圍內髕股關節壓力較低。你的膝蓋不應超過腳趾前方。如果即使淺蹲也會痛，改為在40至90度範圍內進行開鏈運動（如腿部伸展），或在膝蓋完全伸直時進行等長股四頭肌運動。資料來源發現開鏈和閉鏈運動在功能結果上沒有顯著差異——最重要的是運動必須無痛。在症狀改善之前，避免深蹲、超過40度的弓步和跪下。"
+    },
+    {
+      "question_en": "When can I return to running?",
+      "question_zh": "我多快可以恢復跑步？",
+      "answer_en": "Return to running should be gradual and guided by symptoms. For mild cases, you may be able to continue running with modifications: reduce distance and intensity, avoid hills (especially downhill, which loads the PF joint heavily), and run on softer surfaces. For moderate cases, you may need to take a break from running for 2–4 weeks while building strength, then gradually return. Start with short, flat runs at easy pace and increase distance by no more than 10% per week. Running retraining (adjusting stride, cadence, or foot strike) may be considered — the source notes it has emerging evidence for PFPS. Return to full running only when you can do pain-free single-leg squats to 40 degrees and climb/descend stairs without pain. Consider foot orthoses if you have biomechanical contributing factors.",
+      "answer_zh": "恢復跑步應該循序漸進，以症狀為指導。輕微個案可能可以繼續跑步但需要調整：減少距離和強度、避免斜坡（尤其是下坡，對髕股關節負荷很大），在較軟的地面上跑步。中度個案可能需要暫停跑步2至4星期以建立力量，然後逐步恢復。從短距離、平坦路線、輕鬆配速開始，每周距離增加不超過10%。跑步再訓練（調整步幅、步頻或腳著地方式）可以考慮——資料來源指出它對髕股疼痛綜合症有初步證據支持。只有在你能無痛地做到40度單腿深蹲和上落樓梯時，才恢復全面跑步。如果你有生物力學方面的因素，考慮使用足部矯形器。"
+    },
+    {
+      "question_en": "Do I need a knee brace or orthotics?",
+      "question_zh": "我需要膝蓋護具或矯形器嗎？",
+      "answer_en": "International experts suggest using foot orthoses and patellar taping as adjuncts to exercise therapy — not as standalone treatments. Foot orthoses may be particularly beneficial if you: wear less supportive footwear, have less ankle dorsiflexion range of motion, report lower levels of pain, or experience an immediate reduction in pain with orthoses during a single-leg squat (these are clinical predictors from the source). Research shows that prefabricated foot orthoses significantly enhanced functional performance in PFPS patients and may be important for long-term prognosis and prevention of osteoarthritis. Patellar taping (McConnell or kinesiology tape) can provide short-term pain relief during exercise. However, exercise remains the primary treatment — braces and orthoses are supplementary.",
+      "answer_zh": "國際專家建議將足部矯形器和髕骨貼紮作為運動治療的輔助措施——而非獨立治療。足部矯形器如果你符合以下情況可能特別有益：穿著較少支撐性的鞋、踝關節背屈幅度較少、報告較低水平的疼痛，或在單腿深蹲時使用矯形器後疼痛立即減輕（這些是資料來源的臨床預測因素）。研究顯示預製足部矯形器顯著提高了髕股疼痛綜合症患者的功能表現，可能對長期預後和預防骨關節炎發展很重要。髕骨貼紮（麥康奈爾或運動貼布）可以在運動期間提供短期疼痛緩解。然而，運動仍然是主要治療方法——護具和矯形器是輔助性的。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Physiopedia — Patellofemoral Pain Syndrome",
+      "url": "https://www.physio-pedia.com/Patellofemoral_Pain_Syndrome",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Willy RW et al. — Patellofemoral Pain: APTA Clinical Practice Guidelines (JOSPT 2019)",
+      "url": "https://doi.org/10.2519/jospt.2019.0302",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Collins NJ et al. — 2018 Consensus statement on exercise therapy and physical interventions for patellofemoral pain (Br J Sports Med 2018)",
+      "url": "https://doi.org/10.1136/bjsports-2018-099397",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Powers CM et al. — Evidence-based framework for a pathomechanical model of patellofemoral pain: 2017 consensus (Br J Sports Med 2017)",
+      "url": "https://doi.org/10.1136/bjsports-2017-098717",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Xiong Z et al. — Effects of functional strength training on pain, function, and biomechanics in PFPS (J Orthop Surg Res 2025)",
+      "url": "https://doi.org/10.1186/s13018-024-05376-2",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "HK Health Bureau — Clinical Guideline for First-contact Physiotherapists on Common MSK Problems in Primary Care",
+      "url": "https://www.healthbureau.gov.hk/phcc/rfs/assets/pdf/home/discipline-based_guidelines/clinical_guideline_on_first_contact_assessment_and_cross-disciplinary_management_approach_for_common_msk_problems.pdf",
+      "type": "government_guideline"
+    }
+  ],
+  "review_status": {
+    "reviewed_by": "[PENDING — Physiotherapist Name]",
+    "reviewer_credentials": "[PENDING — e.g., BSc Physiotherapy, HKPA Member]",
+    "review_date": null,
+    "next_review_date": null,
+    "approved": false
+  },
+  "metadata": {
+    "created_date": "2026-05-01",
+    "last_updated": "2026-05-01",
+    "version": "0.1-draft"
+  }
+}

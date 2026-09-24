@@ -1,0 +1,307 @@
+{
+  "condition_id": "MSK-012",
+  "condition_name_en": "Tennis Elbow (Lateral Epicondylitis)",
+  "condition_name_zh": "網球肘（外上髁炎）",
+  "body_area": [
+    "elbow",
+    "forearm"
+  ],
+  "category": "musculoskeletal",
+  "patient_language_aliases": [
+    "tennis elbow",
+    "elbow pain outside",
+    "pain on outside of elbow",
+    "elbow hurts when gripping",
+    "forearm pain near elbow",
+    "pain when lifting things",
+    "elbow ache",
+    "pain when turning doorknob",
+    "elbow pain from typing",
+    "pain picking up cup",
+    "lateral epicondylitis",
+    "網球肘",
+    "手肘外側痛",
+    "手肘痛",
+    "揸嘢手肘痛",
+    "扭毛巾手肘痛"
+  ],
+  "symptoms": [
+    {
+      "description_en": "Pain and tenderness over the lateral epicondyle (bony bump on the outside of the elbow) — the area of maximal tenderness is usually just distal to the extensor muscle origin. Pain can radiate up the upper arm and down the outside of the forearm, and in rare cases to the 3rd and 4th fingers",
+      "description_zh": "外上髁（手肘外側骨突處）疼痛和壓痛——最大壓痛點通常位於伸肌起點稍下方。疼痛可沿上臂向上及沿前臂外側向下放射，罕見情況下可達第三和第四指"
+    },
+    {
+      "description_en": "Weak grip strength and difficulty carrying objects, especially with the elbow extended — patients often struggle with everyday tasks like lifting a cup, turning a doorknob, or shaking hands",
+      "description_zh": "握力減弱和攜帶物品困難，尤其是手肘伸直時——患者常在日常活動中遇到困難，例如提起杯子、轉門把手或握手"
+    },
+    {
+      "description_en": "Pain on resisted wrist extension — pain reproduced when trying to extend the wrist against resistance, which is the hallmark clinical test for this condition (Cozen's test)",
+      "description_zh": "抗阻手腕伸展時疼痛——嘗試對抗阻力伸展手腕時疼痛復現，這是該病症的標誌性臨床測試（科森測試）"
+    },
+    {
+      "description_en": "Pain that follows a progressive pattern (Warren's stages): Stage 1 = faint pain hours after activity; Stage 2 = pain at end of activity; Stage 3 = pain during activity that intensifies after; Stage 4 = constant pain prohibiting any activity",
+      "description_zh": "疼痛呈進行性模式（沃倫分級）：第1期 = 活動後數小時隱約疼痛；第2期 = 活動結束時疼痛；第3期 = 活動期間疼痛且活動後加劇；第4期 = 持續疼痛無法進行任何活動"
+    },
+    {
+      "description_en": "Decreased flexibility and strength in wrist extensors and posterior shoulder muscles — often accompanied by pain and decreased movement on passive wrist flexion with the elbow extended and forearm pronated",
+      "description_zh": "手腕伸肌和肩後方肌肉的柔軟度和力量下降——常伴有在手肘伸直和前臂旋前時被動手腕屈曲的疼痛和活動減少"
+    },
+    {
+      "description_en": "Onset of pain typically 24–72 hours after the provocative activity involving repetitive wrist extension, gripping, or forearm rotation",
+      "description_zh": "疼痛通常在涉及重複性手腕伸展、握持或前臂旋轉的誘發活動後24至72小時出現"
+    }
+  ],
+  "guided_questions": [
+    {
+      "question_en": "What activities or movements trigger your elbow pain? Does it hurt when gripping, lifting, typing, turning a doorknob, or picking up objects?",
+      "question_zh": "什麼活動或動作觸發你的手肘疼痛？握東西、提東西、打字、轉門把手或拿起物品時會痛嗎？",
+      "purpose": "Identify the provocative activities. The source states that only 5% of cases are related to tennis — it's mostly caused by repetitive upper extremity activities including computer use, heavy lifting, forceful forearm pronation/supination, and repetitive vibration. Common occupational causes include electricians, carpenters, gardeners, and desk-bound workers."
+    },
+    {
+      "question_en": "When does the pain occur relative to the activity — during, immediately after, or hours later? Is the pain constant, or only with specific movements?",
+      "question_zh": "疼痛相對於活動什麼時候出現——活動期間、之後立即，還是數小時後？疼痛是持續的，還是只在特定動作時出現？",
+      "purpose": "Determine Warren's staging (4 stages from faint pain hours after activity to constant pain prohibiting all activity). This guides severity classification and treatment intensity. Stage 1-2 responds well to conservative management; Stage 3-4 may need more aggressive intervention."
+    },
+    {
+      "question_en": "How long have you had these symptoms? Have they been getting worse, staying the same, or improving?",
+      "question_zh": "你有這些症狀多久了？症狀是在惡化、保持不變，還是改善中？",
+      "purpose": "Assess chronicity. The source notes that symptoms last 2 weeks to 2 years on average, 89% recover within 1 year, but 20% persist for more than a year. Chronic cases (>6 months) not responding to conservative treatment may warrant surgical consideration."
+    },
+    {
+      "question_en": "What do you do for work? Do you spend long hours using a computer, doing manual labour, or using hand tools? Do you play any racquet sports?",
+      "question_zh": "你的工作是什麼？你是否長時間使用電腦、從事體力勞動或使用手動工具？你有玩球拍運動嗎？",
+      "purpose": "Identify occupational and recreational risk factors. The source's systematic review identified 3 key risk factors: handling tools >1 kg, handling loads >20 kg at least 10 times/day, and repetitive movements for >2 hours/day. Activity modification is a cornerstone of treatment."
+    },
+    {
+      "question_en": "How old are you? Have you had any neck pain, shoulder problems, or tingling in your fingers along with the elbow pain?",
+      "question_zh": "你的年齡是多少？除了手肘痛外，你有沒有頸痛、肩膀問題或手指刺痛？",
+      "purpose": "Screen for differential diagnoses based on age. The source notes: if <35, consider growth plate disorder or cervical spine referral; if >50, consider OA or cervical spondylosis. Cervical radiculopathy can mimic tennis elbow and presents with neck pain, paraesthesia, and dermatomal weakness."
+    },
+    {
+      "question_en": "Have you tried any treatment so far — rest, ice, a brace, painkillers, or exercises? Has anything helped?",
+      "question_zh": "你到目前為止嘗試過什麼治療——休息、冰敷、護具、止痛藥或運動？有什麼有幫助嗎？",
+      "purpose": "Assess treatment history. The source notes that non-operative management is the first-line approach. If symptoms persist beyond 6 months of conservative management, surgical treatment may be indicated. Understanding what has and hasn't worked guides the next treatment steps."
+    },
+    {
+      "question_en": "Do you have any numbness, tingling, or weakness in your hand or fingers? Any neck pain radiating down your arm? Any significant swelling, redness, or warmth at the elbow?",
+      "question_zh": "你的手部或手指有沒有麻痺、刺痛或無力？有沒有頸痛沿手臂向下放射？手肘有沒有明顯腫脹、發紅或發熱？",
+      "purpose": "CRITICAL red-flag screening. The source's differential diagnosis includes cervical radiculopathy (radiating arm pain, paraesthesia, muscle weakness, reflex loss), radial tunnel syndrome (posterolateral forearm pain, paraesthesia), posterior interosseous nerve syndrome (motor deficits in wrist/finger extension), and fractures. Swelling with warmth may indicate infection or inflammatory arthritis."
+    }
+  ],
+  "severity_classification": {
+    "mild": {
+      "indicators": [
+        "Pain only after the provocative activity, appearing hours later (Warren Stage 1–2)",
+        "Pain rated 1–3 out of 10",
+        "Grip strength mildly reduced but daily activities manageable",
+        "No pain at rest",
+        "Symptoms present for less than 6 weeks"
+      ],
+      "self_care_appropriate": true,
+      "description_en": "Your symptoms suggest mild tennis elbow (Warren Stage 1–2). This is one of the most common overuse conditions of the elbow, affecting 1–3% of the population, and is most common in people aged 35–50. Despite the name, only 5% of cases are actually related to tennis — most are caused by repetitive work or daily activities. The really good news is that 89% of patients recover within 1 year. The most effective evidence-based treatment is eccentric exercise — slowly lowering a weight with the wrist — which strengthens the tendon and promotes healing. The condition is actually a degenerative process (tendinosis), NOT primarily inflammation, so long-term anti-inflammatory use is not recommended. Start with the exercises below and modify activities that provoke pain.",
+      "description_zh": "你的症狀顯示為輕度網球肘（沃倫第1至2期）。這是手肘最常見的過度使用損傷之一，影響1至3%的人口，最常見於35至50歲。儘管名為「網球肘」，但實際上只有5%的個案與打網球有關——大多數是由重複性工作或日常活動引起的。真正的好消息是89%的患者在1年內會康復。最有效的循證治療是離心運動——慢慢放下手中的重量——這能強化肌腱並促進癒合。這個病症實際上是退行性過程（肌腱退化），而非主要的炎症，因此不建議長期使用消炎藥。開始以下的運動並調整會誘發疼痛的活動。"
+    },
+    "moderate": {
+      "indicators": [
+        "Pain during the provocative activity that intensifies after stopping (Warren Stage 3)",
+        "Pain rated 4–6 out of 10",
+        "Noticeable grip weakness affecting work tasks and daily activities",
+        "Difficulty with common tasks: lifting a cup, turning keys, opening jars",
+        "Symptoms persisting for more than 6 weeks despite self-care"
+      ],
+      "recommend_professional": true,
+      "description_en": "Your symptoms suggest moderate tennis elbow (Warren Stage 3), where pain is now occurring during activities and affecting your function. Professional physiotherapy can provide significant benefit at this stage. Evidence supports a programme combining eccentric strengthening exercises, stretching, and possibly manual therapy techniques such as Mobilisation with Movement (MWM). A counterforce brace (forearm strap) worn just below the elbow may help reduce pain during activities by acting as a secondary muscle attachment and relieving tension at the lateral epicondyle. Your physiotherapist can also assess whether your neck or shoulder may be contributing to your symptoms — cervical spine referral is an important differential diagnosis.",
+      "description_zh": "你的症狀顯示為中度網球肘（沃倫第3期），疼痛現在在活動期間出現並影響你的功能。專業物理治療在這個階段可以帶來顯著的幫助。證據支持結合離心強化運動、伸展運動和可能的手法治療技術（如動態鬆動術）的計劃。在手肘下方佩戴反壓護帶（前臂帶）可能有助於減少活動期間的疼痛，因為它充當次級肌肉附著點並減輕外上髁的張力。你的物理治療師也可以評估你的頸部或肩膀是否對症狀有影響——頸椎轉移痛是一個重要的鑑別診斷。"
+    },
+    "severe": {
+      "indicators": [
+        "Constant pain that prohibits normal activity (Warren Stage 4)",
+        "Pain rated 7–10 out of 10",
+        "Significant grip weakness — difficulty holding objects, sense of paralysis (rare per source)",
+        "Pain disturbing sleep or present at rest",
+        "Symptoms persisting beyond 6 months despite dedicated conservative treatment"
+      ],
+      "seek_immediate_help": true,
+      "description_en": "Your symptoms suggest severe or chronic tennis elbow (Warren Stage 4) that is significantly impacting your quality of life. At this stage, you should be under the care of a physiotherapist and/or sports medicine specialist. If conservative treatment has failed after more than 6 months, surgical options may be considered — most surgical procedures involve removing diseased tissue and reattaching healthy muscle to bone (can be done open or arthroscopically). Before considering surgery, ensure that cervical spine pathology has been ruled out and that you have completed a full dedicated programme of eccentric exercises, stretching, and activity modification. Steroid injections may provide short-term relief but have not shown long-term benefit over placebo and may cause recurrence.",
+      "description_zh": "你的症狀顯示為嚴重或慢性網球肘（沃倫第4期），嚴重影響你的生活質量。在這個階段，你應該在物理治療師和/或運動醫學專家的照護下。如果保守治療在超過6個月後仍然失敗，可能考慮手術選擇——大多數手術涉及切除病變組織並將健康肌肉重新附著到骨頭上（可以開放式或關節鏡進行）。在考慮手術之前，確保已排除頸椎病變，且你已完成完整的離心運動、伸展和活動調整計劃。類固醇注射可能提供短期緩解，但長期效果未優於安慰劑，並可能引起復發。"
+    }
+  },
+  "red_flags": [
+    "Cervical radiculopathy — radiating arm pain in a dermatomal pattern, neck pain, paraesthesia, muscle weakness, reflex impairment (source's differential diagnosis)",
+    "Radial tunnel syndrome — pain in the posterolateral forearm spreading to the dorsal wrist, paraesthesia, weakness",
+    "Posterior interosseous nerve syndrome — weakness involving wrist and finger extension with motor deficits",
+    "Elbow fracture (radial head, olecranon, distal radius) — significant trauma, severe pain, deformity, inability to move",
+    "Significant elbow swelling, redness, and warmth — possible septic arthritis or inflammatory arthritis",
+    "Progressive numbness or motor weakness in the hand — possible nerve compression",
+    "Symptoms in a patient under 35 — consider growth plate disorder or cervical referral (source recommendation)",
+    "Bilateral elbow symptoms — rare for tennis elbow (source); consider systemic condition such as fibromyalgia or rheumatological disease"
+  ],
+  "possible_causes": [
+    {
+      "cause_en": "Repetitive wrist extension, pronation, and supination during work — computer use, heavy lifting, carpentry, gardening, electrical work, desk-bound jobs (source: only 5% of cases are related to tennis)",
+      "cause_zh": "工作中重複性的手腕伸展、旋前和旋後——電腦使用、提重物、木工、園藝、電氣工作、辦公室工作（資料來源：只有5%的個案與打網球有關）",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Handling tools heavier than 1 kg, loads heavier than 20 kg at least 10 times/day, or repetitive movements for more than 2 hours/day (systematic review risk factors)",
+      "cause_zh": "使用超過1公斤的工具、每天至少10次搬運超過20公斤的物品，或每天超過2小時的重複性動作（系統綜述風險因素）",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Racquet sports (tennis, squash, badminton) — particularly with poor technique, wet/heavy ball, wrong grip size, or new racquet",
+      "cause_zh": "球拍運動（網球、壁球、羽毛球）——尤其是技術不良、濕/重的球、握把尺寸不對或新球拍",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Degenerative tendinosis (NOT primarily inflammation) — microscopic tearing with angiofibroblastic hyperplasia in the ECRB tendon origin, leading to collagen disorganisation and fibre separation",
+      "cause_zh": "退行性肌腱退化（非主要炎症）——伸腕短肌腱起點的微小撕裂伴血管纖維母細胞增生，導致膠原蛋白紊亂和纖維分離",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Hypovascularity of the tendon attachment region — reduced blood supply limits the tendon's ability to respond to repetitive forces and heal",
+      "cause_zh": "肌腱附著區域血液供應不足——血液供應減少限制了肌腱對重複性力量的反應和癒合能力",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Training errors, biomechanical misalignment, flexibility problems, strength deficits, muscle imbalance, or psychological factors",
+      "cause_zh": "訓練錯誤、生物力學失調、柔軟度問題、力量不足、肌肉不平衡或心理因素",
+      "likelihood": "less_common"
+    }
+  ],
+  "self_care_exercises": [
+    {
+      "exercise_name_en": "Wrist Extensor Stretch",
+      "exercise_name_zh": "手腕伸肌伸展",
+      "instructions_en": "Extend your affected arm straight in front of you with the elbow fully straight. Turn your forearm so the palm faces down (pronation). Use your other hand to gently bend the wrist downward (into flexion) and add slight ulnar deviation (tilt the hand toward the little finger side). You should feel a comfortable stretch along the top of your forearm and outside of your elbow. Hold for 30–45 seconds, as recommended in the source. Repeat 3 times. Perform this stretch before AND after each set of eccentric exercises, and throughout the day. The source describes this as the optimal stretching position for the ECRB tendon.",
+      "instructions_zh": "將受影響的手臂向前伸直，手肘完全伸直。將前臂轉為手掌朝下（旋前）。用另一隻手輕輕將手腕向下彎曲（屈曲）並略微向尺骨偏移（將手向小指側傾斜）。你應該感到前臂上方和手肘外側有舒適的拉伸感。保持30至45秒，如資料來源建議。重複3次。在每組離心運動之前和之後以及全天進行此伸展。資料來源描述這是伸腕短肌腱的最佳伸展位置。",
+      "frequency": "3 repetitions holding 30–45 seconds, before and after eccentric exercises",
+      "duration": "Daily — multiple times per day",
+      "difficulty_level": "beginner",
+      "contraindications": "Stop if the stretch causes sharp pain at the elbow. The stretch should produce a comfortable pull, not pain. Avoid if you have elbow instability or recent fracture.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Eccentric Wrist Extension (with weight)",
+      "exercise_name_zh": "離心手腕伸展運動（使用重量）",
+      "instructions_en": "Sit with your forearm resting on a table or your thigh, wrist hanging over the edge, palm facing down. Hold a light weight (start with 0.5–1 kg or a water bottle). Use your OTHER hand to help lift the weight up into wrist extension (starting position). Then SLOWLY lower the weight by letting your wrist bend downward over 3–5 seconds — this is the eccentric (lowering) phase, which is the therapeutic component. Use the other hand to lift back to start; do NOT use the injured arm to lift. The source emphasises 3 principles: progressive LOAD (increase weight as tolerated), controlled SPEED (slow eccentric), and appropriate FREQUENCY (3 sets of 10 repetitions). This is the single most evidence-based exercise for tennis elbow.",
+      "instructions_zh": "坐下，前臂放在桌子或大腿上，手腕懸空於邊緣，手掌朝下。握住一個輕量重物（從0.5至1公斤或一瓶水開始）。用另一隻手幫助將重物舉起至手腕伸展位置（起始位置）。然後用3至5秒慢慢放下重物，讓手腕向下彎曲——這是離心（放下）階段，是治療性的部分。用另一隻手舉回起始位置；不要用受傷的手臂舉起。資料來源強調3個原則：漸進的負荷（在可忍受的情況下增加重量）、受控的速度（慢速離心）和適當的頻率（3組各10次）。這是網球肘最有循證基礎的單一運動。",
+      "frequency": "3 sets of 10 repetitions",
+      "duration": "Daily for at least 6–8 weeks",
+      "difficulty_level": "intermediate",
+      "contraindications": "Must be performed SLOWLY and with control. Start very light — increase weight only when 3×10 can be completed with only mild discomfort, not pain. Stop if it causes significant pain increase lasting more than 1 hour after exercise. Not suitable in the acute inflammatory stage (first 1–2 weeks).",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "FlexBar Tyler Twist",
+      "exercise_name_zh": "FlexBar彈力棒扭轉運動",
+      "instructions_en": "Hold a FlexBar (rubber resistance bar) vertically in your AFFECTED hand with the wrist extended (bent back). Grip the top of the bar with your UNAFFECTED hand. Twist the bar by flexing both wrists — the unaffected hand twists the top of bar away from you while the affected hand holds firm. Then extend both arms in front of you, keeping the wrists in the twisted position. Now SLOWLY release the twist by allowing only the AFFECTED wrist to untwist (eccentric wrist extension) over 3–4 seconds. Use the unaffected hand to re-twist for each repetition. The source specifically describes this exercise (Page 2010) as an effective home-based treatment. Perform 3 sets of 15 repetitions daily. Progress to a higher resistance FlexBar colour when 3×15 is comfortable.",
+      "instructions_zh": "將FlexBar（橡膠阻力棒）垂直握在受影響的手中，手腕伸展（向後彎）。用未受影響的手握住棒的頂部。通過屈曲兩個手腕來扭轉棒——未受影響的手將棒頂部向外扭，受影響的手保持不動。然後將雙臂向前伸直，保持手腕在扭轉位置。現在慢慢釋放扭轉，只讓受影響的手腕在3至4秒內解開扭轉（離心手腕伸展）。每次重複使用未受影響的手重新扭轉。資料來源特別描述了這個運動（Page 2010）作為有效的家庭治療。每天進行3組各15次。當3×15感覺舒適時，進階到更高阻力的FlexBar顏色。",
+      "frequency": "3 sets of 15 repetitions (4 seconds per rep, 30 seconds rest between sets)",
+      "duration": "Daily — continue until symptom resolution",
+      "difficulty_level": "intermediate",
+      "contraindications": "Requires a FlexBar® or similar rubber resistance device. Start with the lightest resistance. Stop if it causes significant pain. Not appropriate in the acute stage. Ensure proper form to avoid compensatory movements.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Isometric Wrist Extension (Pain-Free Hold)",
+      "exercise_name_zh": "等長手腕伸展（無痛保持）",
+      "instructions_en": "Rest your forearm on a table with your wrist over the edge, palm facing down. Make a fist. Gently extend your wrist upward (lifting the fist) and hold the position for 10–15 seconds at about 50% effort. The key is NO movement occurs during the hold — this is a static contraction. Relax and repeat. This isometric exercise is ideal for the early stages when eccentric exercises may still be too painful. Isometric contractions have been shown to provide pain relief in tendinopathy through a mechanism of cortical inhibition. Progress to eccentric exercises once isometrics are pain-free.",
+      "instructions_zh": "將前臂放在桌子上，手腕懸空於邊緣，手掌朝下。握拳。輕輕將手腕向上伸展（抬起拳頭）並以約50%的力度保持10至15秒。關鍵是保持期間不產生任何動作——這是靜態收縮。放鬆並重複。這個等長運動非常適合早期階段，此時離心運動可能仍然太痛。等長收縮已被證明可以透過皮質抑制機制在肌腱病變中提供疼痛緩解。當等長運動無痛後，進階到離心運動。",
+      "frequency": "5 repetitions × 3 sets, holding 10–15 seconds each",
+      "duration": "Daily — use in early stages before progressing to eccentric exercises",
+      "difficulty_level": "beginner",
+      "contraindications": "Must be completely pain-free. If even gentle isometric holds cause pain, rest for a few more days before attempting. Use only 30–50% of maximum effort initially.",
+      "video_reference_url": "[TO BE ADDED]"
+    }
+  ],
+  "recovery_timeline": {
+    "mild_estimate": "4–6 weeks with consistent eccentric exercises, stretching, and activity modification",
+    "moderate_estimate": "6–12 weeks with structured physiotherapy combining eccentric exercises, stretching, manual therapy, and possibly a counterforce brace",
+    "severe_estimate": "3–12 months. If conservative management fails after 6+ months, surgical treatment may be indicated (open or arthroscopic removal of diseased tissue). 20% of cases persist beyond 1 year",
+    "note": "The source states that 89% of patients recover within 1 year without any treatment except avoidance of painful movements. Symptoms last on average from 2 weeks to 2 years. Importantly, the condition is a degenerative process (tendinosis with angiofibroblastic changes), NOT primarily inflammatory — inflammation is present only in the earliest stages. This means eccentric loading exercises, not anti-inflammatories, are the cornerstone of treatment. Steroid injections may provide short-term benefit but have shown no clear advantage over placebo in the intermediate or long-term, with possible recurrence. The dominant arm is more commonly affected, and bilateral involvement is rare."
+  },
+  "when_to_see_professional": [
+    "Pain during activities that is affecting your work or daily function (Warren Stage 3+)",
+    "Symptoms persisting beyond 6 weeks despite self-care exercises and activity modification",
+    "Significant grip weakness making it difficult to perform essential tasks",
+    "Numbness, tingling, or weakness in the hand or fingers — possible nerve involvement",
+    "Neck pain accompanying elbow symptoms — possible cervical radiculopathy",
+    "Elbow symptoms in a patient under 35 or over 50 — differential diagnosis should be considered",
+    "Pain not improving or worsening despite dedicated eccentric exercise programme"
+  ],
+  "faqs": [
+    {
+      "question_en": "Is tennis elbow caused by inflammation?",
+      "question_zh": "網球肘是由炎症引起的嗎？",
+      "answer_en": "Despite the old name 'epicondylitis' (which implies inflammation), research shows that inflammation is present only in the EARLIEST stages of the condition. The source describes extensive histopathological evidence that tennis elbow is actually a DEGENERATIVE process — termed 'angiofibroblastic tendinosis' — characterised by disorganised, immature collagen, increased blood vessels, and tissue degeneration, NOT active inflammation. This is an important distinction because it means that long-term use of anti-inflammatory medications (NSAIDs) is not the answer. The most effective treatment is progressive eccentric loading exercises, which stimulate tendon remodelling through controlled mechanical stress. Ice may help with short-term pain relief in the early stages, but the focus should be on exercise-based rehabilitation.",
+      "answer_zh": "儘管舊名稱「外上髁炎」（暗示有炎症），研究顯示炎症只出現在病症的最早期階段。資料來源描述了大量組織病理學證據，表明網球肘實際上是一種退行性過程——稱為「血管纖維母細胞性肌腱退化」——特徵是無序、不成熟的膠原蛋白、血管增加和組織退化，而非活躍的炎症。這是一個重要的區別，因為它意味著長期使用消炎藥（NSAIDs）不是答案。最有效的治療是漸進式離心負荷運動，通過受控的機械應力刺激肌腱重塑。冰敷可能在早期有助於短期疼痛緩解，但重點應放在以運動為基礎的康復上。"
+    },
+    {
+      "question_en": "Will tennis elbow go away on its own?",
+      "question_zh": "網球肘會自己好嗎？",
+      "answer_en": "In most cases, yes — eventually. The source states that 89% of patients recover within 1 year without any treatment except avoidance of painful movements. However, 20% of cases persist for more than a year, and the average duration of symptoms ranges from 2 weeks to 2 years. While it may eventually resolve on its own, structured eccentric exercises can significantly accelerate recovery and reduce the risk of recurrence. Simply waiting without doing exercises means you may endure months of unnecessary pain and functional limitation. The most effective approach is proactive: eccentric strengthening, stretching, activity modification, and possibly a counterforce brace — not just passive waiting.",
+      "answer_zh": "在大多數情況下，是的——最終會好。資料來源指出89%的患者在1年內康復，除了避免疼痛動作外不需要任何治療。然而，20%的個案持續超過一年，症狀平均持續時間從2星期到2年不等。雖然它最終可能自行好轉，結構化的離心運動可以顯著加速康復並降低復發風險。單純等待而不做運動意味著你可能要承受數月不必要的疼痛和功能受限。最有效的方法是主動的：離心強化、伸展、活動調整，以及可能的反壓護帶——而非被動等待。"
+    },
+    {
+      "question_en": "When can I return to exercise or sports?",
+      "question_zh": "我多快可以恢復運動？",
+      "answer_en": "You can and should continue exercising — the key is to modify activities that aggravate the elbow while maintaining overall fitness. Lower body exercises, cardiovascular training, and upper body exercises that don't involve gripping can typically continue throughout recovery. For return to the specific aggravating activity (racquet sports, weightlifting, or occupational tasks): mild cases may return in 4–6 weeks once symptoms are consistently at Warren Stage 1 or below; moderate cases typically need 8–12 weeks. Return should be gradual: start with shorter duration and lower intensity, check equipment (racquet grip size, tool weight), address technique issues, and use a counterforce brace during activity. If your tennis elbow is actually from tennis, consider coaching assessment for technique correction — equipment changes (grip size, string tension, wet ball) are identified as contributing factors in the source.",
+      "answer_zh": "你可以而且應該繼續運動——關鍵是調整會加劇手肘的活動，同時保持整體體能。下肢運動、心血管訓練和不涉及握持的上肢運動通常可以在整個康復過程中繼續。恢復特定的誘發活動（球拍運動、舉重或職業任務）：輕微個案在症狀持續處於沃倫第1期或以下後4至6星期可以恢復；中度個案通常需要8至12星期。恢復應該循序漸進：從較短時間和較低強度開始，檢查裝備（球拍握把大小、工具重量），解決技術問題，並在活動期間使用反壓護帶。如果你的網球肘確實來自打網球，考慮諮詢教練進行技術糾正——裝備改變（握把大小、弦線張力、濕球）在資料來源中被認為是貢獻因素。"
+    },
+    {
+      "question_en": "Do I need an elbow brace?",
+      "question_zh": "我需要手肘護具嗎？",
+      "answer_en": "A counterforce brace (forearm strap worn just below the elbow, NOT an elbow sleeve) may be effective in reducing tennis elbow pain during contraction. The source explains that the brace acts as a secondary muscle attachment site, relieving tension on the insertion at the lateral epicondyle. It is applied around the forearm below the head of the radius and tightened so that when you contract the wrist extensors, the muscles don't fully contract. However, the brace is an ADJUNCT to exercise therapy, not a replacement. You should still perform your eccentric exercises and stretches. Use the brace during activities that provoke pain (work, sport) but remove it during rest and exercises. It does not accelerate healing — it provides symptomatic relief during functional activities.",
+      "answer_zh": "反壓護帶（戴在手肘正下方的前臂帶，不是手肘護套）可能有效減少網球肘在收縮期間的疼痛。資料來源解釋護帶充當次級肌肉附著點，減輕外上髁處的張力。它在橈骨頭下方環繞前臂配戴並收緊，使你收縮手腕伸肌時肌肉不會完全收縮。然而，護帶是運動治療的輔助工具，而非替代品。你仍然應該進行離心運動和伸展。在引起疼痛的活動期間（工作、運動）使用護帶，但在休息和運動時取下。它不會加速癒合——它在功能性活動期間提供症狀緩解。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Physiopedia — Lateral Epicondylitis",
+      "url": "https://www.physio-pedia.com/Lateral_Epicondylitis",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Buchanan BK, Varacallo M — Tennis Elbow (Lateral Epicondylitis) (StatPearls 2019)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK431092/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Walz D et al. — Epicondylitis: Pathogenesis, Imaging, and Treatment (RadioGraphics 2010)",
+      "url": "https://doi.org/10.1148/rg.301095078",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Smidt N et al. — Corticosteroid injections, physiotherapy, or wait-and-see for lateral epicondylitis: RCT (Lancet 2002)",
+      "url": "https://doi.org/10.1016/S0140-6736(02)07811-X",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Viswas R et al. — Supervised exercise vs Cyriax physiotherapy for tennis elbow: RCT (Sci World J 2012)",
+      "url": "https://doi.org/10.1100/2012/939645",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Page P — A new exercise for tennis elbow that works! FlexBar (NAJSPT 2010)",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2971640/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "HK Health Bureau — Clinical Guideline for First-contact Physiotherapists on Common MSK Problems in Primary Care",
+      "url": "https://www.healthbureau.gov.hk/phcc/rfs/assets/pdf/home/discipline-based_guidelines/clinical_guideline_on_first_contact_assessment_and_cross-disciplinary_management_approach_for_common_msk_problems.pdf",
+      "type": "government_guideline"
+    }
+  ],
+  "review_status": {
+    "reviewed_by": "[PENDING — Physiotherapist Name]",
+    "reviewer_credentials": "[PENDING — e.g., BSc Physiotherapy, HKPA Member]",
+    "review_date": null,
+    "next_review_date": null,
+    "approved": false
+  },
+  "metadata": {
+    "created_date": "2026-05-01",
+    "last_updated": "2026-05-01",
+    "version": "0.1-draft"
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "condition_id": "MSK-019",
+  "condition_name_en": "IT Band Syndrome (Iliotibial Band Syndrome)",
+  "condition_name_zh": "髂脛束綜合症",
+  "body_area": [
+    "knee",
+    "hip",
+    "thigh"
+  ],
+  "category": "musculoskeletal",
+  "patient_language_aliases": [
+    "outer knee pain from running",
+    "IT band pain",
+    "pain on the outside of my knee",
+    "runner's knee on the outside",
+    "knee hurts when running downhill",
+    "sharp pain on outer knee",
+    "burning sensation outside my knee",
+    "knee pain after long runs",
+    "pain going down stairs on outer knee",
+    "tight band on the side of my thigh",
+    "knee clicks on the outside when I bend it",
+    "lateral knee pain from cycling",
+    "跑步時膝蓋外側痛",
+    "膝頭外側痛",
+    "跑步膝",
+    "落樓梯膝蓋外側痛",
+    "髂脛束綜合症"
+  ],
+  "symptoms": [
+    {
+      "description_en": "Sharp or burning pain on the outer (lateral) side of the knee, at or just below the bony prominence on the outside of the knee (lateral femoral epicondyle)",
+      "description_zh": "膝蓋外側出現尖銳或灼熱痛，位於膝蓋外側骨突（股骨外上髁）上方或稍下方"
+    },
+    {
+      "description_en": "Pain that typically begins after a certain distance or duration of running and worsens the longer you continue",
+      "description_zh": "痛楚通常在跑步達到一定距離或時間後出現，並隨著繼續跑步而加劇"
+    },
+    {
+      "description_en": "Pain worsens when running downhill, descending stairs, or during activities involving repeated knee bending and straightening",
+      "description_zh": "落斜、落樓梯或涉及重複膝蓋屈伸動作的活動時痛楚加劇"
+    },
+    {
+      "description_en": "Pain that eases when walking with the knee held straight, and may improve with rest",
+      "description_zh": "保持膝蓋伸直行走時痛楚緩解，休息後也可能改善"
+    },
+    {
+      "description_en": "Tenderness when pressing on the outer side of the knee, particularly with the knee bent at approximately 30 degrees",
+      "description_zh": "按壓膝蓋外側時感到壓痛，特別是在膝蓋彎曲約30度時"
+    },
+    {
+      "description_en": "An audible or palpable snapping or clicking sensation on the outside of the knee as it bends and straightens",
+      "description_zh": "膝蓋屈伸時在外側可能感覺到或聽到「卡啪」或彈響感"
+    },
+    {
+      "description_en": "Pain may radiate up the outer thigh or down toward the outer calf",
+      "description_zh": "痛楚可能向上放射至大腿外側或向下延伸至小腿外側"
+    },
+    {
+      "description_en": "Some swelling on the outer side of the knee in more irritated cases",
+      "description_zh": "較嚴重的個案中，膝蓋外側可能出現輕微腫脹"
+    }
+  ],
+  "guided_questions": [
+    {
+      "question_en": "Where exactly do you feel the pain — is it on the outer (outside) part of your knee, or is it at the front, inside, or back of the knee?",
+      "question_zh": "你確切感到痛楚的位置在哪裏——是在膝蓋外側，還是在膝蓋前方、內側或後方？",
+      "purpose": "Localise pain to the lateral knee to differentiate ITBS from patellofemoral syndrome (anterior), medial meniscal injury (medial), or popliteal tendinopathy (posterior)"
+    },
+    {
+      "question_en": "Does the pain come on during or after running, cycling, or another repetitive activity — and does it get worse the longer you continue?",
+      "question_zh": "痛楚是在跑步、踩單車或其他重複性活動期間或之後出現的嗎？持續運動時痛楚會否加劇？",
+      "purpose": "ITBS characteristically presents as activity-related pain that worsens with continued loading — onset after a predictable distance/duration is a hallmark feature"
+    },
+    {
+      "question_en": "Is the pain worse when running downhill, going down stairs, or during movements that involve bending and straightening your knee repeatedly?",
+      "question_zh": "落斜、落樓梯，或涉及重複膝蓋屈伸動作時痛楚會否加劇？",
+      "purpose": "Downhill running and stair descent increase ITB compression at the lateral femoral epicondyle near 30° knee flexion — worsening with these activities supports ITBS diagnosis"
+    },
+    {
+      "question_en": "Have you recently increased your running distance, changed your training routine, started hill running, or changed your shoes or cycling setup?",
+      "question_zh": "你最近有沒有增加跑步距離、改變訓練習慣、開始跑斜坡，或更換了跑鞋或單車設定？",
+      "purpose": "Identify rapid training load changes, surface changes, or equipment factors that commonly trigger ITBS onset"
+    },
+    {
+      "question_en": "Does the pain ease when you stop running and walk with your knee straight, and does it settle with rest — or is it now present even during daily activities?",
+      "question_zh": "停止跑步並以伸直膝蓋的方式行走時痛楚會否緩解？休息後會否消退——還是現在連日常活動也感到疼痛？",
+      "purpose": "Pain that resolves with knee extension and rest suggests earlier-stage ITBS; persistent pain during daily activities suggests progression requiring professional assessment"
+    },
+    {
+      "question_en": "Have you had any previous knee injuries, or do you have a history of hip weakness or problems with your running form?",
+      "question_zh": "你以前有沒有膝蓋受傷的紀錄？你有沒有髖關節無力或跑步姿勢問題的歷史？",
+      "purpose": "Identify predisposing factors — hip abductor weakness is strongly associated with ITBS, particularly in female runners; recurrent cases may need biomechanical assessment"
+    },
+    {
+      "question_en": "Have you experienced any of the following: inability to bear weight on the knee, knee locking or giving way, significant swelling inside the knee joint, pain at rest that is constant and severe, fever or redness around the knee, or pain following a direct blow or twisting injury?",
+      "question_zh": "你有沒有出現以下任何情況：膝蓋無法承受體重、膝蓋鎖死或突然軟腳、膝關節內部明顯腫脹、休息時持續且劇烈的疼痛、膝蓋周圍發燒或發紅，或直接撞擊或扭傷後出現疼痛？",
+      "purpose": "Red-flag screening to rule out ligament rupture (LCL), meniscal tear with locking, intra-articular pathology, stress fracture, infection, or other conditions requiring urgent medical assessment"
+    }
+  ],
+  "severity_classification": {
+    "mild": {
+      "indicators": [
+        "Pain only occurs toward the end of a run or after a predictable distance, and settles within minutes of stopping",
+        "Pain intensity is mild (1–3 out of 10) and does not affect walking or daily activities",
+        "No pain when walking, climbing stairs, or at rest",
+        "No swelling on the outer knee",
+        "Symptoms have been present for less than 2–3 weeks"
+      ],
+      "self_care_appropriate": true,
+      "description_en": "Your symptoms suggest an early-stage IT band problem — the tissues on the outside of your knee are becoming irritated, most likely due to a recent increase in running or repetitive knee-bending activity. The good news is that at this stage, the condition responds well to simple adjustments. The most important step is to temporarily reduce the activity that triggers your pain — for example, shorten your runs, avoid hills and stairs, or switch to low-impact exercise (cycling on a flat route, swimming, or pool running). Start gentle hip-strengthening exercises to address the underlying cause, as weak hip muscles are strongly associated with this condition. Foam rolling the outer thigh may also help with symptom relief. Most mild cases improve significantly within 2–4 weeks with these measures.",
+      "description_zh": "你的症狀顯示髂脛束問題處於早期階段——膝蓋外側的組織開始受到刺激，最可能是因為最近增加了跑步量或重複膝蓋屈伸活動。好消息是，在這個階段，簡單的調整便能帶來良好效果。最重要的一步是暫時減少引發痛楚的活動——例如縮短跑步距離、避免斜坡和樓梯，或改做低衝擊運動（在平路踩單車、游泳或水中跑步）。開始進行輕柔的髖關節強化運動以處理根本原因，因為髖部肌肉無力與此狀況密切相關。用泡棉滾筒按摩大腿外側也有助紓緩症狀。大多數輕度個案在採取這些措施後2至4星期內便會明顯改善。"
+    },
+    "moderate": {
+      "indicators": [
+        "Pain occurs earlier during running and takes longer to settle after stopping",
+        "Pain is now present during some daily activities — such as descending stairs, prolonged sitting with knees bent, or walking longer distances",
+        "Pain intensity is moderate (4–6 out of 10) and limits your training",
+        "Tenderness on the outer knee is easily reproduced with light pressure",
+        "Symptoms have persisted for more than 3–4 weeks despite reducing activity"
+      ],
+      "recommend_professional": true,
+      "description_en": "Your symptoms suggest that the IT band problem has progressed and may benefit from professional guidance. At this stage, the condition is unlikely to resolve with activity modification alone — there are likely underlying biomechanical factors (such as hip weakness, poor pelvic control, or running form issues) that need to be identified and addressed. We recommend seeing a physiotherapist who can assess your hip strength, running or cycling biomechanics, and design a structured rehabilitation programme. Current evidence shows that hip abductor strengthening (particularly the gluteus medius) is the most effective treatment approach — traditional IT band stretching is no longer considered strong evidence-based practice. A physiotherapist can also use manual therapy techniques, taping, and foam rolling to help manage your symptoms while you build strength.",
+      "description_zh": "你的症狀顯示髂脛束問題已有所進展，可能需要專業指導。在這個階段，單靠調整活動量不太可能解決問題——可能存在需要識別和處理的根本生物力學因素（如髖部無力、骨盆控制不足或跑步姿勢問題）。我們建議諮詢物理治療師，他們可以評估你的髖關節力量、跑步或踩單車的生物力學，並設計結構化的康復計劃。目前的證據顯示，髖關節外展肌強化（特別是臀中肌）是最有效的治療方法——傳統的髂脛束伸展已不再被視為有強力證據支持的做法。物理治療師還可以運用手法治療、貼布技術和泡棉滾筒按摩，在你增強力量的同時幫助控制症狀。"
+    },
+    "severe": {
+      "indicators": [
+        "Pain is present during walking and daily activities, not just running",
+        "Unable to run at all or forced to stop within the first few minutes due to pain",
+        "Pain intensity is severe (7–10 out of 10) or symptoms have persisted for more than 2–3 months despite treatment",
+        "Noticeable swelling on the outer knee with persistent tenderness",
+        "Pain is affecting your ability to work, sleep, or perform daily tasks"
+      ],
+      "seek_immediate_help": true,
+      "description_en": "Your symptoms suggest a persistent or complicated case of lateral knee pain that needs prompt professional assessment. While IT band syndrome is usually managed conservatively, severe or prolonged symptoms may indicate that the condition has become chronic, or that another knee problem (such as a lateral meniscal tear, lateral collateral ligament injury, or stress fracture) may be contributing to your pain. Please see a doctor or physiotherapist as soon as possible. They may recommend imaging (ultrasound or MRI) to confirm the diagnosis and rule out other pathology, and discuss whether advanced treatments such as shockwave therapy or, in rare refractory cases, surgical options may be appropriate. Do not continue training through severe pain — this will prolong recovery and may cause compensatory injuries elsewhere.",
+      "description_zh": "你的症狀顯示這可能是一個持續或複雜的膝蓋外側痛個案，需要盡快接受專業評估。雖然髂脛束綜合症通常以保守方式處理，但嚴重或持續的症狀可能表示病情已變為慢性，或其他膝蓋問題（如外側半月板撕裂、外側副韌帶損傷或應力性骨折）可能正在加劇你的痛楚。請盡快就醫或諮詢物理治療師。他們可能會建議進行影像檢查（超聲波或磁力共振）以確認診斷並排除其他病變，以及討論衝擊波治療等進階方案，或在罕見的頑固個案中考慮手術選項是否合適。不要在嚴重痛楚下繼續訓練——這會延長康復時間，並可能導致其他部位的代償性損傷。"
+    }
+  },
+  "red_flags": [
+    "Significant knee swelling that develops rapidly after an injury — possible ligament rupture, meniscal tear, or fracture requiring urgent assessment",
+    "Knee locking (unable to fully straighten or bend the knee) — possible meniscal tear with mechanical block",
+    "Knee giving way or buckling during walking or weight-bearing — possible ligament insufficiency",
+    "Severe lateral knee pain after a direct blow or twisting injury — possible lateral collateral ligament (LCL) injury or fracture",
+    "Pain that is constant, severe, and present at rest and at night — may indicate stress fracture, bone pathology, or referred pain from the hip or spine",
+    "Redness, warmth, and swelling around the knee with fever — possible infection (septic arthritis) requiring immediate medical attention",
+    "Inability to bear weight on the affected leg after injury — possible fracture requiring urgent assessment"
+  ],
+  "possible_causes": [
+    {
+      "cause_en": "Rapid increase in running distance, intensity, or frequency — the most common trigger for ITBS",
+      "cause_zh": "快速增加跑步距離、強度或頻率——髂脛束綜合症最常見的觸發因素",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Weak hip abductor muscles (gluteus medius) — resulting in poor pelvic control and increased compression of the IT band at the knee",
+      "cause_zh": "髖關節外展肌（臀中肌）無力——導致骨盆控制不足，增加髂脛束在膝蓋處的壓迫",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Running on cambered (sloped) surfaces, hills, or always in the same direction on a track — creating asymmetric loading",
+      "cause_zh": "在傾斜路面、斜坡上跑步，或總是在跑道上同一方向跑步——造成不對稱負荷",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Downhill running — increases the impingement zone compression at approximately 30° of knee flexion during foot strike",
+      "cause_zh": "落斜跑步——增加腳著地時在膝蓋約30度屈曲位的撞擊區壓迫",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Cycling with incorrect saddle height, cleat position, or pedalling with toes turned inward",
+      "cause_zh": "單車座椅高度不正確、鎖片位置不當或踩踏時腳趾內轉",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Biomechanical factors — excessive hip adduction, hip internal rotation, or knee internal rotation during running gait",
+      "cause_zh": "生物力學因素——跑步步態中過度髖內收、髖內旋或膝內旋",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Inappropriate or worn-out running shoes offering insufficient support",
+      "cause_zh": "不合適或已磨損的跑鞋，提供不足的承托",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Leg length discrepancy — creating asymmetric biomechanics during repetitive loading",
+      "cause_zh": "雙腿長度差異——在重複負荷時造成不對稱的生物力學",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Pivoting sports (e.g. basketball, football, tennis) — ITB contributes to rotational knee stability, and pivoting may increase ITBS risk",
+      "cause_zh": "轉向運動（如籃球、足球、網球）——髂脛束參與膝蓋旋轉穩定性，轉向動作可能增加ITBS風險",
+      "likelihood": "less_common"
+    }
+  ],
+  "self_care_exercises": [
+    {
+      "exercise_name_en": "Hip Bridge with Resistance Band",
+      "exercise_name_zh": "阻力帶臀橋運動",
+      "instructions_en": "1. Lie on your back with both knees bent to approximately 90 degrees, feet flat on the floor, hip-width apart.\n2. Place a resistance band around both thighs, just above the knees.\n3. Push your knees outward against the band to engage the gluteal muscles — maintain this outward pressure throughout the exercise.\n4. Squeeze your glutes and slowly lift your hips off the floor until your body forms a straight line from shoulders to knees.\n5. Hold the bridge position for 5–10 seconds.\n6. Slowly lower back down. Repeat 10–12 times for 3 sets.\n7. Rest for 30–60 seconds between sets.\n8. The combination of the bridge and the outward knee push (isometric hip abduction) has been shown to significantly increase gluteus maximus activation compared to a bridge without the band.\n9. Keep your core engaged and avoid over-arching your lower back at the top of the bridge.",
+      "instructions_zh": "1. 仰臥，雙膝彎曲約90度，雙腳平放地上，與髖同寬。\n2. 將阻力帶放在雙腿大腿上方，即膝蓋上方位置。\n3. 將雙膝向外推以對抗阻力帶，激活臀肌——在整個練習過程中保持這個向外的壓力。\n4. 收緊臀肌，緩慢將臀部抬離地面，直到身體從肩膀到膝蓋形成一條直線。\n5. 在橋式位置維持5至10秒。\n6. 緩慢放下。重複10至12次，做3組。\n7. 每組之間休息30至60秒。\n8. 臀橋結合向外推膝（等長髖外展）已被證實能顯著增加臀大肌的激活程度，比不用阻力帶的臀橋更有效。\n9. 保持核心收緊，避免在橋式頂端過度弓背。",
+      "frequency": "Every other day (3–4 times per week)",
+      "duration": "Hold 5–10 seconds × 10–12 repetitions × 3 sets",
+      "difficulty_level": "beginner",
+      "contraindications": "Do not perform if you have significant lower back pain that is worsened by bridging, or if the exercise reproduces your lateral knee pain significantly (above 3/10). Ensure the resistance band is not too tight. Avoid over-arching the lower back at the top of the bridge.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Side-Lying Hip Abduction",
+      "exercise_name_zh": "側臥髖關節外展",
+      "instructions_en": "1. Lie on your unaffected side with your back against a wall for alignment.\n2. Keep the bottom leg slightly bent for stability.\n3. Straighten the affected (top) leg and hold it at approximately 30 degrees of hip abduction (lifted away from the bottom leg).\n4. Slightly rotate the hip so the toes point slightly upward and backward (gentle external rotation) — this targets the gluteus medius more effectively.\n5. Hold this position for 5 seconds, then slowly lower the leg back down.\n6. Repeat 10–15 times for 3 sets, with 30 seconds rest between sets.\n7. Keep your pelvis stable and stacked — do not roll backward.\n8. To progress, place a 1-metre resistance band between the ankles or add a light ankle weight (0.5–1 kg).\n9. This exercise has been identified as one of the top exercises for isolating and activating the gluteus medius — a key muscle in preventing ITBS.",
+      "instructions_zh": "1. 側臥在非患側，背部靠著牆壁以確保對齊。\n2. 底部的腿微微彎曲以保持穩定。\n3. 伸直患側（上方）腿，並將其抬起至約30度的髖關節外展位置。\n4. 輕微旋轉髖關節，使腳趾稍微向上和向後指（輕度外旋）——這能更有效地針對臀中肌。\n5. 維持這個位置5秒，然後緩慢將腿放回。\n6. 重複10至15次，做3組，每組之間休息30秒。\n7. 保持骨盆穩定且疊放——不要向後翻轉。\n8. 遞進方式：在腳踝之間放阻力帶或加輕重的腳踝沙袋（0.5至1公斤）。\n9. 這個練習已被認定為孤立和激活臀中肌的最佳練習之一——臀中肌是預防髂脛束綜合症的關鍵肌肉。",
+      "frequency": "Once daily",
+      "duration": "Hold 5 seconds × 10–15 repetitions × 3 sets",
+      "difficulty_level": "beginner",
+      "contraindications": "Stop if the exercise causes increased lateral knee pain. Avoid lifting the leg too high (above 45 degrees), which shifts activation away from the gluteus medius. If you have trochanteric bursitis/GTPS on the affected side, use a pillow between the knees and avoid lying on the affected hip.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Lateral Band Walk (Monster Walk)",
+      "exercise_name_zh": "阻力帶側向行走（怪獸步）",
+      "instructions_en": "1. Place a resistance band around both legs — just above the ankles or just above the knees (above the knees is easier; above the ankles is more challenging).\n2. Stand with feet hip-width apart in a semi-squat position (knees bent approximately 30–45 degrees, hips hinged slightly back, trunk upright).\n3. Keep your toes pointing forward and maintain tension in the band at all times.\n4. Step sideways with the leading leg, then follow with the trailing leg — maintain the semi-squat throughout.\n5. Take 10–15 steps in one direction, then 10–15 steps back.\n6. Repeat for 3 sets.\n7. The semi-squat position is important — performing this exercise with straight legs significantly reduces gluteus medius and maximus activation.\n8. Keep your knees tracking over your toes (do not let them cave inward).\n9. You should feel the muscles on the outside and back of your hips working — not your knees.\n10. This functional exercise integrates hip abductor strength with lower-limb neuromuscular control.",
+      "instructions_zh": "1. 將阻力帶套在雙腿——腳踝上方或膝蓋上方（膝蓋上方較容易；腳踝上方較具挑戰）。\n2. 以半蹲姿勢站立（膝蓋彎曲約30至45度，髖關節略向後傾，軀幹挺直），雙腳與髖同寬。\n3. 腳趾朝前，並在整個練習過程中保持阻力帶的張力。\n4. 先用前導腿向側方跨步，然後跟隨腿跟上——全程保持半蹲姿勢。\n5. 向一個方向走10至15步，然後走回10至15步。\n6. 重複3組。\n7. 半蹲姿勢非常重要——以伸直腿進行此練習會顯著降低臀中肌和臀大肌的激活程度。\n8. 保持膝蓋位於腳趾上方（不要讓膝蓋向內塌）。\n9. 你應該感覺到髖關節外側和後方的肌肉在工作——而非膝蓋。\n10. 這個功能性練習將髖關節外展肌力量與下肢神經肌肉控制結合在一起。",
+      "frequency": "Every other day (3–4 times per week)",
+      "duration": "10–15 steps each direction × 3 sets",
+      "difficulty_level": "intermediate",
+      "contraindications": "Do not perform if the semi-squat position reproduces significant knee pain. Start with the band above the knees (easier) and progress to above the ankles. Ensure you maintain proper knee alignment — knees caving inward during this exercise can worsen lateral knee symptoms. Reduce depth of the squat if there is any anterior knee pain.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Foam Roller — Outer Thigh Myofascial Release",
+      "exercise_name_zh": "泡棉滾筒——大腿外側筋膜放鬆",
+      "instructions_en": "1. Lie on your affected side with the foam roller positioned perpendicular to the outer thigh, just below the hip bone.\n2. The upper (unaffected) leg should be placed in front of the body with the foot flat on the floor for balance and to control pressure.\n3. Support your upper body on your forearm.\n4. Using your hands and front leg for support, slowly roll from the top of the outer thigh down to just above the outer knee — do NOT roll directly over the knee joint.\n5. Move slowly — spend 1–2 minutes rolling the full length.\n6. If you find a particularly tight or tender spot, pause and hold on that area for 20–30 seconds without rolling.\n7. Control the pressure by adjusting how much weight you place on the roller versus your supporting arm and front leg — start with lighter pressure and increase as tolerated.\n8. After rolling the outer thigh, you can also foam roll the quadriceps (front of thigh) and the gluteals (back of hip) to address surrounding muscle tightness.\n9. Foam rolling is used for myofascial release and symptom management — it does NOT 'stretch' the IT band itself but can help reduce tightness in the surrounding muscles (tensor fasciae latae, vastus lateralis, gluteus maximus).",
+      "instructions_zh": "1. 側臥在患側，將泡棉滾筒垂直放在大腿外側下方，位於髖骨稍下位置。\n2. 上方（非患側）腿放在身體前方，腳掌平放地面，用於平衡和控制壓力。\n3. 用前臂支撐上半身。\n4. 利用雙手和前方腿作支撐，從大腿外側上方緩慢滾動至膝蓋外側上方——不要直接滾過膝關節。\n5. 動作要慢——用1至2分鐘滾動整個長度。\n6. 如果發現特別繃緊或壓痛的位置，暫停並在該區域保持20至30秒不動。\n7. 透過調整放在滾筒上的重量與支撐手臂和前方腿的比例來控制壓力——從較輕壓力開始,逐漸增加。\n8. 滾完大腿外側後，還可以用泡棉滾筒按摩四頭肌（大腿前方）和臀肌（髖部後方），以處理周圍肌肉的繃緊。\n9. 泡棉滾筒用於筋膜放鬆和症狀管理——它不會「伸展」髂脛束本身，但可以幫助減輕周圍肌肉（闊筋膜張肌、股外側肌、臀大肌）的繃緊感。",
+      "frequency": "Daily or after every training session",
+      "duration": "1–2 minutes per area, spending 20–30 seconds on tender spots",
+      "difficulty_level": "beginner",
+      "contraindications": "Do not roll directly over the bony prominence of the knee or hip. Avoid foam rolling if there is acute inflammation with significant swelling and redness at the knee. Do not foam roll over bruises, open wounds, or varicose veins. Reduce pressure if the exercise is excessively painful — it should feel like a 'good discomfort' (4–6/10), not sharp pain.",
+      "video_reference_url": "[TO BE ADDED]"
+    }
+  ],
+  "recovery_timeline": {
+    "mild_estimate": "2–4 weeks with activity modification and hip-strengthening exercises",
+    "moderate_estimate": "6–12 weeks with structured physiotherapy, progressive hip abductor strengthening, and gradual return to running",
+    "severe_estimate": "3–6 months for chronic cases; may require advanced interventions (shockwave therapy, injection) or rarely surgical management if conservative treatment fails",
+    "note": "A systematic review showed that conservative treatment was effective at pain reduction for ITBS at 6-month follow-up. The key to successful recovery is addressing the underlying cause — which is most commonly hip abductor weakness and poor biomechanical control — rather than simply treating the lateral knee pain. Traditional IT band stretching is no longer considered strong evidence-based practice; hip strengthening has replaced it as the primary intervention. When returning to running, follow the 10% rule (increase distance by no more than 10% per week), avoid hills and cambered surfaces initially, and consider having your running gait assessed by a physiotherapist. Recurrence is common if the underlying hip weakness and biomechanical issues are not addressed."
+  },
+  "when_to_see_professional": [
+    "Lateral knee pain persists for more than 2–3 weeks despite reducing running/cycling activity",
+    "Pain is now present during daily activities such as walking, stair descent, or prolonged sitting",
+    "You are unable to run at all due to lateral knee pain",
+    "Symptoms are worsening despite self-care measures",
+    "The knee is swelling, locking, or giving way — these suggest a different or additional diagnosis",
+    "You have had recurrent episodes of ITBS and want a biomechanical assessment and structured rehabilitation plan",
+    "You want guidance on safe return to running or cycling"
+  ],
+  "faqs": [
+    {
+      "question_en": "Should I stretch my IT band to treat IT band syndrome?",
+      "question_zh": "我應該伸展髂脛束來治療髂脛束綜合症嗎？",
+      "answer_en": "This is one of the most common misconceptions about ITBS. Traditional IT band stretching is no longer considered strong evidence-based treatment. The IT band is a thick band of fascia (connective tissue), not a muscle — it is extremely resistant to stretching, and research has shown that even aggressive stretching produces negligible changes in its length. More importantly, the current understanding of ITBS has shifted away from the 'friction' theory. The condition is now thought to be caused by compression of sensitive fatty tissue underneath the IT band at the knee, driven by factors such as weak hip abductor muscles and poor biomechanical control. Therefore, the most effective treatment focuses on strengthening the hip muscles (particularly the gluteus medius and maximus) to improve pelvic stability and reduce the compressive forces at the knee. Foam rolling the outer thigh can help manage symptoms by releasing tightness in the surrounding muscles — but this is symptom relief, not a cure. A physiotherapist can assess your specific contributing factors and design the right programme for you.",
+      "answer_zh": "這是關於髂脛束綜合症最常見的誤解之一。傳統的髂脛束伸展已不再被視為有強力證據支持的治療方法。髂脛束是一條厚厚的筋膜（結締組織），不是肌肉——它對伸展非常抵抗，研究顯示即使激烈的伸展也只能產生微不足道的長度變化。更重要的是，目前對ITBS的理解已從「摩擦」理論轉變。現在認為這種狀況是由膝蓋處髂脛束下方敏感脂肪組織受壓迫引起的，驅動因素包括髖關節外展肌無力和生物力學控制不足。因此，最有效的治療是強化髖部肌肉（特別是臀中肌和臀大肌），以改善骨盆穩定性並減少在膝蓋處的壓迫力。用泡棉滾筒按摩大腿外側可以透過釋放周圍肌肉的繃緊來幫助控制症狀——但這是症狀紓緩，而非根治。物理治療師可以評估你的具體成因，並設計適合你的計劃。"
+    },
+    {
+      "question_en": "When can I return to exercise or sports?",
+      "question_zh": "我什麼時候可以恢復運動？",
+      "answer_en": "Return to running or sport should be gradual, criteria-based, and guided by symptoms. As a general guide: (1) For mild cases, you may continue cross-training (swimming, cycling on flat terrain, pool running) immediately while reducing the aggravating activity. Return to short, flat runs within 2–4 weeks if daily activities are pain-free. (2) For moderate cases, expect 6–12 weeks of rehabilitation focused on hip strengthening before gradually reintroducing running. (3) For severe/chronic cases, 3–6 months may be needed. Before returning to running, you should be able to: walk and use stairs without lateral knee pain, demonstrate adequate hip abductor strength (assessed by your physiotherapist), and tolerate 30+ minutes of brisk walking pain-free. When you do return to running: start with short runs on flat surfaces at a slow pace; avoid hills, cambered surfaces, and tracks initially; increase distance by no more than 10% per week; and continue your hip-strengthening exercises throughout. If you are a cyclist, have your bike fit and cleat position reviewed. Recurrence is common — ongoing gluteal strengthening is essential for long-term prevention.",
+      "answer_zh": "重返跑步或運動應循序漸進、基於標準並以症狀為指引。一般指引：（1）輕度個案可在減少引發痛楚的活動的同時，立即繼續交叉訓練（游泳、在平路踩單車、水中跑步）。如果日常活動無痛，可在2至4星期內恢復短距離平路跑步。（2）中度個案預計需要6至12星期以髖關節強化為重點的康復，然後才逐步重新引入跑步。（3）嚴重/慢性個案可能需要3至6個月。在重返跑步前，你應能：無膝蓋外側痛地行走和上下樓梯、展示足夠的髖關節外展肌力量（由物理治療師評估），以及能夠無痛地承受30分鐘以上的快步步行。重返跑步時：從平坦路面短距離慢速開始；最初避免斜坡、傾斜路面和跑道；每星期距離增加不超過10%；並繼續進行髖關節強化運動。如果你是踩單車的，請檢查單車設定和鎖片位置。復發很常見——持續的臀肌強化對長期預防至關重要。"
+    },
+    {
+      "question_en": "Why do my hip muscles affect my knee pain?",
+      "question_zh": "為什麼髖部肌肉會影響我的膝蓋痛？",
+      "answer_en": "The connection between your hip muscles and outer knee pain is a key concept in understanding ITBS. The IT band runs from the hip (connecting to the gluteus maximus and tensor fasciae latae muscles) all the way down to just below the knee (Gerdy's tubercle on the tibia). When the hip abductor muscles (particularly the gluteus medius) are weak, they cannot adequately control the pelvis and thigh during single-leg activities like running. This leads to the thigh collapsing inward (excessive hip adduction and internal rotation), which increases the compressive forces on the IT band at the lateral knee — particularly near 30 degrees of knee flexion, which is the 'impingement zone' during foot strike. Research has consistently shown that runners with ITBS have weaker hip abductors compared to healthy runners. By strengthening these muscles, you improve your pelvic stability and lower-limb alignment, reducing the load on the IT band at the knee. This is why hip exercises — not knee exercises or IT band stretches — are the most effective treatment for ITBS.",
+      "answer_zh": "髖部肌肉與膝蓋外側痛之間的聯繫是理解髂脛束綜合症的一個關鍵概念。髂脛束從髖部（連接臀大肌和闊筋膜張肌）一直延伸到膝蓋以下（脛骨的Gerdy結節）。當髖關節外展肌（特別是臀中肌）無力時，它們無法在跑步等單腳活動中充分控制骨盆和大腿。這導致大腿向內塌陷（過度髖內收和內旋），增加了髂脛束在膝蓋外側的壓迫力——特別是在膝蓋屈曲約30度的位置，即腳著地時的「撞擊區」。研究一致顯示，患有ITBS的跑手與健康跑手相比，髖關節外展肌較弱。通過強化這些肌肉，你可以改善骨盆穩定性和下肢對齊，減少膝蓋處髂脛束的負荷。這就是為什麼髖關節運動——而非膝蓋運動或髂脛束伸展——是ITBS最有效的治療方法。"
+    },
+    {
+      "question_en": "Can I still exercise while recovering from IT band syndrome?",
+      "question_zh": "IT Band 綜合症康復期間我可以繼續運動嗎？",
+      "answer_en": "Yes — complete rest from all exercise is generally not necessary or recommended. The key is to avoid or reduce the specific activities that trigger your lateral knee pain (usually running, especially downhill, and sometimes cycling), while staying active with alternative exercises that do not aggravate your symptoms. Good cross-training options include: swimming (all strokes are generally fine), pool running (aqua jogging), cycling on a flat route with correct saddle height, elliptical machine (with low resistance), upper-body strength training, and core exercises. While avoiding the aggravating activity, you should actively work on the hip-strengthening exercises described above — this is the treatment, not just 'filler'. As your symptoms improve and your hip strength increases, you can gradually reintroduce running following the 10% progression rule. Maintaining cardiovascular fitness during recovery will make your return to sport much smoother.",
+      "answer_zh": "可以——通常不需要也不建議完全停止所有運動。關鍵是避免或減少引發膝蓋外側痛的特定活動（通常是跑步，特別是落斜跑，有時也包括踩單車），同時以不加重症狀的替代運動保持活躍。良好的交叉訓練選擇包括：游泳（所有泳式一般都可以）、水中跑步（水上慢跑）、在座椅高度正確的情況下在平路踩單車、橢圓機（低阻力）、上半身力量訓練和核心練習。在避免加重活動的同時，你應積極進行上述髖關節強化練習——這是治療，不僅僅是「填充時間」。隨著症狀改善和髖部力量增加，你可以按照10%遞進規則逐步重新引入跑步。在康復期間維持心肺體能，將令你重返運動時更為順暢。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Iliotibial Band Syndrome — Physiopedia",
+      "url": "https://www.physio-pedia.com/Iliotibial_Band_Syndrome",
+      "type": "professional_guideline"
+    },
+    {
+      "title": "Bonoan M et al. Iliotibial Band Syndrome Current Evidence. Curr Phys Med Rehabil Rep. 2024.",
+      "url": "https://doi.org/10.1007/s40141-024-00442-w",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Bolia IK et al. Operative Versus Nonoperative Management of Distal Iliotibial Band Syndrome — A Systematic Review. Arthroscopy Sports Med Rehabil. 2020;2(4):e399-e415.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32875301/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Foch E et al. Lower extremity kinematics during running and hip abductor strength in iliotibial band syndrome: A systematic review and meta-analysis. Gait Posture. 2023;101:73-81.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36764052/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Baker RL, Fredericson M. Iliotibial Band Syndrome in Runners: Biomechanical Implications and Exercise Interventions. Phys Med Rehabil Clin N Am. 2016;27(1):53-77.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26616177/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "van der Worp MP et al. Iliotibial Band Syndrome in Runners. Sports Med. 2012;42(11):969-92.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22996264/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Clinical Guideline for First-contact Physiotherapists on Assessment and Cross-disciplinary Management Approach for Common Musculoskeletal Problems in Primary Care Setting. Primary Healthcare Commission, Hong Kong. Dec 2025.",
+      "url": "",
+      "type": "government_guideline"
+    }
+  ],
+  "review_status": {
+    "reviewed_by": "[PENDING — Physiotherapist Name]",
+    "reviewer_credentials": "[PENDING]",
+    "review_date": null,
+    "next_review_date": null,
+    "approved": false
+  },
+  "metadata": {
+    "created_date": "2026-04-29",
+    "last_updated": "2026-05-02",
+    "version": "0.1-draft"
+  }
+}

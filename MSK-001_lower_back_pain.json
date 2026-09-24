@@ -1,0 +1,319 @@
+{
+  "condition_id": "MSK-001",
+  "condition_name_en": "Lower Back Pain (Non-Specific)",
+  "condition_name_zh": "下背痛（非特異性）",
+  "body_area": [
+    "lower back",
+    "lumbar spine"
+  ],
+  "category": "musculoskeletal",
+  "patient_language_aliases": [
+    "lower back pain",
+    "low back ache",
+    "back pain",
+    "my back hurts",
+    "pain in my lower back",
+    "sore back after sitting",
+    "back stiffness",
+    "I threw out my back",
+    "lumbar pain",
+    "my back is killing me",
+    "back seized up",
+    "腰痛",
+    "腰背痛",
+    "下背酸痛",
+    "腰骨痛",
+    "閃咗腰"
+  ],
+  "symptoms": [
+    {
+      "description_en": "Dull, aching pain across the lower back, localised below the costal margin and above the inferior gluteal folds",
+      "description_zh": "下背部持續性鈍痛，位於肋骨下緣至臀部上方之間的區域"
+    },
+    {
+      "description_en": "Stiffness, especially after prolonged sitting, standing, or upon waking in the morning",
+      "description_zh": "久坐、久站或早上起床後感到僵硬"
+    },
+    {
+      "description_en": "Pain that worsens with bending, lifting, or twisting movements",
+      "description_zh": "彎腰、提重物或扭轉時疼痛加劇"
+    },
+    {
+      "description_en": "Muscle spasms or tightness in the lower back and surrounding area",
+      "description_zh": "下背部及周圍肌肉痙攣或繃緊"
+    },
+    {
+      "description_en": "Reduced range of motion in the trunk, difficulty bending forward or backward",
+      "description_zh": "軀幹活動幅度減少，前彎或後仰困難"
+    },
+    {
+      "description_en": "Pain that may radiate to the buttocks but typically does not extend below the knee",
+      "description_zh": "疼痛可能延伸至臀部，但通常不會伸延至膝蓋以下"
+    }
+  ],
+  "guided_questions": [
+    {
+      "question_en": "Where exactly do you feel the pain? Can you point to the specific area?",
+      "question_zh": "你具體在哪個位置感到疼痛？可以指出確切的區域嗎？",
+      "purpose": "Localise the pain to differentiate lumbar, sacral, thoracic, or referred pain patterns."
+    },
+    {
+      "question_en": "How long have you been experiencing this pain?",
+      "question_zh": "這個疼痛持續了多久？",
+      "purpose": "Classify the presentation as acute (<6 weeks), sub-acute (6–12 weeks), or chronic (>12 weeks), which guides the management approach per international guidelines."
+    },
+    {
+      "question_en": "On a scale of 1 to 10, how would you rate the pain right now?",
+      "question_zh": "以1到10分計算，你現在的疼痛程度是多少？",
+      "purpose": "Quantify pain intensity for severity triage classification using a Numeric Pain Rating Scale."
+    },
+    {
+      "question_en": "Did the pain start after a specific event, such as lifting something heavy, a fall, or an accident?",
+      "question_zh": "疼痛是否在某個特定事件後開始，例如提重物、跌倒或意外？",
+      "purpose": "Identify traumatic versus insidious onset. Trauma may indicate fracture or structural injury requiring further investigation."
+    },
+    {
+      "question_en": "What makes the pain better or worse? For example, does sitting, standing, walking, or lying down change the pain?",
+      "question_zh": "什麼情況會令疼痛減輕或加劇？例如坐著、站著、步行或躺下會改變疼痛嗎？",
+      "purpose": "Identify aggravating and easing factors to guide activity modification and exercise recommendations."
+    },
+    {
+      "question_en": "Does the pain travel down your leg? Do you feel any numbness, tingling, or weakness in your legs or feet?",
+      "question_zh": "疼痛有沒有延伸到腿部？你的腿部或腳部有沒有麻痺、刺痛或無力感？",
+      "purpose": "Screen for radiculopathy or nerve involvement. Radiating pain below the knee with neurological symptoms suggests a specific cause (5–10% of LBP cases) requiring different management."
+    },
+    {
+      "question_en": "Do you have any difficulty controlling your bladder or bowels, or any numbness in the groin or saddle area?",
+      "question_zh": "你有沒有大小便失禁的情況，或者會陰部及鼠蹊部有沒有麻痺感？",
+      "purpose": "CRITICAL red-flag screening for cauda equina syndrome — a medical emergency requiring immediate referral to A&E. This must always be asked."
+    }
+  ],
+  "severity_classification": {
+    "mild": {
+      "indicators": [
+        "Pain rated 1–3 out of 10",
+        "No radiating pain to the legs",
+        "Can perform daily activities with only minor discomfort",
+        "Onset within the last few days to weeks, no history of significant trauma",
+        "No neurological symptoms (numbness, tingling, or weakness)"
+      ],
+      "self_care_appropriate": true,
+      "description_en": "Your symptoms suggest mild, non-specific lower back pain. This is very common — research shows that 60–80% of adults experience back pain at some point in their lives. The good news is that most cases improve significantly with gentle movement and self-care within a few weeks. Staying active is one of the best things you can do.",
+      "description_zh": "你的症狀顯示為輕度非特異性下背痛。這是非常常見的情況——研究顯示60至80%的成年人在一生中都會經歷背痛。好消息是，大部分個案透過適當的活動和自我護理，在幾星期內會明顯改善。保持活動是你能做的最好的事情之一。"
+    },
+    "moderate": {
+      "indicators": [
+        "Pain rated 4–6 out of 10",
+        "Some limitation in daily activities or work",
+        "Occasional pain radiating to the buttock but not below the knee",
+        "Symptoms persisting for more than 2 weeks or recurring episodes",
+        "Presence of some psychosocial factors such as fear of movement or work-related stress"
+      ],
+      "recommend_professional": true,
+      "description_en": "Your symptoms suggest moderate lower back pain that may benefit from a professional physiotherapy assessment. A physiotherapist can provide tailored exercises, manual therapy, and advice to help you recover more quickly. In the meantime, the self-care exercises below may help manage your discomfort. Try to stay as active as possible within your pain tolerance.",
+      "description_zh": "你的症狀顯示為中度下背痛，建議接受專業物理治療評估。物理治療師可以提供針對性運動、手法治療及建議，幫助你更快復元。在此期間，以下的自我護理運動可能有助於舒緩不適。請盡量在可忍受的疼痛範圍內保持活動。"
+    },
+    "severe": {
+      "indicators": [
+        "Pain rated 7–10 out of 10",
+        "Radiating pain extending below the knee",
+        "Numbness, tingling, or progressive weakness in the legs or feet",
+        "Significant limitation in daily activities — difficulty walking, standing, or sitting",
+        "Pain following major trauma such as a car accident or fall from height"
+      ],
+      "seek_immediate_help": true,
+      "description_en": "Your symptoms suggest a more serious condition that requires prompt professional assessment. Please consult a physiotherapist or doctor as soon as possible. If you are experiencing any loss of bladder or bowel control, numbness in the groin area, or sudden weakness in both legs, please go to A&E or call 999 immediately — these may indicate a medical emergency.",
+      "description_zh": "你的症狀顯示可能較為嚴重，需要盡快接受專業評估。請儘快諮詢物理治療師或醫生。如果你出現大小便失禁、會陰部麻痺或雙腿突然無力的情況，請立即前往急症室或致電999——這些可能是醫療緊急狀況的徵兆。"
+    }
+  },
+  "red_flags": [
+    "Loss of bladder or bowel control — possible cauda equina syndrome (EMERGENCY: call 999 / go to A&E immediately)",
+    "Numbness in the groin or saddle area — possible cauda equina syndrome",
+    "Progressive weakness in both legs",
+    "Severe pain following significant trauma (e.g., car accident, fall from height) — possible spinal fracture",
+    "Unexplained weight loss combined with persistent back pain — possible malignancy",
+    "Fever or chills combined with back pain — possible spinal infection",
+    "History of cancer with new onset of back pain — possible metastatic disease",
+    "Pain that is constant, progressive, and not relieved by rest or position change",
+    "Age of onset under 20 or over 55 with first episode and no mechanical features — possible serious pathology"
+  ],
+  "possible_causes": [
+    {
+      "cause_en": "Muscle or ligament strain from overuse, poor posture, or repetitive movements",
+      "cause_zh": "因過度使用、姿勢不良或重複性動作導致的肌肉或韌帶拉傷",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Prolonged sitting or sedentary lifestyle with insufficient physical activity",
+      "cause_zh": "長時間坐著或缺乏運動的生活方式",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Degenerative disc changes (age-related wear and tear)",
+      "cause_zh": "椎間盤退化（年齡相關的自然磨損）",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Psychosocial factors including stress, depression, fear of movement, and work dissatisfaction",
+      "cause_zh": "心理社會因素，包括壓力、抑鬱、恐懼活動及對工作不滿",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Herniated or bulging intervertebral disc",
+      "cause_zh": "椎間盤突出",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Facet joint irritation or dysfunction",
+      "cause_zh": "小面關節受刺激或功能障礙",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Spinal stenosis (narrowing of the spinal canal)",
+      "cause_zh": "脊椎管狹窄",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Spondylolisthesis (forward slippage of a vertebra)",
+      "cause_zh": "脊椎滑脫",
+      "likelihood": "rare"
+    },
+    {
+      "cause_en": "Serious pathology including fracture, infection, cancer, or inflammatory disease (accounts for 1–2% of LBP cases)",
+      "cause_zh": "嚴重病理，包括骨折、感染、癌症或炎症性疾病（佔下背痛個案的1至2%）",
+      "likelihood": "rare"
+    }
+  ],
+  "self_care_exercises": [
+    {
+      "exercise_name_en": "Pelvic Tilts",
+      "exercise_name_zh": "骨盆傾斜運動",
+      "instructions_en": "Lie on your back with your knees bent and feet flat on the floor, hip-width apart. Gently flatten your lower back against the floor by tightening your abdominal muscles — imagine pulling your belly button toward your spine. Hold for 5 seconds, breathing normally, then relax. Repeat.",
+      "instructions_zh": "仰臥，屈膝，雙腳平放在地上，與臀部同寬。輕輕收緊腹部肌肉，將下背部壓向地面——想像將肚臍拉向脊椎。保持5秒，正常呼吸，然後放鬆。重複進行。",
+      "frequency": "10 repetitions × 3 sets",
+      "duration": "Daily",
+      "difficulty_level": "beginner",
+      "contraindications": "Avoid if the exercise causes a significant increase in pain. Stop if you experience any sharp or shooting pain.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Cat-Cow Stretch",
+      "exercise_name_zh": "貓牛式伸展",
+      "instructions_en": "Start on your hands and knees with your wrists directly under your shoulders and knees under your hips. Slowly arch your back upward, tucking your chin to your chest and rounding your spine (cat position). Hold for 3 seconds. Then slowly let your belly drop toward the floor while gently lifting your head and tailbone toward the ceiling (cow position). Hold for 3 seconds. Move smoothly and gently between the two positions.",
+      "instructions_zh": "四肢著地開始，手腕在肩膀正下方，膝蓋在臀部正下方。慢慢將背部拱起，下巴收向胸口，脊椎呈圓弧形（貓式）。保持3秒。然後慢慢讓腹部下沉向地面，同時輕輕抬起頭部和尾骨向天花板（牛式）。保持3秒。在兩個姿勢之間平穩緩慢地切換。",
+      "frequency": "10 repetitions × 2 sets",
+      "duration": "Daily",
+      "difficulty_level": "beginner",
+      "contraindications": "Avoid if you have acute disc herniation symptoms (pain radiating down the leg). If any position causes increased pain, reduce the range of motion.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Bird-Dog",
+      "exercise_name_zh": "鳥狗式",
+      "instructions_en": "Start on your hands and knees with your back flat (neutral spine). Slowly extend your right arm forward and your left leg backward simultaneously, keeping your back as flat and stable as possible — avoid letting your hips rotate or your back arch. Hold for 5 seconds. Return to the starting position with control. Repeat on the other side (left arm, right leg). This exercise targets the core stabiliser muscles including the transversus abdominis and lumbar multifidus.",
+      "instructions_zh": "四肢著地開始，保持背部平坦（脊椎中立位）。慢慢同時伸出右手向前、左腳向後，盡量保持背部平穩——避免臀部旋轉或腰部過度弯曲。保持5秒。有控制地回到起始位置。換另一側重複（左手、右腳）。這個運動針對核心穩定肌肉，包括腹橫肌和腰多裂肌。",
+      "frequency": "8 repetitions per side × 2 sets",
+      "duration": "Daily",
+      "difficulty_level": "intermediate",
+      "contraindications": "Ensure no excessive arching of the lower back throughout the exercise. Reduce hold time if fatigued. Stop if pain increases.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Glute Bridge",
+      "exercise_name_zh": "臀橋",
+      "instructions_en": "Lie on your back with your knees bent and feet flat on the floor, hip-width apart. Arms resting by your sides. Squeeze your gluteal (buttock) muscles and push through your heels to lift your hips off the floor until your body forms a straight line from your shoulders to your knees. Hold for 5 seconds at the top. Slowly lower back down with control. This exercise strengthens the gluteus maximus and helps support the lumbar spine.",
+      "instructions_zh": "仰臥，屈膝，雙腳平放在地上，與臀部同寬。雙臂放在身體兩側。收緊臀部肌肉，用腳跟發力將臀部抬離地面，直到身體從肩膀到膝蓋形成一條直線。在最高點保持5秒。然後有控制地慢慢放下。這個運動強化臀大肌，有助支撐腰椎。",
+      "frequency": "10 repetitions × 3 sets",
+      "duration": "Daily",
+      "difficulty_level": "beginner",
+      "contraindications": "Avoid lifting hips too high — do not arch the lower back excessively. Stop if you feel pain in the lower back during the exercise.",
+      "video_reference_url": "[TO BE ADDED]"
+    }
+  ],
+  "recovery_timeline": {
+    "mild_estimate": "1–3 weeks with self-care and staying active",
+    "moderate_estimate": "4–8 weeks with physiotherapy and tailored exercise",
+    "severe_estimate": "8–12+ weeks; may require multidisciplinary rehabilitation or specialist referral",
+    "note": "Recovery times are general estimates and vary significantly between individuals. Research shows that nearly a third of people may have persistent moderate pain for one year after an acute episode. Up to 23% of adults develop chronic LBP. Psychosocial factors such as fear of movement, depression, and work dissatisfaction can significantly influence recovery. Chronic presentations (>12 weeks) may require a multidisciplinary approach integrating physiotherapy, psychological support, and occupational therapy."
+  },
+  "when_to_see_professional": [
+    "Pain persists beyond 2–3 weeks despite self-care",
+    "Pain is getting progressively worse rather than improving",
+    "Pain radiates down the leg, especially below the knee",
+    "Numbness, tingling, or weakness in the legs or feet",
+    "Pain following a significant injury or accident",
+    "Recurrent episodes (3 or more in the past year)",
+    "Pain is significantly affecting your ability to work or perform daily activities",
+    "You are experiencing fear of movement or anxiety about your back pain that is preventing you from staying active"
+  ],
+  "faqs": [
+    {
+      "question_en": "Should I rest completely or keep moving?",
+      "question_zh": "我應該完全休息還是繼續活動？",
+      "answer_en": "Current evidence and international guidelines strongly recommend staying active and avoiding prolonged bed rest. Research shows that gentle movement and continuing with normal daily activities (within your pain tolerance) leads to faster recovery than bed rest. Prolonged inactivity can actually make back pain worse by weakening the muscles that support your spine. Start with gentle walking and the exercises recommended above.",
+      "answer_zh": "目前的醫學證據和國際指引強烈建議保持活動，避免長時間臥床休息。研究顯示，在可忍受的疼痛範圍內進行輕柔運動和維持日常活動，比臥床休息更有助於更快復元。長時間不活動反而會令支撐脊椎的肌肉變弱，使背痛惡化。建議從輕柔的步行和上述建議的運動開始。"
+    },
+    {
+      "question_en": "Do I need an X-ray or MRI scan?",
+      "question_zh": "我需要照X光或做磁力共振(MRI)嗎？",
+      "answer_en": "For most cases of non-specific lower back pain, imaging such as X-rays or MRI scans is not recommended, especially in the first month. International guidelines advise against routine imaging because research shows it is not possible to identify the specific tissue source of pain in most cases, and imaging findings often do not correlate with the level of pain experienced. Imaging is only recommended if your pain does not respond to recommended treatment, if your management needs to change, or if a more serious condition is suspected.",
+      "answer_zh": "對於大多數非特異性下背痛個案，特別是在首月內，一般不建議進行X光或磁力共振等影像檢查。國際指引不建議常規影像檢查，因為研究顯示大多數情況下無法確定疼痛的具體組織來源，而且影像檢查結果往往與實際疼痛程度不相符。只有在疼痛對建議的治療沒有反應、需要改變治療方案，或懷疑有更嚴重的病況時，才建議進行影像檢查。"
+    },
+    {
+      "question_en": "When can I return to exercise or sports?",
+      "question_zh": "我多快可以恢復運動？",
+      "answer_en": "It depends on the severity of your symptoms. For mild cases, you may return to light exercise within 1–2 weeks. For moderate cases, a gradual return over 4–6 weeks is typical. The key principle is progressive overload — gradually increase the intensity, duration, and frequency of activity over time. Low-impact activities like walking, swimming, and cycling are usually safe to resume early. Always listen to your body: some discomfort during exercise is normal, but sharp or worsening pain means you should reduce the intensity. Consult a physiotherapist before returning to high-intensity or contact sports.",
+      "answer_zh": "這取決於你的症狀嚴重程度。輕微個案通常在1至2星期內可恢復輕量運動。中度個案一般需要4至6星期逐步恢復。關鍵原則是漸進式增加負荷——逐步提高活動的強度、持續時間和頻率。步行、游泳和踏單車等低衝擊活動通常可以較早恢復。時刻留意身體反應：運動時輕微不適是正常的，但尖銳或加劇的疼痛表示你應該減少強度。恢復高強度或接觸性運動前，請諮詢物理治療師。"
+    },
+    {
+      "question_en": "Will my back pain come back?",
+      "question_zh": "我的背痛會復發嗎？",
+      "answer_en": "Back pain has a high recurrence rate — research shows it is common for people to experience repeated episodes. However, you can significantly reduce the risk of recurrence by: maintaining regular physical exercise that includes core strengthening and aerobic activity, practising good posture and ergonomics at work, managing stress and psychological well-being, maintaining a healthy weight, and getting adequate sleep. Evidence shows that combining exercise with education about back pain beliefs is the most effective prevention strategy.",
+      "answer_zh": "背痛的復發率較高——研究顯示重複發作是常見的。不過，你可以透過以下方法大幅減低復發風險：保持定期運動（包括核心肌肉強化和有氧運動）、注意工作時的姿勢和人體工學、管理壓力和心理健康、維持健康體重，以及獲得充足睡眠。證據顯示，結合運動和背痛認知教育是最有效的預防策略。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Physiopedia — Low Back Pain",
+      "url": "https://www.physio-pedia.com/Low_Back_Pain",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "NICE Guideline NG59 — Low back pain and sciatica in over 16s: assessment and management",
+      "url": "https://www.nice.org.uk/guidance/ng59",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Burton AK — European Guidelines for Prevention in Low Back Pain (COST B13)",
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/15480842",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Qaseem A et al. — Noninvasive Treatments for Acute, Subacute, and Chronic Low Back Pain: ACP Clinical Practice Guideline",
+      "url": "https://www.acpjournals.org/doi/10.7326/M16-2367",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "HK Health Bureau — Clinical Guideline for First-contact Physiotherapists on Common MSK Problems in Primary Care",
+      "url": "https://www.healthbureau.gov.hk/phcc/rfs/assets/pdf/home/discipline-based_guidelines/clinical_guideline_on_first_contact_assessment_and_cross-disciplinary_management_approach_for_common_msk_problems.pdf",
+      "type": "government_guideline"
+    },
+    {
+      "title": "Nicol V et al. — Chronic Low Back Pain: A Narrative Review of Recent International Guidelines for Diagnosis and Conservative Treatment (J Clin Med 2023)",
+      "url": "https://doi.org/10.3390/jcm12041685",
+      "type": "clinical_guideline"
+    }
+  ],
+  "review_status": {
+    "reviewed_by": "[PENDING — Physiotherapist Name]",
+    "reviewer_credentials": "[PENDING — e.g., BSc Physiotherapy, HKPA Member]",
+    "review_date": null,
+    "next_review_date": null,
+    "approved": false
+  },
+  "metadata": {
+    "created_date": "2026-05-01",
+    "last_updated": "2026-05-01",
+    "version": "0.1-draft"
+  }
+}

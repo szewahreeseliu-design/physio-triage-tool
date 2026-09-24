@@ -1,0 +1,324 @@
+{
+  "condition_id": "MSK-015",
+  "condition_name_en": "Ankle Sprain",
+  "condition_name_zh": "踝關節扭傷",
+  "body_area": [
+    "ankle",
+    "foot"
+  ],
+  "category": "musculoskeletal",
+  "patient_language_aliases": [
+    "twisted ankle",
+    "rolled my ankle",
+    "sprained ankle",
+    "ankle gave way",
+    "swollen ankle after twisting it",
+    "ankle pain after landing badly",
+    "wobbly ankle",
+    "ankle buckled",
+    "sore ankle from sport",
+    "hurt my ankle stepping off a curb",
+    "ankle keeps rolling",
+    "weak ankle after injury",
+    "拗柴",
+    "腳踝扭傷",
+    "腳眼腫痛",
+    "著地時腳踝扭到",
+    "腳踝甩骹"
+  ],
+  "symptoms": [
+    {
+      "description_en": "Pain on the outside (lateral) or inside (medial) of the ankle, especially when putting weight on it",
+      "description_zh": "腳踝外側或內側疼痛，尤其在負重時更為明顯"
+    },
+    {
+      "description_en": "Swelling around the ankle joint, which may develop rapidly after injury",
+      "description_zh": "腳踝關節周圍腫脹，受傷後可能迅速出現"
+    },
+    {
+      "description_en": "Bruising (discolouration) around the ankle and foot",
+      "description_zh": "腳踝及腳部出現瘀傷（皮膚變色）"
+    },
+    {
+      "description_en": "Difficulty or inability to bear weight on the affected foot",
+      "description_zh": "難以或無法用受傷的腳承受體重"
+    },
+    {
+      "description_en": "Limited range of motion — difficulty moving the ankle up, down, or side to side",
+      "description_zh": "活動幅度受限——難以將腳踝上下或左右活動"
+    },
+    {
+      "description_en": "A feeling of instability or the ankle 'giving way', as if it cannot support you",
+      "description_zh": "感覺腳踝不穩定或「鬆脫」，好像無法支撐身體"
+    },
+    {
+      "description_en": "A 'pop' or 'snap' sensation at the time of injury (in more severe sprains)",
+      "description_zh": "受傷時感覺到「啪」或「卡」一聲（較嚴重的扭傷）"
+    }
+  ],
+  "guided_questions": [
+    {
+      "question_en": "How did the injury happen — did your ankle roll inward, outward, or twist during a landing or sudden movement?",
+      "question_zh": "受傷是怎樣發生的？你的腳踝是向內翻、向外翻，還是在著地或突然移動時扭到？",
+      "purpose": "Determine mechanism of injury to identify whether the sprain is lateral (inversion — most common), medial (eversion), or syndesmotic (high ankle sprain)"
+    },
+    {
+      "question_en": "When did the injury occur, and how much swelling and bruising have you noticed since then?",
+      "question_zh": "受傷是什麼時候發生的？到現在出現了多少腫脹和瘀傷？",
+      "purpose": "Assess the timeframe and degree of tissue response to help determine severity and guide acute vs subacute management"
+    },
+    {
+      "question_en": "Can you put weight on the injured foot — can you walk at least four steps?",
+      "question_zh": "你能否用受傷的腳承受體重？你能否行走至少四步？",
+      "purpose": "Weight-bearing ability is a key functional indicator aligned with the Ottawa Ankle Rules to help rule out fracture and assess severity"
+    },
+    {
+      "question_en": "Did you feel or hear a 'pop' or 'snap' at the time of injury?",
+      "question_zh": "受傷時你有沒有感覺到或聽到「啪」或「卡」一聲？",
+      "purpose": "An audible pop may suggest a significant ligament tear (Grade II–III) or possible fracture requiring further assessment"
+    },
+    {
+      "question_en": "Have you sprained this ankle before, or does it feel like it gives way or rolls easily?",
+      "question_zh": "你以前有沒有扭傷過同一隻腳踝？腳踝是否經常感覺鬆脫或容易翻到？",
+      "purpose": "Identify history of recurrent sprains and possible chronic ankle instability, which affects treatment planning and prognosis"
+    },
+    {
+      "question_en": "Is the pain and swelling mainly on the outer side of your ankle, the inner side, or higher up between the two ankle bones?",
+      "question_zh": "痛楚和腫脹主要在腳踝外側、內側，還是在兩塊腳踝骨之間較高的位置？",
+      "purpose": "Localise the injury to differentiate lateral ligament sprain (ATFL/CFL), medial (deltoid) ligament sprain, or syndesmotic (high ankle) sprain"
+    },
+    {
+      "question_en": "Are you experiencing any of the following: inability to bear any weight at all, severe pain when pressing on the bony bumps of your ankle or mid-foot, a visible deformity or misalignment of the ankle, numbness in the foot, or does the ankle feel completely unstable?",
+      "question_zh": "你有沒有出現以下任何情況：完全無法承受體重、按壓腳踝骨突或足中部時劇烈疼痛、腳踝明顯變形或移位、腳部麻痺，或腳踝感覺完全不穩定？",
+      "purpose": "Red-flag screening to identify possible fracture (Ottawa Ankle Rules criteria), dislocation, nerve injury, or severe ligament rupture requiring urgent medical assessment (A&E)"
+    }
+  ],
+  "severity_classification": {
+    "mild": {
+      "indicators": [
+        "Mild swelling and tenderness, mainly on the outer ankle",
+        "Able to bear weight and walk, though with some discomfort",
+        "Minimal or no bruising",
+        "Ankle feels stable — no sensation of giving way",
+        "Pain is mild (1–3 out of 10) and manageable with basic care"
+      ],
+      "self_care_appropriate": true,
+      "description_en": "Your symptoms suggest a mild (Grade I) ankle sprain — a slight stretch of the ligaments without significant tearing. This is the most common type of sprain and usually heals well with self-care. Protect the ankle from further injury, apply the PEACE & LOVE principles (Protection, Elevation, Avoid anti-inflammatories initially, Compression, Education; then Load, Optimism, Vascularisation, Exercise), and begin gentle pain-free movements early. Most people with mild sprains feel significantly better within 1–2 weeks and can return to normal activities within 2–4 weeks.",
+      "description_zh": "你的症狀顯示這是一個輕度（第一級）踝關節扭傷——韌帶輕微拉伸，沒有明顯撕裂。這是最常見的扭傷類型，通常透過自我護理便能良好恢復。保護腳踝避免進一步受傷，遵循PEACE & LOVE原則（保護、抬高、初期避免消炎藥、加壓、教育；然後逐步負重、保持樂觀、促進血液循環、運動），並儘早開始在無痛範圍內進行輕柔活動。大多數輕度扭傷的人在1至2星期內會明顯好轉，2至4星期內可恢復正常活動。"
+    },
+    "moderate": {
+      "indicators": [
+        "Moderate swelling and noticeable bruising around the ankle",
+        "Difficulty bearing weight — can walk with a limp but it is painful",
+        "Feeling of ankle instability or wobbliness during movement",
+        "Pain is moderate (4–6 out of 10) and limits daily activities",
+        "Reduced ankle range of motion due to swelling and pain"
+      ],
+      "recommend_professional": true,
+      "description_en": "Your symptoms suggest a moderate (Grade II) ankle sprain — a partial tear of one or more ligaments. While initial self-care with PEACE & LOVE is important, we recommend seeking professional assessment from a physiotherapist or doctor within the first few days. They can confirm the diagnosis, rule out a fracture using the Ottawa Ankle Rules, and start a supervised rehabilitation programme. Proper rehabilitation is essential at this stage to restore strength, balance, and stability — and to reduce the high risk of re-injury and chronic ankle instability. Recovery typically takes 4–8 weeks.",
+      "description_zh": "你的症狀顯示這是一個中度（第二級）踝關節扭傷——一條或多條韌帶部分撕裂。雖然初期的PEACE & LOVE自我護理仍然重要，但我們建議在受傷後數天內尋求物理治療師或醫生的專業評估。他們可以確認診斷、透過渥太華足踝規則排除骨折，並開始有指導的康復計劃。在這個階段，適當的康復訓練對恢復力量、平衡和穩定性至關重要，同時可降低再次受傷和發展為慢性踝關節不穩定的高風險。康復通常需要4至8星期。"
+    },
+    "severe": {
+      "indicators": [
+        "Significant swelling and extensive bruising, possibly extending to the foot",
+        "Unable to bear weight on the affected foot at all",
+        "Marked ankle instability — the ankle feels completely loose or 'disconnected'",
+        "Severe pain (7–10 out of 10), even at rest",
+        "A 'pop' or 'snap' was felt at the time of injury, with immediate loss of function"
+      ],
+      "seek_immediate_help": true,
+      "description_en": "Your symptoms suggest a severe (Grade III) ankle sprain — a complete rupture of one or more ligaments, or possibly a fracture. Please seek medical attention promptly — go to A&E or see a doctor as soon as possible. You will likely need an X-ray to rule out a fracture and a thorough clinical assessment. While most severe sprains are managed conservatively with immobilisation and physiotherapy, some may require specialist referral. Do not try to walk on the ankle — use crutches and keep the ankle elevated and compressed while you await medical assessment. With proper treatment and rehabilitation, recovery typically takes 8–12 weeks or longer.",
+      "description_zh": "你的症狀顯示這是一個嚴重（第三級）踝關節扭傷——一條或多條韌帶完全斷裂，或可能有骨折。請盡快求醫——前往急症室或盡快看醫生。你很可能需要進行X光檢查以排除骨折，以及全面的臨床評估。雖然大多數嚴重扭傷可透過固定和物理治療進行保守治療，但部分個案可能需要專科轉介。請不要嘗試行走——使用拐杖，並在等待醫療評估期間保持腳踝抬高及加壓。在適當的治療和康復下，恢復通常需要8至12星期或更長時間。"
+    }
+  },
+  "red_flags": [
+    "Inability to bear weight at all — cannot take four steps immediately after injury or in the emergency department (Ottawa Ankle Rules criterion — possible fracture)",
+    "Tenderness when pressing on the bony tip of the lateral or medial malleolus (Ottawa Ankle Rules criterion — possible fracture)",
+    "Tenderness over the base of the 5th metatarsal or navicular bone in the mid-foot (Ottawa Ankle Rules criterion — possible fracture)",
+    "Visible deformity or abnormal positioning of the ankle or foot (possible fracture or dislocation — call 999 / go to A&E)",
+    "Numbness, tingling, or loss of sensation in the foot following injury (possible nerve or vascular injury)",
+    "Foot is cold, pale, or bluish after injury (possible vascular compromise — seek immediate medical attention)",
+    "Rapidly worsening pain and swelling that is disproportionate to the injury, with severe pain on passive stretch of the toes (possible compartment syndrome — emergency)",
+    "Open wound over the injury site exposing bone or deep tissue (open fracture — call 999 / go to A&E immediately)"
+  ],
+  "possible_causes": [
+    {
+      "cause_en": "Inversion injury — the foot rolls inward, stretching or tearing the lateral (outer) ligaments, most commonly the ATFL",
+      "cause_zh": "內翻損傷——腳部向內翻轉，拉伸或撕裂外側韌帶，最常見的是前距腓韌帶（ATFL）",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Landing awkwardly from a jump — common in basketball, volleyball, and football",
+      "cause_zh": "跳躍後著地不當——常見於籃球、排球及足球運動",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Stepping on an uneven surface, off a curb, or on another person's foot during sport",
+      "cause_zh": "踩到不平坦的地面、落路壆或在運動中踩到他人的腳",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Sudden change of direction or rapid pivot during running or sport",
+      "cause_zh": "跑步或運動中突然改變方向或急速轉身",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Eversion injury — the foot rolls outward, damaging the medial (inner) deltoid ligament complex",
+      "cause_zh": "外翻損傷——腳部向外翻轉，損傷內側三角韌帶複合體",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "External rotation with dorsiflexion — causing a high (syndesmotic) ankle sprain, injuring the ligaments between the tibia and fibula",
+      "cause_zh": "外旋合併背屈——導致高位（下脛腓聯合）踝關節扭傷，損傷脛骨和腓骨之間的韌帶",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Chronic ankle instability from inadequately rehabilitated previous sprains — repeated giving-way episodes",
+      "cause_zh": "因以往扭傷康復不足導致的慢性踝關節不穩定——反覆出現腳踝鬆脫情況",
+      "likelihood": "common"
+    }
+  ],
+  "self_care_exercises": [
+    {
+      "exercise_name_en": "Ankle Alphabet (Range of Motion Exercise)",
+      "exercise_name_zh": "腳踝字母運動（活動幅度練習）",
+      "instructions_en": "1. Sit in a chair or on your bed with the injured leg elevated on a pillow or footstool.\n2. Using your big toe as a 'pen', slowly trace the letters of the alphabet in the air (A through Z).\n3. Move only from the ankle — keep the rest of your leg still.\n4. Make the letters as large as comfortable without causing pain.\n5. This gentle movement helps maintain and restore ankle range of motion and promotes circulation to reduce swelling.\n6. If any letter position causes sharp pain, skip it and move to the next one.\n7. Complete the full alphabet once per session.",
+      "instructions_zh": "1. 坐在椅子上或床上，將受傷的腿抬高放在枕頭或腳凳上。\n2. 以大腳趾作為「筆」，在空中緩慢描寫英文字母（A至Z）。\n3. 只從腳踝活動——保持其餘部分不動。\n4. 在不引起痛楚的情況下，盡量將字母寫大。\n5. 這個輕柔的動作有助維持和恢復腳踝活動幅度，並促進血液循環以減少腫脹。\n6. 如果某個字母的位置引起劇痛，請跳過並繼續下一個。\n7. 每次完成整個字母表一次。",
+      "frequency": "3–4 times per day",
+      "duration": "Full alphabet (A–Z) once per session, approximately 2–3 minutes",
+      "difficulty_level": "beginner",
+      "contraindications": "Do not perform if you suspect a fracture (unable to bear any weight, bony tenderness) — seek medical assessment first. Stop if the exercise causes sharp or increasing pain. Avoid forceful movements in any direction.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Towel Scrunches (Intrinsic Foot Strengthening)",
+      "exercise_name_zh": "毛巾抓握運動（足部內在肌強化）",
+      "instructions_en": "1. Sit in a chair with your bare foot flat on a small towel placed on a smooth floor.\n2. Using only your toes, scrunch (grip and pull) the towel toward you, gathering it under your foot.\n3. Spread the towel back out and repeat.\n4. Perform 10–15 scrunches per set, 3 sets.\n5. Rest for 30 seconds between sets.\n6. This exercise strengthens the small muscles of the foot and improves active support for the ankle.\n7. Start this exercise once acute pain and swelling have settled (usually after 3–5 days for mild sprains).",
+      "instructions_zh": "1. 赤腳坐在椅子上，將一條小毛巾放在光滑地板上，腳掌平放在毛巾上。\n2. 只用腳趾抓起（握緊並拉動）毛巾，將毛巾捲向自己方向，聚集在腳底下。\n3. 將毛巾展開，重複動作。\n4. 每組做10至15次，共3組。\n5. 每組之間休息30秒。\n6. 這個練習可以強化腳部的小肌肉，改善對腳踝的主動支撐。\n7. 在急性痛楚和腫脹減退後才開始此練習（輕度扭傷通常在3至5天後）。",
+      "frequency": "Once daily",
+      "duration": "10–15 scrunches × 3 sets per session",
+      "difficulty_level": "beginner",
+      "contraindications": "Do not perform during the acute inflammatory phase (first 48–72 hours) when significant swelling and pain are present. Avoid if fracture has not been ruled out. Stop if the exercise increases pain or swelling.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Single-Leg Balance (Static Proprioception Training)",
+      "exercise_name_zh": "單腳站立平衡訓練（靜態本體感覺訓練）",
+      "instructions_en": "1. Stand near a wall, table, or sturdy chair that you can hold onto for support if needed.\n2. Shift your weight onto the injured leg and slowly lift the other foot off the ground.\n3. Try to maintain your balance on the injured leg for as long as comfortable.\n4. Keep your eyes open and focus on a fixed point in front of you.\n5. Start by holding for 10–15 seconds. Aim to progress to 30–60 seconds.\n6. Repeat 3–5 times.\n7. As your balance improves over days and weeks, progress by: (a) reducing the support from your hand, (b) closing your eyes, (c) standing on a soft surface (folded towel or cushion).\n8. This exercise is critical for restoring proprioception (the ankle's sense of position) and reducing the risk of re-injury.",
+      "instructions_zh": "1. 站在牆壁、桌子或穩固椅子旁邊，需要時可扶住以作支撐。\n2. 將重心轉移到受傷的腿上，慢慢將另一隻腳抬離地面。\n3. 盡量在受傷的腿上保持平衡，維持舒適的時間。\n4. 睜開眼睛，注視前方一個固定的點。\n5. 開始時維持10至15秒。目標是逐步增加至30至60秒。\n6. 重複3至5次。\n7. 隨著平衡能力在數天至數星期內改善，可透過以下方式遞進：（a）減少手部支撐、（b）閉上眼睛、（c）站在軟面上（摺疊毛巾或軟墊）。\n8. 這個練習對恢復本體感覺（腳踝的位置感知能力）和降低再次受傷風險至關重要。",
+      "frequency": "2–3 times per day",
+      "duration": "Hold 10–60 seconds × 3–5 repetitions per session",
+      "difficulty_level": "intermediate",
+      "contraindications": "Only begin once you can comfortably bear full weight on the injured ankle without significant pain (typically 1–2 weeks after a mild sprain, longer for moderate sprains). Do not perform if fracture has not been ruled out. Ensure you have stable support nearby to prevent falls. Stop if pain increases above 3/10.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Resistance Band Ankle Eversion Strengthening",
+      "exercise_name_zh": "阻力帶腳踝外翻強化訓練",
+      "instructions_en": "1. Sit on the floor or a bed with both legs straight out in front of you.\n2. Loop a resistance band (light to medium strength) around the ball of your injured foot.\n3. Anchor the other end of the band to a sturdy table leg or your other foot (so the band pulls your foot inward).\n4. Slowly push your foot outward against the resistance of the band (eversion), turning the sole of your foot away from your other foot.\n5. Hold the end position for 2–3 seconds, then slowly return to the starting position.\n6. Repeat 10–15 times for 3 sets, with 30 seconds rest between sets.\n7. The movement should be slow and controlled. You should feel the muscles on the outer side of your lower leg (peroneal muscles) working.\n8. This exercise specifically strengthens the muscles that protect the ankle from rolling inward — the most common mechanism of ankle sprain.",
+      "instructions_zh": "1. 坐在地板或床上，雙腿向前伸直。\n2. 將阻力帶（輕至中等強度）套在受傷腳的前腳掌位置。\n3. 將阻力帶另一端固定在穩固的桌腳上，或套在另一隻腳上（令阻力帶將你的腳向內拉）。\n4. 緩慢地將腳向外推，對抗阻力帶的阻力（外翻），將腳底轉向遠離另一隻腳的方向。\n5. 在終端位置維持2至3秒，然後緩慢回到起始位置。\n6. 重複10至15次，共3組，每組之間休息30秒。\n7. 動作要慢且受控。你應該感覺到小腿外側的肌肉（腓骨肌群）在工作。\n8. 這個練習專門強化保護腳踝免於向內翻轉的肌肉——這是最常見的腳踝扭傷機制。",
+      "frequency": "Once daily",
+      "duration": "10–15 repetitions × 3 sets",
+      "difficulty_level": "intermediate",
+      "contraindications": "Do not begin until pain-free weight-bearing is achieved and acute swelling has resolved (usually 1–3 weeks after injury depending on severity). Avoid if you have a suspected fracture, acute ligament rupture under medical review, or if the exercise causes pain above 3/10. Start with a light resistance band and progress gradually.",
+      "video_reference_url": "[TO BE ADDED]"
+    }
+  ],
+  "recovery_timeline": {
+    "mild_estimate": "1–3 weeks for most daily activities; 2–4 weeks for return to sport with Grade I sprains",
+    "moderate_estimate": "4–8 weeks with physiotherapy and supervised rehabilitation for Grade II sprains",
+    "severe_estimate": "8–12 weeks or longer for Grade III sprains; may require immobilisation, extended rehabilitation, or surgical consultation in some cases",
+    "note": "The recurrence rate for first-time lateral ankle sprains is reported to be as high as 70%. Proper rehabilitation — including balance, strength, and proprioception training — is essential to reduce the risk of re-injury and chronic ankle instability. Delayed or inadequate rehabilitation has been shown to increase the chance of recurrence and ongoing ankle problems. Do not rush return to sport based on pain alone; functional criteria (strength, balance, agility) should also be met. Wearing a supportive brace during sport is recommended until confidence in dynamic balance is fully restored."
+  },
+  "when_to_see_professional": [
+    "Unable to bear weight or take four steps after the injury (possible fracture — apply Ottawa Ankle Rules)",
+    "Severe pain when pressing on the bony tips of the ankle or the mid-foot bones",
+    "Significant swelling and bruising that worsens over the first 24–48 hours",
+    "The ankle feels very unstable or completely gives way when you try to stand",
+    "Pain and swelling do not improve after 5–7 days of self-care",
+    "You heard or felt a 'pop' or 'snap' at the time of injury",
+    "This is a recurrent sprain — you have sprained the same ankle before",
+    "You need to return to sport and want a structured rehabilitation programme to reduce re-injury risk",
+    "Numbness, tingling, or coldness in the foot following the injury"
+  ],
+  "faqs": [
+    {
+      "question_en": "Should I use the RICE or PEACE & LOVE approach for my ankle sprain?",
+      "question_zh": "我的腳踝扭傷應該用RICE還是PEACE & LOVE方法？",
+      "answer_en": "The traditional RICE (Rest, Ice, Compression, Elevation) protocol has been widely used for decades and can still be helpful in the first 48–72 hours. However, more recent evidence supports the PEACE & LOVE framework, which takes a more comprehensive approach. PEACE covers the immediate days after injury: Protect the ankle (avoid aggravating activities for 1–3 days), Elevate the limb, Avoid anti-inflammatories initially (as inflammation plays a role in healing), Compress the area, and Educate yourself about active recovery. LOVE covers the subsequent phase: gradually Load the ankle with pain-free activities, stay Optimistic (positive mindset aids recovery), promote Vascularisation through pain-free movement and gentle exercise, and begin structured Exercise early to restore strength, balance, and proprioception. The key message is that complete rest should be limited to the first few days — early, guided movement is better than prolonged immobilisation.",
+      "answer_zh": "傳統的RICE（休息、冰敷、加壓、抬高）方案已沿用數十年，在受傷後首48至72小時仍然有用。然而，更新的研究支持PEACE & LOVE框架，這是一個更全面的方法。PEACE涵蓋受傷後最初幾天：保護腳踝（1至3天內避免加重活動）、抬高患肢、初期避免使用消炎藥（因為炎症在癒合中有其作用）、加壓患處，以及教育自己進行積極康復。LOVE涵蓋後續階段：逐步在無痛範圍內對腳踝施加負重、保持樂觀（積極心態有助康復）、透過無痛活動和輕柔運動促進血液循環，以及儘早開始結構化運動以恢復力量、平衡和本體感覺。核心信息是：完全休息應限於最初幾天——在指導下盡早活動比長期固定不動更有利。"
+    },
+    {
+      "question_en": "When can I return to exercise or sports?",
+      "question_zh": "我什麼時候可以恢復運動？",
+      "answer_en": "Return to sport should be based on functional readiness, not just absence of pain. As a general guide: for mild (Grade I) sprains, you may gradually return to low-impact activities within 1–2 weeks and full sport within 2–4 weeks; for moderate (Grade II) sprains, expect 4–8 weeks; for severe (Grade III) sprains, 8–12 weeks or more. Before returning, you should be able to: bear full weight without pain, have near-normal ankle range of motion, pass single-leg balance tests (eyes open and closed), demonstrate adequate ankle and lower-limb strength, and complete sport-specific agility drills (cutting, jumping, landing) without pain or instability. Wearing an ankle brace during sport is recommended until you can confidently perform all dynamic activities. A physiotherapist can assess your readiness using functional tests. Remember — the recurrence rate for ankle sprains is very high (up to 70%), so proper rehabilitation before returning is the best way to protect yourself.",
+      "answer_zh": "重返運動應基於功能準備程度，而非僅僅是疼痛消失。一般指引：輕度（第一級）扭傷可在1至2星期內逐步恢復低衝擊活動，2至4星期內完全恢復運動；中度（第二級）扭傷預計需要4至8星期；嚴重（第三級）扭傷需要8至12星期或更長時間。在重返運動前，你應能：完全負重而無痛、腳踝活動幅度接近正常、通過單腳站立平衡測試（睜眼及閉眼）、展示足夠的腳踝及下肢力量，以及完成專項運動的敏捷訓練（切入、跳躍、著地）時無痛楚或不穩。建議在能夠自信地完成所有動態活動之前，運動時佩戴腳踝護具。物理治療師可透過功能測試評估你的準備程度。請記住——腳踝扭傷的復發率非常高（高達70%），因此在重返運動前進行適當康復是保護自己的最佳方法。"
+    },
+    {
+      "question_en": "Do I need an X-ray for my ankle sprain?",
+      "question_zh": "我的腳踝扭傷需要照X光嗎？",
+      "answer_en": "Not every ankle sprain needs an X-ray. Doctors use the Ottawa Ankle Rules — a well-validated clinical tool — to determine whether an X-ray is needed. An X-ray is recommended if: (1) you are unable to bear weight and take four steps immediately after the injury or when assessed; OR (2) there is tenderness when pressing on the bony tip of either ankle bone (malleolus); OR (3) there is tenderness over the navicular bone or the base of the 5th metatarsal in the mid-foot. If none of these criteria are met, a fracture is very unlikely and an X-ray is generally not needed. These rules have been extensively validated and help avoid unnecessary radiation exposure. However, if you are unsure or your symptoms are severe, it is always safest to have a professional assessment.",
+      "answer_zh": "並非每個腳踝扭傷都需要照X光。醫生會使用渥太華足踝規則——一個經過充分驗證的臨床工具——來判斷是否需要X光檢查。在以下情況建議照X光：（1）受傷後或就診時無法承受體重並行走四步；或（2）按壓任一腳踝骨突（踝骨）尖端時有壓痛；或（3）足中部舟骨或第五蹠骨基部有壓痛。如果以上條件均不符合，骨折的可能性非常低，一般不需要照X光。這些規則已經過廣泛驗證，有助避免不必要的輻射暴露。然而，如果你不確定或症狀嚴重，最安全的做法是接受專業評估。"
+    },
+    {
+      "question_en": "Why does my ankle keep spraining — and how can I prevent it?",
+      "question_zh": "為什麼我的腳踝一直扭傷？怎樣才能預防？",
+      "answer_en": "Repeated ankle sprains are extremely common — research shows that up to 70% of people who sprain their ankle once will sprain it again. This happens because the initial injury can damage not only the ligaments but also the proprioceptive nerve endings (sensors that tell your brain where your ankle is in space). Without proper rehabilitation, your ankle may lack the balance, strength, and reflexes needed to protect itself during dynamic activities. This is known as chronic ankle instability (CAI) and affects around 20% of people after a first sprain. The best prevention strategy is: (1) Complete a full rehabilitation programme after every sprain — including balance training, peroneal muscle strengthening, and sport-specific agility exercises; (2) Wear a supportive ankle brace during sport, especially if you have a history of sprains; (3) Warm up properly before activity; (4) Wear appropriate footwear for your sport. A physiotherapist can design a personalised prevention programme for you.",
+      "answer_zh": "反覆腳踝扭傷非常常見——研究顯示高達70%曾經扭傷的人會再次扭傷。這是因為初次受傷不僅損傷韌帶，還可能損害本體感覺神經末梢（告訴大腦你的腳踝在空間中位置的感應器）。若沒有適當的康復訓練，你的腳踝可能缺乏在動態活動中保護自己所需的平衡、力量和反射能力。這被稱為慢性踝關節不穩定（CAI），約影響20%首次扭傷的人。最佳預防策略是：（1）每次扭傷後完成完整的康復計劃——包括平衡訓練、腓骨肌群強化及專項運動敏捷練習；（2）運動時佩戴護踝，尤其是有扭傷史的人；（3）活動前做好熱身；（4）穿著適合你運動的鞋子。物理治療師可以為你設計個人化的預防計劃。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ankle Sprain — Physiopedia",
+      "url": "https://www.physio-pedia.com/Ankle_Sprain",
+      "type": "professional_guideline"
+    },
+    {
+      "title": "Melanson SW, Shuman VL. Acute Ankle Sprain. StatPearls. 2023.",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK459212/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Doherty C et al. The incidence and prevalence of ankle sprain injury: a systematic review and meta-analysis. Sports Med. 2014;44(1):123-40.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24105612/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Dubois B, Esculier J. Soft-tissue injuries simply need PEACE and LOVE. Br J Sports Med. 2020;54:72-73.",
+      "url": "https://bjsm.bmj.com/content/bjsports/54/2/72.full.pdf",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Kaminski TW et al. National Athletic Trainers' Association position statement: conservative management and prevention of ankle sprains in athletes. J Athl Train. 2013;48(4):528-45.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23855363/",
+      "type": "professional_guideline"
+    },
+    {
+      "title": "Bachmann LM et al. Accuracy of Ottawa ankle rules to exclude fractures of the ankle and mid-foot: systematic review. BMJ. 2003;326(7386):417.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12595378/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "NICE. Sprains and Strains. Clinical Knowledge Summary. 2016.",
+      "url": "https://cks.nice.org.uk/sprains-and-strains",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Clinical Guideline for First-contact Physiotherapists on Assessment and Cross-disciplinary Management Approach for Common Musculoskeletal Problems in Primary Care Setting. Primary Healthcare Commission, Hong Kong. Dec 2025.",
+      "url": "",
+      "type": "government_guideline"
+    }
+  ],
+  "review_status": {
+    "reviewed_by": "[PENDING — Physiotherapist Name]",
+    "reviewer_credentials": "[PENDING]",
+    "review_date": null,
+    "next_review_date": null,
+    "approved": false
+  },
+  "metadata": {
+    "created_date": "2026-04-29",
+    "last_updated": "2026-05-02",
+    "version": "0.1-draft"
+  }
+}

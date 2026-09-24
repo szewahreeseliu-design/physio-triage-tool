@@ -1,0 +1,307 @@
+{
+  "condition_id": "MSK-008",
+  "condition_name_en": "Rotator Cuff Injury",
+  "condition_name_zh": "旋轉肌腱損傷",
+  "body_area": [
+    "shoulder",
+    "rotator cuff"
+  ],
+  "category": "musculoskeletal",
+  "patient_language_aliases": [
+    "rotator cuff injury",
+    "rotator cuff tear",
+    "shoulder tendon injury",
+    "can't lift my arm",
+    "shoulder pain when reaching overhead",
+    "pain sleeping on my shoulder",
+    "shoulder weakness",
+    "torn shoulder muscle",
+    "shoulder gives way",
+    "pain when lifting things",
+    "shoulder hurts at night",
+    "旋轉肌腱撕裂",
+    "肩袖損傷",
+    "肩膀舉唔起",
+    "肩膀無力",
+    "訓覺壓到肩膀痛"
+  ],
+  "symptoms": [
+    {
+      "description_en": "Shoulder pain that worsens with overhead activities and at night, particularly when lying on the affected side — this is the hallmark presentation of rotator cuff pathology",
+      "description_zh": "肩膀疼痛在舉手過頭的活動時以及晚上加重，尤其是側臥在受影響的一側時——這是旋轉肌腱病變的典型表現"
+    },
+    {
+      "description_en": "Progressive weakness affecting daily activities such as reaching overhead, lifting objects, or performing personal care tasks (washing hair, dressing)",
+      "description_zh": "漸進性無力影響日常活動，例如舉手過頭、提起物件或進行個人護理（洗頭、穿衣）"
+    },
+    {
+      "description_en": "A painful arc during active shoulder elevation between 60 and 120 degrees — a characteristic sign of rotator cuff involvement",
+      "description_zh": "主動肩膀上舉在60至120度之間出現疼痛弧——旋轉肌腱受累的特徵性體徵"
+    },
+    {
+      "description_en": "Preserved passive range of motion but limited active motion — reflecting motor weakness rather than joint stiffness (a key differentiator from frozen shoulder)",
+      "description_zh": "被動活動幅度保持正常但主動活動受限——反映肌肉無力而非關節僵硬（這是與五十肩的關鍵鑑別點）"
+    },
+    {
+      "description_en": "Visible muscle wasting (atrophy) in the shoulder blade area, particularly in the supraspinatus and infraspinatus fossae — typically seen in chronic or massive tears",
+      "description_zh": "肩胛骨區域可見肌肉萎縮，尤其是岡上肌和岡下肌窩——通常見於慢性或巨大撕裂"
+    },
+    {
+      "description_en": "In severe cases, pseudoparalysis — inability to actively lift the arm above 90 degrees despite full passive range of motion, indicating extensive cuff disruption",
+      "description_zh": "嚴重個案中出現假性麻痺——儘管被動活動幅度完整，但無法主動將手臂舉高超過90度，表明旋轉肌腱廣泛撕裂"
+    }
+  ],
+  "guided_questions": [
+    {
+      "question_en": "How did your shoulder problem start? Was there a specific injury (fall, lifting something heavy, pulling), or did the pain come on gradually over time?",
+      "question_zh": "你的肩膀問題是怎樣開始的？是否有特定的損傷（跌倒、提重物、拉扯），還是疼痛隨時間逐漸出現的？",
+      "purpose": "Distinguish traumatic from degenerative onset. The source notes that risk factors differ: traumatic injury and occupational demands dominate in younger patients, while degenerative processes dominate in older populations. Acute traumatic tears in younger patients may warrant early surgical consideration."
+    },
+    {
+      "question_en": "Which movements cause the most pain or difficulty? Is it reaching overhead, lifting things, reaching behind your back, or sleeping on that side?",
+      "question_zh": "哪些動作引起最多疼痛或困難？是舉手過頭、提起東西、伸手到背後，還是側臥在那一邊睡覺？",
+      "purpose": "Identify specific functional limitations to guide rehabilitation. The source notes that anterosuperior tears affect internal rotation strength while posterosuperior tears compromise external rotation. Night pain is a hallmark symptom of rotator cuff tears."
+    },
+    {
+      "question_en": "Have you noticed any weakness in your shoulder? Can you still lift your arm above your head, or does it feel like it 'gives way'?",
+      "question_zh": "你有沒有注意到肩膀無力？你還能將手臂舉過頭嗎，還是感覺它會「脫力」？",
+      "purpose": "Screen for significant tear size and pseudoparalysis. Active elevation less than 90 degrees with preserved passive motion indicates extensive cuff disruption. Progressive weakness is a key indicator for the need for professional assessment and possible imaging."
+    },
+    {
+      "question_en": "How old are you, and what do you do for work? Does your job or sport involve repetitive overhead movements or heavy lifting?",
+      "question_zh": "你的年齡是多少？你的工作是什麼？你的工作或運動是否涉及重複性的舉手過頭動作或提重物？",
+      "purpose": "Assess age-related and occupational risk. The source reports prevalence increases from <5% under 40 to >35% over 80. High physical work demands and repetitive overhead activities accelerate tear progression. This guides treatment expectations and return-to-activity planning."
+    },
+    {
+      "question_en": "Do you have diabetes, high blood pressure, high cholesterol, or do you smoke?",
+      "question_zh": "你有沒有糖尿病、高血壓、高膽固醇，或者有沒有吸煙？",
+      "purpose": "Screen for modifiable risk factors. The source's 2023 case-control study identified BMI, hypertension, coronary heart disease, hyperlipidaemia, and diabetes as independent risk factors for symptomatic tears. Smoking and metabolic syndrome are associated with increased tear prevalence and progression. These also affect healing potential."
+    },
+    {
+      "question_en": "Have you already tried any treatment for this? Exercises, painkillers, physiotherapy, or injections? How long have your symptoms lasted?",
+      "question_zh": "你已經嘗試過什麼治療嗎？運動、止痛藥、物理治療或注射？你的症狀持續了多長時間？",
+      "purpose": "Determine treatment history and chronicity. The source notes that 74% of patients with atraumatic tears avoided surgery after 6-12 weeks of structured physiotherapy (MOON Shoulder Group). Most surgical decisions occur within the first 12 weeks. Conservative treatment duration of at least 3 months is recommended."
+    },
+    {
+      "question_en": "Do you have any neck pain, numbness or tingling radiating down your arm, sudden severe pain with weakness that started overnight, or any swelling, redness, or warmth in the shoulder?",
+      "question_zh": "你有沒有頸痛、沿手臂向下放射的麻痺或刺痛、一夜之間突然出現的劇烈疼痛伴無力，或肩膀有腫脹、發紅或發熱？",
+      "purpose": "CRITICAL red-flag screening. The source's differential diagnosis section identifies cervical radiculopathy (referring pain to shoulder, producing weakness mimicking RC tears), Parsonage-Turner syndrome (sudden severe pain + weakness following a distinct course), fracture, dislocation, and infection. These require different management pathways."
+    }
+  ],
+  "severity_classification": {
+    "mild": {
+      "indicators": [
+        "Shoulder pain mainly with specific activities (overhead reaching, lifting), pain-free at rest",
+        "Pain rated 2–4 out of 10 during aggravating activities",
+        "No significant weakness — can still lift arm overhead with some discomfort",
+        "Night pain only occasional",
+        "Able to perform most daily activities with minor modification"
+      ],
+      "self_care_appropriate": true,
+      "description_en": "Your symptoms suggest a mild rotator cuff problem, possibly a tendinopathy or small partial tear. This is very common — research shows that full-thickness tears affect about 20% of the general population, and many are completely painless. The good news is that exercise-based rehabilitation is the cornerstone of effective treatment. Active exercise is far more effective than passive treatments like ultrasound or massage. Start with the gentle exercises below, focusing on consistency rather than intensity. Research shows that even a single well-chosen exercise performed regularly can be as effective as complex programmes.",
+      "description_zh": "你的症狀顯示可能是輕度旋轉肌腱問題，可能是肌腱病變或小型部分撕裂。這非常常見——研究顯示約20%的一般人口有全層撕裂，其中很多完全沒有疼痛。好消息是，以運動為基礎的康復是有效治療的基石。主動運動遠比超聲波或按摩等被動治療更有效。從以下溫和的運動開始，注重持續性而非強度。研究顯示，即使只是一個精心選擇的運動堅持進行，也可以與複雜的計劃一樣有效。"
+    },
+    "moderate": {
+      "indicators": [
+        "Persistent shoulder pain rated 4–6 out of 10 interfering with daily activities",
+        "Noticeable weakness — difficulty lifting objects or reaching overhead",
+        "Regular night pain disturbing sleep",
+        "Painful arc between 60 and 120 degrees of shoulder elevation",
+        "Symptoms persisting for more than 4 weeks despite self-care"
+      ],
+      "recommend_professional": true,
+      "description_en": "Your symptoms suggest a moderate rotator cuff problem that would benefit from structured physiotherapy. Research from the MOON Shoulder Group shows that 74% of patients with full-thickness tears avoided surgery after 6–12 weeks of a dedicated physiotherapy programme. A physiotherapist can assess your specific tear pattern, design a progressive exercise programme targeting your intact rotator cuff muscles and scapular stabilisers, and guide your recovery. Treatment protocols typically involve 4–6 physiotherapy visits over 6–12 weeks, combined with a daily home exercise programme. Recovery takes at least 3 months, sometimes longer.",
+      "description_zh": "你的症狀顯示為中度旋轉肌腱問題，建議接受結構化的物理治療。MOON肩膀研究小組的研究顯示，74%的全層撕裂患者在6至12星期的專業物理治療計劃後避免了手術。物理治療師可以評估你的具體撕裂模式，設計針對你完好的旋轉肌腱肌肉和肩胛骨穩定肌的漸進式運動計劃，並指導你的康復。治療方案通常涉及6至12星期內4至6次物理治療，配合每天的家居運動計劃。康復至少需要3個月，有時更長。"
+    },
+    "severe": {
+      "indicators": [
+        "Inability to actively lift the arm above 90 degrees (pseudoparalysis) with preserved passive motion",
+        "Visible muscle wasting around the shoulder blade",
+        "Significant weakness making daily activities very difficult or impossible",
+        "Acute traumatic onset with immediate severe weakness (possible acute tear in younger patient)",
+        "Symptoms persisting beyond 12 weeks of dedicated physiotherapy without improvement"
+      ],
+      "seek_immediate_help": true,
+      "description_en": "Your symptoms suggest a large or massive rotator cuff tear, or possibly an acute traumatic tear, that requires prompt professional assessment. If you are a younger patient and your weakness started suddenly after an injury, early surgical consultation is important — the source notes that delay can lead to irreversible muscle changes including atrophy and fatty degeneration. If you have been doing physiotherapy for more than 3 months without improvement, further investigation with imaging (MRI or ultrasound) is recommended. However, even with large tears, comprehensive rehabilitation can still provide significant improvement — research shows that patients with failed repairs often have outcomes superior to their preoperative state when they complete structured rehabilitation.",
+      "description_zh": "你的症狀顯示可能是大型或巨大的旋轉肌腱撕裂，或者可能是急性創傷性撕裂，需要及時接受專業評估。如果你是較年輕的患者且無力在受傷後突然出現，早期外科諮詢很重要——資料來源指出延遲可能導致不可逆的肌肉改變，包括萎縮和脂肪浸潤。如果你已經進行物理治療超過3個月但沒有改善，建議進一步進行影像檢查（磁力共振或超聲波）。不過，即使是大型撕裂，全面的康復仍然可以帶來顯著改善——研究顯示，即使修復失敗的患者在完成結構化康復後，結果通常仍優於手術前的狀態。"
+    }
+  },
+  "red_flags": [
+    "Sudden severe shoulder pain with immediate profound weakness after trauma in a younger patient — possible acute large tear requiring early surgical evaluation",
+    "Neck pain with numbness or tingling radiating down the arm in a dermatomal pattern — possible cervical radiculopathy mimicking rotator cuff pathology (source's differential diagnosis)",
+    "Sudden onset of severe shoulder pain and weakness without trauma, followed by progressive muscle wasting — possible Parsonage-Turner syndrome (neuralgic amyotrophy)",
+    "Shoulder deformity, inability to move the arm, or history of dislocation — possible fracture or dislocation requiring immediate assessment",
+    "Swelling, redness, warmth, or fever associated with shoulder pain — possible infection (septic arthritis)",
+    "Progressive weakness in the arm with no pain improvement despite adequate treatment — possible neurological pathology or tumour",
+    "Bilateral shoulder weakness or symptoms affecting multiple joints — possible systemic or neurological condition",
+    "Shoulder pain with shortness of breath, chest pain, or jaw pain — possible cardiac event (particularly left shoulder)"
+  ],
+  "possible_causes": [
+    {
+      "cause_en": "Degenerative (age-related) tendon changes — the most common cause. Prevalence increases from <5% under 40 to >35% over 80. Many tears are asymptomatic",
+      "cause_zh": "退行性（年齡相關的）肌腱改變——最常見的原因。患病率從40歲以下的不到5%增加到80歲以上的超過35%。許多撕裂是無症狀的",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Repetitive overhead activities — occupational (painting, construction) or sports (swimming, tennis, badminton, throwing sports)",
+      "cause_zh": "重複性舉手過頭活動——職業性（油漆、建築）或運動（游泳、網球、羽毛球、投擲運動）",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Acute traumatic injury — fall onto outstretched hand (FOOSH), direct impact, or heavy lifting. More common in younger patients",
+      "cause_zh": "急性創傷——跌倒時伸手撐地、直接撞擊或提重物。較常見於年輕患者",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Modifiable risk factors: diabetes mellitus, smoking, obesity (high BMI), hypertension, hyperlipidaemia, and metabolic syndrome — all associated with increased tear prevalence",
+      "cause_zh": "可改變的風險因素：糖尿病、吸煙、肥胖（高BMI）、高血壓、高血脂和代謝綜合症——均與撕裂患病率增加有關",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Acromial morphology — Type III (hooked) acromion associated with increased mechanical impingement on the supraspinatus tendon",
+      "cause_zh": "肩峰形態——III型（鉤狀）肩峰與岡上肌肌腱的機械性夾擊增加有關",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Reduced blood supply to the rotator cuff tendons (particularly the 'critical zone' of the supraspinatus), contributing to degeneration and impaired healing",
+      "cause_zh": "旋轉肌腱血液供應減少（尤其是岡上肌的「臨界區」），導致退化和癒合能力下降",
+      "likelihood": "less_common"
+    }
+  ],
+  "self_care_exercises": [
+    {
+      "exercise_name_en": "Pendulum Exercise (Pain Management Phase)",
+      "exercise_name_zh": "鐘擺運動（疼痛管理階段）",
+      "instructions_en": "Lean forward with your unaffected hand resting on a table for support. Let the affected arm hang straight down, completely relaxed. Gently sway your body to create small circular, forward-backward, and side-to-side movements in the hanging arm. Do NOT actively move the shoulder muscles — let gravity and momentum do the work. You can hold a light weight (0.5–1 kg) to increase the gentle traction effect. This exercise helps reduce pain, decrease muscle guarding, and maintain some joint mobility during the initial pain management phase.",
+      "instructions_zh": "向前傾身，未受影響的手放在桌子上作支撐。讓受影響的手臂自然下垂，完全放鬆。輕輕搖動身體，讓懸掛的手臂做小幅度的圓圈、前後及左右擺動。不要主動使用肩膀肌肉——讓重力和慣性來完成動作。你可以手握輕量啞鈴（0.5至1公斤）以增加輕柔的牽引效果。這個運動有助在初期疼痛管理階段減輕疼痛、減少肌肉保護性痙攣並維持一些關節活動度。",
+      "frequency": "10 circles each direction + 10 swings each direction × 2 sets",
+      "duration": "2–3 times per day",
+      "difficulty_level": "beginner",
+      "contraindications": "The arm must be completely relaxed — do not actively engage shoulder muscles. Stop if it causes sharp pain. Ensure you are well-supported to prevent falls. Avoid if you have a recent shoulder dislocation or fracture.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Isometric External Rotation",
+      "exercise_name_zh": "等長外旋運動",
+      "instructions_en": "Stand with the affected arm by your side, elbow bent to 90 degrees. Place a folded towel between your elbow and your body to keep the arm slightly away from the torso. Place the back of your hand against a door frame or wall. Gently push outward (externally rotating) against the immovable surface — your arm should NOT actually move. Hold for 5 seconds at about 50% of your maximum effort, then relax. This exercise strengthens the infraspinatus and teres minor — the key external rotators that the source identifies as critical for shoulder stability and compensating for supraspinatus deficiency.",
+      "instructions_zh": "站立，受影響的手臂放在身體側面，肘部彎曲90度。在肘部和身體之間放一條折疊的毛巾，使手臂稍微離開軀幹。將手背靠在門框或牆壁上。輕輕向外推（外旋方向）抵抗不動的表面——你的手臂實際上不應移動。以最大力量的約50%保持5秒，然後放鬆。這個運動強化岡下肌和小圓肌——資料來源指出這是肩膀穩定性和代償岡上肌缺損的關鍵外旋肌。",
+      "frequency": "10 repetitions × 3 sets",
+      "duration": "Daily — 5–7 times per week initially for neural activation",
+      "difficulty_level": "beginner",
+      "contraindications": "Use only gentle force initially (30–50% maximum). Stop if it causes sharp pain. Progress to resistance band exercises only when isometrics are pain-free. Avoid if you have had recent rotator cuff repair surgery without clearance from your surgeon.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Scapular Retraction (Wall Lean)",
+      "exercise_name_zh": "肩胛骨後收運動（靠牆）",
+      "instructions_en": "Stand with your back against a wall, feet shoulder-width apart and about 30 cm from the wall. Bend your elbows to 90 degrees with forearms pointing forward. Gently squeeze your shoulder blades together and down, pressing them into the wall. Hold for 5 seconds, then relax. Focus on pulling the shoulder blades toward your spine and downward — do not shrug your shoulders upward. The source emphasises that scapulothoracic dysfunction commonly accompanies rotator cuff tears, and scapular stabilisation exercises targeting the serratus anterior and middle/lower trapezius provide essential proximal stability for shoulder function.",
+      "instructions_zh": "背靠牆壁站立，雙腳與肩同寬，距離牆壁約30厘米。肘部彎曲90度，前臂向前指。輕輕將肩胛骨向後及向下夾緊，壓入牆壁。保持5秒，然後放鬆。注意將肩胛骨拉向脊椎並向下——不要聳肩。資料來源強調肩胛胸廓功能障礙常伴隨旋轉肌腱撕裂，而針對前鋸肌和中/下斜方肌的肩胛骨穩定運動為肩膀功能提供必要的近端穩定性。",
+      "frequency": "10 repetitions × 3 sets",
+      "duration": "Daily",
+      "difficulty_level": "beginner",
+      "contraindications": "Should be pain-free. If wall lean causes shoulder pain, perform the exercise seated without the wall. Avoid excessive shoulder elevation (shrugging).",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Active Assisted Forward Elevation with Cane/Stick",
+      "exercise_name_zh": "棍棒輔助主動前舉運動",
+      "instructions_en": "Lie on your back with both hands holding a stick (broom handle or umbrella) at shoulder width. Using the unaffected arm to assist, slowly raise both arms overhead — the stick allows the strong arm to help the weaker one. Raise only as far as comfortable, aiming to progressively increase the range over days and weeks. Lower slowly with control. This exercise helps restore forward elevation range of motion in a supported, controlled way. Progress from lying down to sitting, then standing, as strength improves.",
+      "instructions_zh": "仰臥，雙手以肩寬握住一根棍棒（掃帚柄或雨傘）。利用未受影響的手臂輔助，慢慢將雙臂向頭頂方向舉起——棍棒讓強壯的手臂幫助較弱的一邊。只舉到舒適的範圍，目標是在數天至數星期內逐步增加幅度。有控制地慢慢放下。這個運動以支撐和受控的方式幫助恢復前舉活動幅度。隨著力量改善，從躺下進展到坐著，再到站立。",
+      "frequency": "10 repetitions × 2–3 sets",
+      "duration": "Daily",
+      "difficulty_level": "beginner",
+      "contraindications": "Move slowly and within a pain-free range. Do not force the range. Stop if it causes sharp pain or a catching sensation. Not appropriate for post-surgical patients in the immobilisation phase without surgeon clearance.",
+      "video_reference_url": "[TO BE ADDED]"
+    }
+  ],
+  "recovery_timeline": {
+    "mild_estimate": "4–8 weeks with consistent exercise-based rehabilitation",
+    "moderate_estimate": "3–6 months with structured physiotherapy (4–6 visits over 6–12 weeks plus daily home exercises). 74% of patients with atraumatic full-thickness tears avoided surgery with this approach",
+    "severe_estimate": "6–12+ months. Post-surgical rehabilitation: protection phase 4–6 weeks, active motion 6–8 weeks, strengthening 10–12 weeks, full activities 4–6 months. Retear rate >50% for massive repairs at 12 months, but outcomes often superior to preoperative levels even with retear",
+    "note": "Recovery timelines vary significantly based on tear size, chronicity, tissue quality, age, and comorbidities. The source notes that approximately 50% of tears demonstrate progression over time, with medium and large tears progressing faster. Initially reparable tears may become irreparable if conservative treatment is prolonged without monitoring. The 2025 AAOS guidelines note that high-level evidence supporting surgery over conservative treatment remains limited. Exercise rehabilitation takes at least 3 months, and some patients need 6+ months. Home exercises should be done 5–7 times/week initially for neural activation, transitioning to 3 times/week for strengthening."
+  },
+  "when_to_see_professional": [
+    "Shoulder pain and weakness persisting beyond 3–4 weeks despite self-care exercises",
+    "Inability to lift the arm overhead or significant weakness that is worsening",
+    "Night pain regularly disrupting sleep",
+    "Sudden onset of weakness after a specific injury (especially in younger patients — early assessment is critical)",
+    "Pain and weakness affecting your ability to work or perform essential daily tasks",
+    "Visible muscle wasting around the shoulder blade area",
+    "Symptoms not improving after 6–12 weeks of structured exercise — imaging may be needed to assess tear size and guide next steps"
+  ],
+  "faqs": [
+    {
+      "question_en": "Do I need surgery for my rotator cuff tear?",
+      "question_zh": "旋轉肌腱撕裂需要做手術嗎？",
+      "answer_en": "Not necessarily — and often not. Research from the MOON Shoulder Group shows that 74% of patients with atraumatic (non-traumatic) full-thickness rotator cuff tears avoided surgery after 6–12 weeks of structured physiotherapy, with most surgical decisions occurring within the first 12 weeks. The 2025 AAOS guidelines note that high-level evidence supporting surgical treatment over conservative management remains limited. A 2023 network meta-analysis found no significant differences in functional outcomes between conservative treatment, surgical repair, and reverse total shoulder arthroplasty for selected patients. Surgery is more strongly considered for younger patients with acute traumatic tears and good tissue quality, or when conservative treatment fails after adequate trial (at least 3–6 months). Your physiotherapist and doctor can help guide this decision based on your specific situation.",
+      "answer_zh": "不一定——而且通常不需要。MOON肩膀研究小組的研究顯示，74%的非創傷性全層旋轉肌腱撕裂患者在6至12星期的結構化物理治療後避免了手術，大多數手術決定在最初12星期內做出。2025年美國骨科醫師學會指引指出，支持手術治療優於保守治療的高水平證據仍然有限。2023年一項網絡薈萃分析發現，對於特定患者，保守治療、手術修復和反向全肩關節置換術在功能結果上沒有顯著差異。手術較常考慮用於有急性創傷性撕裂和良好組織質量的年輕患者，或在足夠的保守治療（至少3至6個月）失敗後。你的物理治療師和醫生可以根據你的具體情況來指導這個決定。"
+    },
+    {
+      "question_en": "Will my rotator cuff tear get worse over time?",
+      "question_zh": "旋轉肌腱撕裂會隨時間惡化嗎？",
+      "answer_en": "Research indicates that approximately 50% of tears demonstrate progression over time, with medium and large tears progressing more rapidly than small tears. Factors that accelerate progression include high physical work demands and supraspinatus muscle atrophy. This is important to consider: initially reparable tears may become irreparable over time due to tear progression and muscle degeneration (fatty infiltration). However, 10-year follow-up data also show that many patients managed conservatively maintain functional independence and quality of life. The key is regular monitoring — if your symptoms are worsening despite good rehabilitation efforts, re-assessment with imaging is recommended to check for tear progression.",
+      "answer_zh": "研究顯示約50%的撕裂會隨時間進展，中型和大型撕裂比小型撕裂進展更快。加速進展的因素包括高體力工作需求和岡上肌萎縮。這一點很重要：最初可修復的撕裂可能因撕裂進展和肌肉退化（脂肪浸潤）而隨時間變得無法修復。然而，10年的隨訪數據也顯示，許多保守治療的患者能維持功能獨立和生活質量。關鍵是定期監測——如果你的症狀在良好的康復努力下仍在惡化，建議重新進行影像評估以檢查撕裂是否進展。"
+    },
+    {
+      "question_en": "When can I return to exercise or sports?",
+      "question_zh": "我多快可以恢復運動？",
+      "answer_en": "For conservative management: you can and should continue exercising — in fact, exercise is the cornerstone of treatment. The source explicitly states that passive interventions with modalities (ultrasound, massage) are NOT justified; active exercise is what works. Lower body and cardiovascular exercise can continue throughout recovery. Upper body exercises should be modified to avoid painful ranges, particularly overhead lifting, and gradually reintroduced as strength improves — typically over 3–6 months. For post-surgical patients: the timeline is more structured — protection phase (4–6 weeks in a sling), gentle motion (6–8 weeks), strengthening (10–12 weeks onwards), and return to full sport/activities at 4–6 months. Return to overhead sports (tennis, swimming, badminton) requires specific clearance from your physiotherapist based on strength and range of motion milestones.",
+      "answer_zh": "保守治療：你可以而且應該繼續運動——事實上，運動是治療的基石。資料來源明確指出，使用儀器的被動治療（超聲波、按摩）是不合理的；主動運動才是有效的。下肢和心血管運動可以在整個康復過程中繼續。上肢運動應修改以避免疼痛範圍，特別是過頭舉重，並隨著力量改善逐漸重新引入——通常需要3至6個月。手術後患者：時間表更加結構化——保護階段（4至6星期佩戴吊帶）、輕柔活動（6至8星期）、強化訓練（10至12星期開始）、完全恢復運動/活動在4至6個月。恢復過頭運動（網球、游泳、羽毛球）需要物理治療師根據力量和活動幅度里程碑的具體批准。"
+    },
+    {
+      "question_en": "Can I still exercise with a rotator cuff tear?",
+      "question_zh": "有旋轉肌腱撕裂還可以運動嗎？",
+      "answer_en": "Absolutely yes — and you should. Exercise-based rehabilitation is the single most important treatment for rotator cuff tears, both for conservative management and post-surgical recovery. The source states clearly that 'passive intervention with modalities is not justified' and that active exercise forms the cornerstone of effective management. Research even shows that a single well-chosen exercise performed consistently can be as effective as complex multi-exercise programmes. Many people with full-thickness rotator cuff tears live active, pain-free lives without ever having surgery. The key is choosing the RIGHT exercises (strengthening intact rotator cuff muscles and scapular stabilisers) and avoiding movements that aggravate your symptoms (typically heavy overhead loading). Your physiotherapist can guide the specific exercise selection for your tear pattern.",
+      "answer_zh": "絕對可以——而且你應該運動。以運動為基礎的康復是旋轉肌腱撕裂最重要的治療方法，無論是保守治療還是手術後康復。資料來源明確指出「使用儀器的被動治療是不合理的」，主動運動是有效管理的基石。研究甚至顯示，一個精心選擇的運動堅持進行，可以與複雜的多運動計劃一樣有效。許多有全層旋轉肌腱撕裂的人在不做手術的情況下過著活躍、無痛的生活。關鍵是選擇正確的運動（強化完好的旋轉肌腱肌肉和肩胛骨穩定肌）並避免加劇症狀的動作（通常是沉重的過頭負荷）。你的物理治療師可以根據你的撕裂模式來指導具體的運動選擇。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Physiopedia — Rotator Cuff Tears",
+      "url": "https://www.physio-pedia.com/Rotator_Cuff_Tears",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "AAOS — Management of Rotator Cuff Injuries: Evidence-Based Clinical Practice Guideline (2025)",
+      "url": "https://www.aaos.org/quality/quality-programs/upper-extremity-programs/rotator-cuff-injuries/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Littlewood C et al. — Rotator Cuff Tendinopathy Diagnosis, Nonsurgical Medical Care, and Rehabilitation: APTA Clinical Practice Guideline (JOSPT 2025)",
+      "url": "https://doi.org/10.2519/jospt.2025.12502",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Kim YS, Koh KH — Current concepts in arthroscopic rotator cuff repair (Clin Shoulder Elbow 2025)",
+      "url": "https://doi.org/10.5397/cise.2024.00759",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Park JG, Ha YC — Conservative treatment of older adult patients with shoulder diseases (Ewha Med J 2025)",
+      "url": "https://doi.org/10.12771/emj.2025.e1",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Boorman RS et al. — Ten-year RC-QOL outcomes following nonoperative treatment (JSES Int 2025)",
+      "url": "https://doi.org/10.1016/j.jseint.2024.09.012",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "HK Health Bureau — Clinical Guideline for First-contact Physiotherapists on Common MSK Problems in Primary Care",
+      "url": "https://www.healthbureau.gov.hk/phcc/rfs/assets/pdf/home/discipline-based_guidelines/clinical_guideline_on_first_contact_assessment_and_cross-disciplinary_management_approach_for_common_msk_problems.pdf",
+      "type": "government_guideline"
+    }
+  ],
+  "review_status": {
+    "reviewed_by": "[PENDING — Physiotherapist Name]",
+    "reviewer_credentials": "[PENDING — e.g., BSc Physiotherapy, HKPA Member]",
+    "review_date": null,
+    "next_review_date": null,
+    "approved": false
+  },
+  "metadata": {
+    "created_date": "2026-05-01",
+    "last_updated": "2026-05-01",
+    "version": "0.1-draft"
+  }
+}

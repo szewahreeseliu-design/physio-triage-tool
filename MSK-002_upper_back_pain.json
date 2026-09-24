@@ -1,0 +1,314 @@
+{
+  "condition_id": "MSK-002",
+  "condition_name_en": "Upper Back Pain (Thoracic Pain)",
+  "condition_name_zh": "上背痛（胸椎疼痛）",
+  "body_area": [
+    "upper back",
+    "thoracic spine"
+  ],
+  "category": "musculoskeletal",
+  "patient_language_aliases": [
+    "upper back pain",
+    "pain between shoulder blades",
+    "mid back pain",
+    "my upper back is sore",
+    "thoracic pain",
+    "back hurts between my shoulders",
+    "stiff upper back",
+    "pain behind my chest",
+    "middle back ache",
+    "upper back seized up",
+    "hunched back pain",
+    "上背痛",
+    "背脊痛",
+    "肩胛骨之間痛",
+    "背部僵硬",
+    "寒背痛"
+  ],
+  "symptoms": [
+    {
+      "description_en": "Pain or tenderness in the upper and middle back, typically between the base of the neck (C7) and the lower rib area (T12-L1)",
+      "description_zh": "上背及中背部疼痛或壓痛，通常位於頸根部（C7）至下肋骨區域（T12-L1）之間"
+    },
+    {
+      "description_en": "Stiffness in the upper back, especially after prolonged sitting, desk work, or using a computer",
+      "description_zh": "上背部僵硬，尤其是長時間坐著、伏案工作或使用電腦後"
+    },
+    {
+      "description_en": "Muscle spasms or tightness in the muscles between and around the shoulder blades",
+      "description_zh": "肩胛骨之間及周圍肌肉痙攣或繃緊"
+    },
+    {
+      "description_en": "Pain that worsens with twisting, bending, or reaching overhead",
+      "description_zh": "扭轉、彎腰或舉手過頭時疼痛加劇"
+    },
+    {
+      "description_en": "Sharp or aching pain with deep breathing, coughing, or sneezing (if costovertebral joints are involved)",
+      "description_zh": "深呼吸、咳嗽或打噴嚏時出現尖銳或隱痛（若肋椎關節受影響）"
+    },
+    {
+      "description_en": "Reduced range of motion in the trunk when rotating or side-bending",
+      "description_zh": "軀幹旋轉或側彎時活動幅度減少"
+    }
+  ],
+  "guided_questions": [
+    {
+      "question_en": "Where exactly do you feel the pain? Is it between your shoulder blades, across the middle of your back, or closer to your neck or lower back?",
+      "question_zh": "你具體在哪個位置感到疼痛？是在肩胛骨之間、背部中間，還是比較接近頸部或下背部？",
+      "purpose": "Localise the pain to confirm thoracic origin and rule out cervical or lumbar referred pain."
+    },
+    {
+      "question_en": "How long have you been experiencing this pain?",
+      "question_zh": "這個疼痛持續了多久？",
+      "purpose": "Classify as acute (<6 weeks), sub-acute (6–12 weeks), or chronic (>12 weeks) to guide management approach."
+    },
+    {
+      "question_en": "Did the pain start after a specific event, such as a fall, car accident, sports injury, or heavy lifting?",
+      "question_zh": "疼痛是否在某個特定事件後開始，例如跌倒、車禍、運動受傷或提重物？",
+      "purpose": "Identify traumatic onset. The source notes trauma (including whiplash) is a common cause. Significant trauma may indicate compression or burst fracture requiring imaging."
+    },
+    {
+      "question_en": "Do you spend long hours sitting at a desk, using a computer, or looking at your phone? How would you describe your posture?",
+      "question_zh": "你是否長時間坐在辦公桌前、使用電腦或看手機？你如何形容自己的姿勢？",
+      "purpose": "Identify postural and ergonomic contributing factors — the source identifies prolonged sitting and poor posture as among the most common causes of thoracic pain."
+    },
+    {
+      "question_en": "Does the pain change with breathing? Does it get worse when you take a deep breath, cough, or sneeze?",
+      "question_zh": "疼痛會隨呼吸改變嗎？深呼吸、咳嗽或打噴嚏時會加劇嗎？",
+      "purpose": "Screen for costovertebral joint involvement, pleural pathology, or cardiac-related pain. Pain that changes with breathing may also indicate rib fracture or referred visceral pain."
+    },
+    {
+      "question_en": "Do you have any numbness, tingling, or weakness in your arms or legs? Any changes in coordination or walking?",
+      "question_zh": "你的手臂或腿部有沒有麻痺、刺痛或無力感？行動協調或步行有沒有任何改變？",
+      "purpose": "Screen for myelopathy from thoracic disc herniation or spinal cord compression — the source lists thoracic disc herniation with acute myelopathy as a differential diagnosis."
+    },
+    {
+      "question_en": "Do you have any chest pain, chest tightness, shortness of breath, fever, or unexplained weight loss?",
+      "question_zh": "你有沒有胸痛、胸悶、氣促、發燒或不明原因的體重下降？",
+      "purpose": "CRITICAL red-flag screening. The source states thoracic back pain is MORE OFTEN due to serious spinal pathology than neck or low back pain. Chest pain may indicate cardiac or pulmonary emergency. Fever suggests infection (e.g., vertebral osteomyelitis). Weight loss may indicate malignancy."
+    }
+  ],
+  "severity_classification": {
+    "mild": {
+      "indicators": [
+        "Pain rated 1–3 out of 10",
+        "Pain mainly related to posture or prolonged sitting",
+        "No radiating symptoms to arms, chest, or legs",
+        "Can perform daily activities with only minor discomfort",
+        "No neurological symptoms"
+      ],
+      "self_care_appropriate": true,
+      "description_en": "Your symptoms suggest mild upper back pain, which is very common — especially among people who sit for long periods or work at a desk. This type of pain usually responds well to posture correction, regular movement breaks, and gentle stretching exercises. Most people notice significant improvement within a few weeks.",
+      "description_zh": "你的症狀顯示為輕度上背痛，這是非常常見的——尤其是在長時間坐著或伏案工作的人群中。這類疼痛通常透過改善姿勢、定時起身活動和輕柔的伸展運動就能有效改善。大部分人在幾星期內會明顯好轉。"
+    },
+    "moderate": {
+      "indicators": [
+        "Pain rated 4–6 out of 10",
+        "Pain persisting for more than 2 weeks despite self-care",
+        "Some limitation in daily activities or work capacity",
+        "Pain with breathing or trunk rotation",
+        "Recurring episodes or history of previous back problems"
+      ],
+      "recommend_professional": true,
+      "description_en": "Your symptoms suggest moderate upper back pain that may benefit from professional assessment. A physiotherapist can provide manual therapy, spinal mobilisations, and a tailored exercise programme to address your specific issues. In the meantime, the exercises below may help manage your discomfort.",
+      "description_zh": "你的症狀顯示為中度上背痛，建議接受專業評估。物理治療師可以提供手法治療、脊椎鬆動術和針對性的運動計劃來處理你的具體問題。在此期間，以下的運動可能有助於舒緩不適。"
+    },
+    "severe": {
+      "indicators": [
+        "Pain rated 7–10 out of 10",
+        "Numbness, tingling, or weakness in arms or legs",
+        "Pain following significant trauma (fall, car accident)",
+        "Changes in coordination, balance, or walking ability",
+        "Chest pain, shortness of breath, or fever accompanying back pain"
+      ],
+      "seek_immediate_help": true,
+      "description_en": "Your symptoms suggest a potentially serious condition that requires prompt professional assessment. Research shows that upper back pain is more frequently associated with serious underlying causes than neck or lower back pain. Please consult a doctor or physiotherapist as soon as possible. If you are experiencing chest pain, difficulty breathing, or sudden weakness in your legs, please go to A&E or call 999 immediately.",
+      "description_zh": "你的症狀顯示可能較為嚴重，需要盡快接受專業評估。研究顯示，上背痛比頸痛或下背痛更常與嚴重的潛在原因相關。請儘快諮詢醫生或物理治療師。如果你出現胸痛、呼吸困難或腿部突然無力的情況，請立即前往急症室或致電999。"
+    }
+  },
+  "red_flags": [
+    "Chest pain, tightness, or pressure radiating to the arm, jaw, or neck — possible cardiac emergency (call 999 immediately)",
+    "Sudden shortness of breath or difficulty breathing — possible pulmonary or cardiac emergency",
+    "Numbness, weakness, or loss of coordination in the legs — possible spinal cord compression or myelopathy from thoracic disc herniation",
+    "Changes in bladder or bowel control — possible spinal cord compression",
+    "Fever or chills combined with upper back pain — possible vertebral osteomyelitis or spinal infection",
+    "Severe pain following significant trauma (fall from height, car accident) — possible compression or burst fracture",
+    "Unexplained weight loss combined with persistent back pain — possible malignancy",
+    "History of cancer with new onset of upper back pain — possible metastatic disease",
+    "Progressive neurological deficit (worsening weakness or sensation changes over hours to days)"
+  ],
+  "possible_causes": [
+    {
+      "cause_en": "Muscular irritation, strain, or trigger points from overuse or repetitive movements",
+      "cause_zh": "因過度使用或重複性動作導致的肌肉刺激、拉傷或激痛點",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Poor posture, especially prolonged sitting at a computer or desk (common in office workers)",
+      "cause_zh": "姿勢不良，尤其是長時間坐在電腦或辦公桌前（常見於辦公室工作者）",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Lack of strength in the upper back and core stabilising muscles",
+      "cause_zh": "上背部和核心穩定肌肉力量不足",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Trauma such as whiplash injury from car accident or sports injury",
+      "cause_zh": "創傷，例如車禍或運動受傷引致的鞭甩傷",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Joint dysfunction in the costovertebral joints (where ribs connect to the spine)",
+      "cause_zh": "肋椎關節功能障礙（肋骨與脊椎的連接處）",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Osteoporosis with vertebral compression fractures, especially in older adults and postmenopausal women",
+      "cause_zh": "骨質疏鬆伴隨椎體壓縮性骨折，尤其常見於長者及絕經後女性",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Scheuermann's disease (developmental condition causing excessive thoracic kyphosis in adolescents)",
+      "cause_zh": "舒爾曼病（青少年發育性疾病，引致胸椎過度後凸）",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Ankylosing spondylitis (inflammatory spinal condition)",
+      "cause_zh": "強直性脊椎炎（炎症性脊椎疾病）",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Thoracic disc herniation (symptomatic cases are rare — approximately 5 in 1,000 disc herniations)",
+      "cause_zh": "胸椎椎間盤突出（有症狀的個案罕見——約每1,000個椎間盤突出中有5個）",
+      "likelihood": "rare"
+    },
+    {
+      "cause_en": "Vertebral osteomyelitis (spinal infection) or spinal tumour",
+      "cause_zh": "脊椎骨髓炎（脊椎感染）或脊椎腫瘤",
+      "likelihood": "rare"
+    }
+  ],
+  "self_care_exercises": [
+    {
+      "exercise_name_en": "Thoracic Extension Over a Rolled Towel",
+      "exercise_name_zh": "毛巾卷胸椎伸展",
+      "instructions_en": "Roll up a bath towel firmly into a cylinder shape. Lie on your back and place the towel roll horizontally across your upper back at the level of your shoulder blades. Bend your knees with feet flat on the floor. Place your hands behind your head to support your neck. Slowly lean back over the towel roll, allowing your upper back to extend. You should feel a gentle stretch across your chest and upper back. Hold for 5 seconds, then return to the starting position. Move the towel slightly up or down to target different areas of the thoracic spine.",
+      "instructions_zh": "將一條浴巾緊緊捲成圓柱形。仰臥，將毛巾卷橫放在肩胛骨水平的上背部下方。屈膝，雙腳平放在地上。雙手放在頭後支撐頸部。慢慢向後靠在毛巾卷上，讓上背部伸展。你應該感到胸部和上背部有輕柔的拉伸感。保持5秒，然後回到起始位置。將毛巾稍微上下移動，針對胸椎不同區域進行伸展。",
+      "frequency": "10 repetitions × 2 sets",
+      "duration": "Daily",
+      "difficulty_level": "beginner",
+      "contraindications": "Avoid if you have known osteoporosis or vertebral fractures. Stop if you experience sharp pain, dizziness, or numbness.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Cat-Cow Stretch",
+      "exercise_name_zh": "貓牛式伸展",
+      "instructions_en": "Start on your hands and knees with your wrists directly under your shoulders and knees under your hips. Slowly round your entire back upward toward the ceiling, tucking your chin to your chest (cat position). Focus on lifting through the upper back between your shoulder blades. Hold for 3 seconds. Then slowly let your belly drop toward the floor, gently lifting your head and tailbone (cow position). Hold for 3 seconds. Move smoothly between positions, paying particular attention to movement through the upper back.",
+      "instructions_zh": "四肢著地開始，手腕在肩膀正下方，膝蓋在臀部正下方。慢慢將整個背部向天花板方向拱起，下巴收向胸口（貓式）。集中令肩胛骨之間的上背部提起。保持3秒。然後慢慢讓腹部下沉向地面，輕輕抬起頭部和尾骨（牛式）。保持3秒。在兩個姿勢之間平穩切換，特別注意上背部的活動。",
+      "frequency": "10 repetitions × 2 sets",
+      "duration": "Daily",
+      "difficulty_level": "beginner",
+      "contraindications": "Perform gently if you have wrist pain — use fists or forearms for support instead. Avoid if the movement causes increased radiating pain.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Thread the Needle (Thoracic Rotation Stretch)",
+      "exercise_name_zh": "穿針式（胸椎旋轉伸展）",
+      "instructions_en": "Start on your hands and knees. Take your right arm and reach it underneath your body toward the left side, sliding it along the floor. Allow your right shoulder and the side of your head to rest gently on the floor. You should feel a stretch through the upper back and between the shoulder blades. Hold for 15–20 seconds, breathing deeply. Return to the starting position and repeat on the other side. This exercise targets thoracic rotation, which is often restricted in people with upper back pain.",
+      "instructions_zh": "四肢著地開始。將右手臂穿過身體下方向左側伸展，沿著地面滑動。讓右肩和頭部側面輕輕靠在地面上。你應該感到上背部和肩胛骨之間有拉伸感。保持15至20秒，深呼吸。回到起始位置，換另一側重複。這個運動針對胸椎旋轉，上背痛的人通常在這方面活動受限。",
+      "frequency": "5 repetitions per side × 2 sets",
+      "duration": "Daily",
+      "difficulty_level": "beginner",
+      "contraindications": "Avoid if rotation causes sharp pain or if you have an acute rib injury. Reduce the range of motion if uncomfortable.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Chin Tucks with Scapular Retraction",
+      "exercise_name_zh": "收下巴配合肩胛骨後收運動",
+      "instructions_en": "Sit or stand with your back straight. Gently draw your chin straight back (as if making a double chin) — do not tilt your head up or down. At the same time, squeeze your shoulder blades together by pulling them back and down. Hold for 5 seconds, then relax. This exercise strengthens the deep neck flexors and upper back postural muscles, helping to correct the forward head and rounded shoulder posture that is a major cause of thoracic back pain.",
+      "instructions_zh": "坐直或站直。輕輕將下巴向後收（像做雙下巴一樣）——不要將頭部上仰或下垂。同時，將肩胛骨向後及向下夾緊。保持5秒，然後放鬆。這個運動強化深層頸屈肌和上背部姿勢肌肉，有助糾正前傾頭部和圓肩姿勢——這是導致胸椎背痛的主要原因之一。",
+      "frequency": "10 repetitions × 3 sets",
+      "duration": "Daily — can be done at your desk",
+      "difficulty_level": "beginner",
+      "contraindications": "Perform gently. Avoid excessive force when retracting the chin. Stop if you experience dizziness or increased neck pain.",
+      "video_reference_url": "[TO BE ADDED]"
+    }
+  ],
+  "recovery_timeline": {
+    "mild_estimate": "1–3 weeks with posture correction and self-care exercises",
+    "moderate_estimate": "4–8 weeks with physiotherapy including manual therapy and tailored exercises",
+    "severe_estimate": "8–12+ weeks; may require multidisciplinary rehabilitation, further investigation, or specialist referral",
+    "note": "Recovery times vary significantly between individuals. Postural causes tend to improve quickly with ergonomic changes and exercise but may recur if habits are not maintained. Thoracic back pain that persists beyond 4 weeks or is worsening warrants professional assessment, as the thoracic spine has a higher association with serious pathology compared to the cervical or lumbar spine."
+  },
+  "when_to_see_professional": [
+    "Pain persists beyond 2–3 weeks despite posture correction and self-care exercises",
+    "Pain is getting progressively worse rather than improving",
+    "Pain began after a significant injury, fall, or accident",
+    "Any numbness, tingling, or weakness in the arms or legs",
+    "Pain with breathing, chest tightness, or shortness of breath",
+    "Fever, unexplained weight loss, or night sweats accompanying back pain",
+    "Previous history of cancer or osteoporosis with new onset of thoracic pain",
+    "The pain is significantly affecting your work or daily activities"
+  ],
+  "faqs": [
+    {
+      "question_en": "Is my posture causing my upper back pain?",
+      "question_zh": "我的姿勢是否導致了上背痛？",
+      "answer_en": "Very likely, especially if you spend long hours at a desk or computer. Research identifies poor posture and prolonged sitting as among the most common causes of thoracic back pain. Lower-grade male white-collar workers and upper-grade female white-collar workers show higher prevalence rates. Simple changes can make a big difference: adjust your monitor to eye level, take movement breaks every 30–45 minutes, and practice the chin tuck and scapular retraction exercises throughout the day.",
+      "answer_zh": "很有可能，尤其是如果你長時間在辦公桌或電腦前工作。研究顯示，姿勢不良和長時間坐著是導致胸椎背痛最常見的原因之一。簡單的改變可以帶來很大的不同：將螢幕調整到視線水平、每30至45分鐘起身活動，以及全天練習收下巴和肩胛骨後收運動。"
+    },
+    {
+      "question_en": "Should I be worried about my upper back pain?",
+      "question_zh": "我應該擔心上背痛嗎？",
+      "answer_en": "Most upper back pain is caused by muscular strain, poor posture, or overuse and is not serious. However, it's important to know that research shows upper back pain is more frequently associated with serious underlying conditions compared to neck or lower back pain. You should seek prompt medical attention if you have: chest pain or difficulty breathing, numbness or weakness in your legs, pain after significant trauma, fever, or unexplained weight loss. When in doubt, it's always better to get checked.",
+      "answer_zh": "大部分上背痛是由肌肉拉傷、姿勢不良或過度使用引起的，並不嚴重。不過，重要的是要知道，研究顯示上背痛比頸痛或下背痛更常與嚴重的潛在疾病相關。如果你有以下情況，應儘快求醫：胸痛或呼吸困難、腿部麻痺或無力、嚴重創傷後的疼痛、發燒或不明原因的體重下降。如有疑慮，最好還是接受檢查。"
+    },
+    {
+      "question_en": "When can I return to exercise or sports?",
+      "question_zh": "我多快可以恢復運動？",
+      "answer_en": "For mild postural-related upper back pain, you can usually continue light exercise immediately — in fact, staying active is encouraged. Low-impact activities like walking and swimming are generally safe. For moderate cases, a gradual return over 3–6 weeks is typical. Avoid heavy overhead lifting, contact sports, or high-impact activities until your pain has significantly improved. Focus on building strength in your upper back and core muscles to prevent recurrence. If your pain was caused by trauma, consult a physiotherapist before returning to sport.",
+      "answer_zh": "對於輕度姿勢相關的上背痛，你通常可以立即繼續輕量運動——事實上，保持活動是鼓勵的。步行和游泳等低衝擊活動通常是安全的。中度個案一般需要3至6星期逐步恢復。在疼痛明顯改善之前，避免沉重的過頭舉重、接觸性運動或高衝擊活動。集中加強上背部和核心肌肉的力量以預防復發。如果疼痛是由創傷引起的，恢復運動前請諮詢物理治療師。"
+    },
+    {
+      "question_en": "Can sitting at a desk all day really cause this much pain?",
+      "question_zh": "整天坐在辦公桌前真的會引起這麼大的疼痛嗎？",
+      "answer_en": "Yes, absolutely. Prolonged sitting, especially with poor ergonomics, is one of the most common causes of thoracic back pain. When you sit hunched over a computer, the muscles in your upper back become overstretched and weak, while the chest muscles tighten. Over time, this creates muscular irritation and trigger points that cause significant pain. Research on occupational factors confirms that both white-collar office workers and those with prolonged computer use have higher rates of thoracic pain. Setting up your workstation ergonomically, taking regular movement breaks, and doing daily strengthening exercises are the most effective prevention strategies.",
+      "answer_zh": "是的，絕對會。長時間坐著，尤其是姿勢不良時，是導致胸椎背痛最常見的原因之一。當你弓著背使用電腦時，上背部的肌肉會被過度拉長而變弱，同時胸部肌肉會收緊。隨著時間推移，這會造成肌肉刺激和激痛點，引起明顯的疼痛。關於職業因素的研究證實，辦公室白領工作者和長時間使用電腦的人胸椎疼痛的發生率更高。正確設置工作站的人體工學、定時起身活動以及每天做強化運動，是最有效的預防策略。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Physiopedia — Thoracic Back Pain",
+      "url": "https://www.physio-pedia.com/Thoracic_Back_Pain",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Briggs AM, Smith AJ, Straker LM, Bragge P — Thoracic spine pain in the general population: prevalence, incidence and associated factors (BMC Musculoskelet Disord 2009)",
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/19563667",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Fouquet N et al. — Prevalence of thoracic spine pain in a surveillance network (Occup Med 2015)",
+      "url": "https://academic.oup.com/occmed/article/65/2/122/1488588",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "HK Health Bureau — Clinical Guideline for First-contact Physiotherapists on Common MSK Problems in Primary Care",
+      "url": "https://www.healthbureau.gov.hk/phcc/rfs/assets/pdf/home/discipline-based_guidelines/clinical_guideline_on_first_contact_assessment_and_cross-disciplinary_management_approach_for_common_msk_problems.pdf",
+      "type": "government_guideline"
+    }
+  ],
+  "review_status": {
+    "reviewed_by": "[PENDING — Physiotherapist Name]",
+    "reviewer_credentials": "[PENDING — e.g., BSc Physiotherapy, HKPA Member]",
+    "review_date": null,
+    "next_review_date": null,
+    "approved": false
+  },
+  "metadata": {
+    "created_date": "2026-05-01",
+    "last_updated": "2026-05-01",
+    "version": "0.1-draft"
+  }
+}

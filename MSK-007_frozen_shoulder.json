@@ -1,0 +1,322 @@
+{
+  "condition_id": "MSK-007",
+  "condition_name_en": "Frozen Shoulder (Adhesive Capsulitis)",
+  "condition_name_zh": "五十肩（沾黏性肩關節囊炎）",
+  "body_area": [
+    "shoulder",
+    "glenohumeral joint"
+  ],
+  "category": "musculoskeletal",
+  "patient_language_aliases": [
+    "frozen shoulder",
+    "stiff shoulder",
+    "can't lift my arm",
+    "shoulder is locked up",
+    "can't reach behind my back",
+    "shoulder pain at night",
+    "my shoulder won't move",
+    "painful stiff shoulder",
+    "can't put on my bra",
+    "can't comb my hair",
+    "shoulder seized up",
+    "五十肩",
+    "肩周炎",
+    "冰凍肩",
+    "肩膀僵硬",
+    "肩膀舉唔起"
+  ],
+  "symptoms": [
+    {
+      "description_en": "Gradual onset of shoulder pain that worsens over time, often described as a deep ache — sharp pain occurs at extremes of motion. Pain is typically worst during the 'freezing' phase (first 2–9 months)",
+      "description_zh": "肩膀疼痛逐漸加重，通常表現為深層酸痛——在動作末端會出現尖銳疼痛。疼痛通常在「凝結期」（最初2至9個月）最為嚴重"
+    },
+    {
+      "description_en": "Progressive loss of shoulder range of motion — external rotation is the most limited, followed by abduction, then internal rotation (capsular pattern). Both active and passive movements are restricted",
+      "description_zh": "肩膀活動幅度逐漸喪失——外旋受限最嚴重，其次是外展，然後是內旋（關節囊模式）。主動和被動活動均受限"
+    },
+    {
+      "description_en": "Significant night pain and sleep disturbance — difficulty sleeping on the affected side, pain frequently waking the patient. Research shows pain, sleep loss, and depression form an interconnected triangle",
+      "description_zh": "明顯的夜間疼痛和睡眠障礙——無法側臥在受影響的一側，疼痛經常令患者從睡眠中醒來。研究顯示疼痛、失眠和抑鬱形成緊密相連的三角關係"
+    },
+    {
+      "description_en": "Difficulty with daily activities — particularly grooming, reaching overhead (e.g., hanging clothes), fastening items behind the back (e.g., bra, belt), reaching for a seatbelt, and dressing",
+      "description_zh": "日常活動困難——尤其是梳洗、舉手過頭（例如掛衣服）、在背後扣物品（例如胸圍、腰帶）、伸手繫安全帶和穿衣"
+    },
+    {
+      "description_en": "Muscle weakness in shoulder external rotation, internal rotation, and abduction compared to the unaffected side, often accompanied by significant muscle guarding",
+      "description_zh": "肩膀外旋、內旋和外展肌肉無力（與未受影響的一側相比），常伴有明顯的肌肉保護性痙攣"
+    },
+    {
+      "description_en": "Scapular winging and substitution patterns — the shoulder blade moves excessively during arm movements to compensate for the stiff glenohumeral joint",
+      "description_zh": "肩胛骨翼狀突出和代償模式——手臂活動時肩胛骨過度移動，以代償僵硬的盂肱關節"
+    },
+    {
+      "description_en": "Pain that can radiate from the shoulder down the arm into the hand, or up to the base of the skull. Pain is easily aggravated by rapid or unguarded movements",
+      "description_zh": "疼痛可從肩膀沿手臂延伸至手部，或向上延伸至顱底。快速或不自主的動作容易加劇疼痛"
+    }
+  ],
+  "guided_questions": [
+    {
+      "question_en": "How did your shoulder problem start? Did it come on gradually for no obvious reason, or did it start after an injury, surgery, or illness?",
+      "question_zh": "你的肩膀問題是怎樣開始的？是無明顯原因逐漸出現的，還是在受傷、手術或生病後開始的？",
+      "purpose": "Distinguish primary (idiopathic) from secondary frozen shoulder. The source notes primary frozen shoulder has an insidious onset with no attributable cause, while secondary results from surgery, injury, stroke, or predisposing conditions. This affects prognosis and management approach."
+    },
+    {
+      "question_en": "Which movements are most difficult? Can you lift your arm overhead? Can you reach behind your back? Can you rotate your arm outward (like turning a doorknob)?",
+      "question_zh": "哪些動作最困難？你能舉手過頭嗎？能伸手到背後嗎？能將手臂向外旋轉（像轉門把手一樣）嗎？",
+      "purpose": "Assess the capsular pattern of restriction which is diagnostic for frozen shoulder: external rotation most limited > abduction > internal rotation. The source extensively discusses this capsular pattern and its importance for differential diagnosis from rotator cuff pathology or OA."
+    },
+    {
+      "question_en": "How is your sleep? Does the shoulder pain wake you at night? Can you sleep on the affected side?",
+      "question_zh": "你的睡眠如何？肩膀疼痛會在晚上把你弄醒嗎？你能側臥在受影響的那一邊睡覺嗎？",
+      "purpose": "Assess sleep disturbance which is a hallmark of frozen shoulder. The source has a dedicated section noting that pain, sleep loss, and depression form an interconnected triangle, and clinicians should monitor sleep quality using validated tools like the Pittsburgh Sleep Quality Index."
+    },
+    {
+      "question_en": "Do you have diabetes, thyroid problems, or any other medical conditions?",
+      "question_zh": "你有沒有糖尿病、甲狀腺問題或其他疾病？",
+      "purpose": "CRITICAL screening. The source states frozen shoulder prevalence in diabetics is 10–22% vs 2–5% in the general population. Diabetic patients generally respond less well to treatment. Thyroid disorders and metabolic syndrome are also risk factors. This significantly affects prognosis and treatment planning."
+    },
+    {
+      "question_en": "Have you ever had a frozen shoulder before, or any problems with your other shoulder?",
+      "question_zh": "你以前有沒有患過五十肩，或者另一邊肩膀有什麼問題？",
+      "purpose": "The source notes 5–34% chance of developing frozen shoulder in the contralateral shoulder, and 14% may have simultaneous bilateral involvement. Previous history affects expectations and management."
+    },
+    {
+      "question_en": "How long have you had these symptoms? Would you say the pain is getting worse, staying the same, or starting to ease — even though stiffness remains?",
+      "question_zh": "你有這些症狀多久了？你覺得疼痛是在加重、保持不變，還是開始減輕——即使僵硬仍然存在？",
+      "purpose": "Identify which phase the patient is in — freezing (increasing pain, 2–9 months), frozen (pain subsiding, stiffness dominant, 4–12 months), or thawing (spontaneous improvement, 5–24 months). Treatment should be tailored to the specific phase per the source."
+    },
+    {
+      "question_en": "Do you have any fever, chills, unexplained weight loss, shortness of breath, or history of cancer? Is the pain severe and unexplainable, or do you have pain in multiple joints?",
+      "question_zh": "你有沒有發燒、寒顫、不明原因體重下降、氣促或癌症病史？疼痛是否嚴重且無法解釋，或者多個關節都有疼痛？",
+      "purpose": "CRITICAL red-flag screening. The source explicitly lists: fever/chills/severe inexplicable pain, shortness of breath, metastatic disease, history of cancer, multiple joint involvement, and suspicion of systemic pathology as red flags requiring further investigation to rule out serious causes."
+    }
+  ],
+  "severity_classification": {
+    "mild": {
+      "indicators": [
+        "Early stage with pain as the dominant symptom (freezing phase)",
+        "Shoulder range of motion starting to decrease but still functional for most daily tasks",
+        "Night pain present but manageable",
+        "Pain rated 3–5 out of 10 at rest, increasing with movement",
+        "Symptoms present for less than 3 months"
+      ],
+      "self_care_appropriate": true,
+      "description_en": "Your symptoms suggest you may be in the early 'freezing' stage of frozen shoulder. This is the phase where pain is the main problem, and stiffness is beginning to develop. This condition is very common — it affects 2–5% of the general population, is most prevalent between ages 35–65, and is sometimes called the '50-year-old shoulder' in China and Japan. The most important thing during this phase is gentle pain management and maintaining what movement you can WITHOUT pushing through significant pain. The exercises below should be done within a comfortable, pain-free range. Better results have been found with simple pain-free exercise rather than intensive therapy during this stage.",
+      "description_zh": "你的症狀顯示你可能處於五十肩的早期「凝結期」。在這個階段，疼痛是主要問題，僵硬正在開始發展。這個情況非常常見——影響一般人口的2至5%，最常見於35至65歲，在中國和日本有時稱為「五十肩」。在這個階段最重要的是溫和地控制疼痛，並在不引發明顯疼痛的情況下維持現有的活動幅度。以下的運動應在舒適、無痛的範圍內進行。研究發現，在這個階段簡單的無痛運動比密集治療有更好的效果。"
+    },
+    "moderate": {
+      "indicators": [
+        "Significant loss of range of motion in the capsular pattern (external rotation most limited)",
+        "Difficulty with daily activities — dressing, grooming, reaching overhead or behind the back",
+        "Pain subsiding but stiffness is dominant (frozen/adhesive phase)",
+        "Night pain and sleep disturbance affecting quality of life",
+        "Symptoms present for 3–9 months with plateau or worsening stiffness"
+      ],
+      "recommend_professional": true,
+      "description_en": "Your symptoms suggest you are likely in the 'frozen' or stiffening phase, where pain starts to ease but significant stiffness and functional limitation are the main problems. This is the phase where professional physiotherapy is most beneficial. A physiotherapist can provide specific joint mobilisation techniques (research shows mobilisation with movement is particularly effective), targeted stretching, muscle strengthening, and a structured home exercise programme. About 89.5% of patients with frozen shoulder respond well to non-operative management. If you have diabetes, please let your physiotherapist know as this affects treatment response and recovery timeline.",
+      "description_zh": "你的症狀顯示你可能處於「冰凍期」或僵硬期，疼痛開始減輕但明顯的僵硬和功能受限是主要問題。這是專業物理治療最有益的階段。物理治療師可以提供特定的關節鬆動技術（研究顯示運動伴隨鬆動術特別有效）、針對性伸展、肌肉強化和結構化的家居運動計劃。約89.5%的五十肩患者對非手術治療反應良好。如果你有糖尿病，請告知你的物理治療師，因為這會影響治療反應和康復時間。"
+    },
+    "severe": {
+      "indicators": [
+        "Severely restricted range of motion in all directions with minimal functional use of the arm",
+        "Symptoms persisting beyond 6 months with no improvement despite conservative treatment",
+        "Significant impact on work, sleep, and psychological well-being (depression, frustration)",
+        "Neurological symptoms in the arm (numbness, tingling, weakness) suggesting other pathology",
+        "Red flag symptoms present (fever, weight loss, history of cancer, multiple joint involvement)"
+      ],
+      "seek_immediate_help": true,
+      "description_en": "Your symptoms suggest either a severe or prolonged frozen shoulder, or possibly another condition that may be mimicking frozen shoulder. If you have been under treatment for more than 6 months without improvement, you may need to discuss additional options with your doctor, including corticosteroid injection, manipulation under anaesthesia, or arthroscopic capsular release. If you have any red flag symptoms — fever, unexplained weight loss, severe unexplainable pain, shortness of breath, or a history of cancer — please seek medical assessment urgently, as these may indicate a more serious underlying condition.",
+      "description_zh": "你的症狀顯示可能是嚴重或持續性的五十肩，或者可能是其他模仿五十肩的疾病。如果你在治療超過6個月後仍沒有改善，你可能需要與醫生討論額外的選擇，包括皮質類固醇注射、麻醉下手法鬆動或關節鏡下囊膜鬆解術。如果你有任何危險信號——發燒、不明原因體重下降、嚴重無法解釋的疼痛、氣促或癌症病史——請緊急接受醫學評估，因為這些可能表示更嚴重的潛在疾病。"
+    }
+  },
+  "red_flags": [
+    "Fever, chills, or severe inexplicable pain — possible infection or systemic pathology",
+    "Shortness of breath or severe cough accompanying shoulder pain — possible cardiopulmonary involvement",
+    "History of cancer (personal or family) with new onset shoulder pain — possible metastatic disease",
+    "Unexplained weight loss combined with persistent shoulder pain",
+    "Multiple joint involvement with stiffness — possible rheumatological condition or systemic disease",
+    "Neurological symptoms (numbness, weakness, loss of reflexes) in the arm — possible cervical radiculopathy, brachial plexus pathology, or Parsonage-Turner syndrome",
+    "Sudden onset of severe pain with inability to move the shoulder after trauma — possible fracture or dislocation",
+    "Signs of avascular necrosis (rare but listed in source as a consideration)",
+    "Any suspicion of a systemic pathology or condition that may be causing the shoulder symptoms"
+  ],
+  "possible_causes": [
+    {
+      "cause_en": "Primary (idiopathic) — onset for no attributable reason, the most common type",
+      "cause_zh": "原發性（特發性）——無明確原因發病，最常見的類型",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Diabetes mellitus — prevalence of frozen shoulder is 10–22% in diabetic patients vs 2–5% in the general population",
+      "cause_zh": "糖尿病——糖尿病患者的五十肩患病率為10至22%，而一般人口為2至5%",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Secondary to shoulder injury, surgery, or prolonged immobilisation (altered movement patterns to protect painful structures)",
+      "cause_zh": "繼發於肩膀受傷、手術或長期制動（為保護疼痛結構而改變動作模式）",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Thyroid disorders (hypothyroidism can cause muscle aches, tenderness, and stiffness)",
+      "cause_zh": "甲狀腺疾病（甲狀腺功能低下可引起肌肉酸痛、壓痛和僵硬）",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Post-stroke — secondary frozen shoulder from reduced arm movement and altered motor control",
+      "cause_zh": "中風後——因手臂活動減少和運動控制改變導致的繼發性五十肩",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Rotator cuff pathologies, biceps tendinopathy, or calcific tendinopathy (intrinsic factors)",
+      "cause_zh": "旋轉肌腱病變、二頭肌肌腱病或鈣化性肌腱病（內在因素）",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Dupuytren disease — the source notes capsular changes in frozen shoulder are similar to hand changes in Dupuytren contracture",
+      "cause_zh": "杜普伊特倫病——資料來源指出五十肩的囊膜改變與杜普伊特倫攣縮的手部改變相似",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Parkinson's disease, complex regional pain syndrome, or cardiopulmonary disease (extrinsic factors)",
+      "cause_zh": "柏金遜症、複雜性區域疼痛綜合症或心肺疾病（外在因素）",
+      "likelihood": "rare"
+    }
+  ],
+  "self_care_exercises": [
+    {
+      "exercise_name_en": "Pendulum Exercise (Codman's Exercise)",
+      "exercise_name_zh": "鐘擺運動（科德曼運動）",
+      "instructions_en": "Lean forward with your unaffected hand resting on a table or chair for support. Let the affected arm hang straight down, completely relaxed. Gently swing your arm in small circles — clockwise for 10 circles, then anticlockwise for 10 circles. Then gently swing forward and backward, and side to side. The movement should come from your body swaying, NOT from actively moving your shoulder muscles. Gravity and momentum do the work. You can hold a light weight (0.5–1 kg) to increase the gentle traction effect. This is one of the core exercises recommended in the source for the painful freezing phase.",
+      "instructions_zh": "向前傾身，未受影響的手放在桌子或椅子上作支撐。讓受影響的手臂自然下垂，完全放鬆。輕輕地將手臂做小圓圈擺動——順時針10圈，然後逆時針10圈。接著輕輕前後擺動和左右擺動。動作應來自身體的輕微搖擺，而不是主動使用肩膀肌肉。讓重力和慣性來完成動作。你可以手握輕量啞鈴（0.5至1公斤）以增加輕柔的牽引效果。這是資料來源中建議在疼痛凝結期進行的核心運動之一。",
+      "frequency": "10 circles each direction + 10 swings each direction × 2–3 sets",
+      "duration": "2–3 times per day",
+      "difficulty_level": "beginner",
+      "contraindications": "The arm should be completely relaxed — do not actively engage the shoulder muscles. Stop if the exercise causes sharp pain. Ensure you are stable and well-supported to prevent falls.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Passive External Rotation Stretch with Stick",
+      "exercise_name_zh": "被動外旋伸展（使用棍棒）",
+      "instructions_en": "Lie on your back with both elbows bent to 90 degrees and tucked into your sides. Hold a stick (broom handle, umbrella, or dowel) with both hands. Use the unaffected arm to gently push the stick so that the affected arm rotates outward (externally). The source recommends performing this with the arm in approximately 40 degrees of abduction in the plane of the scapula. Move only to a comfortable stretch — NOT into pain. Hold for 5 seconds in the early painful phase (as recommended in the source), progressing to 15–30 seconds as tolerated in the later phases. External rotation is the most limited movement in frozen shoulder, making this exercise critical.",
+      "instructions_zh": "仰臥，雙肘彎曲90度並貼在身體兩側。雙手握住一根棍棒（掃帚柄、雨傘或木棒）。用未受影響的手臂輕輕推棍棒，使受影響的手臂向外旋轉（外旋）。資料來源建議在肩胛骨平面約40度外展位置進行。只移動到舒適的拉伸感——不要進入疼痛範圍。在早期疼痛階段保持5秒（如資料來源建議），隨後在較後階段逐漸增加到15至30秒。外旋是五十肩中受限最嚴重的動作，因此這個運動至關重要。",
+      "frequency": "5–10 repetitions × 2–3 sets",
+      "duration": "2–3 times per day",
+      "difficulty_level": "beginner",
+      "contraindications": "Do NOT force the stretch into pain — especially during the freezing phase, where better results come from pain-free exercise. Avoid if you have a known shoulder dislocation or instability. Progress the hold duration gradually as pain allows.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Wall Finger Walk (Forward Flexion)",
+      "exercise_name_zh": "手指爬牆運動（前屈）",
+      "instructions_en": "Stand facing a wall, about arm's length away. Place the fingers of the affected hand on the wall at waist level. Slowly 'walk' your fingers up the wall, raising your arm as far as comfortable. Your body should remain still — let your fingers do the climbing, not your body leaning. When you reach your comfortable limit, hold for 5–10 seconds, then slowly walk your fingers back down. Track your progress by noting the height you reach each session. You can also perform this exercise sideways to the wall for abduction. This is a classic active-assisted ROM exercise for frozen shoulder rehabilitation.",
+      "instructions_zh": "面對牆壁站立，距離約一臂之距。將受影響的手的手指放在牆壁腰部的高度。慢慢用手指沿牆壁向上「爬」，盡可能舒適地抬高手臂。身體應保持不動——讓手指來爬，而不是身體前傾。當你達到舒適的極限時，保持5至10秒，然後慢慢將手指走回來。每次記錄你達到的高度來追蹤進度。你也可以側對牆壁進行此運動以練習外展。這是五十肩康復的經典主動輔助活動幅度運動。",
+      "frequency": "10 repetitions × 2–3 sets",
+      "duration": "2–3 times per day",
+      "difficulty_level": "beginner",
+      "contraindications": "Do not use your body to 'cheat' by leaning into the wall — this creates compensation and may aggravate the condition. Stop at mild discomfort, not pain. Avoid scapular hiking (shrugging the shoulder up to the ear).",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Cross-Body Stretch (Horizontal Adduction)",
+      "exercise_name_zh": "橫向內收伸展（過身拉伸）",
+      "instructions_en": "Sit or stand upright. Use your unaffected hand to gently lift the affected arm at the elbow and bring it across your body toward the opposite shoulder. You should feel a stretch at the back and outside of the affected shoulder. Hold for 15–30 seconds, breathing deeply. Do not force the stretch — gentle, sustained pressure is more effective than pushing hard. This exercise stretches the posterior capsule, which the source identifies as one of the key restricted structures in frozen shoulder. Progress the intensity gradually as your irritability decreases.",
+      "instructions_zh": "坐直或站直。用未受影響的手在肘部輕輕托起受影響的手臂，將其帶向對側肩膀方向橫過身體。你應該在受影響肩膀的後方和外側感到拉伸感。保持15至30秒，深呼吸。不要強迫拉伸——輕柔持續的壓力比用力推更有效。這個運動伸展後方囊膜，資料來源指出這是五十肩中主要受限的結構之一。隨著刺激性降低，逐漸增加強度。",
+      "frequency": "5 repetitions, holding 15–30 seconds each",
+      "duration": "2–3 times per day",
+      "difficulty_level": "beginner",
+      "contraindications": "Avoid if it causes sharp pain at the front of the shoulder. Do not pull aggressively. If you have had shoulder surgery, consult your physiotherapist before performing this exercise.",
+      "video_reference_url": "[TO BE ADDED]"
+    }
+  ],
+  "recovery_timeline": {
+    "mild_estimate": "Freezing phase: 2–9 months (pain dominant, early stiffness developing)",
+    "moderate_estimate": "Frozen + thawing phases: 4–24 months with physiotherapy — 89.5% of patients respond well to non-operative management",
+    "severe_estimate": "Total duration can be 1–3 years. Up to 40% may have persistent symptoms beyond 3 years. 15% may have persistent pain and long-term disability",
+    "note": "Frozen shoulder is considered a self-limiting condition, but the timeline is highly variable — sources report symptom resolution from as early as 6 months to as long as 11 years. The three overlapping phases are: freezing (2–9 months), frozen (4–12 months), and thawing (5–24 months). Diabetic patients typically have a longer and more resistant course. Recovery rates: approximately 50% achieve near-complete recovery, but full range of motion may never be recovered in some patients. Treatment tailored to the specific phase is essential. If conservative treatment fails after 6 months, manipulation under anaesthesia or arthroscopic capsular release may be considered."
+  },
+  "when_to_see_professional": [
+    "Shoulder stiffness and reduced range of motion that is getting progressively worse",
+    "Night pain disrupting sleep on a regular basis",
+    "Inability to perform essential daily activities (dressing, grooming, reaching)",
+    "Symptoms not improving after 4–6 weeks of self-care exercises",
+    "Pain rated above 5/10 that is not responding to simple pain relief",
+    "History of diabetes, thyroid disorder, or previous frozen shoulder (these require monitored management)",
+    "Any red flag symptoms: fever, unexplained weight loss, history of cancer, severe inexplicable pain, or multiple joint involvement"
+  ],
+  "faqs": [
+    {
+      "question_en": "Will frozen shoulder go away on its own?",
+      "question_zh": "五十肩會自己好嗎？",
+      "answer_en": "Frozen shoulder is considered a self-limiting condition, meaning it should eventually resolve on its own. However, 'on its own' can take a very long time — research reports recovery anywhere from 6 months to 11 years, with most cases lasting 1–3 years through three phases (freezing, frozen, thawing). Importantly, up to 40% of patients may have persistent symptoms and restricted movement beyond 3 years, and 15% may have persistent pain and long-term disability. This is why treatment to shorten the duration and reduce disability has significant value. About 89.5% of patients respond well to non-operative management including physiotherapy.",
+      "answer_zh": "五十肩被認為是一種自限性疾病，意味著它最終會自行好轉。然而，「自行好轉」可能需要很長的時間——研究報告康復時間從6個月到11年不等，大多數個案持續1至3年，經歷三個階段（凝結期、冰凍期、解凍期）。重要的是，多達40%的患者可能在3年後仍有持續的症狀和活動受限，15%可能有持續疼痛和長期殘疾。這就是為什麼縮短病程和減少殘疾的治療具有重要價值。約89.5%的患者對包括物理治療在內的非手術治療反應良好。"
+    },
+    {
+      "question_en": "Do I need a steroid injection?",
+      "question_zh": "我需要打類固醇注射嗎？",
+      "answer_en": "Corticosteroid injections can be helpful, especially during the early painful 'freezing' stage when inflammation is the main issue. Research shows success rates of 44–80%, with rapid pain relief and improved function in the first weeks. However, by 12 weeks there is little to no difference in outcomes compared to physiotherapy alone. The strongest evidence suggests that injections work best when combined with physiotherapy, not as a standalone treatment. If you are not progressing with physiotherapy alone after 3–6 weeks, an injection may be offered. Note that injections are less useful in the later 'frozen' stage when fibrosis, not inflammation, is the main problem. Contraindications include active infection, blood clotting disorders, and uncontrolled diabetes.",
+      "answer_zh": "皮質類固醇注射可能有幫助，尤其是在早期疼痛的「凝結期」，此時炎症是主要問題。研究顯示成功率為44至80%，在最初幾星期內能快速減輕疼痛和改善功能。然而，到12星期時與單獨物理治療相比幾乎沒有差異。最強的證據顯示，注射配合物理治療效果最佳，而非作為單獨治療。如果你在3至6星期的物理治療後沒有進展，可能會建議注射。注意在較後期的「冰凍期」注射效果較差，因為此時纖維化而非炎症才是主要問題。禁忌症包括活動性感染、凝血障礙和未控制的糖尿病。"
+    },
+    {
+      "question_en": "When can I return to exercise or sports?",
+      "question_zh": "我多快可以恢復運動？",
+      "answer_en": "This depends entirely on your phase and pain level. During the painful freezing phase, avoid activities that aggravate your shoulder — but do continue lower body and cardiovascular exercise (walking, cycling, light jogging) as these do not stress the shoulder. Swimming may not be possible due to restricted range of motion. During the frozen and thawing phases, you can gradually reintroduce upper body exercises as range of motion improves, starting with low-load movements and progressing to resistance training. Return to overhead sports (tennis, badminton, swimming, volleyball) should only happen once you have regained sufficient range of motion and strength — typically in the later thawing phase. Research shows that 50% of forces during shoulder movement come from the lower body and core, so maintaining overall fitness during recovery is important and will help your shoulder recovery.",
+      "answer_zh": "這完全取決於你的階段和疼痛程度。在疼痛的凝結期，避免加劇肩膀的活動——但請繼續下肢和心血管運動（步行、踏單車、輕跑），因為這些不會對肩膀造成壓力。由於活動幅度受限，游泳可能無法進行。在冰凍期和解凍期，隨著活動幅度的改善，你可以逐漸重新引入上肢運動，從低負荷動作開始，逐步進展到阻力訓練。恢復過頭運動（網球、羽毛球、游泳、排球）應該只在你恢復了足夠的活動幅度和力量後——通常是在解凍期的後期。研究顯示肩膀活動時50%的力量來自下肢和核心，因此在康復期間保持整體體能很重要，也會幫助你的肩膀康復。"
+    },
+    {
+      "question_en": "Can frozen shoulder affect both shoulders?",
+      "question_zh": "五十肩會影響雙邊肩膀嗎？",
+      "answer_en": "Yes. Research shows that if you have had frozen shoulder in one shoulder, there is a 5–34% chance of developing it in the other shoulder at some point. Simultaneous bilateral involvement occurs in approximately 14% of cases. However, it is very rare for frozen shoulder to occur in the same shoulder twice. If you notice symptoms developing in your other shoulder, seek early treatment — early intervention can help prevent the condition from becoming as severe as the first time.",
+      "answer_zh": "是的。研究顯示，如果你一邊肩膀曾患五十肩，另一邊肩膀在某個時候發病的機會為5至34%。約14%的個案同時雙側發病。不過，同一邊肩膀第二次患五十肩是非常罕見的。如果你注意到另一邊肩膀開始出現症狀，請及早尋求治療——早期介入可以幫助防止病情變得像第一次那樣嚴重。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Physiopedia — Frozen Shoulder",
+      "url": "https://www.physio-pedia.com/Frozen_Shoulder",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Dias R, Cutts S, Massoud S — Frozen shoulder (BMJ 2005)",
+      "url": "https://doi.org/10.1136/bmj.331.7530.1453",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Kelley MJ, McClure PW, Leggin BG — Frozen shoulder: Evidence and a proposed model guiding rehabilitation (JOSPT 2009)",
+      "url": "https://doi.org/10.2519/jospt.2009.2916",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Vermeulen HM et al. — Comparison of high-grade and low-grade mobilization techniques in adhesive capsulitis (Phys Ther 2006)",
+      "url": "https://doi.org/10.1093/ptj/86.3.355",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Page MJ et al. — Manual therapy and exercise for adhesive capsulitis (Cochrane Review 2014)",
+      "url": "https://doi.org/10.1002/14651858.CD011275",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Mezian K, Chang KV — Frozen Shoulder (StatPearls 2019)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK482162/",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "HK Health Bureau — Clinical Guideline for First-contact Physiotherapists on Common MSK Problems in Primary Care",
+      "url": "https://www.healthbureau.gov.hk/phcc/rfs/assets/pdf/home/discipline-based_guidelines/clinical_guideline_on_first_contact_assessment_and_cross-disciplinary_management_approach_for_common_msk_problems.pdf",
+      "type": "government_guideline"
+    }
+  ],
+  "review_status": {
+    "reviewed_by": "[PENDING — Physiotherapist Name]",
+    "reviewer_credentials": "[PENDING — e.g., BSc Physiotherapy, HKPA Member]",
+    "review_date": null,
+    "next_review_date": null,
+    "approved": false
+  },
+  "metadata": {
+    "created_date": "2026-05-01",
+    "last_updated": "2026-05-01",
+    "version": "0.1-draft"
+  }
+}

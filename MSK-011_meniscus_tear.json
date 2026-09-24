@@ -1,0 +1,296 @@
+{
+  "condition_id": "MSK-011",
+  "condition_name_en": "Meniscus Tear",
+  "condition_name_zh": "半月板撕裂",
+  "body_area": [
+    "knee",
+    "meniscus"
+  ],
+  "category": "musculoskeletal",
+  "patient_language_aliases": [
+    "meniscus tear",
+    "torn meniscus",
+    "cartilage tear in knee",
+    "knee locked up",
+    "knee clicking",
+    "knee catching",
+    "twisted my knee",
+    "knee popping",
+    "torn cartilage",
+    "knee won't straighten",
+    "knee pain after twisting",
+    "半月板撕裂",
+    "膝蓋軟骨撕裂",
+    "膝頭卡住",
+    "扭傷膝蓋",
+    "膝蓋啪啪聲"
+  ],
+  "symptoms": [
+    {
+      "description_en": "Pain along the joint line (medial or lateral side of the knee) — tenderness when pressing the gap between the femur and tibia on the affected side",
+      "description_zh": "沿膝關節線疼痛（膝蓋內側或外側）——按壓受影響一側的股骨和脛骨之間的間隙時有壓痛"
+    },
+    {
+      "description_en": "Knee locking — the knee gets 'stuck' and cannot fully straighten, caused by a torn fragment (bucket-handle tear) catching between the joint surfaces. This is a key mechanical symptom",
+      "description_zh": "膝蓋卡住——膝蓋「卡死」無法完全伸直，由撕裂的碎片（桶柄形撕裂）卡在關節面之間引起。這是一個關鍵的機械性症狀"
+    },
+    {
+      "description_en": "Clicking, popping, or catching sensation in the knee — occurs when the torn meniscal fragment moves under the femoral condyle during knee movement",
+      "description_zh": "膝蓋出現咔嗒聲、啪啪聲或卡頓感——在膝蓋活動時撕裂的半月板碎片在股骨髁下方移動時出現"
+    },
+    {
+      "description_en": "Pain that worsens with knee flexion and loading — activities such as squatting, kneeling, and twisting are poorly tolerated",
+      "description_zh": "膝蓋彎曲和負重時疼痛加劇——蹲下、跪下和扭轉等活動難以忍受"
+    },
+    {
+      "description_en": "Swelling (effusion) of the knee — may develop gradually over 24–48 hours after injury, unlike ACL tears which typically swell within 1–2 hours",
+      "description_zh": "膝蓋腫脹（積液）——可能在受傷後24至48小時內逐漸出現，不像前十字韌帶撕裂通常在1至2小時內腫脹"
+    },
+    {
+      "description_en": "Difficulty fully extending or fully flexing the knee — restricted range of motion, with pain at the extremes of movement",
+      "description_zh": "膝蓋難以完全伸直或完全彎曲——活動幅度受限，在動作末端疼痛"
+    }
+  ],
+  "guided_questions": [
+    {
+      "question_en": "How did the injury happen? Did you twist your knee while your foot was planted? Were you squatting, pivoting, or changing direction during sport?",
+      "question_zh": "傷是怎樣發生的？你的腳著地時膝蓋有沒有扭轉？你當時是在蹲下、轉向或運動中變向嗎？",
+      "purpose": "Identify the mechanism of injury. The source states the most common mechanism is a twisting injury on a semi-flexed limb through a weight-bearing knee. This classic mechanism strongly implicates meniscal injury. An abrupt squatting movement can also cause a rupture."
+    },
+    {
+      "question_en": "Did the pain come on suddenly during an injury, or has it developed gradually over time without a specific incident?",
+      "question_zh": "疼痛是在受傷時突然出現的，還是隨時間逐漸發展而沒有特定事件？",
+      "purpose": "Distinguish traumatic from degenerative meniscal tear. The source clearly differentiates: traumatic tears require healthy tissue + injury event; degenerative tears occur without trauma, due to age-related deterioration, typically in the 4th–5th decade of life. This significantly affects management approach."
+    },
+    {
+      "question_en": "Does your knee ever lock up (get stuck and won't straighten), click, catch, or pop during movement?",
+      "question_zh": "你的膝蓋有沒有曾經卡住（卡死不能伸直）、發出咔嗒聲、卡頓或啪啪聲？",
+      "purpose": "Screen for mechanical symptoms which are cardinal signs of meniscal tears. Locking specifically indicates a bucket-handle tear where a meniscal fragment is displaced into the intercondylar space — this typically requires urgent surgical assessment. Clicking and catching indicate an unstable fragment."
+    },
+    {
+      "question_en": "Where exactly is the pain — on the inner side of the knee, the outer side, or around the kneecap?",
+      "question_zh": "疼痛的確切位置在哪裡——膝蓋內側、外側，還是膝蓋骨周圍？",
+      "purpose": "Localise the tear. Medial joint line pain implicates the medial meniscus (reported more commonly than lateral tears per source). Lateral joint line pain suggests lateral meniscus involvement. Pain around the kneecap may suggest patellofemoral pathology rather than meniscal tear."
+    },
+    {
+      "question_en": "Did you also hear a pop or feel your knee give way at the time of injury? Did the knee swell very quickly (within 1–2 hours)?",
+      "question_zh": "受傷時你有沒有聽到啪的一聲或感覺膝蓋打軟腿？膝蓋有沒有很快腫脹（1至2小時內）？",
+      "purpose": "Screen for associated ACL injury. The source states that 60% of meniscal tears have an associated ACL tear. A pop with rapid swelling within 1–2 hours suggests ACL involvement. This dramatically changes the management approach and urgency of assessment."
+    },
+    {
+      "question_en": "How old are you? Do you have any history of knee osteoarthritis or previous knee injuries?",
+      "question_zh": "你的年齡是多少？你有沒有膝關節骨關節炎或之前膝蓋受傷的病史？",
+      "purpose": "Assess for degenerative context. The source notes the mean age of meniscal injury has risen from 28 to 40 years. In elderly persons (>55), degenerate menisci are susceptible to injury with minor trauma. Pre-existing OA can lead to spontaneous tears. Degenerative tears are mostly treated conservatively."
+    },
+    {
+      "question_en": "Can you fully straighten your knee right now? Is there any severe swelling, deformity, inability to bear weight, or redness and warmth in the knee?",
+      "question_zh": "你現在能完全伸直膝蓋嗎？有沒有嚴重腫脹、畸形、無法負重，或膝蓋有發紅和發熱？",
+      "purpose": "CRITICAL red-flag screening. Inability to extend the knee fully may indicate a bucket-handle tear requiring urgent surgical assessment. Severe deformity or inability to bear weight suggests possible fracture or dislocation. Redness and warmth may indicate septic arthritis — a medical emergency."
+    }
+  ],
+  "severity_classification": {
+    "mild": {
+      "indicators": [
+        "Small, stable tear — pain along the joint line but no mechanical locking or catching",
+        "Mild or intermittent symptoms that settle with rest",
+        "No significant swelling or effusion",
+        "Full or near-full range of motion maintained",
+        "Able to bear weight and walk with mild discomfort"
+      ],
+      "self_care_appropriate": true,
+      "description_en": "Your symptoms suggest a mild meniscal injury — possibly a small, stable tear. The source notes that not all meniscal tears require surgery; conservative treatment is most successful for incomplete tears or small stable tears located in the outer zone where there is blood supply (the outer 10–25% of the meniscus). This means there is potential for natural healing. Focus on reducing swelling with the PEACE & LOVE protocol (Protect, Elevate, Avoid anti-inflammatories initially, Compress, Educate; then Load, Optimism, Vascularisation, Exercise). Begin gentle strengthening exercises to prevent quadriceps atrophy, which occurs quickly after knee injury. However, if symptoms persist beyond 4–6 weeks or mechanical symptoms develop, seek professional assessment.",
+      "description_zh": "你的症狀顯示為輕度半月板損傷——可能是小型穩定的撕裂。資料來源指出不是所有半月板撕裂都需要手術；保守治療對於位於有血液供應的外圍區域（半月板外圍10至25%）的不完整或小型穩定撕裂最為成功。這意味著有自然癒合的潛力。集中使用PEACE和LOVE方案減少腫脹（保護、抬高、初期避免消炎藥、加壓、教育；然後負荷、樂觀、促進血液循環、運動）。開始輕柔的強化運動以防止股四頭肌萎縮——膝蓋受傷後肌肉會迅速萎縮。不過，如果症狀在4至6星期後持續或出現機械性症狀，請接受專業評估。"
+    },
+    "moderate": {
+      "indicators": [
+        "Intermittent mechanical symptoms — clicking, catching, or occasional locking that resolves",
+        "Moderate joint line pain rated 4–6 out of 10",
+        "Knee swelling that recurs with activity",
+        "Difficulty with squatting, kneeling, twisting, or returning to sport",
+        "Symptoms persisting beyond 4–6 weeks despite conservative management"
+      ],
+      "recommend_professional": true,
+      "description_en": "Your symptoms suggest a moderate meniscal tear with mechanical symptoms that would benefit from professional assessment. A physiotherapist can perform specific clinical tests (McMurray test, Apley grind test, Thessaly test) and may refer you for an MRI — which is the most extensive imaging assessment and can aid in prognosis and treatment decisions. Treatment depends on the type, location, and extent of the tear: some tears respond well to structured physiotherapy focusing on quadriceps and hamstring strengthening, flexibility, and neuromuscular control. Others may require arthroscopic surgery (repair or partial meniscectomy). The source emphasises that preservation of meniscal tissue is recommended whenever possible, regardless of age.",
+      "description_zh": "你的症狀顯示為中度半月板撕裂，伴有機械性症狀，建議接受專業評估。物理治療師可以進行特定的臨床測試（麥克默里測試、阿普利研磨測試、塞薩利測試），並可能轉介你做磁力共振——這是最全面的影像評估，有助於預後判斷和治療決定。治療取決於撕裂的類型、位置和範圍：一些撕裂對結構化的物理治療反應良好，重點是股四頭肌和膕繩肌強化、柔軟度和神經肌肉控制。其他可能需要關節鏡手術（修復或部分半月板切除術）。資料來源強調，無論年齡如何，都建議盡可能保留半月板組織。"
+    },
+    "severe": {
+      "indicators": [
+        "True mechanical locking — knee stuck in a bent position, unable to fully straighten (bucket-handle tear)",
+        "Severe pain with significant swelling after acute injury",
+        "Associated ligament injury suspected (pop + rapid swelling + instability)",
+        "Symptoms not improving after 8–12 weeks of structured rehabilitation",
+        "Recurrent locking episodes or giving way affecting daily activities"
+      ],
+      "seek_immediate_help": true,
+      "description_en": "Your symptoms suggest a significant meniscal tear that requires urgent professional assessment. A locked knee — where you physically cannot straighten it — is a hallmark of a bucket-handle tear, where a large meniscal fragment has displaced into the joint. This typically requires surgical intervention to prevent further damage. If your knee swelled very rapidly (within 1–2 hours) and you felt a pop with instability, there is a high likelihood of an associated ACL tear (occurring in up to 60% of cases). Please seek medical assessment as soon as possible — ideally within 24–48 hours. An MRI will be needed to confirm the diagnosis, assess the tear pattern, and determine whether surgical repair, partial meniscectomy, or other intervention is needed.",
+      "description_zh": "你的症狀顯示為嚴重的半月板撕裂，需要緊急接受專業評估。膝蓋卡住——物理上無法伸直——是桶柄形撕裂的特徵，大型半月板碎片已移位進入關節中。這通常需要手術干預以防止進一步損傷。如果你的膝蓋非常迅速地腫脹（1至2小時內），且你感到啪的一聲伴有不穩定，那麼伴隨前十字韌帶撕裂的可能性很高（最高達60%的個案）。請盡快接受醫學評估——最好在24至48小時內。需要磁力共振來確認診斷、評估撕裂模式，並決定是否需要手術修復、部分半月板切除術或其他干預。"
+    }
+  },
+  "red_flags": [
+    "True locked knee — physically unable to straighten the knee (bucket-handle tear requiring urgent surgical assessment)",
+    "Rapid, significant knee swelling within 1–2 hours of injury combined with a pop and instability — likely associated ACL tear",
+    "Severe knee deformity or gross malalignment — possible fracture or dislocation",
+    "Complete inability to bear any weight on the affected leg",
+    "Redness, warmth, and significant swelling with fever — possible septic arthritis (EMERGENCY)",
+    "Numbness or loss of sensation below the knee after trauma — possible neurovascular injury",
+    "Progressive worsening despite treatment with new neurological symptoms"
+  ],
+  "possible_causes": [
+    {
+      "cause_en": "Twisting injury on a semi-flexed, weight-bearing knee — the most common mechanism, typically during sport (football, tennis, soccer, basketball)",
+      "cause_zh": "在半屈曲負重的膝蓋上扭轉——最常見的機制，通常在運動中發生（足球、網球、排球、籃球）",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Degenerative (age-related) meniscal tear — occurs without significant trauma, due to weakening and deterioration of meniscal tissue. Typically in the 4th–5th decade of life",
+      "cause_zh": "退行性（年齡相關的）半月板撕裂——在沒有明顯創傷的情況下發生，因半月板組織的衰弱和退化。通常在40至50多歲",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Associated with ACL tear — approximately 60% of ACL ruptures have concurrent meniscal injuries",
+      "cause_zh": "與前十字韌帶撕裂相關——約60%的前十字韌帶斷裂伴有半月板損傷",
+      "likelihood": "common"
+    },
+    {
+      "cause_en": "Hyperflexion of the knee under weight-bearing for prolonged periods (e.g., deep squatting) — places excessive pressure on the menisci",
+      "cause_zh": "膝蓋長時間在負重下過度屈曲（例如深蹲）——對半月板施加過大壓力",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Osteoarthritis — degenerative joint changes weaken the meniscal structure, making it susceptible to spontaneous tears",
+      "cause_zh": "骨關節炎——關節退行性改變削弱半月板結構，使其容易自發性撕裂",
+      "likelihood": "less_common"
+    },
+    {
+      "cause_en": "Discoid meniscus — a rare congenital condition where the lateral meniscus is abnormally shaped, leading to instability and increased tear susceptibility",
+      "cause_zh": "盤狀半月板——罕見的先天性疾病，外側半月板形狀異常，導致不穩定和撕裂風險增加",
+      "likelihood": "rare"
+    }
+  ],
+  "self_care_exercises": [
+    {
+      "exercise_name_en": "Quadriceps Set (Isometric Quad Activation)",
+      "exercise_name_zh": "股四頭肌等長收縮",
+      "instructions_en": "Lie on your back with the injured leg straight. Place a small rolled towel under the knee for comfort. Tighten the quadriceps (front of thigh) by pressing the back of your knee firmly into the towel. You should see your kneecap move slightly upward. Hold for 10 seconds, then relax. The source specifically recommends isometric quadriceps exercises as a key part of meniscal rehabilitation, noting that a medial meniscus lesion directly influences the strength of the vastus medialis muscle. Preventing quadriceps atrophy is critical for knee stability and function.",
+      "instructions_zh": "仰臥，受傷的腿伸直。在膝蓋下方放一個小毛巾卷以提供舒適。收緊股四頭肌（大腿前方），將膝蓋背面用力壓入毛巾。你應該看到膝蓋骨稍微向上移動。保持10秒，然後放鬆。資料來源特別建議等長股四頭肌運動作為半月板康復的關鍵部分，指出內側半月板病變直接影響股內側肌的力量。防止股四頭肌萎縮對膝蓋穩定性和功能至關重要。",
+      "frequency": "10 repetitions × 3 sets",
+      "duration": "Every 2–3 hours in the acute phase; then 3 times daily",
+      "difficulty_level": "beginner",
+      "contraindications": "Must be pain-free. Do not perform if the knee is locked and unable to extend — seek urgent medical assessment instead. This is for initial conservative management only.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Straight Leg Raise",
+      "exercise_name_zh": "直腿抬高",
+      "instructions_en": "Lie on your back with the uninjured knee bent and foot flat. Keep the injured leg straight with the quadriceps tightened. Slowly lift the straight leg to the height of the opposite bent knee (about 30–45 degrees). Hold for 5 seconds, then slowly lower with control. This exercise strengthens the quadriceps without bending the knee, minimising stress on the injured meniscus. The source lists straight leg raises in the isometric strengthening section of meniscal rehabilitation.",
+      "instructions_zh": "仰臥，未受傷的膝蓋彎曲，腳平放。保持受傷的腿伸直並收緊股四頭肌。慢慢將伸直的腿抬高到對側彎曲膝蓋的高度（約30至45度）。保持5秒，然後有控制地慢慢放下。這個運動在不彎曲膝蓋的情況下強化股四頭肌，將受傷半月板的壓力降至最低。資料來源將直腿抬高列入半月板康復的等長強化部分。",
+      "frequency": "10 repetitions × 3 sets per leg",
+      "duration": "Daily",
+      "difficulty_level": "beginner",
+      "contraindications": "Must be pain-free. If you cannot maintain the knee straight during the lift, continue with quad sets until strength improves. Avoid if it causes sharp knee pain.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Heel Slides (Gentle Knee Flexion ROM)",
+      "exercise_name_zh": "腳跟滑動（輕柔膝蓋屈曲活動幅度）",
+      "instructions_en": "Lie on your back with both legs straight. Slowly slide the heel of the injured leg along the surface toward your buttock, bending the knee as far as comfortable. Then slowly slide it back out to straight. Move within a PAIN-FREE range only. The source emphasises that range of motion exercises are important for meniscal rehabilitation, and that prolonged flexion stretches can be used to gradually increase knee flexion. However, avoid forcing flexion — activities like deep squatting and kneeling are poorly tolerated with meniscal tears.",
+      "instructions_zh": "仰臥，雙腿伸直。慢慢將受傷腿的腳跟沿表面向臀部方向滑動，盡可能舒適地彎曲膝蓋。然後慢慢滑回伸直。只在無痛的範圍內移動。資料來源強調活動幅度運動對半月板康復很重要，延長的屈曲伸展可用於逐漸增加膝蓋屈曲。但避免強迫屈曲——半月板撕裂時深蹲和跪下等活動難以忍受。",
+      "frequency": "10 repetitions × 3 sets",
+      "duration": "Daily — 2–3 times per day",
+      "difficulty_level": "beginner",
+      "contraindications": "Stop if you feel a catching, locking, or sharp pain sensation — this indicates the torn fragment is being irritated. Do NOT force deep flexion. If the knee cannot extend fully (locked), stop and seek urgent assessment.",
+      "video_reference_url": "[TO BE ADDED]"
+    },
+    {
+      "exercise_name_en": "Hamstring Set (Isometric Hamstring Activation)",
+      "exercise_name_zh": "膕繩肌等長收縮",
+      "instructions_en": "Lie on your back with the injured knee slightly bent (about 20–30 degrees). You can place a small pillow under the knee. Press your heel firmly down into the surface or pillow — you should feel the muscles at the back of your thigh tighten. Hold for 10 seconds, then relax. The source includes hamstring strengthening as part of the meniscal rehabilitation programme, noting that both concentric and eccentric exercises should be incorporated for muscular hypertrophy and neuromuscular function. Start with isometrics and progress to isotonic exercises as tolerated.",
+      "instructions_zh": "仰臥，受傷的膝蓋稍微彎曲（約20至30度）。你可以在膝蓋下方放一個小枕頭。將腳跟用力壓入表面或枕頭——你應該感到大腿後方的肌肉收緊。保持10秒，然後放鬆。資料來源將膕繩肌強化納入半月板康復計劃，指出應結合向心和離心運動以實現肌肉肥大和神經肌肉功能。從等長收縮開始，在可忍受的情況下進展到等張運動。",
+      "frequency": "10 repetitions × 3 sets",
+      "duration": "Daily",
+      "difficulty_level": "beginner",
+      "contraindications": "Must be pain-free. The slight knee flexion required should not cause pain — if it does, try with the knee more extended. Avoid if you have an associated posterior knee injury.",
+      "video_reference_url": "[TO BE ADDED]"
+    }
+  ],
+  "recovery_timeline": {
+    "mild_estimate": "4–6 weeks with conservative management (PEACE & LOVE, strengthening exercises, activity modification) for small, stable tears in the vascularised zone",
+    "moderate_estimate": "6–12 weeks with structured physiotherapy. If arthroscopic partial meniscectomy is performed: full recovery typically 3–4 months, athletes 6–8 months",
+    "severe_estimate": "Meniscal repair surgery: 3–6 months recovery. Complex tears with associated injuries (ACL): 6–12+ months. Full meniscectomy (last resort): requires ongoing management to prevent secondary osteoarthritis",
+    "note": "Recovery depends heavily on tear type, location, size, and associated injuries. The source emphasises that only the peripheral 10–25% of the meniscus has blood supply — tears in this zone have the best healing potential. Central tears are unlikely to heal naturally. Many degenerative meniscal tears (in patients over 55) are found incidentally on MRI and may not require surgical intervention. The source states that preservation of meniscal tissue is recommended whenever possible, as meniscectomy increases the risk of secondary osteoarthritis. Post-surgical rehabilitation typically involves 3 weeks on crutches, progressing through ROM, strengthening, balance/agility, and sport-specific training."
+  },
+  "when_to_see_professional": [
+    "Knee that is LOCKED — physically unable to fully straighten (URGENT — possible bucket-handle tear)",
+    "Significant knee swelling after a twisting injury, especially if combined with a pop or instability",
+    "Recurrent clicking, catching, or locking episodes during activities",
+    "Joint line pain persisting beyond 4 weeks despite rest and self-care",
+    "Difficulty with daily activities — unable to squat, kneel, or use stairs without significant pain",
+    "Any suspicion of associated ACL injury (pop + rapid swelling + giving way)",
+    "Knee pain in an older adult (>55) with osteoarthritis that is worsening — may indicate new degenerative tear"
+  ],
+  "faqs": [
+    {
+      "question_en": "Do I need surgery for a meniscus tear?",
+      "question_zh": "半月板撕裂需要做手術嗎？",
+      "answer_en": "Not always. The source states that surgery isn't necessary when meniscal tears are stable, relatively small, and located in the well-perfused outer region (the outer 10–25% of the meniscus). These can be treated successfully with physiotherapy focusing on quadriceps and hamstring strengthening, flexibility, and neuromuscular control. However, surgery is typically needed for: unstable tears causing locking (bucket-handle tears), large tears in the non-perfused inner zone, tears that fail to respond to conservative management, and tears associated with ACL reconstruction. The surgical approach depends on the tear type, location, patient age, and chronicity. The source emphasises that preservation of meniscal tissue is recommended whenever possible, as complete removal increases the risk of developing osteoarthritis.",
+      "answer_zh": "不一定。資料來源指出，當半月板撕裂是穩定的、相對較小的，且位於血液供應良好的外圍區域（半月板外圍10至25%），手術不是必需的。這些可以透過物理治療成功治療，重點是股四頭肌和膕繩肌強化、柔軟度和神經肌肉控制。然而，以下情況通常需要手術：導致卡住的不穩定撕裂（桶柄形撕裂）、位於無血液供應內部區域的大型撕裂、對保守治療無反應的撕裂，以及與前十字韌帶重建相關的撕裂。手術方式取決於撕裂類型、位置、患者年齡和慢性程度。資料來源強調盡可能保留半月板組織，因為完全切除會增加發展骨關節炎的風險。"
+    },
+    {
+      "question_en": "Can a meniscus tear heal on its own?",
+      "question_zh": "半月板撕裂能自己癒合嗎？",
+      "answer_en": "It depends on WHERE the tear is located. The meniscus is mostly avascular — only the outer 10–25% has blood supply (from the geniculate arteries). Tears in this outer 'red zone' have the potential to heal naturally, especially small, stable, longitudinal tears. However, tears in the central 'white zone' — which makes up the majority of the meniscus — are unlikely to heal because there is no blood supply to support the healing process. This is why tear location is so critical in treatment decisions. The source also notes that some meniscal tears may heal spontaneously and never be recognised, but others progress and cause chronic problems. Interestingly, degenerative tears in older adults are often found incidentally on MRI and may not cause symptoms at all.",
+      "answer_zh": "這取決於撕裂的位置。半月板大部分是無血管的——只有外圍10至25%有血液供應（來自膝關節動脈）。位於這個外圍「紅色區域」的撕裂有自然癒合的潛力，尤其是小型、穩定的縱向撕裂。然而，位於中央「白色區域」——佔半月板的大部分——的撕裂不太可能癒合，因為沒有血液供應來支持癒合過程。這就是為什麼撕裂位置在治療決定中如此關鍵。資料來源也指出，一些半月板撕裂可能自發癒合而從未被發現，但其他的則會進展並引起長期問題。有趣的是，老年人的退行性撕裂常常在磁力共振中偶然發現，可能根本沒有症狀。"
+    },
+    {
+      "question_en": "When can I return to sport after a meniscus tear?",
+      "question_zh": "半月板撕裂後多快可以恢復運動？",
+      "answer_en": "This depends on the severity and treatment approach. For small tears managed conservatively: return to low-impact exercise (cycling, swimming) in 2–4 weeks, with gradual return to sport over 6–8 weeks guided by symptoms and functional milestones. After arthroscopic partial meniscectomy: expect to be on crutches for about 3 weeks, with full recovery in 3–4 months and athletes returning to competitive sport around 6–8 months. After meniscal repair: the timeline is longer because the repaired tissue needs to heal — expect 3–6 months before return to sport, depending on tear size and repair stability. The source emphasises that rehabilitation should be individualised and include strengthening (quadriceps, hamstrings), flexibility, balance and agility training, and sport-specific exercises before clearance for return to play.",
+      "answer_zh": "這取決於嚴重程度和治療方式。小型撕裂保守治療：2至4星期恢復低衝擊運動（踏單車、游泳），在症狀和功能里程碑指導下6至8星期逐步恢復運動。關節鏡部分半月板切除術後：預計使用拐杖約3星期，3至4個月完全康復，運動員約6至8個月恢復競技運動。半月板修復後：時間更長，因為修復的組織需要癒合——預計3至6個月才能恢復運動，取決於撕裂大小和修復穩定性。資料來源強調康復應個別化，包括強化訓練（股四頭肌、膕繩肌）、柔軟度、平衡和敏捷度訓練，以及恢復比賽前的運動專項練習。"
+    },
+    {
+      "question_en": "What is the difference between a traumatic and degenerative meniscus tear?",
+      "question_zh": "創傷性和退行性半月板撕裂有什麼區別？",
+      "answer_en": "The source clearly distinguishes these two types: A traumatic tear occurs when an excessive force is applied to a normal, healthy meniscus — typically through a twisting injury during sport. These are more common in younger, active individuals and are usually vertical or longitudinal tears. They often present with acute symptoms (sudden pain, swelling, mechanical symptoms) and may require surgical repair. A degenerative tear occurs when normal everyday forces act on a meniscus that has already deteriorated due to age — the tissue has weakened over time. These are more common in people over 55, can happen with minimal or no trauma (even just standing up from a chair), and are typically complex tears seen on MRI. Degenerative tears are mostly treated with physiotherapy and anti-inflammatory medication, and many are found incidentally on MRI without causing significant symptoms.",
+      "answer_zh": "資料來源清楚地區分了這兩種類型：創傷性撕裂發生在正常健康的半月板受到過大力量時——通常是在運動中的扭轉損傷。這些在較年輕、活躍的人群中更常見，通常是垂直或縱向撕裂。它們常以急性症狀出現（突然疼痛、腫脹、機械性症狀），可能需要手術修復。退行性撕裂發生在正常的日常力量作用於已因年齡退化的半月板時——組織隨時間變弱。這些在55歲以上的人群中更常見，可以在最小或沒有創傷的情況下發生（甚至只是從椅子上站起來），通常是在磁力共振上看到的複雜撕裂。退行性撕裂主要用物理治療和消炎藥治療，許多在磁力共振中偶然發現而沒有引起明顯症狀。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Physiopedia — Meniscal Lesions",
+      "url": "https://www.physio-pedia.com/Meniscal_Lesions",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Hede A et al. — Epidemiology of meniscal lesions in the knee (Acta Orthop Scand 1990)",
+      "url": "https://doi.org/10.3109/17453679008993560",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Denti M et al. — Traumatic Meniscal Lesions (Surgery of the Meniscus, Springer 2016)",
+      "url": "https://doi.org/10.1007/978-3-662-49188-1_7",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "Naraghi AM, White LM — Imaging of Athletic Injuries of Knee Ligaments and Menisci (Radiology 2016)",
+      "url": "https://doi.org/10.1148/radiol.2016152149",
+      "type": "clinical_guideline"
+    },
+    {
+      "title": "HK Health Bureau — Clinical Guideline for First-contact Physiotherapists on Common MSK Problems in Primary Care",
+      "url": "https://www.healthbureau.gov.hk/phcc/rfs/assets/pdf/home/discipline-based_guidelines/clinical_guideline_on_first_contact_assessment_and_cross-disciplinary_management_approach_for_common_msk_problems.pdf",
+      "type": "government_guideline"
+    }
+  ],
+  "review_status": {
+    "reviewed_by": "[PENDING — Physiotherapist Name]",
+    "reviewer_credentials": "[PENDING — e.g., BSc Physiotherapy, HKPA Member]",
+    "review_date": null,
+    "next_review_date": null,
+    "approved": false
+  },
+  "metadata": {
+    "created_date": "2026-05-01",
+    "last_updated": "2026-05-01",
+    "version": "0.1-draft"
+  }
+}
