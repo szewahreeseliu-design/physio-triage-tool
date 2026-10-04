@@ -1,0 +1,173 @@
+{
+  "version": "draft-0.1 - pending physiotherapist review",
+  "notes": "favor/disfavor = keywords matched against condition_name_en (lowercase). always = asked every time by code (safety). red_flag = route to urgent care. refer = recommend a physiotherapist in person.",
+  "areas": {
+    "elbow": [
+      {"id": "elbow_location", "text_en": "Where exactly is the pain?", "text_zh": "痛楚確實在哪個位置？",
+       "options": [
+         {"id": "outer", "en": "Outer side (thumb side)", "zh": "外側（拇指那邊）", "favor": ["tennis"], "disfavor": ["golfer"]},
+         {"id": "inner", "en": "Inner side (little finger side)", "zh": "內側（尾指那邊）", "favor": ["golfer"], "disfavor": ["tennis"]},
+         {"id": "back", "en": "Back of the elbow", "zh": "手肘後面"},
+         {"id": "unsure", "en": "Not sure", "zh": "不確定"}]},
+      {"id": "elbow_trigger", "text_en": "What makes it worse?", "text_zh": "甚麼動作會令痛楚加劇？",
+       "options": [
+         {"id": "grip", "en": "Gripping or lifting with my palm facing down", "zh": "掌心向下抓握或提物", "favor": ["tennis"]},
+         {"id": "flex", "en": "Bending my wrist down, throwing, or a golf swing", "zh": "向下屈手腕、擲東西或揮高爾夫球桿", "favor": ["golfer"]},
+         {"id": "lean", "en": "Leaning on my elbow", "zh": "用手肘撐著"},
+         {"id": "unsure", "en": "Not sure", "zh": "不確定"}]},
+      {"id": "elbow_nerve", "text_en": "Do you have numbness or tingling in your fingers?", "text_zh": "手指有麻痺或刺痛感嗎？",
+       "options": [
+         {"id": "yes", "en": "Yes", "zh": "有", "refer": true},
+         {"id": "no", "en": "No", "zh": "沒有"}]}
+    ],
+    "knee": [
+      {"id": "knee_location", "text_en": "Where is the pain mainly?", "text_zh": "痛楚主要在哪裡？",
+       "options": [
+         {"id": "front", "en": "Front, around or behind the kneecap", "zh": "前面，膝蓋骨周圍或後面", "favor": ["runner"], "disfavor": ["it band"]},
+         {"id": "outer", "en": "Outer side of the knee", "zh": "膝蓋外側", "favor": ["it band"], "disfavor": ["runner"]},
+         {"id": "inner", "en": "Inner side of the knee", "zh": "膝蓋內側", "favor": ["meniscus"]},
+         {"id": "deep", "en": "Deep inside, or the whole knee", "zh": "膝蓋深處或整個膝蓋", "favor": ["acl", "meniscus"]},
+         {"id": "unsure", "en": "Not sure", "zh": "不確定"}]},
+      {"id": "knee_start", "text_en": "How did it start?", "text_zh": "痛楚是怎樣開始的？",
+       "options": [
+         {"id": "twist", "en": "With a twist, sudden turn or awkward landing", "zh": "扭傷、急轉身或落地不穩時開始", "favor": ["acl", "meniscus"], "disfavor": ["runner", "it band"]},
+         {"id": "gradual", "en": "Gradually, with running or activity", "zh": "隨跑步或運動逐漸出現", "favor": ["runner", "it band"], "disfavor": ["acl"]},
+         {"id": "unsure", "en": "Not sure", "zh": "不確定"}]},
+      {"id": "knee_mech", "text_en": "Does your knee lock, catch or give way?", "text_zh": "膝蓋會卡住、彈響或突然發軟嗎？",
+       "options": [
+         {"id": "lock", "en": "It locks or catches", "zh": "會卡住或彈響", "favor": ["meniscus"]},
+         {"id": "giveway", "en": "It gives way or feels unstable", "zh": "會突然發軟或感覺不穩", "favor": ["acl"]},
+         {"id": "neither", "en": "Neither", "zh": "兩者都沒有", "favor": ["runner", "it band"]},
+         {"id": "unsure", "en": "Not sure", "zh": "不確定"}]},
+      {"id": "knee_swell", "text_en": "Did your knee swell up within a few hours of an injury?", "text_zh": "受傷後數小時內膝蓋有腫起嗎？",
+       "options": [
+         {"id": "yes", "en": "Yes", "zh": "有", "favor": ["acl"], "refer": true},
+         {"id": "no", "en": "No", "zh": "沒有"}]}
+    ],
+    "shoulder": [
+      {"id": "shoulder_chest", "always": true, "text_en": "Is the pain linked with chest pain, shortness of breath or sweating?", "text_zh": "痛楚有否伴隨胸口痛、呼吸困難或冒汗？",
+       "options": [
+         {"id": "yes", "en": "Yes", "zh": "有", "red_flag": true},
+         {"id": "no", "en": "No", "zh": "沒有"}]},
+      {"id": "shoulder_movement", "text_en": "Which best describes the problem when you move your arm?", "text_zh": "活動手臂時，以下哪項最貼切？",
+       "options": [
+         {"id": "arc", "en": "Painful partway through lifting my arm, easier higher up", "zh": "舉手到一半時痛，再舉高反而舒緩", "favor": ["impingement"]},
+         {"id": "weak", "en": "Weak or painful when lifting or reaching behind", "zh": "舉手或向後伸時無力或痛", "favor": ["rotator"]},
+         {"id": "stiff", "en": "Very stiff in all directions, even when someone else moves it", "zh": "各方向都很僵硬，即使別人幫我移動也一樣", "favor": ["frozen"], "disfavor": ["impingement"]},
+         {"id": "unsure", "en": "Not sure", "zh": "不確定"}]},
+      {"id": "shoulder_start", "text_en": "How did it start?", "text_zh": "痛楚是怎樣開始的？",
+       "options": [
+         {"id": "gradual", "en": "Gradually, getting stiffer over weeks", "zh": "逐漸開始，幾星期內越來越僵硬", "favor": ["frozen"]},
+         {"id": "injury", "en": "After a fall, lifting something heavy or sport", "zh": "跌倒、提重物或運動後開始", "favor": ["rotator"]},
+         {"id": "overhead", "en": "With repeated overhead activity", "zh": "重複舉手過頭的活動後開始", "favor": ["impingement"]},
+         {"id": "unsure", "en": "Not sure", "zh": "不確定"}]},
+      {"id": "shoulder_night", "text_en": "Does it wake you at night, especially lying on that side?", "text_zh": "晚上會痛醒嗎？特別是側睡壓著那邊時？",
+       "options": [
+         {"id": "yes", "en": "Yes", "zh": "會", "favor": ["rotator", "frozen"]},
+         {"id": "no", "en": "No", "zh": "不會"}]}
+    ],
+    "lower back": [
+      {"id": "lb_saddle", "always": true, "text_en": "Any numbness around your groin or buttocks, or new trouble passing urine?", "text_zh": "下體或臀部周圍有麻痺，或最近開始排尿困難嗎？",
+       "options": [
+         {"id": "yes", "en": "Yes", "zh": "有", "red_flag": true},
+         {"id": "no", "en": "No", "zh": "沒有"}]},
+      {"id": "lb_spread", "text_en": "Does the pain travel down your leg?", "text_zh": "痛楚會延伸到腳嗎？",
+       "options": [
+         {"id": "back", "en": "No, it stays in my back or buttock", "zh": "不會，只在背部或臀部", "favor": ["lower back"], "disfavor": ["sciatica"]},
+         {"id": "thigh", "en": "Into my thigh, above the knee", "zh": "延伸到大腿，膝蓋以上"},
+         {"id": "below", "en": "Below the knee, into my calf or foot", "zh": "延伸到膝蓋以下、小腿或腳", "favor": ["sciatica"], "disfavor": ["lower back"]},
+         {"id": "unsure", "en": "Not sure", "zh": "不確定"}]},
+      {"id": "lb_nerve", "text_en": "Any numbness, tingling or weakness in your legs?", "text_zh": "腳部有麻痺、刺痛或無力嗎？",
+       "options": [
+         {"id": "one", "en": "Yes, in one leg", "zh": "有，一隻腳", "favor": ["sciatica"]},
+         {"id": "both", "en": "Yes, in both legs", "zh": "有，兩隻腳", "red_flag": true},
+         {"id": "no", "en": "No", "zh": "沒有"}]}
+    ],
+    "upper back": [
+      {"id": "ub_breath", "always": true, "text_en": "Is the pain worse when breathing deeply, or linked with chest pain?", "text_zh": "深呼吸時會更痛，或伴隨胸口痛嗎？",
+       "options": [
+         {"id": "yes", "en": "Yes", "zh": "是", "red_flag": true},
+         {"id": "no", "en": "No", "zh": "不是"}]},
+      {"id": "ub_neck", "text_en": "Does the pain also involve your neck?", "text_zh": "痛楚也涉及頸部嗎？",
+       "options": [
+         {"id": "yes", "en": "Yes", "zh": "是", "favor": ["text neck", "neck pain"]},
+         {"id": "no", "en": "No", "zh": "不是", "favor": ["upper back"]}]},
+      {"id": "ub_posture", "text_en": "Is it worse after long periods at a desk or on your phone?", "text_zh": "長時間用電腦或手機後會更痛嗎？",
+       "options": [
+         {"id": "yes", "en": "Yes", "zh": "會", "favor": ["upper back", "text neck"]},
+         {"id": "no", "en": "No", "zh": "不會"}]}
+    ],
+    "neck": [
+      {"id": "neck_injury", "text_en": "Did it start after a car accident, fall or sudden jolt?", "text_zh": "痛楚是在交通意外、跌倒或突然撞擊後開始的嗎？",
+       "options": [
+         {"id": "yes", "en": "Yes", "zh": "是", "favor": ["whiplash"]},
+         {"id": "no", "en": "No", "zh": "不是", "disfavor": ["whiplash"]}]},
+      {"id": "neck_posture", "text_en": "Is it worse after looking down at your phone or screen?", "text_zh": "低頭看手機或螢幕後會更痛嗎？",
+       "options": [
+         {"id": "yes", "en": "Yes", "zh": "會", "favor": ["text neck"]},
+         {"id": "no", "en": "No", "zh": "不會"}]},
+      {"id": "neck_arm", "text_en": "Does pain, numbness or tingling travel into your arm or hand?", "text_zh": "痛楚、麻痺或刺痛會延伸到手臂或手掌嗎？",
+       "options": [
+         {"id": "yes", "en": "Yes", "zh": "會", "refer": true},
+         {"id": "no", "en": "No", "zh": "不會"}]}
+    ],
+    "wrist": [
+      {"id": "wrist_fall", "always": true, "text_en": "Did it start after a fall onto your hand?", "text_zh": "痛楚是在跌倒時用手撐地後開始的嗎？",
+       "options": [
+         {"id": "yes", "en": "Yes", "zh": "是", "refer": true},
+         {"id": "no", "en": "No", "zh": "不是"}]},
+      {"id": "wrist_tingle", "text_en": "Do you have numbness or tingling in your thumb, index or middle finger?", "text_zh": "拇指、食指或中指有麻痺或刺痛感嗎？",
+       "options": [
+         {"id": "yes", "en": "Yes", "zh": "有", "favor": ["carpal"]},
+         {"id": "no", "en": "No", "zh": "沒有", "disfavor": ["carpal"]}]},
+      {"id": "wrist_night", "text_en": "Is it worse at night, or does it wake you up?", "text_zh": "晚上會更痛或痛醒嗎？",
+       "options": [
+         {"id": "yes", "en": "Yes", "zh": "會", "favor": ["carpal"]},
+         {"id": "no", "en": "No", "zh": "不會"}]}
+    ],
+    "hip": [
+      {"id": "hip_location", "text_en": "Where is the pain?", "text_zh": "痛楚在哪裡？",
+       "options": [
+         {"id": "outer", "en": "Outer side of the hip", "zh": "髖部外側", "favor": ["bursitis", "it band"]},
+         {"id": "groin", "en": "Groin or front of the hip", "zh": "腹股溝或髖部前面", "refer": true},
+         {"id": "buttock", "en": "Buttock", "zh": "臀部", "favor": ["lower back", "sciatica"]},
+         {"id": "unsure", "en": "Not sure", "zh": "不確定"}]},
+      {"id": "hip_lying", "text_en": "Does it hurt to lie on that side?", "text_zh": "側睡壓著那邊時會痛嗎？",
+       "options": [
+         {"id": "yes", "en": "Yes", "zh": "會", "favor": ["bursitis"]},
+         {"id": "no", "en": "No", "zh": "不會"}]}
+    ],
+    "ankle": [
+      {"id": "ankle_weight", "always": true, "text_en": "Can you put weight on that foot and take 4 steps?", "text_zh": "你能用那隻腳承重並行走四步嗎？",
+       "options": [
+         {"id": "yes", "en": "Yes", "zh": "可以"},
+         {"id": "no", "en": "No", "zh": "不可以", "red_flag": true}]},
+      {"id": "ankle_twist", "text_en": "Did it start after rolling or twisting your ankle?", "text_zh": "痛楚是在扭傷腳踝（拗柴）後開始的嗎？",
+       "options": [
+         {"id": "yes", "en": "Yes", "zh": "是", "favor": ["ankle sprain"], "disfavor": ["achilles", "plantar"]},
+         {"id": "no", "en": "No", "zh": "不是", "favor": ["achilles", "plantar"], "disfavor": ["ankle sprain"]}]},
+      {"id": "ankle_location", "text_en": "Where is the pain mainly?", "text_zh": "痛楚主要在哪裡？",
+       "options": [
+         {"id": "outer", "en": "Outer side of the ankle", "zh": "腳踝外側", "favor": ["ankle sprain"]},
+         {"id": "back", "en": "Back of the heel, or just above it", "zh": "腳跟後面或稍上位置", "favor": ["achilles"]},
+         {"id": "bottom", "en": "Bottom of the heel", "zh": "腳跟底部", "favor": ["plantar"]},
+         {"id": "unsure", "en": "Not sure", "zh": "不確定"}]}
+    ],
+    "foot": [
+      {"id": "foot_snap", "always": true, "text_en": "Did you feel a sudden snap, or as if someone kicked the back of your ankle?", "text_zh": "你有否突然感到「啪」一聲，或好像被人踢中腳跟後面？",
+       "options": [
+         {"id": "yes", "en": "Yes", "zh": "有", "red_flag": true},
+         {"id": "no", "en": "No", "zh": "沒有"}]},
+      {"id": "foot_morning", "text_en": "Is it worst with your first steps in the morning?", "text_zh": "早上起床踏出頭幾步時最痛嗎？",
+       "options": [
+         {"id": "yes", "en": "Yes", "zh": "是", "favor": ["plantar"]},
+         {"id": "no", "en": "No", "zh": "不是"}]},
+      {"id": "foot_location", "text_en": "Where is the pain mainly?", "text_zh": "痛楚主要在哪裡？",
+       "options": [
+         {"id": "bottom", "en": "Bottom of the heel", "zh": "腳跟底部", "favor": ["plantar"]},
+         {"id": "back", "en": "Back of the heel, or just above it", "zh": "腳跟後面或稍上位置", "favor": ["achilles"]},
+         {"id": "outer", "en": "Outer side of the ankle", "zh": "腳踝外側", "favor": ["ankle sprain"]},
+         {"id": "unsure", "en": "Not sure", "zh": "不確定"}]}
+    ]
+  }
+}
